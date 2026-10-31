@@ -1,0 +1,1968 @@
+{
+ "source": "kilkule · Packages/KilkuleContent/Sources/KilkuleContent/Data",
+ "counts": {
+  "levels": 200,
+  "ages": 12,
+  "realms": 8,
+  "defenses": 80,
+  "bosses": 20,
+  "sectors": 96,
+  "cosmetics": 64,
+  "skills": 20
+ },
+ "ages": [
+  {
+   "id": "tas",
+   "index": 1,
+   "levels": [
+    1,
+    10
+   ],
+   "accent": "#C2562A",
+   "tr": {
+    "name": "Taş Devri",
+    "short": "Taş",
+    "rule": "Dört yol, sekiz dalga. Düşmanlar tek tip gelir, boss yavaştır.",
+    "stages": [
+     "Kulübe",
+     "Gözcü Evi",
+     "Klan Kalesi"
+    ]
+   },
+   "en": {
+    "name": "Stone Age",
+    "short": "Stone",
+    "rule": "Four roads, eight waves. Enemies are all one kind; the boss is slow.",
+    "stages": [
+     "Hut",
+     "Watch House",
+     "Clan Fort"
+    ]
+   },
+   "towers": [
+    "tas/kule-asama-1.svg",
+    "tas/kule-asama-2.svg",
+    "tas/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Sapan",
+     "en": "Slingshot",
+     "art": "tas/savunma-sapan.svg"
+    },
+    {
+     "tr": "Mızrak Atıcı",
+     "en": "Spear Thrower",
+     "art": "tas/savunma-mizrak-atici.svg"
+    },
+    {
+     "tr": "Ateş Çukuru",
+     "en": "Fire Pit",
+     "art": "tas/savunma-ates-cukuru.svg"
+    },
+    {
+     "tr": "Kaya Yuvarlayıcı",
+     "en": "Boulder Roller",
+     "art": "tas/savunma-kaya-yuvarlayici.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Sopalı Avcı",
+     "en": "Club Hunter",
+     "art": "tas/dusman-sopali-avci.svg"
+    },
+    {
+     "tr": "Kurt",
+     "en": "Wolf",
+     "art": "tas/dusman-kurt.svg"
+    },
+    {
+     "tr": "Mamut Binicisi",
+     "en": "Mammoth Rider",
+     "art": "tas/dusman-mamut-binicisi.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Dev Mamut",
+     "text": "Yere vurunca dış halka susar"
+    },
+    "en": {
+     "name": "Giant Mammoth",
+     "text": "Ground slam quiets the outer ring"
+    },
+    "art": "tas/boss-dev-mamut.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Taş Yağmuru",
+     "text": "Bütün düşmanlara taş yağar"
+    },
+    "en": {
+     "name": "Stone Rain",
+     "text": "Stones rain on every enemy"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "tunc",
+   "index": 2,
+   "levels": [
+    11,
+    20
+   ],
+   "accent": "#C2562A",
+   "tr": {
+    "name": "Tunç Çağı",
+    "short": "Tunç",
+    "rule": "Kalkanlı düşman önden hasar almaz. Onu yandan ya da arkadan vur.",
+    "stages": [
+     "Tunç Ocağı",
+     "Tunç Burcu",
+     "Metal Kale"
+    ]
+   },
+   "en": {
+    "name": "Bronze Age",
+    "short": "Bronze",
+    "rule": "Shielded enemies block hits from the front. Hit their side or back.",
+    "stages": [
+     "Bronze Forge",
+     "Bronze Bastion",
+     "Metal Fort"
+    ]
+   },
+   "towers": [
+    "tunc/kule-asama-1.svg",
+    "tunc/kule-asama-2.svg",
+    "tunc/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Tunç Okçu",
+     "en": "Bronze Archer",
+     "art": "tunc/savunma-tunc-okcu.svg"
+    },
+    {
+     "tr": "Kalkan Duvarı",
+     "en": "Shield Wall",
+     "art": "tunc/savunma-kalkan-duvari.svg"
+    },
+    {
+     "tr": "Savaş Arabası",
+     "en": "War Chariot",
+     "art": "tunc/savunma-savas-arabasi.svg"
+    },
+    {
+     "tr": "Tunç Kazan",
+     "en": "Bronze Cauldron",
+     "art": "tunc/savunma-tunc-kazan.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Baltacı",
+     "en": "Axeman",
+     "art": "tunc/dusman-baltaci.svg"
+    },
+    {
+     "tr": "Kalkanlı Asker",
+     "en": "Shield Soldier",
+     "art": "tunc/dusman-kalkanli-asker.svg"
+    },
+    {
+     "tr": "Boğa Arabası",
+     "en": "Bull Cart",
+     "art": "tunc/dusman-boga-arabasi.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Tunç Dev",
+     "text": "Yere vurunca dış halka susar"
+    },
+    "en": {
+     "name": "Bronze Giant",
+     "text": "Ground slam quiets the outer ring"
+    },
+    "art": "tunc/boss-tunc-dev.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Tunç Gongu",
+     "text": "Gong çalar · bütün düşmanlar 2 sn durur"
+    },
+    "en": {
+     "name": "Bronze Gong",
+     "text": "The gong rings · all enemies stop for 2 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "antik",
+   "index": 3,
+   "levels": [
+    21,
+    30
+   ],
+   "accent": "#3557C8",
+   "tr": {
+    "name": "Antik Çağ",
+    "short": "Antik",
+    "rule": "Üçerli zırhlı sıralar: zırh her vuruştan 5 can yutar. Ağır vuruş ve alan hasarı değerli.",
+    "stages": [
+     "Sütunlu Tapınak",
+     "Meclis Kulesi",
+     "Mermer Saray"
+    ]
+   },
+   "en": {
+    "name": "Antiquity",
+    "short": "Antiquity",
+    "rule": "Armored rows of three: armor soaks 5 HP per hit. Heavy hits and area damage pay off.",
+    "stages": [
+     "Columned Temple",
+     "Council Tower",
+     "Marble Palace"
+    ]
+   },
+   "towers": [
+    "antik/kule-asama-1.svg",
+    "antik/kule-asama-2.svg",
+    "antik/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Balista",
+     "en": "Ballista",
+     "art": "antik/savunma-balista.svg"
+    },
+    {
+     "tr": "Kalkan Dizisi",
+     "en": "Shield Line",
+     "art": "antik/savunma-kalkan-dizisi.svg"
+    },
+    {
+     "tr": "Ateş Boruları",
+     "en": "Fire Tubes",
+     "art": "antik/savunma-ates-borulari.svg"
+    },
+    {
+     "tr": "Mancınık",
+     "en": "Catapult",
+     "art": "antik/savunma-mancinik.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Zırhlı Piyade",
+     "en": "Armored Infantry",
+     "art": "antik/dusman-zirhli-piyade.svg"
+    },
+    {
+     "tr": "Savaş Fili",
+     "en": "War Elephant",
+     "art": "antik/dusman-savas-fili.svg"
+    },
+    {
+     "tr": "Yarış Arabası",
+     "en": "Racing Chariot",
+     "art": "antik/dusman-yaris-arabasi.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Mermer Kolos",
+     "text": "Küçük birimler çıkarır"
+    },
+    "en": {
+     "name": "Marble Colossus",
+     "text": "Sends out small units"
+    },
+    "art": "antik/boss-mermer-kolos.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Güneş Aynası",
+     "text": "En güçlü 2 düşmanı güneş ışığıyla yakar"
+    },
+    "en": {
+     "name": "Sun Mirror",
+     "text": "Burns the 2 strongest enemies with sunlight"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "orta",
+   "index": 4,
+   "levels": [
+    31,
+    40
+   ],
+   "accent": "#3557C8",
+   "tr": {
+    "name": "Orta Çağ",
+    "short": "Orta",
+    "rule": "Uçan düşman yolları atlar. Onu yalnız bazı savunmalar vurabilir.",
+    "stages": [
+     "Taş Gözcü",
+     "Burç",
+     "Kraliyet Kalesi"
+    ]
+   },
+   "en": {
+    "name": "Middle Ages",
+    "short": "Medieval",
+    "rule": "Flying enemies skip the roads. Only some defenses can hit them.",
+    "stages": [
+     "Stone Lookout",
+     "Bastion",
+     "Royal Castle"
+    ]
+   },
+   "towers": [
+    "orta/kule-asama-1.svg",
+    "orta/kule-asama-2.svg",
+    "orta/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Tatar Yayı",
+     "en": "Crossbow",
+     "art": "orta/savunma-tatar-yayi.svg"
+    },
+    {
+     "tr": "Ağır Mancınık",
+     "en": "Heavy Catapult",
+     "art": "orta/savunma-agir-mancinik.svg"
+    },
+    {
+     "tr": "Hendek",
+     "en": "Moat",
+     "art": "orta/savunma-hendek.svg"
+    },
+    {
+     "tr": "Okçu Kulesi",
+     "en": "Archer Tower",
+     "art": "orta/savunma-okcu-kulesi.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Şövalye",
+     "en": "Knight",
+     "art": "orta/dusman-sovalye.svg"
+    },
+    {
+     "tr": "Koçbaşı",
+     "en": "Battering Ram",
+     "art": "orta/dusman-kocbasi.svg"
+    },
+    {
+     "tr": "Ejderha Yavrusu",
+     "en": "Dragonling",
+     "art": "orta/dusman-ejderha-yavrusu.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Kuşatma Kulesi",
+     "text": "Küçük birimler çıkarır"
+    },
+    "en": {
+     "name": "Siege Tower",
+     "text": "Sends out small units"
+    },
+    "art": "orta/boss-kusatma-kulesi.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Şövalye Hücumu",
+     "text": "En kalabalık gruba dalar · 1 sn sersemletir"
+    },
+    "en": {
+     "name": "Knight's Charge",
+     "text": "Charges the biggest group · stuns for 1 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "barut",
+   "index": 5,
+   "levels": [
+    41,
+    50
+   ],
+   "accent": "#8A5A2B",
+   "tr": {
+    "name": "Barut Çağı",
+    "short": "Barut",
+    "rule": "Bazı düşmanlar savunmana uzaktan ateş eder. Savunmanın canına dikkat et.",
+    "stages": [
+     "Toplu Tabya",
+     "Kale Burcu",
+     "Yıldız Kale"
+    ]
+   },
+   "en": {
+    "name": "Gunpowder Age",
+    "short": "Gunpowder",
+    "rule": "Some enemies shoot your defenses from afar. Keep an eye on their health.",
+    "stages": [
+     "Cannon Redoubt",
+     "Fort Bastion",
+     "Star Fort"
+    ]
+   },
+   "towers": [
+    "barut/kule-asama-1.svg",
+    "barut/kule-asama-2.svg",
+    "barut/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Top",
+     "en": "Cannon",
+     "art": "barut/savunma-top.svg"
+    },
+    {
+     "tr": "Fişek Atıcı",
+     "en": "Rocket Thrower",
+     "art": "barut/savunma-fisek-atici.svg"
+    },
+    {
+     "tr": "Havan",
+     "en": "Mortar",
+     "art": "barut/savunma-havan.svg"
+    },
+    {
+     "tr": "Barut Fıçısı",
+     "en": "Powder Keg",
+     "art": "barut/savunma-barut-ficisi.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Fişekli Er",
+     "en": "Musketeer",
+     "art": "barut/dusman-fisekli-er.svg"
+    },
+    {
+     "tr": "Korsan",
+     "en": "Pirate",
+     "art": "barut/dusman-korsan.svg"
+    },
+    {
+     "tr": "Süvari",
+     "en": "Cavalry",
+     "art": "barut/dusman-suvari.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Dev Kuşatma Topu",
+     "text": "Yere vurunca dış halka susar"
+    },
+    "en": {
+     "name": "Giant Siege Gun",
+     "text": "Ground slam quiets the outer ring"
+    },
+    "art": "barut/boss-dev-kusatma-topu.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Havai Fişek",
+     "text": "En kalabalık 3 noktada patlar"
+    },
+    "en": {
+     "name": "Fireworks",
+     "text": "Bursts at the 3 most crowded spots"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "buhar",
+   "index": 6,
+   "levels": [
+    51,
+    60
+   ],
+   "accent": "#A16A2A",
+   "tr": {
+    "name": "Buhar Çağı",
+    "short": "Buhar",
+    "rule": "Ağır birim tuzaktan etkilenmez. Yalnız yavaşlatan savunmaya güvenme.",
+    "stages": [
+     "Kazan Kulesi",
+     "Dişli Kule",
+     "Saat Kulesi"
+    ]
+   },
+   "en": {
+    "name": "Steam Age",
+    "short": "Steam",
+    "rule": "Heavy units ignore traps. Don't rely on slowing defenses alone.",
+    "stages": [
+     "Boiler Tower",
+     "Gear Tower",
+     "Clock Tower"
+    ]
+   },
+   "towers": [
+    "buhar/kule-asama-1.svg",
+    "buhar/kule-asama-2.svg",
+    "buhar/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Buhar Topu",
+     "en": "Steam Cannon",
+     "art": "buhar/savunma-buhar-topu.svg"
+    },
+    {
+     "tr": "Dişli Tuzak",
+     "en": "Gear Trap",
+     "art": "buhar/savunma-disli-tuzak.svg"
+    },
+    {
+     "tr": "Vinç Kolu",
+     "en": "Crane Arm",
+     "art": "buhar/savunma-vinc-kolu.svg"
+    },
+    {
+     "tr": "Buhar Düdüğü",
+     "en": "Steam Whistle",
+     "art": "buhar/savunma-buhar-dudugu.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Kurmalı Bot",
+     "en": "Wind-up Bot",
+     "art": "buhar/dusman-kurmali-bot.svg"
+    },
+    {
+     "tr": "Buharlı Vagon",
+     "en": "Steam Wagon",
+     "art": "buhar/dusman-buharli-vagon.svg"
+    },
+    {
+     "tr": "Balon Gözcü",
+     "en": "Balloon Scout",
+     "art": "buhar/dusman-balon-gozcu.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Dev Lokomotif",
+     "text": "Yere vurunca dış halka susar"
+    },
+    "en": {
+     "name": "Giant Locomotive",
+     "text": "Ground slam quiets the outer ring"
+    },
+    "art": "buhar/boss-dev-lokomotif.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Buhar Treni",
+     "text": "En kalabalık yolu süpürür, düşmanları geri iter"
+    },
+    "en": {
+     "name": "Steam Train",
+     "text": "Sweeps the busiest road, pushes enemies back"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "elektrik",
+   "index": 7,
+   "levels": [
+    61,
+    70
+   ],
+   "accent": "#2F6FBF",
+   "tr": {
+    "name": "Elektrik Çağı",
+    "short": "Elektrik",
+    "rule": "Gece savunmalar zayıf vurur, ampul ışığındakiler tam vurur. Bazı düşmanlar mermiyi saptırır.",
+    "stages": [
+     "Dinamo Kulübesi",
+     "Bobin Kulesi",
+     "Şimşek Santrali"
+    ]
+   },
+   "en": {
+    "name": "Electric Age",
+    "short": "Electric",
+    "rule": "At night defenses hit weakly; those in bulb light hit at full power. Some enemies deflect shots.",
+    "stages": [
+     "Dynamo Shed",
+     "Coil Tower",
+     "Lightning Plant"
+    ]
+   },
+   "towers": [
+    "elektrik/kule-asama-1.svg",
+    "elektrik/kule-asama-2.svg",
+    "elektrik/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Şimşek Bobini",
+     "en": "Lightning Coil",
+     "art": "elektrik/savunma-simsek-bobini.svg"
+    },
+    {
+     "tr": "Ampul Tuzağı",
+     "en": "Bulb Trap",
+     "art": "elektrik/savunma-ampul-tuzagi.svg"
+    },
+    {
+     "tr": "Elektrik Çiti",
+     "en": "Electric Fence",
+     "art": "elektrik/savunma-elektrik-citi.svg"
+    },
+    {
+     "tr": "Radyo Direği",
+     "en": "Radio Mast",
+     "art": "elektrik/savunma-radyo-diregi.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Kıvılcım Böceği",
+     "en": "Spark Bug",
+     "art": "elektrik/dusman-kivilcim-bocegi.svg"
+    },
+    {
+     "tr": "Telli Bot",
+     "en": "Wire Bot",
+     "art": "elektrik/dusman-telli-bot.svg"
+    },
+    {
+     "tr": "Mıknatıs",
+     "en": "Magnet",
+     "art": "elektrik/dusman-miknatis.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Dev Jeneratör",
+     "text": "Haritayı karartır"
+    },
+    "en": {
+     "name": "Giant Generator",
+     "text": "Darkens the map"
+    },
+    "art": "elektrik/boss-dev-jenerator.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Şimşek Zinciri",
+     "text": "Öndeki düşmandan başlar, 6 kez sıçrar"
+    },
+    "en": {
+     "name": "Chain Lightning",
+     "text": "Starts at the lead enemy, jumps 6 times"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "atom",
+   "index": 8,
+   "levels": [
+    71,
+    80
+   ],
+   "accent": "#258469",
+   "tr": {
+    "name": "Atom Çağı",
+    "short": "Atom",
+    "rule": "Uçan Daire mermiden kaçar. Radar menzilindeyken vurulur.",
+    "stages": [
+     "Kubbe Evi",
+     "Reaktör Kubbesi",
+     "Füze Üssü"
+    ]
+   },
+   "en": {
+    "name": "Atomic Age",
+    "short": "Atomic",
+    "rule": "The Flying Saucer dodges shots. It can be hit inside radar range.",
+    "stages": [
+     "Dome House",
+     "Reactor Dome",
+     "Missile Base"
+    ]
+   },
+   "towers": [
+    "atom/kule-asama-1.svg",
+    "atom/kule-asama-2.svg",
+    "atom/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Parçacık Topu",
+     "en": "Particle Cannon",
+     "art": "atom/savunma-parcacik-topu.svg"
+    },
+    {
+     "tr": "Radar Çanağı",
+     "en": "Radar Dish",
+     "art": "atom/savunma-radar-canagi.svg"
+    },
+    {
+     "tr": "Füze Rampası",
+     "en": "Missile Launcher",
+     "art": "atom/savunma-fuze-rampasi.svg"
+    },
+    {
+     "tr": "Cam Kubbe",
+     "en": "Glass Dome",
+     "art": "atom/savunma-cam-kubbe.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Teneke Robot",
+     "en": "Tin Robot",
+     "art": "atom/dusman-teneke-robot.svg"
+    },
+    {
+     "tr": "Uçan Daire",
+     "en": "Flying Saucer",
+     "art": "atom/dusman-ucan-daire.svg"
+    },
+    {
+     "tr": "Zırhlı Araç",
+     "en": "Armored Car",
+     "art": "atom/dusman-zirhli-arac.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Dev Teneke",
+     "text": "Küçük birimler çıkarır"
+    },
+    "en": {
+     "name": "Tin Giant",
+     "text": "Sends out small units"
+    },
+    "art": "atom/boss-dev-teneke.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Atom Halkası",
+     "text": "Kulenin çevresini yakar · 3 sn yavaşlatır"
+    },
+    "en": {
+     "name": "Atom Ring",
+     "text": "Burns around the tower · slows for 3 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "dijital",
+   "index": 9,
+   "levels": [
+    81,
+    90
+   ],
+   "accent": "#C42A7C",
+   "tr": {
+    "name": "Dijital Çağ",
+    "short": "Dijital",
+    "rule": "Işınlanan düşman yolda ileri sıçrar. Kulenin yanını boş bırakma.",
+    "stages": [
+     "Sunucu Kulesi",
+     "Veri Kalesi",
+     "Ağ Çekirdeği"
+    ]
+   },
+   "en": {
+    "name": "Digital Age",
+    "short": "Digital",
+    "rule": "Teleporters jump ahead on the road. Keep the tower's side covered.",
+    "stages": [
+     "Server Tower",
+     "Data Fort",
+     "Network Core"
+    ]
+   },
+   "towers": [
+    "dijital/kule-asama-1.svg",
+    "dijital/kule-asama-2.svg",
+    "dijital/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Lazer",
+     "en": "Laser",
+     "art": "dijital/savunma-lazer.svg"
+    },
+    {
+     "tr": "Drone Yuvası",
+     "en": "Drone Nest",
+     "art": "dijital/savunma-drone-yuvasi.svg"
+    },
+    {
+     "tr": "EMP",
+     "en": "EMP",
+     "art": "dijital/savunma-emp.svg"
+    },
+    {
+     "tr": "Kalkan",
+     "en": "Shield",
+     "art": "dijital/savunma-kalkan.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Drone Sürüsü",
+     "en": "Drone Swarm",
+     "art": "dijital/dusman-drone-surusu.svg"
+    },
+    {
+     "tr": "Siber Varlık",
+     "en": "Cyber Being",
+     "art": "dijital/dusman-siber-varlik.svg"
+    },
+    {
+     "tr": "Zırhlı Bot",
+     "en": "Armored Bot",
+     "art": "dijital/dusman-zirhli-bot.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Veri Yılanı",
+     "text": "Yarı canda ikiye bölünür"
+    },
+    "en": {
+     "name": "Data Serpent",
+     "text": "Splits in two at half health"
+    },
+    "art": "dijital/boss-veri-yilani.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Piksel Fırtınası",
+     "text": "16 piksel düşer · vurulanlar 1,5 sn donar"
+    },
+    "en": {
+     "name": "Pixel Storm",
+     "text": "16 pixels fall · those hit freeze for 1.5 s"
+    },
+    "seconds": 15
+   }
+  },
+  {
+   "id": "robot",
+   "index": 10,
+   "levels": [
+    91,
+    100
+   ],
+   "accent": "#C42A7C",
+   "tr": {
+    "name": "Robot Çağı",
+    "short": "Robot",
+    "rule": "Yollar bant gibi akar, düşmanlar hızlanır.",
+    "stages": [
+     "Montaj Kulübesi",
+     "Mekanik Kale",
+     "Mega Mekanik"
+    ]
+   },
+   "en": {
+    "name": "Robot Age",
+    "short": "Robot",
+    "rule": "Roads flow like belts, and enemies speed up.",
+    "stages": [
+     "Assembly Shed",
+     "Mech Fort",
+     "Mega Mech"
+    ]
+   },
+   "towers": [
+    "robot/kule-asama-1.svg",
+    "robot/kule-asama-2.svg",
+    "robot/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Robot Kol",
+     "en": "Robot Arm",
+     "art": "robot/savunma-robot-kol.svg"
+    },
+    {
+     "tr": "Mekanik Örümcek",
+     "en": "Mech Spider",
+     "art": "robot/savunma-mekanik-orumcek.svg"
+    },
+    {
+     "tr": "Manyetik Alan",
+     "en": "Magnetic Field",
+     "art": "robot/savunma-manyetik-alan.svg"
+    },
+    {
+     "tr": "Tamir Botu",
+     "en": "Repair Bot",
+     "art": "robot/savunma-tamir-botu.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Kol Robot",
+     "en": "Arm Bot",
+     "art": "robot/dusman-kol-robot.svg"
+    },
+    {
+     "tr": "Paletli Bot",
+     "en": "Tread Bot",
+     "art": "robot/dusman-paletli-bot.svg"
+    },
+    {
+     "tr": "Uçan Bot",
+     "en": "Flying Bot",
+     "art": "robot/dusman-ucan-bot.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Titan Mekanik",
+     "text": "Yere vurunca dış halka susar"
+    },
+    "en": {
+     "name": "Titan Mech",
+     "text": "Ground slam quiets the outer ring"
+    },
+    "art": "robot/boss-titan-mekanik.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Dev Mıknatıs",
+     "text": "Bütün düşmanları yolda geri çeker"
+    },
+    "en": {
+     "name": "Giant Magnet",
+     "text": "Pulls every enemy back along the road"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "uzay",
+   "index": 11,
+   "levels": [
+    101,
+    110
+   ],
+   "accent": "#3C62C9",
+   "tr": {
+    "name": "Uzay Çağı",
+    "short": "Uzay",
+    "rule": "Meteor yolu izlemez, kuleye dümdüz iner. Kulenin çevresini koru.",
+    "stages": [
+     "Fırlatma Rampası",
+     "Ay Üssü",
+     "Yörünge İstasyonu"
+    ]
+   },
+   "en": {
+    "name": "Space Age",
+    "short": "Space",
+    "rule": "Meteors ignore the road and fall straight on the tower. Guard around it.",
+    "stages": [
+     "Launch Pad",
+     "Moon Base",
+     "Orbital Station"
+    ]
+   },
+   "towers": [
+    "uzay/kule-asama-1.svg",
+    "uzay/kule-asama-2.svg",
+    "uzay/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Roket Rampası",
+     "en": "Rocket Pad",
+     "art": "uzay/savunma-roket-rampasi.svg"
+    },
+    {
+     "tr": "Uydu Lazeri",
+     "en": "Satellite Laser",
+     "art": "uzay/savunma-uydu-lazeri.svg"
+    },
+    {
+     "tr": "Çekim Alanı",
+     "en": "Gravity Field",
+     "art": "uzay/savunma-cekim-alani.svg"
+    },
+    {
+     "tr": "Astronot Nöbetçi",
+     "en": "Astronaut Guard",
+     "art": "uzay/savunma-astronot-nobetci.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Yeşil Ziyaretçi",
+     "en": "Green Visitor",
+     "art": "uzay/dusman-yesil-ziyaretci.svg"
+    },
+    {
+     "tr": "Meteor",
+     "en": "Meteor",
+     "art": "uzay/dusman-meteor.svg"
+    },
+    {
+     "tr": "Keşif Mekiği",
+     "en": "Scout Shuttle",
+     "art": "uzay/dusman-kesif-mekigi.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Ana Gemi",
+     "text": "Çekim ışınıyla savunma kaldırır"
+    },
+    "en": {
+     "name": "Mothership",
+     "text": "Lifts defenses with a tractor beam"
+    },
+    "art": "uzay/boss-ana-gemi.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Yıldız Kayması",
+     "text": "Zaman kayar · bütün düşmanlar 8 sn yavaşlar"
+    },
+    "en": {
+     "name": "Shooting Star",
+     "text": "Time slips · all enemies slow for 8 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "kozmik",
+   "index": 12,
+   "levels": [
+    111,
+    120
+   ],
+   "accent": "#5A2DA8",
+   "tr": {
+    "name": "Kozmik Çağ",
+    "short": "Kozmik",
+    "rule": "Bazı düşmanlar ölünce ikiye bölünür, bazıları görünmezdir. Işık Kalkanı görünmezi açığa çıkarır.",
+    "stages": [
+     "Yıldız Çekirdeği",
+     "Nebula Kulesi",
+     "Kozmik Kapı"
+    ]
+   },
+   "en": {
+    "name": "Cosmic Age",
+    "short": "Cosmic",
+    "rule": "Some enemies split in two when defeated; some are invisible. The Light Shield reveals the invisible.",
+    "stages": [
+     "Star Core",
+     "Nebula Tower",
+     "Cosmic Gate"
+    ]
+   },
+   "towers": [
+    "kozmik/kule-asama-1.svg",
+    "kozmik/kule-asama-2.svg",
+    "kozmik/kule-asama-3.svg"
+   ],
+   "defenses": [
+    {
+     "tr": "Yıldız Topu",
+     "en": "Star Cannon",
+     "art": "kozmik/savunma-yildiz-topu.svg"
+    },
+    {
+     "tr": "Mini Kara Delik",
+     "en": "Mini Black Hole",
+     "art": "kozmik/savunma-mini-kara-delik.svg"
+    },
+    {
+     "tr": "Kuyruklu Yıldız Yağmuru",
+     "en": "Comet Shower",
+     "art": "kozmik/savunma-kuyruklu-yildiz-yagmuru.svg"
+    },
+    {
+     "tr": "Işık Kalkanı",
+     "en": "Light Shield",
+     "art": "kozmik/savunma-isik-kalkani.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Yıldız Tozu",
+     "en": "Stardust",
+     "art": "kozmik/dusman-yildiz-tozu.svg"
+    },
+    {
+     "tr": "Kuyruklu Yıldız",
+     "en": "Comet",
+     "art": "kozmik/dusman-kuyruklu-yildiz.svg"
+    },
+    {
+     "tr": "Boşluk Varlığı",
+     "en": "Void Being",
+     "art": "kozmik/dusman-bosluk-varligi.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Gezegen Yutan",
+     "text": "Yere vurunca dış halka susar"
+    },
+    "en": {
+     "name": "Planet Eater",
+     "text": "Ground slam quiets the outer ring"
+    },
+    "art": "kozmik/boss-gezegen-yutan.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Süpernova",
+     "text": "Bütün haritada büyük patlama"
+    },
+    "en": {
+     "name": "Supernova",
+     "text": "A huge blast across the whole map"
+    },
+    "seconds": 25
+   }
+  }
+ ],
+ "realms": [
+  {
+   "id": "yunan",
+   "index": 1,
+   "levels": [
+    121,
+    130
+   ],
+   "accent": "#3557C8",
+   "tr": {
+    "name": "Yunan",
+    "short": "Yunan",
+    "guardian": "Athena",
+    "grace": "Labirent Haritası",
+    "tower": "Olimpos Sütunu",
+    "rule": "Labirent: yollar her dalgada yer değiştirir",
+    "ruleIntro": "Yollar her dalgada yer değiştirir. Savunmanı birden çok yolu gören yuvalara kur."
+   },
+   "en": {
+    "name": "Greek",
+    "short": "Greek",
+    "guardian": "Athena",
+    "grace": "Labyrinth Map",
+    "tower": "Olympus Column",
+    "rule": "Labyrinth: roads swap places every wave",
+    "ruleIntro": "Roads swap places every wave. Build on slots that see more than one road."
+   },
+   "guardianArt": "yunan/koruyucu-athena.svg",
+   "towerArt": "yunan/kule-olimpos-sutunu.svg",
+   "defenses": [
+    {
+     "tr": "Şimşek Sütunu",
+     "en": "Lightning Pillar",
+     "art": "yunan/savunma-simsek-sutunu.svg"
+    },
+    {
+     "tr": "Yankı Kalkanı",
+     "en": "Echo Shield",
+     "art": "yunan/savunma-yanki-kalkani.svg"
+    },
+    {
+     "tr": "Defne Çeşmesi",
+     "en": "Laurel Fountain",
+     "art": "yunan/savunma-defne-cesmesi.svg"
+    },
+    {
+     "tr": "Tahta At",
+     "en": "Wooden Horse",
+     "art": "yunan/savunma-tahta-at.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Harpi",
+     "en": "Harpy",
+     "art": "yunan/dusman-harpi.svg"
+    },
+    {
+     "tr": "Minotor",
+     "en": "Minotaur",
+     "art": "yunan/dusman-minotor.svg"
+    },
+    {
+     "tr": "Siklop",
+     "en": "Cyclops",
+     "art": "yunan/dusman-siklop.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Hidra",
+     "text": "Kesilen baş iki olur"
+    },
+    "en": {
+     "name": "Hydra",
+     "text": "Cut heads double"
+    },
+    "art": "yunan/boss-hidra.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Olimpos Şimşeği",
+     "text": "En güçlü 5 düşmana şimşek düşer"
+    },
+    "en": {
+     "name": "Olympus Bolt",
+     "text": "Bolts strike the 5 strongest enemies"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "iskandinav",
+   "index": 2,
+   "levels": [
+    131,
+    140
+   ],
+   "accent": "#2A818F",
+   "tr": {
+    "name": "İskandinav",
+    "short": "İskandinav",
+    "guardian": "Thor",
+    "grace": "Yıldırım Çağrısı",
+    "tower": "Fiyort Evi",
+    "rule": "Buz: yuvalar donar, donan savunma susar",
+    "ruleIntro": "Yuvalar donar, donan savunma ateş etmez. Ocak Taşı yanındaki yuvaları ısıtır."
+   },
+   "en": {
+    "name": "Norse",
+    "short": "Norse",
+    "guardian": "Thor",
+    "grace": "Thunder Call",
+    "tower": "Fjord House",
+    "rule": "Ice: slots freeze, frozen defenses go quiet",
+    "ruleIntro": "Slots freeze, and frozen defenses don't fire. The Hearth Stone warms the slots next to it."
+   },
+   "guardianArt": "iskandinav/koruyucu-thor.svg",
+   "towerArt": "iskandinav/kule-fiyort-evi.svg",
+   "defenses": [
+    {
+     "tr": "Ocak Taşı",
+     "en": "Hearth Stone",
+     "art": "iskandinav/savunma-ocak-tasi.svg"
+    },
+    {
+     "tr": "Rün Taşı",
+     "en": "Rune Stone",
+     "art": "iskandinav/savunma-run-tasi.svg"
+    },
+    {
+     "tr": "Kıyı Gemisi",
+     "en": "Coast Ship",
+     "art": "iskandinav/savunma-kiyi-gemisi.svg"
+    },
+    {
+     "tr": "Dünya Ağacı Fidesi",
+     "en": "World Tree Sapling",
+     "art": "iskandinav/savunma-dunya-agaci-fidesi.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Draugr",
+     "en": "Draugr",
+     "art": "iskandinav/dusman-draugr.svg"
+    },
+    {
+     "tr": "Buz Kurdu",
+     "en": "Ice Wolf",
+     "art": "iskandinav/dusman-buz-kurdu.svg"
+    },
+    {
+     "tr": "Buz Devi",
+     "en": "Frost Giant",
+     "art": "iskandinav/dusman-buz-devi.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Dünya Yılanı",
+     "text": "Sardığı yuva donar · 20 sn'de yol değiştirir"
+    },
+    "en": {
+     "name": "World Serpent",
+     "text": "Slots it wraps freeze · changes road every 20 s"
+    },
+    "art": "iskandinav/boss-dunya-yilani.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Kuzey Işığı",
+     "text": "Işık büyüler · bütün düşmanlar 3 sn durur"
+    },
+    "en": {
+     "name": "Northern Lights",
+     "text": "The lights enchant · all enemies stop for 3 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "misir",
+   "index": 3,
+   "levels": [
+    141,
+    150
+   ],
+   "accent": "#9C6C21",
+   "tr": {
+    "name": "Mısır",
+    "short": "Mısır",
+    "guardian": "Bastet",
+    "grace": "Dokuz Can",
+    "tower": "Güneş Kapısı",
+    "rule": "5. yol + kum fırtınası görüşü daraltır",
+    "ruleIntro": "5. yol açılır. Fırtına görüşü daraltır, Gözcü Gözü uzağı gösterir. Mumyalar dirilir."
+   },
+   "en": {
+    "name": "Egyptian",
+    "short": "Egyptian",
+    "guardian": "Bastet",
+    "grace": "Nine Lives",
+    "tower": "Sun Gate",
+    "rule": "5th road + a sandstorm narrows your view",
+    "ruleIntro": "A 5th road opens. The storm narrows your view; the Watcher's Eye sees far. Mummies rise again."
+   },
+   "guardianArt": "misir/koruyucu-bastet.svg",
+   "towerArt": "misir/kule-gunes-kapisi.svg",
+   "defenses": [
+    {
+     "tr": "Güneş Dikilitaşı",
+     "en": "Sun Obelisk",
+     "art": "misir/savunma-gunes-dikilitasi.svg"
+    },
+    {
+     "tr": "Gözcü Gözü",
+     "en": "Watcher's Eye",
+     "art": "misir/savunma-gozcu-gozu.svg"
+    },
+    {
+     "tr": "Anka Lahdi",
+     "en": "Phoenix Tomb",
+     "art": "misir/savunma-anka-lahdi.svg"
+    },
+    {
+     "tr": "Kum Piramidi",
+     "en": "Sand Pyramid",
+     "art": "misir/savunma-kum-piramidi.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Mumya",
+     "en": "Mummy",
+     "art": "misir/dusman-mumya.svg"
+    },
+    {
+     "tr": "Çakal Muhafız",
+     "en": "Jackal Guard",
+     "art": "misir/dusman-cakal-muhafiz.svg"
+    },
+    {
+     "tr": "Dev Akrep",
+     "en": "Giant Scorpion",
+     "art": "misir/dusman-dev-akrep.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Sfenks",
+     "text": "3 dalgada bir bilmece"
+    },
+    "en": {
+     "name": "Sphinx",
+     "text": "A riddle every 3 waves"
+    },
+    "art": "misir/boss-sfenks.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Güneş Patlaması",
+     "text": "Kulenin çevresinde güneş patlar"
+    },
+    "en": {
+     "name": "Solar Flare",
+     "text": "The sun bursts around the tower"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "cin",
+   "index": 4,
+   "levels": [
+    151,
+    160
+   ],
+   "accent": "#C8322B",
+   "tr": {
+    "name": "Çin",
+    "short": "Çin",
+    "guardian": "Qilin",
+    "grace": "Denge",
+    "tower": "Göksel Saray",
+    "rule": "Beş element: aynı element yarım, yenen element çift hasar",
+    "ruleIntro": "Her düşmanın bir elementi var. Yenen element çift, aynı element yarım hasar verir."
+   },
+   "en": {
+    "name": "Chinese",
+    "short": "Chinese",
+    "guardian": "Qilin",
+    "grace": "Balance",
+    "tower": "Celestial Palace",
+    "rule": "Five elements: the counter hits double, the same half",
+    "ruleIntro": "Every enemy has an element. The element that beats it deals double, the same element half."
+   },
+   "guardianArt": "cin/koruyucu-qilin.svg",
+   "towerArt": "cin/kule-goksel-saray.svg",
+   "defenses": [
+    {
+     "tr": "Havai Fişek Rampası",
+     "en": "Firework Ramp",
+     "art": "cin/savunma-havai-fisek-rampasi.svg"
+    },
+    {
+     "tr": "Yeşim Pusula",
+     "en": "Jade Compass",
+     "art": "cin/savunma-yesim-pusula.svg"
+    },
+    {
+     "tr": "Tunç Davul Kulesi",
+     "en": "Bronze Drum Tower",
+     "art": "cin/savunma-tunc-davul-kulesi.svg"
+    },
+    {
+     "tr": "Bulut Ejder Yavrusu",
+     "en": "Cloud Dragonling",
+     "art": "cin/savunma-bulut-ejder-yavrusu.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Zıplayan Hayalet",
+     "en": "Hopping Ghost",
+     "art": "cin/dusman-ziplayan-hayalet.svg"
+    },
+    {
+     "tr": "Nian Canavarı",
+     "en": "Nian Beast",
+     "art": "cin/dusman-nian-canavari.svg"
+    },
+    {
+     "tr": "Taş Maymun",
+     "en": "Stone Monkey",
+     "art": "cin/dusman-tas-maymun.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Ejderha Kral",
+     "text": "Beş element sırayla · inci düşünce 10 sn açık"
+    },
+    "en": {
+     "name": "Dragon King",
+     "text": "Five elements in turn · open 10 s when the pearl drops"
+    },
+    "art": "cin/boss-ejderha-kral.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Ejder Nefesi",
+     "text": "En kalabalık 2 yolu yakar · 4 sn yavaşlatır"
+    },
+    "en": {
+     "name": "Dragon Breath",
+     "text": "Burns the 2 busiest roads · slows for 4 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "japon",
+   "index": 5,
+   "levels": [
+    161,
+    170
+   ],
+   "accent": "#C64A78",
+   "tr": {
+    "name": "Japon",
+    "short": "Japon",
+    "guardian": "Kitsune",
+    "grace": "Tilki Ateşi",
+    "tower": "Fener Pagodası",
+    "rule": "Yokai yarı canda şekil değiştirir",
+    "ruleIntro": "Sis yolların yarısını örter, fener ışığı açar. Yokai yarı canda dönüşür."
+   },
+   "en": {
+    "name": "Japanese",
+    "short": "Japanese",
+    "guardian": "Kitsune",
+    "grace": "Fox Fire",
+    "tower": "Lantern Pagoda",
+    "rule": "Yokai change shape at half health",
+    "ruleIntro": "Fog covers half the roads; lantern light clears it. Yokai transform at half health."
+   },
+   "guardianArt": "japon/koruyucu-kitsune.svg",
+   "towerArt": "japon/kule-fener-pagodasi.svg",
+   "defenses": [
+    {
+     "tr": "Kâğıt Fener",
+     "en": "Paper Lantern",
+     "art": "japon/savunma-kagit-fener.svg"
+    },
+    {
+     "tr": "Kırmızı Kemer",
+     "en": "Red Arch",
+     "art": "japon/savunma-kirmizi-kemer.svg"
+    },
+    {
+     "tr": "Gölge Savaşçı",
+     "en": "Shadow Warrior",
+     "art": "japon/savunma-golge-savasci.svg"
+    },
+    {
+     "tr": "Festival Davulu",
+     "en": "Festival Drum",
+     "art": "japon/savunma-festival-davulu.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Kappa",
+     "en": "Kappa",
+     "art": "japon/dusman-kappa.svg"
+    },
+    {
+     "tr": "Tengu",
+     "en": "Tengu",
+     "art": "japon/dusman-tengu.svg"
+    },
+    {
+     "tr": "Oni",
+     "en": "Oni",
+     "art": "japon/dusman-oni.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Sekiz Başlı Yılan",
+     "text": "8 baş, 4 yol; yalnız biri gerçek"
+    },
+    "en": {
+     "name": "Eight-Headed Serpent",
+     "text": "8 heads, 4 roads; only one is real"
+    },
+    "art": "japon/boss-sekiz-basli-yilan.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Işık Dalgası",
+     "text": "Işık yayılır · bütün düşmanları geri iter"
+    },
+    "en": {
+     "name": "Light Wave",
+     "text": "Light spreads · pushes all enemies back"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "mezopotamya",
+   "index": 6,
+   "levels": [
+    171,
+    180
+   ],
+   "accent": "#3B78B6",
+   "tr": {
+    "name": "Mezopotamya",
+    "short": "Mezopotamya",
+    "guardian": "Lamassu",
+    "grace": "Kapı Nöbeti",
+    "tower": "Zigurat",
+    "rule": "Tufan: su her dalga bir halka yükselir",
+    "ruleIntro": "Su her dalga bir halka yükselir. Suya batan savunma susar, su çekilince döner."
+   },
+   "en": {
+    "name": "Mesopotamian",
+    "short": "Mesopotamian",
+    "guardian": "Lamassu",
+    "grace": "Gate Watch",
+    "tower": "Ziggurat",
+    "rule": "Flood: water rises one ring each wave",
+    "ruleIntro": "Water rises one ring each wave. Flooded defenses go quiet and return when it recedes."
+   },
+   "guardianArt": "mezopotamya/koruyucu-lamassu.svg",
+   "towerArt": "mezopotamya/kule-zigurat.svg",
+   "defenses": [
+    {
+     "tr": "Çivi Yazısı Taşı",
+     "en": "Cuneiform Stone",
+     "art": "mezopotamya/savunma-civi-yazisi-tasi.svg"
+    },
+    {
+     "tr": "Saz Gemi",
+     "en": "Reed Boat",
+     "art": "mezopotamya/savunma-saz-gemi.svg"
+    },
+    {
+     "tr": "Sırlı Kapı",
+     "en": "Glazed Gate",
+     "art": "mezopotamya/savunma-sirli-kapi.svg"
+    },
+    {
+     "tr": "Yıldız Rasathanesi",
+     "en": "Star Observatory",
+     "art": "mezopotamya/savunma-yildiz-rasathanesi.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Akrep Adam",
+     "en": "Scorpion Man",
+     "art": "mezopotamya/dusman-akrep-adam.svg"
+    },
+    {
+     "tr": "Muşhuşşu",
+     "en": "Mushussu",
+     "art": "mezopotamya/dusman-mushussu.svg"
+    },
+    {
+     "tr": "Aslan Ruhu",
+     "en": "Lion Spirit",
+     "art": "mezopotamya/dusman-aslan-ruhu.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Tiamat",
+     "text": "Su üç halka birden yükselir"
+    },
+    "en": {
+     "name": "Tiamat",
+     "text": "Water rises three rings at once"
+    },
+    "art": "mezopotamya/boss-tiamat.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Yıldız Yağmuru",
+     "text": "12 yıldız rastgele düşmanlara düşer"
+    },
+    "en": {
+     "name": "Starfall",
+     "text": "12 stars fall on random enemies"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "kelt",
+   "index": 7,
+   "levels": [
+    181,
+    190
+   ],
+   "accent": "#4B843B",
+   "tr": {
+    "name": "Kelt",
+    "short": "Kelt",
+    "guardian": "Cernunnos",
+    "grace": "Orman Uyanışı",
+    "tower": "Ulu Meşe",
+    "rule": "Orman büyür: yuva köklenir, periler çalar",
+    "ruleIntro": "İki dalga duran savunma kök salar ve satılamaz. Periler arada bir savunma taşır."
+   },
+   "en": {
+    "name": "Celtic",
+    "short": "Celtic",
+    "guardian": "Cernunnos",
+    "grace": "Forest Awakening",
+    "tower": "Great Oak",
+    "rule": "The forest grows: slots take root, fairies steal",
+    "ruleIntro": "A defense that stays two waves takes root and can't be sold. Fairies sometimes move a defense."
+   },
+   "guardianArt": "kelt/koruyucu-cernunnos.svg",
+   "towerArt": "kelt/kule-ulu-mese.svg",
+   "defenses": [
+    {
+     "tr": "Düğüm Taşı",
+     "en": "Knot Stone",
+     "art": "kelt/savunma-dugum-tasi.svg"
+    },
+    {
+     "tr": "Meşe Bilgesi",
+     "en": "Oak Sage",
+     "art": "kelt/savunma-mese-bilgesi.svg"
+    },
+    {
+     "tr": "Böğürtlen Çalısı",
+     "en": "Bramble Bush",
+     "art": "kelt/savunma-bogurtlen-calisi.svg"
+    },
+    {
+     "tr": "Altın Kazan",
+     "en": "Golden Cauldron",
+     "art": "kelt/savunma-altin-kazan.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Hırsız Peri",
+     "en": "Thief Fairy",
+     "art": "kelt/dusman-hirsiz-peri.svg"
+    },
+    {
+     "tr": "Kelpie",
+     "en": "Kelpie",
+     "art": "kelt/dusman-kelpie.svg"
+    },
+    {
+     "tr": "Banshee",
+     "en": "Banshee",
+     "art": "kelt/dusman-banshee.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Yürüyen Meşe",
+     "text": "Geçtiği yuva köklenir; ölünce kökler çözülür"
+    },
+    "en": {
+     "name": "Walking Oak",
+     "text": "Slots it passes take root; roots free when it falls"
+    },
+    "art": "kelt/boss-yuruyen-mese.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Meşe Sarsıntısı",
+     "text": "Kökler 2 kalabalık grubu 2 sn tutar"
+    },
+    "en": {
+     "name": "Oak Tremor",
+     "text": "Roots hold 2 crowded groups for 2 s"
+    },
+    "seconds": 20
+   }
+  },
+  {
+   "id": "anadolu",
+   "index": 8,
+   "levels": [
+    191,
+    200
+   ],
+   "accent": "#25827F",
+   "tr": {
+    "name": "Anadolu ve Türk Efsaneleri",
+    "short": "Anadolu",
+    "guardian": "Şahmeran",
+    "grace": "Şifa Nefesi",
+    "tower": "Kervansaray",
+    "rule": "Gece ve gündüz: gece düşman ×2, gündüz savunma ×1,5",
+    "ruleIntro": "Gece düşman güçlenir; fener ışığı dışındaki savunma yarım vurur. Gündüz savunma ×1,5 vurur. Önceki diyarların kuralları geri döner."
+   },
+   "en": {
+    "name": "Anatolian & Turkic Legends",
+    "short": "Anatolian",
+    "guardian": "Şahmeran",
+    "grace": "Healing Breath",
+    "tower": "Caravanserai",
+    "rule": "Day and night: enemies ×2 at night, defenses ×1.5 by day",
+    "ruleIntro": "At night enemies grow stronger; defenses outside lantern light hit at half. By day defenses hit ×1.5. Rules from earlier realms return."
+   },
+   "guardianArt": "anadolu/koruyucu-sahmeran.svg",
+   "towerArt": "anadolu/kule-kervansaray.svg",
+   "defenses": [
+    {
+     "tr": "Kervan Feneri",
+     "en": "Caravan Lantern",
+     "art": "anadolu/savunma-kervan-feneri.svg"
+    },
+    {
+     "tr": "Nazar Taşı",
+     "en": "Nazar Stone",
+     "art": "anadolu/savunma-nazar-tasi.svg"
+    },
+    {
+     "tr": "Tulpar Okçusu",
+     "en": "Tulpar Archer",
+     "art": "anadolu/savunma-tulpar-okcusu.svg"
+    },
+    {
+     "tr": "Ocak Davulu",
+     "en": "Hearth Drum",
+     "art": "anadolu/savunma-ocak-davulu.svg"
+    }
+   ],
+   "enemies": [
+    {
+     "tr": "Karakoncolos",
+     "en": "Karakoncolos",
+     "art": "anadolu/dusman-karakoncolos.svg"
+    },
+    {
+     "tr": "Tepegöz",
+     "en": "Tepegöz",
+     "art": "anadolu/dusman-tepegoz.svg"
+    },
+    {
+     "tr": "Yelbegen",
+     "en": "Yelbegen",
+     "art": "anadolu/dusman-yelbegen.svg"
+    }
+   ],
+   "boss": {
+    "tr": {
+     "name": "Karabasan",
+     "text": "Gece kuleye çöker; dört kez uyanır"
+    },
+    "en": {
+     "name": "Karabasan",
+     "text": "Sits on the tower at night; wakes 4 times"
+    },
+    "art": "anadolu/boss-karabasan.svg"
+   },
+   "skill": {
+    "tr": {
+     "name": "Ocak Alevi",
+     "text": "Bütün düşmanları yakar · 5 sn yavaşlatır"
+    },
+    "en": {
+     "name": "Hearth Flame",
+     "text": "Burns every enemy · slows for 5 s"
+    },
+    "seconds": 20
+   }
+  }
+ ],
+ "league": {
+  "groupSize": 30,
+  "promote": 5,
+  "demote": 5,
+  "tiers": [
+   {
+    "tr": "Kıvılcım",
+    "en": "Spark"
+   },
+   {
+    "tr": "Kor",
+    "en": "Ember"
+   },
+   {
+    "tr": "Alev",
+    "en": "Flame"
+   },
+   {
+    "tr": "Şimşek",
+    "en": "Lightning"
+   },
+   {
+    "tr": "Fırtına",
+    "en": "Storm"
+   },
+   {
+    "tr": "Yıldız",
+    "en": "Star"
+   },
+   {
+    "tr": "Kuyruklu Yıldız",
+    "en": "Comet"
+   },
+   {
+    "tr": "Güneş",
+    "en": "Sun"
+   },
+   {
+    "tr": "Nova",
+    "en": "Nova"
+   },
+   {
+    "tr": "Efsane",
+    "en": "Legend"
+   }
+  ]
+ },
+ "endless": {
+  "waves": 14,
+  "rootNodes": 50,
+  "depthGroup": 30
+ },
+ "season": {
+  "tr": "Ateşin Keşfi",
+  "en": "Discovery of Fire",
+  "tiers": 30
+ },
+ "damage": {
+  "pierce": {
+   "tr": "Delici",
+   "en": "Piercing"
+  },
+  "blast": {
+   "tr": "Patlama",
+   "en": "Blast"
+  },
+  "energy": {
+   "tr": "Enerji",
+   "en": "Energy"
+  }
+ },
+ "matrix": {
+  "pierce": {
+   "light": 1000,
+   "armored": 700,
+   "swift": 1250,
+   "spectral": 650
+  },
+  "blast": {
+   "light": 1000,
+   "armored": 1300,
+   "swift": 750,
+   "spectral": 750
+  },
+  "energy": {
+   "light": 1000,
+   "armored": 900,
+   "swift": 1000,
+   "spectral": 1500
+  }
+ }
+}

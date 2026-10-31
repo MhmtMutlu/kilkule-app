@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://mhmtmutlu.github.io/kilkule-app/sitemap.xml
