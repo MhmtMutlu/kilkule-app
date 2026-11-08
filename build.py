@@ -7,7 +7,7 @@ Pages: landing (tr at /, en at /en/), privacy (gizlilik, en/privacy), KVKK, acco
 en/delete-account), support (destek, en/support), 404. Game facts (ages, realms, defenses, skills, counts, accents) come
 from data/game.json, a snapshot of the game's content files (tools/export_content.py); the art is the game's own SVG
 library (assets/art). Legal bodies live in src/*.html; this script wraps them in the shared header and footer.
-Paths are relative so the site works at https://<user>.github.io/kilkule-app/ and on a custom domain. No cookies,
+Paths are relative so the site works at https://kilkule.mm-apps.com/ (GitHub Pages, custom domain; the 404 page needs the site at the domain root). No cookies,
 no analytics, no third-party requests: fonts are self-hosted.
 """
 import colorsys, html, json, pathlib, re
@@ -15,7 +15,7 @@ import colorsys, html, json, pathlib, re
 ROOT = pathlib.Path(__file__).parent
 SRC = ROOT / "src"
 GAME = json.loads((ROOT / "data" / "game.json").read_text())
-SITE_URL = "https://mhmtmutlu.github.io/kilkule-app/"
+SITE_URL = "https://kilkule.mm-apps.com/"
 CONTACT = "destek@mm-apps.com"
 UPDATED = {"tr": "31.10.2026", "en": "31 October 2026"}
 
@@ -637,7 +637,7 @@ def document(out_dir, lang, src, title, desc):
     return page + footer(t, r)
 
 def not_found():
-    t, base = S["tr"], "/kilkule-app/"
+    t, base = S["tr"], "/"
     page = head(t, base, "Sayfa bulunamadı · Kilkule", "Sayfa bulunamadı.", "404.html")
     page += nav(t, base, base, [], base + "en/")
     page += (f'<main id="main" class="doc acc-tas"><div class="wrap center-404">{art(base, "tas/dusman-kurt.svg", "", 120, 120, lazy=False)}'
@@ -665,8 +665,8 @@ def build():
             continue
         page = (ROOT / rel).read_text()
         for href in re.findall(r'(?:href|src)="([^"#:]+?)"', page):
-            if href.startswith("/kilkule-app/"):
-                href = href[len("/kilkule-app/"):] or "index.html"
+            if href.startswith("/"):
+                href = href[1:] or "index.html"
                 target = ROOT / href
             else:
                 target = (ROOT / rel).parent / href

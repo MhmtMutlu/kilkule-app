@@ -1,7 +1,7 @@
 # kilkule-app
 
 Kilkule'nin web sitesi: tanıtım sayfası, gizlilik politikası, KVKK aydınlatma metni, hesap silme ve destek.
-GitHub Pages ile yayınlanır: <https://mhmtmutlu.github.io/kilkule-app/>
+GitHub Pages ile yayınlanır: <https://kilkule.mm-apps.com/>
 
 | Sayfa | Türkçe | English |
 |---|---|---|
@@ -39,7 +39,7 @@ Site çerez, analiz veya üçüncü taraf istek kullanmaz; Baloo 2 ve Nunito yaz
 Settings → Pages → Source: *Deploy from a branch* → Branch: `main` / `(root)`.
 Sonra oyunun `Config.xcconfig` dosyasına:
 ```
-KILKULE_PRIVACY_URL = https:/$()/mhmtmutlu.github.io/kilkule-app/gizlilik/
-KILKULE_SUPPORT_URL = https:/$()/mhmtmutlu.github.io/kilkule-app/destek/
+KILKULE_PRIVACY_URL = https:/$()/kilkule.mm-apps.com/gizlilik/
+KILKULE_SUPPORT_URL = https:/$()/kilkule.mm-apps.com/destek/
 ```
 App Store Connect'te de aynı adresler girilir.
