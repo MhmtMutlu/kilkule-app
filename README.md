@@ -1,18 +1,24 @@
 # kilkule-app
 
-Kilkule'nin web sitesi: tanıtım sayfası, gizlilik politikası, KVKK aydınlatma metni, hesap silme ve destek.
+Kilkule'nin web sitesi: tanıtım sayfası, gizlilik politikası, kullanım koşulları, KVKK aydınlatma metni, hesap silme ve
+destek. Oyun bu sayfaları buradan açar (`AppSettings.legalURL`); eski `mm-apps.com/kilkule/*` adresleri buraya yönlendirir.
 GitHub Pages ile yayınlanır: <https://kilkule.mm-apps.com/>
 
 | Sayfa | Türkçe | English |
 |---|---|---|
 | Tanıtım | `/` | `/en/` |
-| Gizlilik politikası | `/gizlilik/` | `/en/privacy/` |
+| Gizlilik politikası | `/gizlilik/` (bağlayıcı) | `/en/privacy/`; çeviriler `/fr/privacy/`, `/de/privacy/`, `/it/privacy/`, `/es/privacy/` |
+| Kullanım koşulları | `/kosullar/` (bağlayıcı) | `/en/terms/` |
 | KVKK aydınlatma metni | `/kvkk/` | – |
 | Hesap silme | `/hesap-silme/` | `/en/delete-account/` |
 | Destek | `/destek/` | `/en/support/` |
 
 ## Düzenleme
-- Metinler: tanıtım sayfası `build.py` içindeki `S` sözlüğünde, hukuki sayfalar `src/*.html`.
+- Metinler: tanıtım sayfası `build.py` içindeki `S` sözlüğünde; hukuk, destek ve hesap silme sayfaları `src/*.md`
+  (`build.py` → `DOC_GROUPS`, `DOC_META`; Markdown'ı `md_to_html` çevirir, dış bağımlılık yok).
+- Gizlilik politikası (6 dil), kullanım koşulları (tr, en) ve KVKK metni **burada düzenlenmez**: tek kaynak oyun deposunun
+  `docs/legal/` klasörü. Değişince: `python3 tools/import_legal.py ../kilkule` (birebir kopyalar) → `python3 build.py`.
+  Destek (`src/support.*.md`) ve hesap silme (`src/delete.*.md`) bu sitenindir; politikayla çelişmemeli.
 - Oyun bilgisi (çağlar, diyarlar, savunmalar, yetenekler, boss'lar, lig kademeleri, sayılar, vurgu renkleri) elle yazılmaz:
   `data/game.json` oyunun içerik dosyalarından üretilir. Oyun içeriği değişince:
   `python3 tools/export_content.py ../kilkule` → `python3 build.py`.
@@ -20,8 +26,8 @@ GitHub Pages ile yayınlanır: <https://kilkule.mm-apps.com/>
   kopyalanır (zemin dokuları hariç). `export_content.py` sitenin adını andığı her birimin çizimi var mı diye bakar.
 - Yayın günü: `build.py` → `APP_ID` (App Store Connect → App Information → Apple ID) ve `APP_STORE_LIVE = True`
   (tek anahtar). App Store rozetleri gerçek bağlantı olur, "Çok yakında" ve test sürümü cümleleri kalkar.
-- Derleme: `python3 build.py` (statik HTML'i depo köküne ve `assets/accents.css`'i yazar, bütün iç bağlantıları ve sayfa
-  içi çapaları kontrol eder). Derlenmiş HTML de commit'lenir; GitHub Pages ek bir derleme adımı çalıştırmaz.
+- Derleme: `python3 build.py` (statik HTML'i depo köküne, `sitemap.xml`'i ve `assets/accents.css`'i yazar, bütün iç
+  bağlantıları ve sayfa içi çapaları kontrol eder). Derlenmiş HTML de commit'lenir; GitHub Pages ek bir derleme adımı çalıştırmaz.
 - Stil: `assets/site.css` (renk, kontur, yarıçap ve yazı tipleri oyunun KilkuleDesign `tokens.json`'ıyla aynı). Her çağ ve
   diyar yalnızca vurgu rengini değiştirir: `assets/accents.css` `build.py` tarafından üretilir; koyu ton beyaz metin ve
   krem zemin için 4,5:1 kontrastı sağlayana kadar laciverte karıştırılır.
@@ -37,9 +43,6 @@ Site çerez, analiz veya üçüncü taraf istek kullanmaz; Baloo 2 ve Nunito yaz
 
 ## Yayına alma
 Settings → Pages → Source: *Deploy from a branch* → Branch: `main` / `(root)`.
-Sonra oyunun `Config.xcconfig` dosyasına:
-```
-KILKULE_PRIVACY_URL = https:/$()/kilkule.mm-apps.com/gizlilik/
-KILKULE_SUPPORT_URL = https:/$()/kilkule.mm-apps.com/destek/
-```
-App Store Connect'te de aynı adresler girilir.
+Oyun bu alan adındaki sayfaları dile göre kendisi açar; `Config.xcconfig`'te bir şey girmek gerekmez (`KILKULE_*_URL` yalnız
+geçersiz kılmak için). App Store Connect'te gizlilik adresi `https://kilkule.mm-apps.com/gizlilik/` (İngilizce yerelleştirmede
+`/en/privacy/`), destek adresi `https://kilkule.mm-apps.com/destek/` (`/en/support/`).

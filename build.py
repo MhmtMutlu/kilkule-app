@@ -3,10 +3,12 @@
 
     python3 build.py
 
-Pages: landing (tr at /, en at /en/), privacy (gizlilik, en/privacy), KVKK, account deletion (hesap-silme,
-en/delete-account), support (destek, en/support), 404. Game facts (ages, realms, defenses, skills, counts, accents) come
-from data/game.json, a snapshot of the game's content files (tools/export_content.py); the art is the game's own SVG
-library (assets/art). Legal bodies live in src/*.html; this script wraps them in the shared header and footer.
+Pages: landing (tr at /, en at /en/), privacy (gizlilik, en/privacy, fr|de|it|es/privacy), terms (kosullar, en/terms),
+KVKK, account deletion (hesap-silme, en/delete-account), support (destek, en/support), 404, sitemap.xml. Game facts (ages,
+realms, defenses, skills, counts, accents) come from data/game.json, a snapshot of the game's content files
+(tools/export_content.py); the art is the game's own SVG library (assets/art). Legal and help pages are Markdown in
+src/*.md (DOC_GROUPS; the legal texts are copies of the game's docs/legal, tools/import_legal.py); this script renders them
+and wraps them in the shared header and footer.
 Paths are relative so the site works at https://kilkule.mm-apps.com/ (GitHub Pages, custom domain; the 404 page needs the site at the domain root). No cookies,
 no analytics, no third-party requests: fonts are self-hosted.
 """
@@ -17,7 +19,6 @@ SRC = ROOT / "src"
 GAME = json.loads((ROOT / "data" / "game.json").read_text())
 SITE_URL = "https://kilkule.mm-apps.com/"
 CONTACT = "destek@mm-apps.com"
-UPDATED = {"tr": "31.10.2026", "en": "31 October 2026"}
 
 # The single switch for launch day: True turns every App Store badge into a real link and drops the "coming soon"
 # wording (hero chip, badges, CTA, FAQ). Set APP_ID from App Store Connect → App Information → Apple ID first.
@@ -209,9 +210,9 @@ S = {
   "cta_h2": "Kulen seni bekliyor.", "cta_p": "Kilkule çok yakında App Store'da, ücretsiz. İlk kurt sürüsü yolda.",
   "cta_p_live": "Kilkule App Store'da, ücretsiz. İlk kurt sürüsü yolda.",
   "footer_tag": "Kilden kule, çağlar boyunca.",
-  "footer_links": [("gizlilik/", "Gizlilik"), ("kvkk/", "KVKK"), ("hesap-silme/", "Hesap silme"), ("destek/", "Destek")],
+  "footer_links": [("gizlilik/", "Gizlilik"), ("kvkk/", "KVKK"), ("kosullar/", "Koşullar"), ("hesap-silme/", "Hesap silme"), ("destek/", "Destek")],
   "fine": "© 2026 Mehmet Mutlu · Kilkule · Apple, App Store ve iPhone, Apple Inc.'in ticari markalarıdır. Bu sitede çerez ve izleme aracı kullanılmaz.",
-  "back": "Ana sayfa",
+  "back": "Ana sayfa", "doc_langs": "Dil",
 },
 "en": {
   "lang": "en", "other_lang": "tr", "other_label": "TR", "other_name": "Türkçe", "home": "./",
@@ -308,21 +309,21 @@ S = {
   "cta_h2": "Your tower is waiting.", "cta_p": "Kilkule is coming soon to the App Store, free. The first wolf pack is on its way.",
   "cta_p_live": "Kilkule is on the App Store, free. The first wolf pack is on its way.",
   "footer_tag": "A clay tower, through the ages.",
-  "footer_links": [("en/privacy/", "Privacy"), ("en/delete-account/", "Delete account"), ("en/support/", "Support")],
+  "footer_links": [("en/privacy/", "Privacy"), ("en/terms/", "Terms"), ("en/delete-account/", "Delete account"), ("en/support/", "Support")],
   "fine": "© 2026 Mehmet Mutlu · Kilkule · Apple, App Store and iPhone are trademarks of Apple Inc. This site uses no cookies or tracking.",
-  "back": "Home",
+  "back": "Home", "doc_langs": "Language",
 },
 }
 
 # ------------------------------------------------------------------------------------------- layout
-def head(t, r, title, desc, path):
-    hreflang = ""
-    if path in ("", "en/"):
-        hreflang = (f'<link rel="alternate" hreflang="tr" href="{SITE_URL}">\n'
-                    f'<link rel="alternate" hreflang="en" href="{SITE_URL}en/">\n'
-                    f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}">\n')
+def head(t, r, title, desc, path, alternates=None, x_default=None, lang=None):
+    """alternates: [(language, path)] of the same page in other languages (hreflang); x_default: the path for the rest."""
+    lang = lang or t["lang"]
+    hreflang = "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE_URL}{p}">\n' for l, p in alternates or [])
+    if alternates:
+        hreflang += f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}{x_default}">\n'
     return f"""<!doctype html>
-<html lang="{t['lang']}">
+<html lang="{lang}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
@@ -332,7 +333,7 @@ def head(t, r, title, desc, path):
 <link rel="canonical" href="{SITE_URL}{path}">
 {hreflang}<meta property="og:type" content="website">
 <meta property="og:site_name" content="Kilkule">
-<meta property="og:locale" content="{'tr_TR' if t['lang'] == 'tr' else 'en_US'}">
+<meta property="og:locale" content="{LOCALES[lang]}">
 <meta property="og:title" content="{esc(title)}">
 <meta property="og:description" content="{esc(desc)}">
 <meta property="og:image" content="{SITE_URL}assets/og-{t['lang']}.png">
@@ -351,20 +352,21 @@ def head(t, r, title, desc, path):
 <a class="skip" href="#main">{esc(t['skip'])}</a>
 """
 
-def nav(t, r, home, links, other_href):
+def nav(t, r, home, links, other_href, attr=""):
+    """attr: a lang attribute when the page's content language differs from the header's (fr, de, it, es documents)."""
     items = "".join(f'<a href="{h}">{esc(l)}</a>' for h, l in links)
-    return f"""<header class="nav"><div class="wrap">
+    return f"""<header class="nav"{attr}><div class="wrap">
   <a class="brand" href="{home}"><img src="{r}assets/icon-180.png" width="40" height="40" alt="">Kilkule</a>
   <nav class="nav-links" aria-label="{esc(t['sections'])}">{items}</nav>
   <a class="lang" href="{other_href}" hreflang="{t['other_lang']}" lang="{t['other_lang']}" title="{t['other_name']}" aria-label="{t['other_name']}">{t['other_label']}</a>
 </div></header>
 """
 
-def footer(t, r):
+def footer(t, r, attr=""):
     links = "".join(f'<a href="{r}{h}">{esc(l)}</a>' for h, l in t["footer_links"])
     links += f'<a href="mailto:{CONTACT}">{CONTACT}</a>'
     home = r + ("en/" if t["lang"] == "en" else "")
-    return f"""<footer><div class="wrap">
+    return f"""<footer{attr}><div class="wrap">
   <div><a class="brand" href="{home}"><img src="{r}assets/icon-180.png" width="40" height="40" alt="">Kilkule</a><p class="muted">{esc(t['footer_tag'])}</p></div>
   <nav aria-label="{esc(t['links'])}">{links}</nav>
   <p class="fine">{esc(t['fine'])}</p>
@@ -605,7 +607,7 @@ def cta(t, r):
 def landing(lang):
     t = S[lang]
     r = "" if lang == "tr" else "../"
-    out = head(t, r, t["title"], t["desc"], "" if lang == "tr" else "en/")
+    out = head(t, r, t["title"], t["desc"], "" if lang == "tr" else "en/", alternates=[("tr", ""), ("en", "en/")], x_default="")
     out += nav(t, r, "./", t["nav"], "en/" if lang == "tr" else "../")
     out += '<main id="main">\n' + hero(t, r, lang) + ribbon(t, lang) + how_to_play(t, r, lang) + ages_section(t, r, lang)
     out += realms_section(t, r, lang) + powers_section(t, r, lang) + modes_section(t, r, lang) + shop_section(t, lang)
@@ -613,28 +615,168 @@ def landing(lang):
     return out + footer(t, r)
 
 # ------------------------------------------------------------------------------------------- documents
-DOCS = [
-    # (output dir, lang, source file, title, description)
-    ("gizlilik", "tr", "privacy.tr.html", "Gizlilik Politikası · Kilkule", "Kilkule mobil oyununda kişisel verilerin nasıl işlendiği."),
-    ("en/privacy", "en", "privacy.en.html", "Privacy Policy · Kilkule", "How the Kilkule mobile game processes personal data."),
-    ("kvkk", "tr", "kvkk.tr.html", "KVKK Aydınlatma Metni · Kilkule", "6698 sayılı Kanun m.10 kapsamında Kilkule aydınlatma metni."),
-    ("hesap-silme", "tr", "delete.tr.html", "Hesap Silme · Kilkule", "Kilkule hesabını ve oyun verilerini silme."),
-    ("en/delete-account", "en", "delete.en.html", "Delete your account · Kilkule", "How to delete your Kilkule account and game data."),
-    ("destek", "tr", "support.tr.html", "Destek · Kilkule", "Kilkule için yardım ve iletişim."),
-    ("en/support", "en", "support.en.html", "Support · Kilkule", "Help and contact for Kilkule."),
-]
-OTHER = {"gizlilik": "en/privacy", "en/privacy": "gizlilik", "hesap-silme": "en/delete-account", "en/delete-account": "hesap-silme",
-         "destek": "en/support", "en/support": "destek", "kvkk": "en/privacy"}
+# The legal and help pages are Markdown in src/: the privacy policy, terms and KVKK notice are byte-for-byte copies of the
+# game repo's docs/legal (tools/import_legal.py); support and account deletion belong to this site. md_to_html covers the
+# subset those files use (headings, paragraphs, nested bullet lists, pipe tables, block quotes, rules, bold, links, bare
+# URLs and email addresses); anything else stays plain text, so a new construct shows up in review instead of vanishing.
+LANG_NAMES = {"tr": "Türkçe", "en": "English", "fr": "Français", "de": "Deutsch", "it": "Italiano", "es": "Español"}
+LOCALES = {"tr": "tr_TR", "en": "en_US", "fr": "fr_FR", "de": "de_DE", "it": "it_IT", "es": "es_ES"}
+DOC_GROUPS = {
+    # group: {content language: output dir}; the source is src/<group>.<lang>.md
+    "privacy": {"tr": "gizlilik", "en": "en/privacy", "fr": "fr/privacy", "de": "de/privacy", "it": "it/privacy", "es": "es/privacy"},
+    "terms": {"tr": "kosullar", "en": "en/terms"},
+    "kvkk": {"tr": "kvkk"},
+    "delete": {"tr": "hesap-silme", "en": "en/delete-account"},
+    "support": {"tr": "destek", "en": "en/support"},
+}
+DOC_META = {
+    ("privacy", "tr"): ("Gizlilik Politikası · Kilkule", "Kilkule gizlilik politikası: adını, e-postanı ya da reklam kimliğini istemeyiz; ödüllü video yalnız iznin olursa."),
+    ("privacy", "en"): ("Privacy Policy · Kilkule", "Kilkule privacy policy: we never ask for your name, email or advertising ID; rewarded videos only with your permission."),
+    ("privacy", "fr"): ("Politique de confidentialité · Kilkule", "Politique de confidentialité de Kilkule (traduction informative ; le texte turc fait foi)."),
+    ("privacy", "de"): ("Datenschutzerklärung · Kilkule", "Datenschutzerklärung von Kilkule (Übersetzung zur Information; maßgeblich ist die türkische Fassung)."),
+    ("privacy", "it"): ("Informativa sulla privacy · Kilkule", "Informativa sulla privacy di Kilkule (traduzione informativa; prevale il testo turco)."),
+    ("privacy", "es"): ("Política de privacidad · Kilkule", "Política de privacidad de Kilkule (traducción informativa; prevalece el texto turco)."),
+    ("terms", "tr"): ("Kullanım Koşulları · Kilkule", "Kilkule kullanım koşulları: lisans, oyun içi öğeler, satın almalar ve iadeler, davranış kuralları."),
+    ("terms", "en"): ("Terms of Use · Kilkule", "Kilkule terms of use: licence, in-game items, purchases and refunds, rules of conduct."),
+    ("kvkk", "tr"): ("KVKK Aydınlatma Metni · Kilkule", "Kilkule KVKK aydınlatma metni ve ödüllü video açık rıza metni."),
+    ("delete", "tr"): ("Hesap Silme · Kilkule", "Kilkule hesabını ve oyun verilerini silme: silinenler, bir süre kalanlar, satın almalar."),
+    ("delete", "en"): ("Delete your account · Kilkule", "How to delete your Kilkule account and game data: what goes, what stays for a while, purchases."),
+    ("support", "tr"): ("Destek · Kilkule", "Kilkule destek: bize nasıl yazılır, hesap ve veri işlemleri, satın alımlar, iadeler ve yasal metinler."),
+    ("support", "en"): ("Support · Kilkule", "Kilkule support: how to reach us, your account and data, purchases, refunds and legal texts."),
+}
+# Where the language switch in the header goes when a page has no counterpart in the other chrome language.
+SWITCH_FALLBACK = {"kvkk": "en/privacy"}
 
-def document(out_dir, lang, src, title, desc):
-    t = S[lang]
+MD_LINK = re.compile(r"\[([^\]]+)\]\(([^)\s]+)\)")
+MD_URL = re.compile(r"https?://[^\s<>()]+[^\s<>().,;:!?'\"]")
+MD_EMAIL = re.compile(r"\b[\w.+-]+@[\w-]+(?:\.[\w-]+)+\b")
+MD_LIST = re.compile(r"^( *)[-*] (.*)$")
+MD_HEADING = re.compile(r"^(#{1,6}) (.*)$")
+
+def md_href(url, r):
+    """Links into this site become relative (so build() checks them); other links stay as written."""
+    if url.startswith(SITE_URL):
+        url = "/" + url[len(SITE_URL):]
+    return r + url[1:] if url.startswith("/") else url
+
+def md_inline(text, r):
+    keep = []
+    def stash(html_):
+        keep.append(html_)
+        return f"\x00{len(keep) - 1}\x00"
+    text = MD_LINK.sub(lambda m: stash(f'<a href="{esc(md_href(m.group(2), r))}">{md_inline(m.group(1), r)}</a>'), text)
+    text = MD_URL.sub(lambda m: stash(f'<a href="{esc(md_href(m.group(0), r))}">{esc(m.group(0))}</a>'), text)
+    text = MD_EMAIL.sub(lambda m: stash(f'<a href="mailto:{esc(m.group(0))}">{esc(m.group(0))}</a>'), text)
+    text = html.escape(text, quote=False)
+    text = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", text)
+    return re.sub(r"\x00(\d+)\x00", lambda m: keep[int(m.group(1))], text)
+
+def md_list(lines, i, indent, r):
+    items = []
+    while i < len(lines):
+        m = MD_LIST.match(lines[i])
+        if not m or len(m.group(1)) != indent:
+            break
+        text, children = [m.group(2)], ""
+        i += 1
+        while i < len(lines) and lines[i].strip():
+            sub = MD_LIST.match(lines[i])
+            if sub and len(sub.group(1)) > indent:
+                nested, i = md_list(lines, i, len(sub.group(1)), r)
+                children += nested
+            elif sub:
+                break
+            else:
+                text.append(lines[i].strip())
+                i += 1
+        items.append(f"<li>{md_inline(' '.join(text), r)}{children}</li>")
+        # A blank line between two items of the same list keeps the list going.
+        if i + 1 < len(lines) and not lines[i].strip() and (nxt := MD_LIST.match(lines[i + 1])) and len(nxt.group(1)) == indent:
+            i += 1
+    return "<ul>" + "".join(items) + "</ul>", i
+
+def md_table(rows, r):
+    cells = [[c.strip() for c in row.strip().strip("|").split("|")] for row in rows]
+    head, body = cells[0], cells[2:]
+    thead = "" if not any(head) else "<thead><tr>" + "".join(f'<th scope="col">{md_inline(c, r)}</th>' for c in head) + "</tr></thead>"
+    tbody = "".join("<tr>" + "".join(f"<td>{md_inline(c, r)}</td>" for c in row) + "</tr>" for row in body)
+    return f'<div class="table{" kv" if len(head) == 2 else ""}" tabindex="0"><table>{thead}<tbody>{tbody}</tbody></table></div>'
+
+def md_blocks(lines, r):
+    out, i = [], 0
+    starts_block = lambda line: (MD_HEADING.match(line) or MD_LIST.match(line) or line.startswith((">", "|"))
+                                 or re.fullmatch(r"-{3,}", line.strip()))
+    while i < len(lines):
+        line = lines[i]
+        if not line.strip():
+            i += 1
+        elif m := MD_HEADING.match(line):
+            level = min(len(m.group(1)), 4)
+            out.append(f"<h{level}>{md_inline(m.group(2).strip(), r)}</h{level}>")
+            i += 1
+        elif re.fullmatch(r"-{3,}", line.strip()):
+            out.append("<hr>")
+            i += 1
+        elif line.startswith(">"):
+            quote = []
+            while i < len(lines) and lines[i].startswith(">"):
+                quote.append(re.sub(r"^> ?", "", lines[i]))
+                i += 1
+            out.append(f"<blockquote>{md_blocks(quote, r)}</blockquote>")
+        elif line.startswith("|"):
+            rows = []
+            while i < len(lines) and lines[i].startswith("|"):
+                rows.append(lines[i])
+                i += 1
+            out.append(md_table(rows, r))
+        elif MD_LIST.match(line):
+            block, i = md_list(lines, i, len(MD_LIST.match(line).group(1)), r)
+            out.append(block)
+        else:
+            para = [line.strip()]
+            i += 1
+            while i < len(lines) and lines[i].strip() and not starts_block(lines[i]):
+                para.append(lines[i].strip())
+                i += 1
+            out.append(f"<p>{md_inline(' '.join(para), r)}</p>")
+    return "\n".join(out)
+
+def md_to_html(text, r):
+    """(title, body): the first heading becomes the page title; later top-level headings drop to <h2>."""
+    lines = text.replace("\r\n", "\n").split("\n")
+    first = next(n for n, line in enumerate(lines) if line.strip())
+    m = MD_HEADING.match(lines[first])
+    if not m or len(m.group(1)) != 1:
+        raise SystemExit("a document must start with a '# ' title")
+    body = md_blocks(lines[first + 1:], r)
+    body = re.sub(r"<h1>(.*?)</h1>", r"<h2>\1</h2>", body)
+    return m.group(2).strip(), body
+
+def document(group, lang, out_dir):
+    chrome = "tr" if lang == "tr" else "en"
+    t = S[chrome]
     r = "../" * (out_dir.count("/") + 1)
-    body = (SRC / src).read_text().replace("{{CONTACT}}", CONTACT).replace("{{UPDATED}}", UPDATED[lang]).replace("{{R}}", r)
-    home = r + ("en/" if lang == "en" else "")
-    page = head(t, r, title, desc, f"{out_dir}/")
-    page += nav(t, r, home, [(home, t["back"])], r + OTHER[out_dir] + "/")
-    page += f'<main id="main" class="doc acc-tas"><div class="wrap">{body}</div></main>\n'
-    return page + footer(t, r)
+    pages = DOC_GROUPS[group]
+    title, desc = DOC_META[(group, lang)]
+    h1, body = md_to_html((SRC / f"{group}.{lang}.md").read_text(), r)
+    other = pages.get(t["other_lang"]) or SWITCH_FALLBACK[group]
+    alternates = [(l, f"{d}/") for l, d in pages.items()] if len(pages) > 1 else None
+    default = pages.get("en", pages["tr"])
+    page = head(t, r, title, desc, f"{out_dir}/", alternates=alternates, x_default=f"{default}/", lang=lang)
+    attr = "" if lang == chrome else f' lang="{chrome}"'
+    home = r + ("en/" if chrome == "en" else "")
+    page += nav(t, r, home, [(home, t["back"])], r + other + "/", attr)
+    langs = ""
+    if alternates:
+        links = " · ".join(f'<span aria-current="page">{LANG_NAMES[l]}</span>' if l == lang else
+                           f'<a href="{r}{d}/" hreflang="{l}" lang="{l}">{LANG_NAMES[l]}</a>' for l, d in pages.items())
+        langs = f'<p class="meta"{attr}>{esc(t["doc_langs"])}: {links}</p>'
+    page += (f'<main id="main" class="doc acc-tas"><div class="wrap"><header class="doc-head"><h1>{md_inline(h1, r)}</h1>{langs}</header>\n'
+             f'<article class="md">\n{body}\n</article></div></main>\n')
+    return page + footer(t, r, attr)
+
+def doc_pages():
+    return [(group, lang, out_dir) for group, pages in DOC_GROUPS.items() for lang, out_dir in pages.items()]
 
 def not_found():
     t, base = S["tr"], "/"
@@ -655,9 +797,12 @@ def build():
     write("assets/accents.css", accents_css())
     write("index.html", landing("tr"))
     write("en/index.html", landing("en"))
-    for d in DOCS:
-        write(f"{d[0]}/index.html", document(*d))
+    for group, lang, out_dir in doc_pages():
+        write(f"{out_dir}/index.html", document(group, lang, out_dir))
     write("404.html", not_found())
+    urls = ["", "en/"] + [f"{out_dir}/" for _, _, out_dir in doc_pages()]
+    write("sitemap.xml", '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+          + "".join(f"  <url><loc>{SITE_URL}{u}</loc></url>\n" for u in urls) + "</urlset>\n")
     # Every relative link must resolve to a built file or an asset.
     missing = []
     for rel in written:

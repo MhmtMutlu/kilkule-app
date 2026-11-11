@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://kilkule.mm-apps.com/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/en/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/gizlilik/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/en/privacy/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/kvkk/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/hesap-silme/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/en/delete-account/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/destek/</loc><lastmod>2026-10-31</lastmod></url>
-  <url><loc>https://kilkule.mm-apps.com/en/support/</loc><lastmod>2026-10-31</lastmod></url>
+  <url><loc>https://kilkule.mm-apps.com/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/en/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/gizlilik/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/en/privacy/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/fr/privacy/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/de/privacy/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/it/privacy/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/es/privacy/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/kosullar/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/en/terms/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/kvkk/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/hesap-silme/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/en/delete-account/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/destek/</loc></url>
+  <url><loc>https://kilkule.mm-apps.com/en/support/</loc></url>
 </urlset>
