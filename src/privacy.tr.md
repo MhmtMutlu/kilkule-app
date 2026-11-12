@@ -1,6 +1,6 @@
 # Kilkule Gizlilik Politikası
 
-**Yürürlük tarihi:** 8 Kasım 2026 · **Sürüm:** 1.1 (önceki sürüm 1.0, 7 Kasım 2026; değişenler Bölüm 13'te)
+**Yürürlük tarihi:** 12 Kasım 2026 · **Sürüm:** 1.2 (önceki sürüm 1.1, 8 Kasım 2026; değişenler Bölüm 13'te)
 
 Bu metin, KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) madde 10 uyarınca aydınlatma metni ve AB Genel Veri
 Koruma Tüzüğü (GDPR) madde 13 uyarınca bilgilendirme olarak hazırlanmıştır. Kısa KVKK aydınlatma metni ve ödüllü video
@@ -12,10 +12,16 @@ açık rıza metni: https://kilkule.mm-apps.com/kvkk/. Bağlayıcı metin Türk�
 
 - **Adını, e-postanı, telefonunu, konumunu ya da reklam kimliğini istemeyiz.** Oyun ilk açıldığında sana bir oyuncu
   hesabı açar; bu hesap adını bilmez, yalnız **rastgele bir numarayla** tanınır.
+- **Apple ile giriş isteğe bağlıdır** (oyunun 0.1.0 (16) ve sonraki sürümlerinde). Kullanırsan da adını ve e-postanı
+  istemeyiz; Apple'dan yalnız, Apple'ın geliştirici hesabımız için ürettiği bir kullanıcı kimliğini alırız (Bölüm 3.14).
 - Bu hesapla **oyun ilerlemen, cüzdanın ve savaş sonuçların** Türkiye'deki sunucumuzda saklanır. Bunu, oyunu sana
   sunmak, ilerlemeni korumak ve **hile yapılmasını önlemek** için yaparız.
 - Lig ve sıralama tablolarında **oyuncu adın ve avatarın diğer oyunculara görünür.** Oyun sana kendiliğinden bir ad verir;
-  kendin bir ad yazmak istersen **gerçek adını, soyadını, okulunu ya da iletişim bilgilerini yazma.**
+  kendin bir ad yazmak istersen **gerçek adını, soyadını, okulunu ya da iletişim bilgilerini yazma.** Bildirimler
+  üzerine değiştirilen bir adı **kalıcı olarak yasaklamaya yalnız bir insan karar verir** (Bölüm 3.7).
+- Yasanın istediği yerlerde (ör. ABD'nin bazı eyaletleri) oyundaki önemli değişikliklerin getirdiği özellikler, 18
+  yaşından küçük oyuncu için **ebeveyn Apple üzerinden onay verene kadar** bekler; bu onayın kayıtları yalnız cihazında
+  kalır (Bölüm 3.15).
 - **Seni izlemeyiz,** verilerini **satmayız** ve kişiselleştirilmiş reklam göstermeyiz.
 - **Ödüllü videolar her zaman isteğe bağlıdır.** Bu videoları Google gösterir. Her ülkede önce oyunun kendi ekranında
   **iznini isteriz;** izin vermezsen Google'a hiçbir bilgi gitmez ve oyunun tamamı aynen oynanır. Avrupa'da izin verirsen
@@ -25,7 +31,8 @@ açık rıza metni: https://kilkule.mm-apps.com/kvkk/. Bağlayıcı metin Türk�
   ve iadeleri raporlamak için ABD'deki hizmet sağlayıcımız **RevenueCat**'e, senin için ürettiğimiz rastgele bir kodla
   göndeririz. Cihazın RevenueCat'le hiç konuşmaz (Bölüm 3.9).
 - Bir veriyi yalnız gerektiği kadar tutarız. Oyun **12 ay boyunca sunucumuza hiç bağlanmazsa** hesabın kendiliğinden
-  silinir (satın alma yaptıysan bu süre **36 ay**dır; hesapla birlikte harcanmamış Kristallerin de silinir).
+  silinir (satın alma yaptıysan ya da hesabını Apple ile bağladıysan bu süre **36 ay**dır; hesapla birlikte
+  harcanmamış Kristallerin de silinir).
 - Verilerinin kopyasını **Ayarlar → Hesap → Verilerimi indir** ile alabilir, hesabını **Ayarlar → Hesap → Hesabı sil** ile
   istediğin zaman silebilirsin.
 - Sorun ya da sorunun olursa bize Türkçe, İngilizce, Fransızca, Almanca, İtalyanca ya da İspanyolca yaz:
@@ -58,6 +65,9 @@ topladığımızı mümkün olan en kısa süre tutarız ve kişiyle bağını m
 - **Rastgele hesap numarası.** Hesabın adını bilmez. Uygulamanın eski sürümlerinde Ayarlar'da "anonim hesap" diye geçen şey budur. Yine de dürüst
   olalım: bu numara ve ona bağlı oyun verileri adını içermese de hukuken **kişisel veri sayılır** (takma adlı veri).
   Bu politika bu yüzden vardır.
+- **Apple ile giriş ad ve e-posta istemez.** Apple ile giriş yaparsan oyun Apple'dan hiçbir ek bilgi (ad, e-posta)
+  istemez. Apple'ın gönderdiği kimlik bilgilerinden yalnız kullanıcı kimliği ve giriş sisteminin kullandığı iki teknik
+  alan saklanır; e-posta alanı boş tutulur (Bölüm 3.14).
 - **Hesap numaran başka cihazlara gitmez.** Tablolarda diğer oyuncuların cihazına, hesap numarandan ayrı, rastgele bir
   **kamu kimliği** gönderilir. Hesap numaran sunucudan yalnız senin cihazına gider.
 - **Giriş kayıtlarında ağ bilgisi yok.** Oturum kayıtlarımız IP adresini ve cihaz/tarayıcı bilgisini tutmaz; giriş
@@ -72,7 +82,8 @@ topladığımızı mümkün olan en kısa süre tutarız ve kişiyle bağını m
 - **Silmede bağın koparılması.** Hesabını sildiğinde (ya da hesap hareketsizlik nedeniyle silindiğinde) tutmak zorunda
   olduğumuz birkaç kayıt, hesap numaran silinerek saklanır. Bu kayıtlar artık kimseye bağlanamaz, yani **anonimdir;**
   yalnız satın almalarla ilgili kayıtlar Apple'ın işlem numarasını taşıyabildiği için anonim sayılmaz, hesabınla bağı
-  koparılmış olarak saklanır. Silme işleminin kaydı hesap numaranı içermez.
+  koparılmış olarak saklanır. Silme işleminin kaydı hesap numaranı içermez. Adınla ilgili bir inceleme vakası varsa
+  vakadan yalnız adı ve hesap bağı silinmiş anonim bir işlem kaydı kalır (Bölüm 3.7).
 
 ---
 
@@ -107,9 +118,10 @@ bize kendin yazdığında toplanır.
 | **Veriler** | Rastgele üretilen hesap numarası; hesabın açılış ve son giriş zamanı; oturum anahtarları (cihazının anahtar zincirinde ve sunucuda) ve oturumların açılış ve son yenilenme zamanı; uygulamayı en son açtığın **gün** (saat olmadan); hesabın açıldığı andaki ve şimdiki uygulama dili (oyunun sana verdiği adın o dilde yazılması için) |
 | **Amaç** | Oyunu ve çevrim içi özelliklerini (ilerleme yedeği, ödüller, lig) sana sunmak; isteklerinin senin hesabından geldiğini anlamak; uzun süre kullanılmayan hesapları silmek |
 | **Hukuki dayanak** | KVKK m.5/2(c) (sözleşmenin kurulması ve ifası) · GDPR m.6/1(b). Son açılış günü için ayrıca: verileri gerekenden uzun tutmama yükümlülüğümüz, KVKK m.5/2(ç) (KVKK m.4 ve m.7 ile birlikte) · GDPR m.6/1(f) ve m.5/1(e) |
-| **Saklama** | Hesabın açık kaldıkça. Hesabını silersen hemen silinir. Oyun **12 ay** boyunca (satın alma ya da iade geçmişi olan hesapta **36 ay** boyunca) sunucumuza hiç bağlanmazsa hesap ve ona bağlı bütün veriler kendiliğinden silinir (Bölüm 8.2). |
+| **Saklama** | Hesabın açık kaldıkça. Hesabını silersen hemen silinir. Oyun **12 ay** boyunca (satın alma ya da iade geçmişi olan ya da Apple ile bağlanmış hesapta **36 ay** boyunca) sunucumuza hiç bağlanmazsa hesap ve ona bağlı bütün veriler kendiliğinden silinir (Bölüm 8.2). |
 
-Hesabını açmak için ad, e-posta, telefon numarası ya da parola **istemeyiz.**
+Hesabını açmak için ad, e-posta, telefon numarası ya da parola **istemeyiz.** Hesap bir misafir hesap olarak açılır;
+isteğe bağlı Apple ile giriş Bölüm 3.14'tedir.
 
 ### 3.2 Oyun ilerlemesi ve cüzdan
 
@@ -164,14 +176,29 @@ oyunculara görüneceği için **gerçek adını, soyadını ya da seni tanıtac
 
 | | |
 | --- | --- |
-| **Veriler** | Bir adı bildirdiğinde: kimin (hesap numarası), kimi, hangi adı ve ne zaman bildirdiği; bildirimin otomatik işleme sayılıp sayılmadığı. Bir ad kaldırıldığında: kaldırılan ad, kaldırma zamanı, kaç bildirim olduğu ve işlemin otomatik mi yoksa elle mi yapıldığı; o oyuncunun aynı adı yeniden seçmemesi için kaldırılan adın bir izi; sana gerekçeyi bir kez gösterebilmemiz için son kaldırmanın zamanı ve kararın otomatik mi (bildirimlerle) yoksa ekibimizce mi verildiği |
-| **Amaç** | Oyuncuları uygunsuz adlardan korumak; bildirimleri değerlendirmek; adı kaldırılan oyuncuya nedenini bildirmek; kötüye kullanılan bildirimleri tespit etmek; yasal yükümlülüklerimizi yerine getirmek |
-| **Hukuki dayanak** | KVKK m.5/2(f) ve, uygulandığı ölçüde, m.5/2(ç) (hukuki yükümlülük) · GDPR m.6/1(f) ve, uygulandığı ölçüde, m.6/1(c) (ör. AB Dijital Hizmetler Yönetmeliği'nin bildirim, işlem ve gerekçe kuralları) |
-| **Saklama** | Bildirimler **12 ay**, moderasyon kayıtları **24 ay**, kaldırılan adın izi ve son kaldırmanın zamanı hesabın açık kaldıkça. Hesap silinince bunların hepsi (yaptığın ve senin hakkında yapılan bildirimler dahil) silinir. |
+| **Veriler** | **Bildirim:** kimin (hesap numarası), kimi, hangi adı ve ne zaman bildirdiği; bildirimin otomatik işleme sayılıp sayılmadığı; açıldıysa hangi inceleme vakasına bağlandığı. **Ad değiştirildiğinde:** değiştirilen ad, zaman, kaç bildirim olduğu ve işlemin bildirimlerle mi yoksa ekibimizce mi yapıldığı (moderasyon kaydı); sana gerekçeyi bir kez gösterebilmemiz için son değişikliğin zamanı ve kaynağı; o adı yeniden seçmemen için adın bir izi (vaka açıkken geçici, kalıcı yasak kararında kalıcı). **İnceleme vakası:** adın gösterildiği hâliyle tam metni, kimin adı olduğu (hesap bağı), kaynak (bildirimler ya da ekibimiz), bildirim sayıları, otomatik işlemin kaydı, vakanın durumu, sonucu, açılış ve kapanış zamanları; her bildirim için zamanı, sayılıp sayılmadığı ve bildirenin bot ya da toplu bildirim şüphesini değerlendirmeye yarayan sinyaller: bildirim anındaki hesap yaşı, misafir hesap olup olmadığı, kazandığı seviye sayısı, son 30 günde yaptığı bildirim sayısı, son 90 gündeki hile önleme kaydı sayısı ve son 180 günde reddedilen vakalardaki bildirim sayısı. **Bildirenin hesap numarası vakaya kopyalanmaz.** **Karar kaydı:** karar, kararı veren kişi (ya da süre dolması ve hesap silinmesinde "sistem"), zaman ve gerekçe |
+| **Amaç** | Oyuncuları uygunsuz adlardan korumak; bildirimleri değerlendirmek; bir adın kalıcı olarak yasaklanmasına yalnız bir insanın, kanıta bakarak karar vermesini sağlamak; bildirimlerin sahte ya da toplu hesaplarla kötüye kullanılmasını tespit etmek; adı değiştirilen oyuncuya nedenini bildirmek; kararları ve gerekçelerini ispat etmek ve itirazları incelemek; yasal yükümlülüklerimizi yerine getirmek |
+| **Hukuki dayanak** | KVKK m.5/2(f) ve, uygulandığı ölçüde, m.5/2(ç) (hukuki yükümlülük) ve m.5/2(e) · GDPR m.6/1(f) ve, uygulandığı ölçüde, m.6/1(c) (ör. AB Dijital Hizmetler Yönetmeliği'nin bildirim, işlem, gerekçe ve itiraz kuralları). Bildirenin sinyalleri için meşru menfaatimiz: birkaç sahte hesapla başkasının adının aldırılmasını önlemek; sinyaller zaten tuttuğumuz hesap verilerinden türetilir |
+| **Saklama** | Bildirimler **12 ay**, moderasyon kayıtları **24 ay**. Vaka ve karar kayıtları vaka kapandıktan **12 ay** sonra silinir; dayandığı kalıcı yasak sürdükçe silinmez. Adın geçici izi vaka kapanınca silinir; kalıcı yasağın izi ve son değişikliğin zamanı hesabın açık kaldıkça kalır. Hesap silinince yaptığın ve senin hakkında yapılan bildirimler, adlarının izi ve moderasyon kayıtları silinir; senin hakkındaki vaka yalnız **anonim bir işlem kaydı** olarak kalır (hesap bağı, ad ve bildirim listesi silinir; bildirim sayıları, otomatik işlemin kaydı ve kararlar kalır; açık vaka "hesap silindi" olarak kapanır) ve yukarıdaki süreyle silinir. |
 
-Bildirdiğin oyuncuya kimin bildirdiği **söylenmez.** Adın kaldırılırsa, oyun bir sonraki bağlantıda Profil ekranında
-bunu ve nedenini sana bir kez söyler: kararın, yeterli sayıda oyuncunun bildirimi üzerine kendiliğinden mi verildiğini,
-yoksa ekibimizin incelemesiyle mi verildiğini ayırır. Nasıl itiraz edeceğin Bölüm 9'dadır.
+**Nasıl işler?** Bir adı, bildirim kurallarına uyan **3 farklı oyuncu** (Bölüm 9) bildirirse ad otomatik olarak oyunun
+ürettiği yeni bir adla değiştirilir ve bir **inceleme vakası** açılır. Hemen başka bir ad seçebilirsin; değiştirilen adı
+vaka kapanana kadar seçemezsin. Adın senin için kalıcı olarak yasaklanmasına **yalnız bir insan**, vakadaki kanıta
+bakarak karar verir: onaylarsa ad kalıcı olarak yasaklanır; reddederse ad yeniden serbest kalır, o vakanın bildirimleri
+bir daha sayılmaz ve o bildirimleri yapanların bildirimleri 180 gün otomatik işleme sayılmaz. Vaka **30 gün** içinde
+karara bağlanmazsa kendiliğinden kapanır, ad serbest kalır ve yasak oluşmaz. Ekibimizin elle değiştirdiği bir ad için de
+aynı şekilde vaka açılır. Vakanın kanıtı bir kez yazılır ve değiştirilemez; kararlar da değiştirilemez.
+
+Bildirdiğin oyuncuya kimin bildirdiği **söylenmez.** Karar için bildirenlerin kimliğine bakılmaz; yalnız açık bir
+kötüye kullanım şüphesinde (ör. aynı hesapların birden çok vakada görünmesi) bildirim kayıtları incelenir ve bulgu hile
+önleme kaydına geçer (Bölüm 3.4). Bildirim kayıtları durdukça (12 ay) vakadaki sinyaller dolaylı yoldan bildirene
+bağlanabildiği için bunları takma adlı kişisel veri sayarız; bildiren hesabını silerse bildirimi silinir ve vakadaki
+sinyal satırı artık kimseye bağlanamaz.
+
+Adın değiştirilirse oyun bir sonraki bağlantıda Profil ekranında bunu ve nedenini sana bir kez söyler: değişikliğin
+yeterli sayıda oyuncunun bildirimi üzerine kendiliğinden mi yapıldığını, yoksa ekibimizin incelemesiyle mi yapıldığını
+ayırır. Vakanın sonraki kararı (kalıcı yasak, ret ya da yasağın kaldırılması) oyunda ayrıca bildirilmez; kararı ve
+gerekçesini bize yazarak öğrenebilirsin. Nasıl itiraz edeceğin Bölüm 9'dadır.
 
 ### 3.8 Ödüllü video: ödül kaydı ve izin kaydı
 
@@ -258,11 +285,90 @@ Veri dosyanın kendisi sunucuda saklanmaz; cihazında hazırlanır ve yalnız se
 
 Ayarların (ses, titreşim, pil tasarrufu), Kullanım Koşulları'nı kabul ettiğin sürüm ve tarih, gizlilik politikası
 değişikliği duyurusunu gördüğün sürüm ve tarih, ilerlemenin cihazdaki kopyası, sunucuya henüz gönderilmemiş sonuçlar,
-engellediğin oyuncuların listesi, oturum anahtarın (anahtar zincirinde), ödüllü video izni cevabın ve Avrupa'daki
-oyuncular için Google'ın rıza formundaki seçimlerin cihazında saklanır. Bunlar oyunun çalışması için gereklidir.
-Engellediğin oyuncuların listesi bize gönderilmez. Uygulamayı silmek bu verileri de siler (anahtar zincirindeki oturum
+engellediğin oyuncuların listesi, oturum anahtarın (anahtar zincirinde), ödüllü video izni cevabın, Avrupa'daki
+oyuncular için Google'ın rıza formundaki seçimlerin, iOS'un yaş aralığı cevabı ve ebeveyn onayıyla ilgili kayıtlar
+(Bölüm 3.15) cihazında saklanır. Bunlar oyunun çalışması için gereklidir. Engellediğin oyuncuların listesi, yaş aralığı
+cevabı ve ebeveyn onayı kayıtları bize gönderilmez. Uygulamayı silmek bu verileri de siler (anahtar zincirindeki oturum
 anahtarı iOS'un kuralına göre kalabilir; Bölüm 8'deki gibi hesabını silmek onu da geçersiz kılar). Uygulamayı silmek
 sunucudaki hesabı silmez; bunun için Ayarlar → Hesap → Hesabı sil'i kullan.
+
+### 3.14 Apple ile giriş (isteğe bağlı; 0.1.0 (16) ve sonraki sürümler)
+
+Her oyuncu misafir hesapla başlar (Bölüm 3.1). Oyunun 0.1.0 (16) ve sonraki sürümlerinde (sürüm, Ayarlar'ın en altında
+yazar) hesabını **isteğe bağlı olarak** Ayarlar → Hesap'tan Apple hesabına bağlayabilirsin; böylece yeni bir cihazda ya
+da oyunu yeniden kurduğunda aynı hesapla devam edersin. Apple ile giriş kullanmazsan oyun aynen oynanır ve bu bölümdeki
+veriler hiç oluşmaz. Apple ile giriş yaparsan Apple'dan **ad ya da e-posta istemeyiz.**
+
+| | |
+| --- | --- |
+| **Veriler** | Apple'ın geliştirici hesabımız için ürettiği **kullanıcı kimliği** (aynı Apple hesabı için bizim uygulamalarımızda aynıdır, başka geliştiricilerin uygulamalarında farklıdır); giriş sisteminin kullandığı iki teknik alan (kimliği veren Apple'ın adresi ve aynı kullanıcı kimliğinin giriş sistemimizdeki bir kopyası); Apple ile bağlama ve son giriş zamanları. Girişte cihazın, Apple'ın imzaladığı bir kimlik jetonunu sunucumuza gönderir; jeton doğrulanır ve ondan yalnız bu alanlar saklanır. Apple hesabının e-posta adresi ve adın saklanmaz. |
+| **Amaç** | Hesabını Apple hesabına bağlamak; başka bir cihazda ya da yeniden kurulumda aynı hesaba girebilmeni sağlamak; hesabını sildiğinde oyunun Apple ile giriş yetkisini Apple'da da iptal etmek |
+| **Hukuki dayanak** | KVKK m.5/2(c) · GDPR m.6/1(b) (bağlamayı sen istersin). Silmede yetkinin iptali için ayrıca KVKK m.5/2(f) · GDPR m.6/1(f) (meşru menfaat: silme talebini Apple tarafında da eksiksiz yerine getirmek; Apple'ın Apple ile giriş kuralları da bunu ister) |
+| **Saklama** | Hesabın açık kaldıkça; hesabınla birlikte silinir. Apple ile bağlanmış hesap, oyun **36 ay** boyunca sunucumuza hiç bağlanmazsa silinir (Bölüm 8.2; misafir hesapta bu süre 12 aydır). |
+
+Apple kullanıcı kimliğini reklam için kullanmayız, satmayız, sunucumuzu barındıran hizmet sağlayıcı (Bölüm 5) dışında
+kimseye vermeyiz ve başka uygulamalarımızdaki verilerle eşleştirmeyiz.
+
+**Hesabını silerken.** Apple ile bağlanmış bir hesabı Ayarlar → Hesap → Hesabı sil ile silerken Apple senden bir kez
+daha onay ister; onay penceresini kapatırsan hesap silinmez. Onaylarsan cihazın Apple'dan tek kullanımlık bir kod alır
+ve silme isteğiyle sunucumuza gönderir; sunucumuz hesabını siler ve bu kodu, oyunun Apple ile giriş yetkisini iptal etmek
+için bir kez Apple'a gönderir. Kod hiçbir yerde saklanmaz ve günlüğe yazılmaz; silme kaydına (Bölüm 7) yalnız bu adımın
+sonucu yazılır (ör. iptal edildi ya da başarısız oldu). Apple onay sırasında bir hata verirse hesabın yine silinir ama
+iptal yapılamaz; hesap hareketsizlik nedeniyle silindiğinde de (Bölüm 8.2) kod olmadığı için iptal yapılamaz. Bu
+durumlarda oyunu Apple hesabı ayarlarındaki "Apple ile giriş" listesinden kendin kaldırabilirsin. Oyunu o listeden
+kaldırman ise hesabını silmez ve bu bilgi bize ulaşmaz; hesabını silmek için Hesabı sil'i kullan.
+
+**Başka bir cihazda Apple ile giriş yaptığında.** Apple hesabın zaten bir oyun hesabına bağlıysa (ör. önceki cihazında
+bağladıysan) o hesaba girersin ve o hesap esas alınır. Cihazında o an bir misafir hesap varsa:
+
+- Misafir hesapta ilerleme varsa (kazanılmış seviye, Kristal, satın alma ya da Sonsuzluk derinliği) önce sana sorulur;
+  vazgeçersen hiçbir şey değişmez.
+- Misafir hesabın ilerlemesi, cüzdanı (oyunda kazanılan Kristal dahil), geliştirmeleri, kozmetikleri, lig kayıtları ve
+  ödül talepleri **taşınmaz** (Kullanım Koşulları Bölüm 4.6).
+- Misafir hesapta **satın alınmış ve harcanmamış Kristal** Apple ile bağlı hesaba geçer: yalnız iade edilmemiş gerçek
+  satın almalardan, en çok misafir hesabın bakiyesi kadar. Bu satın almaların kaydı da o hesaba geçer; ileride iade
+  edilirlerse Kristal o hesaptan geri alınır. Test (sandbox) satın almalarının Kristali geçmez.
+- Tüketilemeyen satın almalar (ör. Kurucu Kesesi) "Satın alımları geri yükle"deki kurallarla (Bölüm 9) o hesaba gelir.
+- Misafir hesap sunucumuzda **hemen silinir;** silme Bölüm 8.1'deki gibi yapılır ve aynı kayıtları bırakır (silme
+  kaydında neden "birleştirme" olarak yazılır).
+- Cihazındaki misafir ilerlemesi, hesabın sunucudaki durumuyla değiştirilir; cihaz ayarların kalır.
+
+Birleştirme için cihazın, misafir oturumunun anahtarını bir kez sunucumuza gönderir (misafir hesabı senin kullandığını
+göstermek için); bu anahtar saklanmaz. Birleştirme bir hata nedeniyle tamamlanamazsa misafir hesap kimsenin erişemeyeceği
+hâlde kalır ve Bölüm 8.2'deki hareketsizlik kuralıyla silinir.
+
+**Apple'ın rolü.** Apple ile girişi Apple yürütür. Apple bu kapsamda işlediği verileri (ör. Apple ile giriş kullandığın
+uygulamalar) bağımsız veri sorumlusu olarak kendi gizlilik politikasına göre işler: https://www.apple.com/legal/privacy/.
+
+### 3.15 Önemli değişikliklerde ebeveyn onayı (yaş yasaları; 0.1.0 (16) ve sonraki sürümler)
+
+Bazı yerlerde (ör. ABD'de Texas, Utah ve Louisiana eyaletlerinin uygulama mağazası yasaları) yasa, bir uygulama önemli
+ölçüde değiştiğinde 18 yaşından küçük kullanıcının ebeveyninden onay alınmasını ya da yetişkin kullanıcının
+bilgilendirilmesini istiyor. Bunun bulunduğun yerde gerekip gerekmediğini oyun, cihazında Apple'dan öğrenir (iOS'un yaş
+aralığı özelliği, Bölüm 11).
+
+- **Önemli değişiklik** saydıklarımız: cihazdan yeni bir kişisel veri akışı ya da yeni bir alıcı; yeni bir hesap ya da
+  giriş türü; yeni bir ödeme yolu ya da satın alma veri akışı; oyuncuların birbirine yeni bir yolla ulaşması; App Store
+  yaş derecesinin değişmesi. 0.1.0 (16) sürümünde iki önemli değişiklik var: Apple ile giriş (Bölüm 3.14) ve satın alma
+  kayıtlarının sunucumuzdan raporlanması (Bölüm 3.9).
+- **Ebeveyn onayı:** Yasa onay istiyorsa, 18 yaşından küçük oyuncuya oyunda ne değiştiği gösterilir; oyuncu isterse
+  "Ailemden izin iste" ile isteği **Apple üzerinden** ebeveynine gönderir. Ebeveyn onaylayana kadar yalnız o değişikliğin
+  getirdiği özellikler bekler: Apple ile giriş düğmesi gösterilmez ve yeni satın almalar yapılamaz (ödeme alınmaz).
+  "Satın alımları geri yükle" açık kalır. Oyunun geri kalanı herkes için aynıdır. Oyunu değişiklikten sonra ilk kez
+  indirdiysen o değişiklik için onay istenmez.
+- **Yetişkin bildirimi:** Yasa yetişkine yalnız bildirim istiyorsa Apple'ın kendi bilgilendirme penceresi gösterilir;
+  hiçbir şey kısıtlanmaz.
+- **Cihazda kalanlar:** yasanın onay ya da bildirim isteyip istemediği, hangi değişikliklerin onaylandığı ya da
+  istendiği ve oyunun en son görülen App Store yaş derecesi yalnız cihazında saklanır ve **bize gönderilmez.** Bu yüzden
+  yeni bir cihazda ebeveynine yeniden sorulabilir. Onay isteğini ve cevabını Apple taşır; bize ulaşmaz.
+- **Ebeveyn onayı geri çekerse:** Apple, uygulamanın o çocuğun cihazlarında açılmasını engeller ve sunucumuza bir
+  bildirim gönderir. Bu bildirimden yalnız numarası, türü, sunucumuzun yaptığı işlem ve geliş zamanı saklanır (**24
+  ay**). Bildirimi hiçbir oyun hesabıyla eşleştirmeyiz (bunun için her oyuncu hakkında yeni ve kalıcı bir numara tutmamız
+  gerekirdi); bildirim bu yüzden hesaba ve satın almalara dokunmaz. Uygulama açılmadığı için hesabı oyunun içinden silmek
+  mümkün olmayabilir: ebeveyn bize yazabilir (Bölüm 10); hesap ayrıca Bölüm 8.2'deki hareketsizlik kuralıyla silinir.
+- **Hukuki dayanak:** cihazdaki kayıtlar ve onay isteği için KVKK m.5/2(f) · GDPR m.6/1(f) (meşru menfaat: bulunduğun
+  yerin yasalarına ve Apple'ın kurallarına uymak); sunucudaki bildirim kaydı için KVKK m.5/2(f) ve m.5/2(e) · GDPR
+  m.6/1(f) (bildirimi bir kez işlemek ve ne yaptığımızı gösterebilmek).
 
 ## 4. Ödüllü videolar ve reklamlar (Google AdMob)
 
@@ -335,7 +441,7 @@ Verilerini **satmayız** ve davranışsal reklam amacıyla **paylaşmayız.** Ya
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — kurumsal e-posta | Bize yazdığın e-postalar ve yanıtlarımız | Destek adresimiz bu hizmette barındırılır; e-postalar Güzel Hosting'in Türkiye'deki sunucularında saklanır | Veri işleyen |
 | **MailChannels Corporation** (Kanada; sunucuları Kuzey Amerika'da) | Bizim sana gönderdiğimiz yanıtların içeriği ve e-posta adresin, yalnız iletim sırasında | Güzel Hosting'in posta iletim hizmeti; yanıtlarımız alıcıya bu hizmet üzerinden iletilir, orada saklanmaz | Veri işleyen (Güzel Hosting'in alt hizmeti) |
 | **Google** (AEA, Birleşik Krallık ve İsviçre'de Google Ireland Limited; diğer yerlerde Google LLC, ABD) | Yalnız ödüllü videolara izin verdiysen (AEA, BK ve İsviçre'de ayrıca Google'ın formundaki seçimine göre): Bölüm 4.2'deki reklam verileri (cihazından doğrudan) ve bilet numarası | Ödüllü videoyu göstermek ve doğrulamak | Bağımsız veri sorumlusu |
-| **Apple** (Apple Distribution International Ltd. ve bağlı şirketleri) | Uygulamanın App Store'dan indirilmesi, satın almalar ve iadeler (bunları App Store'da doğrudan Apple ile yaparsın; satın alma ve iade bilgilerini Apple'ın imzaladığı işlem kaydı olarak alırız); iOS ayarlarında izin verdiysen Apple'ın kendi çökme ve kullanım istatistikleri | App Store ve ödeme hizmetleri | Bağımsız veri sorumlusu (Apple'ın kendi politikası: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. ve bağlı şirketleri) | Uygulamanın App Store'dan indirilmesi, satın almalar ve iadeler (bunları App Store'da doğrudan Apple ile yaparsın; satın alma ve iade bilgilerini Apple'ın imzaladığı işlem kaydı olarak alırız); iOS ayarlarında izin verdiysen Apple'ın kendi çökme ve kullanım istatistikleri. Apple ile giriş kullanırsan girişi Apple yürütür; Apple ile bağlı hesabını silerken sunucumuz, Apple ile giriş yetkisini iptal etmek için Apple'a tek kullanımlık bir kod gönderir (Bölüm 3.14). Yasanın istediği yerde ebeveyn onay isteğini Apple taşır; Apple bize ebeveyn onayının geri çekildiğini bildirebilir (Bölüm 3.15) | App Store, ödeme, Apple ile giriş ve ebeveyn onayı hizmetleri | Bağımsız veri sorumlusu (Apple'ın kendi politikası: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (ABD) | Gerçek satın almalar için, yalnız sunucumuzdan: Apple'ın imzaladığı işlem kaydı, rastgele müşteri kodun ve gönderilmiş işlemlerin iade bildirimleri (Bölüm 3.9) | Satın alma ve iade kaydı, gelir raporu | Hizmet sağlayıcı; kendi koşulları (https://www.revenuecat.com/terms) ve gizlilik politikası (https://www.revenuecat.com/privacy) altında çalışır |
 | **Yetkili kamu kurumları ve mahkemeler** | Yalnız hukuken zorunlu olan kadarı | Hukuki yükümlülük | — |
 
@@ -380,7 +486,11 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
   Bu geçiş yalnız bize yazdığında ve sana yanıt verdiğimizde olur. MailChannels ile ayrıca imzalanmış bir sözleşmemiz
   yoktur; bu geçişi, yanıtımızın sana ulaşması için gerekli, arızi bir aktarım olarak değerlendiririz (KVKK m.9/6(b)).
 - **Apple:** App Store'u ve ödemeleri doğrudan Apple ile kullanırsın; Apple'ın verilerini nasıl ve nerede işlediği
-  Apple'ın gizlilik politikasındadır. Satın almalarının doğrulanması ve kaydı Türkiye'deki sunucumuzda yapılır.
+  Apple'ın gizlilik politikasındadır. Satın almalarının doğrulanması ve kaydı Türkiye'deki sunucumuzda yapılır. Apple
+  ile giriş yaptığında Apple'ın kimlik jetonu cihazından Türkiye'deki sunucumuza gelir; jetondan yalnız Bölüm 3.14'teki
+  alanlar burada saklanır. Yalnız Apple ile bağlı hesabını kendin sildiğinde, sunucumuz Apple ile giriş yetkisini iptal
+  etmek için Türkiye dışındaki Apple sunucularına tek kullanımlık bir kod gönderir; bu, yalnız senin silme talebini tamamlamak için ve talep başına bir kez yapılan arızi bir
+  aktarımdır (KVKK m.9/6(b)). Ebeveyn onay isteği cihazından doğrudan Apple'a gider; bize bir şey gelmez.
 - **RevenueCat (gerçek satın almalar):** Satın alma ve iade kayıtları, Bölüm 3.9'daki gibi, sunucumuzdan ABD'deki
   RevenueCat, Inc.'e gönderilir ve ABD'de işlenir. ABD için Türkiye'de bir yeterlilik kararı bulunmamaktadır. Bu
   aktarımı en aza indirdik: yalnız sunucumuzdan, gerçek satın almalar için ve rastgele bir kodla yapılır (test işlemleri
@@ -403,7 +513,7 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
 
 | Veri | Süre |
 | --- | --- |
-| Hesap, ilerleme, cüzdan, sonuç özetleri, kamu kimliği, ödüllü video izin kaydı, satın alma kayıtları, Şampiyonlar ve Kapı Açanlar kaydı, kaldırılan adın izi | Hesap açık kaldıkça; oyun **12 ay** (satın alma ya da iade geçmişi olan hesapta **36 ay**) sunucumuza hiç bağlanmazsa hesapla birlikte silinir (Bölüm 8.2) |
+| Hesap, ilerleme, cüzdan, sonuç özetleri, kamu kimliği, ödüllü video izin kaydı, satın alma kayıtları, Şampiyonlar ve Kapı Açanlar kaydı, kalıcı ad yasağının izi, Apple ile giriş kimliği (Bölüm 3.14) | Hesap açık kaldıkça; oyun **12 ay** (satın alma ya da iade geçmişi olan ya da Apple ile bağlanmış hesapta **36 ay**) sunucumuza hiç bağlanmazsa hesapla birlikte silinir (Bölüm 8.2) |
 | Savaş hamle kaydı (replay) | Karardan sonra 90 gün |
 | Doğrulanamayan sonuç | 30 günde kapatılır |
 | Haftalık lig ve derinlik ligi | 26 hafta |
@@ -411,13 +521,15 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
 | Hile önleme kayıtları | 12 ay |
 | Silinen hesabın hesap numarası silinmiş cüzdan kayıtları (satın almayla ilgili olanlar dışında anonim) | 12 ay |
 | Silinen hesabın, hesapla bağı koparılmış satın alma işlem kayıtları | 24 ay |
-| Satın almaların hesaplar arasında taşınma kayıtları ve Apple'ın iade ve geri alma bildirim kayıtları (Bölüm 3.9) | 24 ay (hesap silinince taşıma kayıtlarındaki hesap numarası hemen silinir) |
+| Satın almaların hesaplar arasında taşınma kayıtları ve Apple'ın iade ve geri alma bildirim kayıtları (Bölüm 3.9); Apple'ın ebeveyn onayının geri çekildiğine ilişkin bildirim kayıtları (hiçbir hesaba bağlı değil, Bölüm 3.15) | 24 ay (hesap silinince taşıma kayıtlarındaki hesap numarası hemen silinir) |
 | RevenueCat'teki müşteri kaydı ve satın alma/iade kayıtları (Bölüm 3.9) | Hesap açık kaldıkça; hesap silinince (talep ya da 12/36 ay hareketsizlik) RevenueCat'ten silinmesi istenir |
 | RevenueCat'e gönderilecek imzalı kaydın sunucumuzdaki kopyası | Gönderilene ya da gönderim başarısız olana kadar; en çok 30 gün |
 | RevenueCat gönderim kaydı (imzalı kayıt olmadan; işlem numarası ve müşteri kodu) | İade bildirimini iletebilmek için hesap açık kaldıkça (hesap silinince hemen silinir). Tamamlanan ya da başarısız işler ve silinen hesabın silme isteği (yalnız müşteri kodu; hesapla bağı yoktur): iş bittikten sonra 30 gün |
 | Ad bildirimleri | 12 ay |
 | Moderasyon kayıtları | 24 ay |
-| Hesap silme kaydı (yalnız rastgele işlem numarası, zaman ve neden: kendi talebin ya da hareketsizlik; hesap numarası içermez) | 24 ay |
+| Ad inceleme vakaları ve karar kayıtları (Bölüm 3.7) | Vaka kapandıktan 12 ay sonra; dayandığı kalıcı yasak sürdükçe silinmez. Hesap silinince adı ve hesap bağı silinmiş anonim işlem kaydı olarak aynı süreyle |
+| Vaka açıkken adın geçici izi | Vaka kapanana kadar (karar verilmezse en çok 30 gün) |
+| Hesap silme kaydı (yalnız rastgele işlem numarası, zaman, neden: kendi talebin, hareketsizlik ya da misafir hesabın Apple ile bağlı bir hesapla birleştirilmesi; Apple ile bağlı hesapta Apple ile giriş yetkisinin iptal adımının sonucu; hesap numarası içermez) | 24 ay |
 | "Verilerimi indir" günlük sayacı | 7 gün |
 | Giriş güvenlik kayıtları (IP adresi olmadan) | 1 saat |
 | Eşzamanlı senkron kilidi (aynı anda iki senkronu önleyen teknik kayıt) | Süresi bittikten 1 gün sonra |
@@ -432,11 +544,14 @@ kayıtları için bu iş her 15 dakikada bir çalışır.
 ### 8.1 Hesabını kendin silmek
 
 **Ayarlar → Hesap → Hesabı sil.** Onayladığında sunucumuzdaki hesabın ve ona bağlı bütün veriler (ilerleme, cüzdan,
-sonuçlar, hamle kayıtları, oyuncu adın, avatarın, kamu kimliğin, lig kayıtların, izin kaydın, yaptığın ve senin hakkında
-yapılan bildirimler) **hemen ve geri alınamaz şekilde** silinir; oyun cihazında da baştan başlar. Yalnız şunlar kalır:
+sonuçlar, hamle kayıtları, oyuncu adın, avatarın, kamu kimliğin, lig kayıtların, izin kaydın, Apple ile giriş kimliğin,
+yaptığın ve senin hakkında yapılan bildirimler, adlarının izi ve moderasyon kayıtların) **hemen ve geri alınamaz
+şekilde** silinir; oyun cihazında da baştan başlar. Hesabın Apple ile bağlıysa Apple önce bir kez daha onay ister ve
+sunucumuz oyunun Apple ile giriş yetkisinin iptalini Apple'dan ister (Bölüm 3.14). Yalnız şunlar kalır:
 hesap numaran silinmiş cüzdan hareketleri ve hile önleme kayıtları (en çok 12 ay; satın almayla ilgili olanlar dışında
 anonim), hesabınla bağı koparılmış satın alma işlem kayıtları ve satın alma taşıma kayıtları (hesap numaran silinerek,
-24 ay) ve hesap numaranı içermeyen silme kaydı (24 ay). Silinen veriler en geç 30 gün
+24 ay), senin hakkındaki ad inceleme vakalarının anonim işlem kaydı (Bölüm 3.7) ve hesap numaranı içermeyen silme kaydı
+(24 ay). Silinen veriler en geç 30 gün
 içinde yedeklerden de çıkar. Hesabınla RevenueCat'teki rastgele müşteri kodu arasındaki eşleme sunucumuzdan hemen
 silinir ve RevenueCat'ten o müşteri kaydını silmesini isteriz (Bölüm 3.9).
 
@@ -449,8 +564,8 @@ Oyun **12 ay** boyunca sunucumuza hiç bağlanmazsa hesabın, Bölüm 8.1'deki s
 kendiliğinden silinir. Bunu, kimsenin kullanmadığı verileri süresiz tutmamak için yaparız.
 
 - **Neye bakarız?** Hesabın açılışı, son girişi, oturumunun son yenilenmesi ve uygulamayı en son açtığın gün; bunların en
-  yenisi 12 aydan (satın alma yapılmış hesapta 36 aydan) eskiyse hesap silinir. Uygulamayı açtığında internet bağlantın varsa bu bilgiler kendiliğinden
-  güncellenir; uygulamayı 12 ay (satın alma yapılmış hesapta 36 ay) boyunca yalnız internetsiz açtıysan hesap yine silinebilir.
+  yenisi 12 aydan (satın alma yapılmış ya da Apple ile bağlanmış hesapta 36 aydan) eskiyse hesap silinir. Uygulamayı açtığında internet bağlantın varsa bu bilgiler kendiliğinden
+  güncellenir; uygulamayı 12 ay (satın alma yapılmış ya da Apple ile bağlanmış hesapta 36 ay) boyunca yalnız internetsiz açtıysan hesap yine silinebilir.
 - **Önceden haber veremeyiz:** Senden hiçbir iletişim bilgisi almadığımız için silmeden önce sana yazamayız. Bu kural bu
   yüzden Ayarlar → Hesap'ta da yazılıdır.
 - **Sonra ne olur?** Uygulamayı yeniden açtığında oyun sana yeni bir hesap açar. Sunucudaki cüzdanın, Atölye
@@ -463,6 +578,10 @@ kendiliğinden silinir. Bunu, kimsenin kullanmadığı verileri süresiz tutmama
   hesabında aynı Apple hesabıyla "Satın alımları geri yükle" üzerinden geri alabilirsin; bunlarla birlikte verilmiş
   tüketilebilir öğeler ikinci kez verilmez (Kullanım Koşulları Bölüm 4.2). Böyle bir hesabı istediğin zaman Bölüm
   8.1'deki gibi silebilirsin.
+- **Apple ile bağlanmış hesaplar: 36 ay.** Hesabını Apple ile bağladıysan (Bölüm 3.14) hesabın cihazından bağımsız
+  yaşamasını istemiş olursun; bu yüzden süre, satın alma yapılmış hesaplardaki gibi **36 ay**dır. Hareketsizlik
+  nedeniyle silinen hesapta Apple ile giriş yetkisi iptal edilemez (Apple'dan yeni bir onay alınamaz); oyunu Apple
+  hesabı ayarlarındaki "Apple ile giriş" listesinden kendin kaldırabilirsin.
 
 ## 9. Otomatik kararlar
 
@@ -476,11 +595,14 @@ Oyunda bazı kararlar insan müdahalesi olmadan, otomatik olarak verilir:
 - **Satın almaların taşınması:** Bir satın almanın "Satın alımları geri yükle" ile başka bir hesaba kaç kez ve ne
   sıklıkla taşınabileceği otomatik sınırlanır (gerçek satın almalarda toplam en çok 3 kez ve 30 günde en çok bir kez;
   test satın almalarında günlük bir sınırla). Sınırı aşan taşıma yapılmaz ve oyun bunu sana söyler.
-- **Ad kaldırma:** Bir adı, hesabı bir günden eski ve en az 5 seviye kazanmış **3 farklı oyuncu** bildirirse ad otomatik
-  olarak oyunun ürettiği yeni bir adla değiştirilir. Hemen yeni bir ad seçebilirsin, ama kaldırılan adı yeniden
-  seçemezsin. Oyun, bir sonraki bağlantıda Profil ekranında adının bildirimler üzerine ve kendiliğinden değiştirildiğini
-  sana bir kez söyler (ekibimizin elle yaptığı bir değişiklikte bunu ayrıca belirtir). Her
-  otomatik kaldırma bir insanın incelemesi için kayda geçer.
+- **Ad değiştirme:** Bir adı **3 farklı nitelikli oyuncu** bildirirse ad otomatik olarak oyunun ürettiği yeni bir adla
+  değiştirilir ve bir inceleme vakası açılır (Bölüm 3.7). Nitelikli oyuncu: hesabı 3 günden eski, sunucunun doğruladığı
+  en az 5 seviye galibiyeti olan ve son 180 günde reddedilen bir vakada bildirimi bulunmayan oyuncu. Hemen yeni bir ad
+  seçebilirsin; değiştirilen adı vaka kapanana kadar seçemezsin. **Kalıcı yasak otomatik verilmez;** yalnız bir
+  insanın kararıyla olur. Vaka 30 gün içinde karara bağlanmazsa bu engel kendiliğinden kalkar ve yasak oluşmaz. Bir vaka
+  reddedilirse o vakanın bildirimleri bir daha sayılmaz ve o bildirimleri yapanların bildirimleri 180 gün otomatik işleme
+  sayılmaz. Oyun, bir sonraki bağlantıda Profil ekranında adının bildirimler üzerine ve kendiliğinden değiştirildiğini
+  sana bir kez söyler (ekibimizin elle yaptığı bir değişiklikte bunu ayrıca belirtir).
 - **Haftalık Lig hediyesi:** Hafta bittiğinde en az 10 kişilik bir grupta ilk 3'e girip girmediğin, sunucunun kendi
   sıralamasına göre otomatik belirlenir.
 - **Hareketsiz hesap silme:** Bölüm 8.2'deki kural otomatik uygulanır.
@@ -490,6 +612,13 @@ ve seni benzer şekilde önemli ölçüde etkilemez. **Profil çıkarmayız** ve
 otomatik kararın yanlış olduğunu düşünüyorsan bize yaz; kararı bir insan yeniden inceler. RevenueCat'in Apple'dan
 yaptığı doğrulama bizimkiyle çelişirse yalnız hile önleme kaydı açılır; satın aldığın içerik bu yüzden geri alınmaz. KVKK m.11/1(g) uyarınca
 münhasıran otomatik sistemlerle yapılan analiz sonucunda aleyhine çıkan bir sonuca itiraz etme hakkın vardır.
+
+**Ad kararlarına itiraz.** Adın değiştirildiyse ya da kalıcı olarak yasaklandıysa, Ayarlar → Hesap'taki oyuncu numaranla
+destek@mm-apps.com adresine yazarak itiraz edebilirsin. İtirazını bir insan, vakadaki kanıta bakarak inceler: vaka açıksa
+karara bağlanır, kalıcı yasak haksızsa kaldırılır. Sonucu ve gerekçesini sana e-postayla yazarız. Bu yol kararın
+tarihinden itibaren en az 6 ay açıktır; vaka kayıtları bunun için kapanıştan sonra 12 ay saklanır (Bölüm 3.7). Bir adı
+bildiren olarak bir kararın yanlış olduğunu düşünüyorsan da aynı yoldan yazabilirsin. Bu yollar, mahkemeye ya da yetkili
+bir makama başvurma hakkını etkilemez.
 
 ## 10. Hakların ve nasıl kullanacağın
 
@@ -508,7 +637,7 @@ işlemenin hukuka uygunluğunu etkilemez) ve yalnız otomatik işlemeye dayanan 
 
 | Ne istiyorsun? | Nasıl? |
 | --- | --- |
-| Verilerimin kopyası (bilgi ve erişim, veri taşınabilirliği) | **Verilerimi indir:** Sunucunun hesabın hakkında tuttuğu verilerin büyük bölümü ve cihazındaki oyun kaydı tek bir JSON dosyasında hazırlanır; dosyayı kaydedebilir ya da paylaşabilirsin. Dosyada hesabının açılış ve son giriş tarihi, kayıt dili, profilin (adın, avatarın, kamu kimliğin, ödüllü video izin kaydın dahil), ilerlemen, cüzdanın ve hareketleri, seviye sonuçların ve hamle kayıtların, Sonsuzluk koşuların, lig haftaların, Zaman Yarığı sonuçların, Kapı Açanlar numaran, satın almaların (ürün, işlem numarası, ortam, tarih, iade), ödüllü video biletlerin (videonun yeri ve zamanları), yaptığın bildirimler (yalnız bildirdiğin ad), adına uygulanan moderasyon işlemleri (işlem, kaldırılan ad, tarih) ve hile önleme kayıtlarının yalnız türü ve tarihi yer alır. **Dosyada olmayanlar** (istersen bize yazarak alabilirsin): hile önleme kayıtlarının ayrıntısı (hile tespit yöntemlerimizi korumak için); oturumlarının açılış ve yenilenme zamanları; satın almalarının ilk işlem numarası, Kristal'in hangi hesaba yazıldığı, taşıma kayıtları ve Apple'ın bu işlemler hakkındaki bildirim kayıtları; ödüllü video biletlerinin numarası, Google'ın reklam işlem numarası ve ikiye katlanan sonuç; moderasyonla kaldırılan adının izi; RevenueCat'teki rastgele müşteri kodun, RevenueCat'e gönderim kayıtların ve itiraz kaydın (RevenueCat'e gönderilen kayıtlar dosyadaki satın almalarınla aynı işlemlerdir); en çok 1 saat tutulan giriş güvenlik kayıtları ve "Verilerimi indir" sayacı. Yalnız cihazında duran ayarların, Kullanım Koşulları ve gizlilik duyurusu kayıtların, ödüllü video izni cevabının cihazdaki kopyası, yaş aralığı cevabın ve engellediğin oyuncular da dosyaya girmez (Bölüm 3.13). İstek, oturumun üzerinden senin hesabından geldiği doğrulanarak yanıtlanır; günde en çok 3 kez. |
+| Verilerimin kopyası (bilgi ve erişim, veri taşınabilirliği) | **Verilerimi indir:** Sunucunun hesabın hakkında tuttuğu verilerin büyük bölümü ve cihazındaki oyun kaydı tek bir JSON dosyasında hazırlanır; dosyayı kaydedebilir ya da paylaşabilirsin. Dosyada hesabının açılış ve son giriş tarihi, kayıt dili, Apple ile giriş bağın (Apple kullanıcı kimliğin ve bağlama zamanı; bağlamadıysan boş), profilin (adın, avatarın, kamu kimliğin, ödüllü video izin kaydın dahil), ilerlemen, cüzdanın ve hareketleri, seviye sonuçların ve hamle kayıtların, Sonsuzluk koşuların, lig haftaların, Zaman Yarığı sonuçların, Kapı Açanlar numaran, satın almaların (ürün, işlem numarası, ortam, tarih, iade), ödüllü video biletlerin (videonun yeri ve zamanları), yaptığın bildirimler (yalnız bildirdiğin ad), adına uygulanan moderasyon işlemleri (işlem, değiştirilen ad, tarih), adlarınla ilgili inceleme vakaları (ad, kaynak, durum, sonuç, açılış ve kapanış tarihi) ve hile önleme kayıtlarının yalnız türü ve tarihi yer alır. **Dosyada olmayanlar** (istersen bize yazarak alabilirsin): hile önleme kayıtlarının ayrıntısı (hile tespit yöntemlerimizi korumak için); oturumlarının açılış ve yenilenme zamanları; Apple ile giriş kimliğinin teknik alanları ve son giriş zamanı; satın almalarının ilk işlem numarası, Kristal'in hangi hesaba yazıldığı, taşıma kayıtları ve Apple'ın bu işlemler hakkındaki bildirim kayıtları; ödüllü video biletlerinin numarası, Google'ın reklam işlem numarası ve ikiye katlanan sonuç; moderasyonla değiştirilen adının izi; inceleme vakalarının bildirim sayıları ve karar gerekçeleri (bildirenlerin sinyalleri başka kişilerin verisi olduğu için verilmez); RevenueCat'teki rastgele müşteri kodun, RevenueCat'e gönderim kayıtların ve itiraz kaydın (RevenueCat'e gönderilen kayıtlar dosyadaki satın almalarınla aynı işlemlerdir); en çok 1 saat tutulan giriş güvenlik kayıtları ve "Verilerimi indir" sayacı. Yalnız cihazında duran ayarların, Kullanım Koşulları ve gizlilik duyurusu kayıtların, ödüllü video izni cevabının cihazdaki kopyası, yaş aralığı cevabın, ebeveyn onayı kayıtların ve engellediğin oyuncular da dosyaya girmez (Bölüm 3.13). İstek, oturumun üzerinden senin hesabından geldiği doğrulanarak yanıtlanır; günde en çok 3 kez. |
 | Silme | **Hesabı sil** (Bölüm 8.1) |
 | Ödüllü video iznini geri alma ya da verme | **Ayarlar → Ödüllü video izni** (AEA, BK ve İsviçre'de **Ayarlar → Reklam gizlilik seçenekleri**) |
 | Düzeltme | Oyuncu adını Profil ekranından kendin değiştirebilirsin. Başka bir verinin yanlış olduğunu düşünüyorsan bize yaz. |
@@ -570,6 +699,9 @@ bilgisi istemeyiz.
   işareti eklenir; 13 yaşından küçük olduğun anlaşılırsa, yaş aralığını paylaşmamayı seçersen ya da yasanın istediği
   yerde henüz cevap vermediysen ayrıca "çocuklara yönelik işleme" işareti eklenir (Bölüm 4.2). Oyunun geri kalanı
   herkes için aynıdır.
+- **Yaş yasaları ve ebeveyn onayı:** Yasanın istediği yerlerde (ör. ABD'de Texas, Utah ve Louisiana), 0.1.0 (16) ve
+  sonraki sürümlerde Apple ile giriş ve yeni satın almalar, 18 yaşından küçük oyuncu için ebeveyn Apple üzerinden onay
+  verene kadar bekler; ebeveyn onayı geri çekerse Apple uygulamanın açılmasını engeller. Ayrıntılar Bölüm 3.15'te.
 - **13 yaşından küçükler:** Çocuklardan ad, e-posta, telefon ya da başka bir iletişim bilgisi istemeyiz; iletişim
   bilgisi içeren oyuncu adlarını kabul etmeyiz. Oyunun her oyuncuda kullandığı rastgele hesap numarası ve kamu kimliği
   yalnız oyunun çalışması, ilerlemenin korunması ve hilenin önlenmesi için kullanılır; davranışa dayalı reklam ya da
@@ -583,7 +715,10 @@ bilgisi istemeyiz.
 
 - Uygulama ile sunucumuz arasındaki bütün bağlantılar şifrelidir (HTTPS/TLS).
 - Oyun verilerine yalnız sunucu kodu yazabilir; her oyuncu yalnız kendi verisini okuyabilir.
-- Hesabın parola içermez; ele geçirilecek bir parolan ya da e-posta adresin bizde yoktur.
+- Hesabın parola içermez; ele geçirilecek bir parolan ya da e-posta adresin bizde yoktur. Apple ile girişte giriş
+  isteği tek kullanımlık rastgele bir değerle (nonce) korunur; hesap silmede Apple'a giden tek kullanımlık kod saklanmaz.
+- Ad inceleme vakalarının kanıtı ve kararları sonradan değiştirilemez. Oyuncular başkalarının vakalarını göremez; kendi
+  adlarıyla ilgili vakaların özeti Verilerimi indir dosyasındadır.
 - Başka oyunculara hesap numaran değil, ayrı ve rastgele bir kamu kimliği gönderilir.
 - Giriş kayıtlarında IP adresi ve cihaz bilgisi tutulmaz.
 - Uygulamada RevenueCat'in ya da başka bir satın alma altyapısının yazılımı yoktur. RevenueCat erişim anahtarı uygulamada
@@ -600,7 +735,13 @@ Bu politikayı oyun ya da yasalar değiştikçe güncelleyebiliriz. Güncel sür
 ekranındaki bağlantıda yer alır. Önemli değişiklikleri yürürlüğe girmeden önce oyunda duyururuz. Bir değişiklik yeni
 bir rıza gerektiriyorsa (ör. ödüllü video izin metni değişirse) rızanı ayrıca isteriz.
 
-**Sürüm geçmişi.** 1.1 (8 Kasım 2026): satın alma ve iade kayıtlarının sunucumuzdan RevenueCat'e raporlanması
+**Sürüm geçmişi.** 1.2 (12 Kasım 2026): isteğe bağlı Apple ile giriş, 0.1.0 (16) ve sonraki sürümlerde (Kısaca, Az veri
+ilkemiz, Bölüm 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Apple ile bağlanmış hesaplarda 36 aylık hareketsizlik süresi
+(Kısaca, 3.1, 7, 8.2); ad bildirimlerinde inceleme vakası, bildirenlerin kimliksiz sinyalleri, kalıcı yasağın yalnız bir
+insanın kararıyla verilmesi, vaka ve karar kayıtlarının saklanması ve hesap silinince kalan anonim kayıt (Kısaca, Az
+veri ilkemiz, 3.7, 7, 8.1, 9, 10, 12); ad kararlarına itiraz (Bölüm 9); yaş yasalarının istediği yerlerde önemli
+değişikliklerde ebeveyn onayı ve Apple'ın onayın geri çekildiğine ilişkin bildirimi (Kısaca, 3.13, 3.15, 5, 6, 7, 11).
+1.1 (8 Kasım 2026): satın alma ve iade kayıtlarının sunucumuzdan RevenueCat'e raporlanması
 (Kısaca, Az veri ilkemiz, Bölüm 2, 3.9, 5, 6, 7, 8.1, 9, 10, 11, 12); üçüncü tarafların kendi koşullarına bağlantılar (Bölüm 5);
 satın almaların hesaplar arasında taşınma kayıtları, Apple'ın iade bildirim kayıtları ve iadenin geri alınması (Bölüm
 3.9, 7, 8.1, 9); hamle kaydının yeniden gönderilme sınırı (Bölüm 3.4, 9); Google'a aktarımın düzenli niteliği (Bölüm 6);

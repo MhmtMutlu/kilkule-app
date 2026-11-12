@@ -16,6 +16,7 @@ You can do these inside the game, without writing to us:
 
 - **Download my data** (Settings → Account): most of the data the server keeps about your account, plus the game save on your device, prepared in one file; what is not in the file is listed in Section 10 of the privacy policy.
 - **Delete account** (Settings → Account): once you confirm, your account and progress are deleted from our server immediately and for good, and the game starts over on this device too.
+- **Link with Apple** (Settings → Account; version 0.1.0 (16) and later, optional): if you link your account to your Apple Account, you continue with the same account on a new device or after reinstalling the game. Your name and email are not asked for ([Privacy Policy, Section 3.14](/en/privacy/)).
 - **Rewarded video permission** (Settings): withdraw or give your permission for rewarded videos at any time.
 
 The privacy policy has the details and retention periods.

@@ -1,6 +1,6 @@
 # Kilkule Terms of Use
 
-**Effective date:** 8 November 2026 · **Version:** 1.1 (previous version 1.0, 7 November 2026; changes in Section 13.4)
+**Effective date:** 12 November 2026 · **Version:** 1.2 (previous version 1.1, 8 November 2026; changes in Section 13.4)
 
 > This English version is a translation. In case of any inconsistency, the Turkish version prevails (Section 16.3).
 
@@ -16,10 +16,12 @@
   your real currency; the content you buy is not determined at random. Because digital content is delivered immediately,
   the **right of withdrawal** is limited (Section 6.3).
 - **Do not cheat,** harass other players or use inappropriate names. If you break these rules, your results, rewards or
-  name may be taken back.
-- Your account does not know your name, is recognised by a random number and is **tied to your device;** if you lose
-  your device, we may not be able to restore your progress. If the Game **does not connect to our server at all for 12
-  months** (**36 months** if you have made a purchase), your account and the items in it are deleted (Section 4.5).
+  name may be taken back. Only a human decides to permanently ban a name that was changed after reports (Section 8.4).
+- Your account does not know your name and is recognised by a random number. A guest account is **tied to your
+  device;** if you lose your device, we may not be able to restore your progress. In version 0.1.0 (16) and later you
+  can optionally link your account with Apple (Section 4.6). If the Game **does not connect to our server at all for 12
+  months** (**36 months** if you have made a purchase or linked your account with Apple), your account and the items in
+  it are deleted (Section 4.5).
 - Gifts for the top 3 of the Weekly League are in-game items; they are **not a game of chance** and cannot be exchanged
   for real money.
 - To the extent the law allows, the Game is provided **"as is";** our liability is set out in Section 11 and is limited
@@ -55,6 +57,11 @@ parent or legal guardian and ask them before making any purchase.
 
 2.2. Parents can control their children's purchases with iOS "Screen Time" and "Ask to Buy".
 
+2.3. Where the law requires it (for example in the US states of Texas, Utah and Louisiana), the features that an
+important change to the Game brings (in version 0.1.0 (16): Sign in with Apple and new purchases) cannot be used by a
+player under 18 until a parent gives approval through Apple; the rest of the Game plays just the same. If the parent
+withdraws approval, Apple prevents the app from opening. Details are in Section 3.15 of the Privacy Policy.
+
 ## 3. Licence
 
 3.1. We grant you a **non-exclusive, non-transferable, non-sublicensable licence, terminable under these Terms,** to
@@ -72,12 +79,13 @@ belong to us or our licensors. No right not expressly granted in these Terms pas
 ## 4. Your account
 
 4.1. When you first open the Game, a **player account** is created for you. The account does not know your name and is
-recognised only by a random number (older versions of the app call it an "anonymous account" in Settings). We do not ask for a name, email or
+recognised only by a random number (older versions of the app call it an "anonymous account" in Settings; the Game
+calls it a "guest account"). We do not ask for a name, email or
 password. Your player number is shown in Settings → Account; it is used to find your account when you write to us, and
 other players do not see it.
 
-4.2. The account is **tied to your device.** At present there is no way to move your account to another device or to
-restore an account from a lost device. If you lose or reset your device, or delete the Game and its data, we may not be
+4.2. A guest account is **tied to your device.** If you have not linked your account with Apple (Section 4.6), there is
+no way to move your account to another device or to restore an account from a lost device. If you lose or reset your device, or delete the Game and its data, we may not be
 able to restore your progress and **consumable items (such as Crystals).** Non-consumable purchases (such as Age Path
 premium or the Founder Pack) can be restored with Apple's "Restore Purchases" using the same Apple Account; however,
 consumable items that came with them (such as Crystals included in a pack) are not granted a second time.
@@ -85,7 +93,9 @@ consumable items that came with them (such as Crystals included in a pack) are n
 4.3. You may **not sell, rent, transfer** or share your account or the items in it.
 
 4.4. You can delete your account at any time in **Settings → Account → Delete account.** Deletion cannot be undone; your
-progress and all items in your account (including purchased ones) are permanently deleted. How long some security and
+progress and all items in your account (including purchased ones) are permanently deleted. If your account is linked
+with Apple, Apple asks you to confirm once more before the deletion; if you do not confirm, the account is not deleted.
+How long some security and
 wallet records, no longer linked to your account, are kept is set out in the Privacy Policy.
 
 4.5. **Accounts not used:** If the Game **does not connect to our server at all for 12 months** (when you open the app
@@ -103,9 +113,30 @@ Founder Pack) can be restored with the same Apple Account as described in Sectio
 times the period for accounts without purchases, in order to protect what you bought and to keep the records needed for
 a possible refund or dispute.
 
+**Accounts linked with Apple:** If you have linked your account with Apple (Section 4.6), this period is also **36
+months;** at the end of it the account is deleted as under Section 4.4.
+
 This rule follows from our obligation not to keep data longer than needed. The deletion of Virtual Items that were not
 purchased in this way does not give rise to any payment or compensation. In every case, the rights that the mandatory
 consumer law of the country where you live gives you remain unaffected.
+
+4.6. **Sign in with Apple (optional; version 0.1.0 (16) and later):** You can link your account to your Apple Account in
+Settings → Account. You do not have to; the Game plays just the same with a guest account. If you link it with Apple:
+
+- On a new device or after reinstalling, you continue with the same account by signing in with Apple. Sign in with
+  Apple is run by Apple, and Apple's own terms apply (Section 12).
+- **When accounts are merged, the linked account counts.** If your Apple Account is already linked to a game account and
+  there is a guest account on your device at that moment, you continue with the linked account when you sign in with
+  Apple. If the guest account has progress, the Game asks first; if you cancel, nothing changes. If you continue, the
+  guest account's progress, wallet (including Crystals earned in the game), upgrades, cosmetics, league records and
+  reward claims **are not moved** and the guest account is deleted. The reason is to prevent rewards that each account
+  receives only once, such as first wins, gifts and the Age Path, from being granted a second time. Purchased and unspent
+  Crystals in the guest account (from real purchases that have not been refunded, at most up to the guest account's
+  balance) move to the linked account; if one of these purchases is refunded later, Section 6.2 applies to the linked
+  account. Non-consumable purchases come to the linked account under the move limits of "Restore Purchases" (Privacy
+  Policy, Section 9).
+- Removing the link in your Apple Account settings does not delete your account; to delete your account, use
+  Section 4.4.
 
 ## 5. In-game currencies and items
 
@@ -246,21 +277,31 @@ list of inappropriate words and rules on contact details. A name that breaks the
 8.3. **Reporting:** If you find a player's name in a table inappropriate, you can report it with "Report name as inappropriate". The player
 you report is not told who reported them. You can hide a player on your own device (blocking).
 
-8.4. **Automatic removal:** If **3 different players,** each with an account older than one day and at least 5 levels
-won, report a name, it is automatically replaced with a new name generated by the Game. That player cannot choose the
-removed name again but can choose another name at once. The action is logged for review by a human.
+8.4. **Automatic change and review:** If **3 different qualifying players** report a name, it is automatically replaced
+with a new name generated by the Game and a review case is opened. A qualifying player is one whose account is older
+than 3 days, who has at least 5 level wins verified by our server and who has no report in a case rejected in the last
+180 days. You can choose another name at once; you cannot choose the changed name until the case is closed. **Only a
+human** decides, looking at the evidence in the case, whether the name is **permanently banned** for you: if they
+confirm, the name is permanently banned; if they reject, the name becomes free again, that case's reports are never
+counted again and the reports of those who made them do not count towards automatic action for 180 days. If the case is
+not decided within 30 days, it closes automatically, the name becomes free and no ban arises.
 
-8.5. **Manual removal:** We may also remove a name manually after reviewing reports or complaints we receive, if it breaks
-these rules or the law.
+8.5. **Manual change:** We may also change a name manually after reviewing reports or complaints we receive, if it breaks
+these rules or the law. In this case too a review case is opened as in Section 8.4, and a permanent ban happens only by a
+human's decision.
 
 8.6. **Notices of illegal content:** If you believe a name is illegal, besides the in-app report you can also notify us at
 destek@mm-apps.com, stating why and where the name appears (table, date). We handle notices diligently, objectively and
 within a reasonable time.
 
-8.7. **Reasons and appeals:** If your name is removed, the Game tells you so and why, once, on the Profile screen at the
-next connection; it also says whether the decision was made automatically after enough players reported the name
-(Section 8.4) or after a review by our team (Section 8.5). If you think the decision is wrong, you can appeal by writing to destek@mm-apps.com with your player number
-from Settings → Account; a human will review your appeal. This does not affect your right to go to court
+8.7. **Reasons and appeals:** If your name is changed, the Game tells you so and why, once, on the Profile screen at the
+next connection; it also says whether the change was made automatically after enough players reported the name
+(Section 8.4) or after a review by our team (Section 8.5). The case's later decision is not announced separately in the
+Game; you can find out the decision and its reasons by writing to us. If you think a decision is wrong, you can appeal by
+writing to destek@mm-apps.com with your player number from Settings → Account; a human reviews your appeal, looking at
+the evidence in the case, a permanent ban that is unjustified is lifted, and we write to you with the result and its
+reasons. This route is open for at least 6 months from the date of the decision. A player who reported a name can appeal
+in the same way. This does not affect your right to go to court
 or to a competent authority in your country.
 
 ## 9. If the rules are broken
@@ -337,7 +378,8 @@ your rights under mandatory consumer law also remain unaffected.
 12.1. The Game uses the following third-party services. Each works under **its own independent terms and privacy
 policy;** those terms govern the services themselves:
 
-- **Apple** (downloads, purchases, payment, refunds): Apple Media Services Terms and Conditions
+- **Apple** (downloads, purchases, payment, refunds; Sign in with Apple if you use it; parental approval where the law
+  requires it): Apple Media Services Terms and Conditions
   (https://www.apple.com/legal/internet-services/itunes/), the Apple EULA (Section 1.2) and the Apple Privacy Policy
   (https://www.apple.com/legal/privacy/).
 - **Google AdMob** (rewarded videos, only if you agree): Google Terms of Service (https://policies.google.com/terms) and
@@ -366,7 +408,13 @@ your disadvantage.
 
 13.3. A dispute that arose before a change takes effect is resolved under the Terms in force at that time.
 
-13.4. **Version history.** 1.1 (8 November 2026): Apple is the seller and delivery is determined by the record on our
+13.4. **Version history.** 1.2 (12 November 2026): parental approval where age laws require it (2.3); guest account and
+optional Sign in with Apple, merging of accounts and 36 months for accounts linked with Apple (In short, 4.1, 4.2, 4.4,
+4.5, 4.6, 12.1); review case for name reports, qualifying reporters, permanent bans only by a human's decision, and
+appeals (In short, 8.4, 8.5, 8.7). These changes are not to your disadvantage, or they apply only to an optional feature
+you choose yourself (Sign in with Apple) or to an approval the law requires; they are therefore not a material change
+within the meaning of Section 13.2 and do not require you to accept the Terms again.
+1.1 (8 November 2026): Apple is the seller and delivery is determined by the record on our
 server (6.1); reversal of a refund (6.2); limits on purchases and moves in the test environment (6.4); duration of the Age Path premium track (6.6);
 announcement of feature changes (10.1); "as is" provision (11.1); force majeure (11.7); third-party services and their
 terms (12); this section. 1.0 (7 November 2026): first version.

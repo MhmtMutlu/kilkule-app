@@ -1,8 +1,9 @@
 # Kilkule · Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni
 
-**Yürürlük tarihi:** 8 Kasım 2026 · **Sürüm:** 1.1 (önceki sürüm 1.0, 7 Kasım 2026: satın alma ve iade kayıtlarının
+**Yürürlük tarihi:** 12 Kasım 2026 · **Sürüm:** 1.2 (önceki sürüm 1.1, 8 Kasım 2026: satın alma ve iade kayıtlarının
 RevenueCat'e raporlanması, satın alma taşıma ve iade bildirim kayıtları, Google'a aktarımın düzenli niteliği ve
-"çocuklara yönelik işleme" işareti eklendi; 2.–7. maddeler)
+"çocuklara yönelik işleme" işareti eklendi; 1.2: isteğe bağlı Apple ile giriş, ad bildirimlerinde inceleme vakası,
+yaş yasalarının istediği yerlerde ebeveyn onayı ve Apple'ın onayın geri çekildiğine ilişkin bildirimi; 2.–6. maddeler)
 
 Bu metin, 6698 sayılı Kişisel Verilerin Korunması Kanunu (KVKK) madde 10 ve Aydınlatma Yükümlülüğünün Yerine
 Getirilmesinde Uyulacak Usul ve Esaslar Hakkında Tebliğ uyarınca hazırlanmıştır. Ayrıntılı bilgi Gizlilik
@@ -17,11 +18,22 @@ içermese de kişisel veri sayılır (takma adlı veri). İşlediğimiz veriler:
 
 - **Hesap bilgileri:** rastgele hesap numarası, hesabın açılış ve son giriş zamanı, oturum anahtarları ve oturumların
   açılış/yenilenme zamanı, uygulamayı en son açtığın gün (saatsiz), uygulama dili.
+- **Apple ile giriş (isteğe bağlı; 0.1.0 (16) ve sonraki sürümler, yalnız kullanırsan):** Apple'ın geliştirici
+  hesabımız için ürettiği kullanıcı kimliği, giriş sisteminin kullandığı iki teknik alan, Apple ile bağlama ve son giriş
+  zamanları. Ad ve e-posta istenmez ve saklanmaz. Hesabını silerken Apple'dan alınan tek kullanımlık kod yalnız Apple ile
+  giriş yetkisini iptal etmek için kullanılır ve saklanmaz; silme kaydına yalnız bu adımın sonucu yazılır.
 - **Oyun verileri:** ilerleme, yıldızlar, geliştirmeler, oyun içi para birimleri ve hareketleri, kozmetikler, lig
   hediyeleri, savaş sonuçları ve savaşın hamle kaydı.
 - **Herkese görünen profil:** oyuncu adı (oyunun verdiği ya da isteğe bağlı olarak senin yazdığın), avatar, lig ve
   sıralama bilgileri; diğer oyuncuların cihazına giden, hesap numarandan ayrı, rastgele kamu kimliği.
-- **Güvenlik kayıtları:** reddedilen istekler (hile önleme), ad bildirimleri ve moderasyon kayıtları, kısa süreli IP
+- **Ad bildirimleri ve inceleme vakaları:** kimin kimi, hangi adı ve ne zaman bildirdiği; ad değiştirildiğinde
+  moderasyon kaydı ve bir inceleme vakası: adın tam metni, kimin adı olduğu, bildirim sayıları, otomatik işlemin kaydı,
+  durum ve sonuç; her bildirim için zamanı ve bildirenin kimliği olmadan bot ya da toplu bildirim şüphesine yarayan
+  sinyaller (bildirim anındaki hesap yaşı, misafir hesap olup olmadığı, kazandığı seviye sayısı, son 30 günde yaptığı
+  bildirim, son 90 gündeki hile önleme kaydı ve son 180 günde reddedilen vakalardaki bildirim sayısı); kararı veren
+  kişi, zaman ve gerekçe. Bildirim kayıtları durdukça bu sinyaller dolaylı yoldan bildirene bağlanabildiği için takma
+  adlı kişisel veri sayılır.
+- **Güvenlik kayıtları:** reddedilen istekler (hile önleme), kısa süreli IP
   adresi ve uygulamanın teknik başlığı (istek sınırlama için; oturum kayıtlarına IP yazılmaz), IP adresi içermeyen ve
   1 saat tutulan giriş güvenlik kayıtları.
 - **Ödüllü video kayıtları:** video bileti ve doğrulama bilgisi; ödüllü video için verdiğin açık rızanın kaydı (kabul
@@ -29,34 +41,44 @@ içermese de kişisel veri sayılır (takma adlı veri). İşlediğimiz veriler:
 - **Satın alma kayıtları:** Apple'ın imzaladığı işlem kaydından ürün, işlem numarası, satın alma tarihi, işlemin test
   olup olmadığı ve iade bilgisi (iadenin geri alınması dahil). İmzayı kendi sunucumuzda doğrularız (kart bilgisi bize
   ulaşmaz). Bir satın alma "Satın alımları geri yükle" ile başka bir hesaba taşınırsa hangi hesaptan hangisine ve ne
-  zaman taşındığı; Apple'ın iade ve geri alma bildirimlerinin türü, işlem numarası ve zamanı. Gerçek satın
+  zaman taşındığı; Apple'ın iade ve geri alma bildirimlerinin türü, işlem numarası ve zamanı. Apple'ın ebeveyn onayının
+  geri çekildiğine ilişkin bildiriminden yalnız numarası, türü, sonucu ve zamanı (hiçbir hesapla eşleştirilmez). Gerçek satın
   almalarda Apple'ın imzalı işlem kaydı (ürün, işlem numaraları, satın alma tarihi, mağaza ülkesi, fiyat ve para birimi)
   ve senin için ürettiğimiz, hesap numarandan, oyuncu adından ya da cihazından türetilmeyen rastgele bir müşteri kodu,
   sunucumuzdan RevenueCat'e gönderilir (bkz. 5. madde). Bu kayıtlar takma adlıdır ve kişisel veri sayılır.
 - **Veri talepleri:** "Verilerimi indir" isteklerinin günlük sayısı.
 - **Yalnız cihazında:** Kullanım Koşulları'nı kabul ettiğin sürüm ve tarih; gizlilik politikası değişikliği duyurusunu
-  gördüğün sürüm ve tarih; iOS'un yaş aralığı özelliğinin verdiği "18 yaşından küçük mü" cevabı (bunlar bize
-  gönderilmez).
+  gördüğün sürüm ve tarih; iOS'un yaş aralığı özelliğinin verdiği "18 yaşından küçük mü" cevabı; yasanın önemli
+  değişikliklerde ebeveyn onayı ya da yetişkin bildirimi isteyip istemediği, hangi değişikliklerin onaylandığı ya da
+  istendiği ve en son görülen App Store yaş derecesi (bunlar bize gönderilmez; ebeveyn onay isteğini Apple taşır).
 - **Bize yazarsan:** e-posta adresin ve mesajın.
 
 **3. Amaçlar.** Oyunu ve çevrim içi özelliklerini (ilerleme yedeği, ödüller, lig ve sıralamalar) sunmak; sonuçları
 yeniden oynatarak doğrulamak ve hileyi önlemek; uygunsuz oyuncu adlarına karşı oyuncuları korumak ve adı kaldırılan
-oyuncuya nedenini bildirmek; satın almaları, lig hediyelerini ve ödüllü video ödüllerini vermek; satın alma ve iade
+oyuncuya nedenini bildirmek; bir adın kalıcı olarak yasaklanmasına yalnız bir insanın kanıta bakarak karar vermesini
+sağlamak, bildirimlerin sahte ya da toplu hesaplarla kötüye kullanılmasını tespit etmek, kararları ispat etmek ve
+itirazları incelemek; isteğe bağlı Apple ile girişle hesabı başka cihazda sürdürmek ve hesap silinirken Apple ile giriş
+yetkisini iptal etmek; yasanın istediği yerlerde önemli değişikliklerde ebeveyn onayını Apple üzerinden istemek ve
+Apple'ın onayın geri çekildiğine ilişkin bildirimini bir kez işlemek; satın almaları, lig hediyelerini ve ödüllü video ödüllerini vermek; satın alma ve iade
 kayıtlarını raporlamak (gelir ve iade analitiği) ve RevenueCat'in Apple'dan yaptığı doğrulama bizimkiyle çelişirse bunu
 hile önleme için incelemek; ödüllü videoları açık
 rızanla Google AdMob aracılığıyla göstermek ve rızanı ispat edebilmek; hizmetin güvenliğini sağlamak; uzun süre (12 ay, satın
-alma yapılmış hesapta 36 ay) kullanılmayan hesapları silmek; başvuru ve destek taleplerini yanıtlamak; hukuki yükümlülükleri yerine getirmek.
+alma yapılmış ya da Apple ile bağlanmış hesapta 36 ay) kullanılmayan hesapları silmek; başvuru ve destek taleplerini yanıtlamak; hukuki yükümlülükleri yerine getirmek.
 
 **4. Toplama yöntemi ve hukuki sebepler.** Veriler, oyunu kullanırken uygulama aracılığıyla otomatik yollarla; bize
 yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
 
 - Bir sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması (KVKK m.5/2(c)): hesap, oyun verileri, sıralamalar,
-  lig hediyeleri, satın almalar, ödüllü video ödülü.
-- Veri sorumlusunun meşru menfaati (m.5/2(f)): sonuç doğrulama, hile önleme, ad denetimi ve bildirimler, teknik
+  lig hediyeleri, satın almalar, ödüllü video ödülü, isteğe bağlı Apple ile giriş (bağlamayı sen istersin).
+- Veri sorumlusunun meşru menfaati (m.5/2(f)): ad inceleme vakaları ve bildirenlerin sinyalleri (birkaç sahte hesapla
+  başkasının adının aldırılmasını önlemek); hesap silinirken Apple ile giriş yetkisinin iptali; önemli değişikliklerde
+  ebeveyn onayının cihazda istenmesi ve kaydı ile Apple'ın onayın geri çekildiğine ilişkin bildiriminin kaydı
+  (bulunduğun yerin yasalarına ve Apple'ın kurallarına uymak); sonuç doğrulama, hile önleme, ad denetimi ve bildirimler, teknik
   güvenlik; satın almaların hesaplar arasında taşınma kayıtları ve Apple'ın iade bildirim kayıtları; satın alma ve iade kayıtlarının RevenueCat aracılığıyla raporlanması ve RevenueCat'in doğrulaması bizimkiyle
   çelişirse hile önleme kaydı açılması.
 - Bir hakkın tesisi, kullanılması veya korunması (m.5/2(e)): hesap silindikten sonra sınırlı süre tutulan, hesap numarası
-  silinmiş cüzdan ve hile önleme kayıtları; açık rızanın ispatı; başvuru yazışmaları.
+  silinmiş cüzdan ve hile önleme kayıtları; ad kararlarının ve gerekçelerinin ispatı; açık rızanın ispatı; başvuru
+  yazışmaları.
 - Hukuki yükümlülük (m.5/2(ç)): verileri gerekenden uzun tutmama (hareketsiz hesapların silinmesi için son açılış günü),
   rızanın ispatı, yasal saklama ve bildirim yükümlülükleri ve başvuruların yanıtlanması.
 - **Açık rıza (m.5/1):** yalnız ödüllü videoların Google AdMob ile gösterilmesi ve bu kapsamda cihaz bilgilerinin
@@ -94,8 +116,12 @@ yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
   ülkelerde işlenebilir; oradaki kamu makamlarının verilere erişimi Türk hukukundan farklı kurallara bağlı olabilir;
   haklarını Google'a karşı Türkiye dışında kullanman daha zor olabilir.
 - **Apple:** satın almalar ve iadeler Apple üzerinden yapılır; satıcı Apple'dır ve iadeleri Apple yapar. Apple'ın
-  imzaladığı işlem kaydını Türkiye'deki sunucumuzda doğrularız. Apple bağımsız veri sorumlusudur ve kendi gizlilik
-  politikasına tabidir (https://www.apple.com/legal/privacy/).
+  imzaladığı işlem kaydını Türkiye'deki sunucumuzda doğrularız. Apple ile giriş kullanırsan girişi Apple yürütür;
+  Apple'ın kimlik jetonu cihazından Türkiye'deki sunucumuza gelir. Apple ile bağlı hesabını kendin sildiğinde sunucumuz,
+  Apple ile giriş yetkisini iptal etmek için Türkiye dışındaki Apple sunucularına tek kullanımlık bir kod gönderir; bu,
+  yalnız senin silme talebini tamamlamak için ve talep başına bir kez yapılan arızi bir yurt dışı aktarımdır (KVKK
+  m.9/6(b)). Yasanın istediği yerde ebeveyn onay isteği cihazından doğrudan Apple'a gider. Apple bağımsız veri
+  sorumlusudur ve kendi gizlilik politikasına tabidir (https://www.apple.com/legal/privacy/).
 - **Yurt dışındaki hizmet sağlayıcı: RevenueCat, Inc. (ABD; yurt dışı aktarım, KVKK m.9):** Amaç: satın alma ve iade
   kayıtlarının raporlanması; RevenueCat'in Apple'dan yaptığı doğrulama bizimkiyle çelişirse hile önleme kaydı açılması
   (satın aldığın içerik bu yüzden geri alınmaz). Hukuki sebep: meşru menfaat (m.5/2(f)). Gerçek satın almalar için ve
@@ -115,8 +141,8 @@ yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
 
 Verilerini satmayız.
 
-**6. Saklama.** Hesap açık kaldıkça; oyun **12 ay** boyunca (cüzdan geçmişinde satın alma ya da iade olan hesapta
-**36 ay** boyunca) sunucumuza hiç bağlanmazsa hesap ve ona bağlı bütün veriler kendiliğinden, kendi silme talebinle aynı
+**6. Saklama.** Hesap açık kaldıkça; oyun **12 ay** boyunca (cüzdan geçmişinde satın alma ya da iade olan ya da Apple
+ile bağlanmış hesapta **36 ay** boyunca) sunucumuza hiç bağlanmazsa hesap ve ona bağlı bütün veriler kendiliğinden, kendi silme talebinle aynı
 şekilde silinir. Silinen hesabın tutulması gereken birkaç kaydı (cüzdan hareketleri, hile önleme kayıtları) hesap
 numarası silinerek en çok 12 ay, satın alma işlem kayıtları hesapla bağı koparılarak 24 ay kalır; silme kaydı hesap
 numarası içermez. Satın almaların hesaplar arasında taşınma kayıtları ve Apple'ın iade bildirim kayıtları 24 ay tutulur;
@@ -127,7 +153,10 @@ sonucunu izleriz, otomatik deneme sonuçsuz kalırsa silmeyi elle tamamlarız. R
 sunucumuzdaki kopyası gönderilince ya da en çok 30 gün içinde silinir; gönderim kaydı (imzalı kayıt olmadan) iade
 bildirimlerini iletebilmek için hesap açık kaldıkça tutulur.
 Hamle kayıtları karardan sonra 90 gün, ödüllü video ödül kayıtları 90 gün, hile önleme kayıtları 12 ay, bildirimler 12 ay,
-moderasyon kayıtları 24 ay tutulur; açık rıza kaydı hesapla birlikte silinir. Ayrıntılı tablo Gizlilik Politikası'ndadır.
+moderasyon kayıtları 24 ay tutulur; ad inceleme vakaları ve kararları vaka kapandıktan 12 ay sonra silinir, dayandığı
+kalıcı yasak sürdükçe silinmez; hesap silinince senin hakkındaki vaka adı ve hesap bağı silinmiş anonim bir işlem kaydı
+olarak aynı süreyle kalır. Apple'ın ebeveyn onayının geri çekildiğine ilişkin bildirim kayıtları 24 ay tutulur. Apple ile
+giriş kimliği hesapla birlikte silinir; açık rıza kaydı hesapla birlikte silinir. Ayrıntılı tablo Gizlilik Politikası'ndadır.
 Hesabını istediğin zaman **Ayarlar → Hesap → Hesabı sil** ile silebilirsin.
 
 **7. Hakların (KVKK m.11).** Kişisel verilerinin işlenip işlenmediğini öğrenme, işlenmişse bilgi talep etme, işlenme

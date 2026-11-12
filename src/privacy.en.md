@@ -2,7 +2,7 @@
 
 > This translation is provided for information. If there is any difference, the Turkish version prevails.
 
-**Effective date:** 8 November 2026 · **Version:** 1.1 (previous version 1.0, 7 November 2026; changes in Section 13)
+**Effective date:** 12 November 2026 · **Version:** 1.2 (previous version 1.1, 8 November 2026; changes in Section 13)
 
 This policy is our information notice under Article 10 of the Turkish Personal Data Protection Law No. 6698 ("KVKK") and
 under Article 13 of the EU General Data Protection Regulation ("GDPR"). The short KVKK notice and the consent text for
@@ -14,10 +14,17 @@ rewarded videos: https://kilkule.mm-apps.com/kvkk/. The Turkish text is the bind
 
 - **We do not ask for your name, email, phone number, location or advertising ID.** When you first open the game, it
   creates a player account for you; the account does not know your name and is recognised only by a **random number**.
+- **Sign in with Apple is optional** (in version 0.1.0 (16) of the game and later). Even if you use it, we do not ask for
+  your name or email; from Apple we receive only a user identifier that Apple generates for our developer account
+  (Section 3.14).
 - With that account, **your game progress, wallet and battle results** are stored on our server in Türkiye. We do this
   to run the game for you, keep your progress safe and **stop cheating**.
 - **Your player name and avatar are visible to other players** in the league and ranking tables. The game gives you a
   name automatically; if you want to type your own, **do not use your real name, surname, school or contact details.**
+  **Only a human decides to permanently ban** a name that was changed after reports (Section 3.7).
+- Where the law requires it (e.g. some US states), the features that come with important changes to the game wait, for a
+  player under 18, **until a parent gives approval through Apple;** the records of this approval stay only on your
+  device (Section 3.15).
 - **We do not track you,** we **do not sell** your data and we do not show personalised ads.
 - **Rewarded videos are always optional.** Google shows these videos. In every country we first **ask for your
   permission** on the game's own screen; if you say no, nothing goes to Google and you can play the whole game just the
@@ -27,8 +34,8 @@ rewarded videos: https://kilkule.mm-apps.com/kvkk/. The Turkish text is the bind
   sends this record, under a random code we create for you, to our service provider **RevenueCat** in the USA for
   reporting purchases and refunds. Your device never talks to RevenueCat (Section 3.9).
 - We keep data only as long as needed. If the game **does not connect to our server at all for 12 months**, your account
-  is deleted automatically (if you have made a purchase, this period is **36 months**; your unspent Crystals are deleted
-  with the account).
+  is deleted automatically (if you have made a purchase or linked your account with Apple, this period is **36 months**;
+  your unspent Crystals are deleted with the account).
 - You can get a copy of your data with **Settings → Account → Download my data** and delete your account at any time with
   **Settings → Account → Delete account**.
 - Questions or problems? Write to us in Turkish, English, French, German, Italian or Spanish: **destek@mm-apps.com**
@@ -62,6 +69,9 @@ what we collect for as short a time as possible and, wherever we can, we cut its
 - **A random account number.** Your account doesn't know your name. This is what Settings calls an "anonymous account" in older versions of the app.
   To be honest with you, though: this number and the game data linked to it are still **personal data** in law, even
   without your name (pseudonymous data). That is why this policy exists.
+- **Sign in with Apple does not ask for your name or email.** If you sign in with Apple, the game does not ask Apple for
+  any additional information (name, email). Of the identity information Apple sends, only the user identifier and two
+  technical fields used by the sign-in system are stored; the email field is left empty (Section 3.14).
 - **Your account number does not go to other devices.** In the tables, other players' devices receive a random **public
   ID** that is separate from your account number. Your account number leaves our server only to your own device.
 - **No network data in sign-in records.** Our session records do not keep your IP address or device/browser details;
@@ -78,7 +88,8 @@ what we collect for as short a time as possible and, wherever we can, we cut its
   must keep are stored with your account number removed. These records can no longer be linked to anyone, so they are
   **anonymous;** only records relating to purchases are not considered anonymous, because they may carry Apple's
   transaction number, and they are kept with the link to your account cut. The record of the deletion does not contain
-  your account number.
+  your account number. If there is a review case about your name, all that remains of the case is an anonymous action
+  record from which the name and the link to your account have been deleted (Section 3.7).
 
 ---
 
@@ -113,9 +124,10 @@ Section 3.10 is collected when you write to us yourself.
 | **Data** | Randomly generated account number; when the account was created and last signed in; session keys (in your device's keychain and on the server) and when sessions were opened and last refreshed; the **day** you last opened the app (no time); the app language when the account was opened and now (so the name the game gives you is written in that language) |
 | **Purpose** | To provide the game and its online features (progress backup, rewards, league); to recognise that requests come from your account; to delete accounts that have not been used for a long time |
 | **Legal basis** | KVKK Art. 5(2)(c) (establishing and performing a contract) · GDPR Art. 6(1)(b). For the last-opened day, also: our obligation not to keep data longer than needed, KVKK Art. 5(2)(ç) (with KVKK Arts. 4 and 7) · GDPR Art. 6(1)(f) and Art. 5(1)(e) |
-| **Retention** | As long as your account exists. If you delete your account, it is deleted immediately. If the game **does not connect to our server at all for 12 months** (**36 months** for an account with a purchase or refund history), the account and all data linked to it are deleted automatically (Section 8.2). |
+| **Retention** | As long as your account exists. If you delete your account, it is deleted immediately. If the game **does not connect to our server at all for 12 months** (**36 months** for an account with a purchase or refund history or linked with Apple), the account and all data linked to it are deleted automatically (Section 8.2). |
 
-To open your account we **do not ask** for a name, email, phone number or password.
+To open your account we **do not ask** for a name, email, phone number or password. The account is opened as a guest
+account; optional Sign in with Apple is described in Section 3.14.
 
 ### 3.2 Game progress and wallet
 
@@ -171,14 +183,30 @@ you.**
 
 | | |
 | --- | --- |
-| **Data** | When you report a name: who reported (account number), whom, which name and when; whether the report counted towards automatic action. When a name is removed: the removed name, the time of removal, how many reports there were and whether the action was automatic or manual; a trace of the removed name so that the player does not choose it again; the time of the last removal and whether the decision was automatic (after reports) or made by our team, so that we can show you the reason once |
-| **Purpose** | To protect players from inappropriate names; to assess reports; to tell a player whose name was removed why; to detect misuse of reports; to meet our legal obligations |
-| **Legal basis** | KVKK Art. 5(2)(f) and, where applicable, Art. 5(2)(ç) (legal obligation) · GDPR Art. 6(1)(f) and, where applicable, Art. 6(1)(c) (e.g. the notice, action and statement-of-reasons rules of the EU Digital Services Act) |
-| **Retention** | Reports **12 months**, moderation records **24 months**, the trace of a removed name and the time of the last removal as long as your account exists. When the account is deleted, all of these (including reports you made and reports about you) are deleted. |
+| **Data** | **Report:** who reported (account number), whom, which name and when; whether the report counted towards automatic action; which review case it was linked to, if one was opened. **When a name is changed:** the changed name, the time, how many reports there were and whether the action was taken after reports or by our team (moderation record); the time and source of the last change, so that we can show you the reason once; a trace of the name so that you do not choose it again (temporary while a case is open, permanent if a permanent ban is decided). **Review case:** the full text of the name as it was shown, whose name it was (link to the account), the source (reports or our team), the report counts, the record of the automatic action, the status of the case, its outcome, and when it was opened and closed; for each report, its time, whether it counted and signals that help assess whether the reporter is suspected of being a bot or of mass reporting: the age of the reporter's account at the time of the report, whether it is a guest account, the number of levels it has won, the number of reports it made in the last 30 days, the number of its anti-cheat records in the last 90 days and the number of its reports in cases rejected in the last 180 days. **The reporter's account number is not copied into the case.** **Decision record:** the decision, the person who made it (or "system" when the case expires or the account is deleted), the time and the reasons |
+| **Purpose** | To protect players from inappropriate names; to assess reports; to ensure that only a human, looking at the evidence, decides on a permanent ban of a name; to detect misuse of reports through fake or mass accounts; to tell a player whose name was changed why; to prove decisions and their reasons and to review objections; to meet our legal obligations |
+| **Legal basis** | KVKK Art. 5(2)(f) and, where applicable, Art. 5(2)(ç) (legal obligation) and Art. 5(2)(e) · GDPR Art. 6(1)(f) and, where applicable, Art. 6(1)(c) (e.g. the notice, action, statement-of-reasons and objection rules of the EU Digital Services Act). Our legitimate interest for the reporters' signals: preventing someone else's name from being taken down with a few fake accounts; the signals are derived from account data we already keep |
+| **Retention** | Reports **12 months**, moderation records **24 months**. Case and decision records are deleted **12 months** after the case is closed; they are not deleted while the permanent ban they support remains in place. The temporary trace of a name is deleted when the case is closed; the trace of a permanent ban and the time of the last change remain as long as your account exists. When the account is deleted, the reports you made and reports about you, the traces of your names and the moderation records are deleted; a case about you remains only as an **anonymous action record** (the link to the account, the name and the list of reports are deleted; the report counts, the record of the automatic action and the decisions remain; an open case is closed as "account deleted") and is deleted after the period above. |
 
-The player you report is **not told** who reported them. If your name is removed, the game tells you so and why, once,
-on the Profile screen at the next connection: it says whether the decision was made automatically after enough players
-reported the name, or after a review by our team. How to object is in Section 9.
+**How does it work?** If **3 different players** who meet the reporting rules (Section 9) report a name, the name is
+automatically replaced with a new name generated by the game and a **review case** is opened. You can choose another
+name straight away; you cannot choose the changed name until the case is closed. Whether the name is permanently banned
+for you is decided **only by a human**, looking at the evidence in the case: if they confirm, the name is permanently
+banned; if they reject, the name becomes free again, that case's reports are never counted again and the reports of
+those who made them do not count towards automatic action for 180 days. If the case is not decided within **30 days**,
+it closes automatically, the name becomes free and no ban arises. A case is opened in the same way for a name changed
+manually by our team. The evidence of a case is written once and cannot be changed; decisions cannot be changed either.
+
+The player you report is **not told** who reported them. The reporters' identity is not looked at for the decision; only
+where there is a clear suspicion of misuse (e.g. the same accounts appearing in several cases) are the report records
+examined, and the finding goes into an anti-cheat record (Section 3.4). While the report records exist (12 months), the
+signals in the case can be linked indirectly to the reporter, so we treat them as pseudonymous personal data; if the
+reporter deletes their account, their report is deleted and the signal row in the case can no longer be linked to anyone.
+
+If your name is changed, the game tells you so and why, once, on the Profile screen at the next connection: it says
+whether the change was made automatically after enough players reported the name, or after a review by our team. The
+case's later decision (permanent ban, rejection or lifting of the ban) is not announced separately in the game; you can
+find out the decision and its reasons by writing to us. How to object is in Section 9.
 
 ### 3.8 Rewarded video: reward record and permission record
 
@@ -265,11 +293,99 @@ The data file itself is not stored on the server; it is prepared on your device 
 
 Your settings (sound, vibration, battery saver), the version and date of the Terms of Use you accepted, the version and
 date of the privacy policy change notice you saw, the copy of your progress on the device, results not yet sent to the
-server, your list of blocked players, your session key (in the keychain), your rewarded-video permission answer and, for
-players in Europe, your choices in Google's consent form are stored on your device. These are needed for the game to
-work. Your list of blocked players is not sent to us. Deleting the app deletes this data too (the session key in the
-keychain may remain under iOS's rules; deleting your account as in Section 8 also invalidates it). Deleting the app does
-not delete your account on the server; for that, use Settings → Account → Delete account.
+server, your list of blocked players, your session key (in the keychain), your rewarded-video permission answer, for
+players in Europe, your choices in Google's consent form, iOS's age range answer and the records relating to parental
+approval (Section 3.15) are stored on your device. These are needed for the game to work. Your list of blocked players,
+the age range answer and the parental approval records are not sent to us. Deleting the app deletes this data too (the
+session key in the keychain may remain under iOS's rules; deleting your account as in Section 8 also invalidates it).
+Deleting the app does not delete your account on the server; for that, use Settings → Account → Delete account.
+
+### 3.14 Sign in with Apple (optional; version 0.1.0 (16) and later)
+
+Every player starts with a guest account (Section 3.1). In version 0.1.0 (16) of the game and later (the version is
+shown at the bottom of Settings) you can **optionally** link your account to your Apple Account in Settings → Account;
+this way you continue with the same account on a new device or when you reinstall the game. If you don't use Sign in
+with Apple, the game plays just the same and the data in this section is never created. If you sign in with Apple, we
+**do not ask Apple for your name or email.**
+
+| | |
+| --- | --- |
+| **Data** | The **user identifier** that Apple generates for our developer account (it is the same in our apps for the same Apple Account and different in other developers' apps); two technical fields used by the sign-in system (the address of Apple as the issuer and a copy of the same user identifier in our sign-in system); when you linked with Apple and when you last signed in. When you sign in, your device sends an identity token signed by Apple to our server; the token is verified and only these fields are stored from it. Your Apple Account's email address and your name are not stored. |
+| **Purpose** | To link your account to your Apple Account; to let you sign in to the same account on another device or after reinstalling; when you delete your account, to revoke the game's Sign in with Apple authorisation at Apple as well |
+| **Legal basis** | KVKK Art. 5(2)(c) · GDPR Art. 6(1)(b) (you ask for the link). For revoking the authorisation on deletion, also KVKK Art. 5(2)(f) · GDPR Art. 6(1)(f) (legitimate interest: carrying out your deletion request in full on Apple's side as well; Apple's Sign in with Apple rules also require this) |
+| **Retention** | As long as your account exists; deleted with your account. An account linked with Apple is deleted if the game **does not connect to our server at all for 36 months** (Section 8.2; for a guest account this period is 12 months). |
+
+We do not use the Apple user identifier for advertising, we do not sell it, we do not give it to anyone other than the
+service provider that hosts our server (Section 5) and we do not match it with data in our other apps.
+
+**When you delete your account.** When you delete an account linked with Apple with Settings → Account → Delete account,
+Apple asks you to confirm once more; if you close the confirmation window, the account is not deleted. If you confirm,
+your device gets a single-use code from Apple and sends it to our server with the deletion request; our server deletes
+your account and sends this code to Apple once to revoke the game's Sign in with Apple authorisation. The code is not
+stored anywhere and is not written to any log; only the result of this step (e.g. revoked or failed) is written to the
+deletion record (Section 7). If Apple returns an error during the confirmation, your account is still deleted but the
+revocation cannot be made; when the account is deleted for inactivity (Section 8.2), the revocation cannot be made
+either, because there is no code. In these cases you can remove the game yourself from the "Sign in with Apple" list in
+your Apple Account settings. Removing the game from that list, however, does not delete your account and this
+information does not reach us; to delete your account, use Delete account.
+
+**When you sign in with Apple on another device.** If your Apple Account is already linked to a game account (e.g. if
+you linked it on your previous device), you sign in to that account and that account is the one that counts. If there
+is a guest account on your device at that moment:
+
+- If the guest account has progress (levels won, Crystals, purchases or Endless depth), you are asked first; if you
+  cancel, nothing changes.
+- The guest account's progress, wallet (including Crystals earned in the game), upgrades, cosmetics, league records and
+  reward claims **are not moved** (Terms of Use, Section 4.6).
+- **Purchased and unspent Crystals** in the guest account move to the account linked with Apple: only from real
+  purchases that have not been refunded, and at most up to the guest account's balance. The records of these purchases
+  also move to that account; if they are refunded later, the Crystals are taken back from that account. Crystals from
+  test (sandbox) purchases do not move.
+- Non-consumable purchases (e.g. the Founder Pack) come to that account under the rules of "Restore purchases"
+  (Section 9).
+- The guest account is **deleted immediately** on our server; the deletion is done as in Section 8.1 and leaves the same
+  records (the deletion record gives the reason as "merge").
+- The guest progress on your device is replaced with the account's state on the server; your device settings stay.
+
+For the merge, your device sends the key of the guest session to our server once (to show that you are the one using
+the guest account); this key is not stored. If the merge cannot be completed because of an error, the guest account
+remains in a state that no one can access and is deleted under the inactivity rule in Section 8.2.
+
+**Apple's role.** Sign in with Apple is run by Apple. Apple processes the data it processes in this context (e.g. the
+apps in which you use Sign in with Apple) as an independent controller under its own privacy policy:
+https://www.apple.com/legal/privacy/.
+
+### 3.15 Parental approval for important changes (age laws; version 0.1.0 (16) and later)
+
+In some places (e.g. the app store laws of the US states of Texas, Utah and Louisiana), the law requires that, when an
+app changes significantly, approval is obtained from the parent of a user under 18 or the adult user is informed. The
+game finds out from Apple on your device whether this is required where you are (iOS's age range feature, Section 11).
+
+- **What we count as an important change:** a new personal data flow from the device or a new recipient; a new account
+  or sign-in type; a new payment method or purchase data flow; a new way for players to reach each other; a change in
+  the App Store age rating. Version 0.1.0 (16) has two important changes: Sign in with Apple (Section 3.14) and the
+  reporting of purchase records from our server (Section 3.9).
+- **Parental approval:** If the law requires approval, a player under 18 is shown what has changed in the game; if the
+  player wants, they send the request to their parent **through Apple** with "Ask my parent". Until the parent
+  approves, only the features that change brings wait: the Sign in with Apple button is not shown and new purchases
+  cannot be made (no payment is taken). "Restore purchases" stays available. The rest of the game is the same for
+  everyone. If you downloaded the game for the first time after the change, approval is not requested for that change.
+- **Notice for adults:** If the law requires only a notice for adults, Apple's own information window is shown; nothing
+  is restricted.
+- **What stays on your device:** whether the law requires approval or notice, which changes have been approved or
+  requested and the game's most recently seen App Store age rating are stored only on your device and **are not sent to
+  us.** This is why your parent may be asked again on a new device. Apple carries the approval request and its answer;
+  they do not reach us.
+- **If the parent withdraws approval:** Apple prevents the app from opening on that child's devices and sends a
+  notification to our server. Of this notification, only its number, its type, what our server did and when it arrived
+  are stored (**24 months**). We do not match the notification with any game account (to do so we would have to keep a
+  new, permanent number about every player); this is why the notification does not affect the account or purchases.
+  Because the app does not open, it may not be possible to delete the account from inside the game: the parent can write
+  to us (Section 10); the account is also deleted under the inactivity rule in Section 8.2.
+- **Legal basis:** for the records on the device and the approval request, KVKK Art. 5(2)(f) · GDPR Art. 6(1)(f)
+  (legitimate interest: complying with the laws where you are and with Apple's rules); for the notification record on
+  the server, KVKK Art. 5(2)(f) and Art. 5(2)(e) · GDPR Art. 6(1)(f) (processing the notification once and being able to
+  show what we did).
 
 ## 4. Rewarded videos and ads (Google AdMob)
 
@@ -346,7 +462,7 @@ We **do not sell** your data and we **do not share** it for behavioural advertis
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — corporate email | Emails you send us and our replies | Our support address is hosted on this service; emails are stored on Güzel Hosting's servers in Türkiye | Processor |
 | **MailChannels Corporation** (Canada; servers in North America) | The content of the replies we send you and your email address, only while in transit | Güzel Hosting's mail relay service; our replies are delivered to you through it and are not stored there | Processor (a sub-service of Güzel Hosting) |
 | **Google** (Google Ireland Limited in the EEA, the United Kingdom and Switzerland; Google LLC, USA, elsewhere) | Only if you agreed to rewarded videos (in the EEA, the UK and Switzerland, also according to your choice in Google's form): the advertising data in Section 4.2 (directly from your device) and the ticket number | Showing and verifying the rewarded video | Independent controller |
-| **Apple** (Apple Distribution International Ltd. and its affiliates) | Downloads of the app from the App Store, purchases and refunds (you make these directly with Apple on the App Store; we receive purchase and refund information as a transaction record signed by Apple); if you allowed it in iOS settings, Apple's own crash and usage statistics | App Store and payment services | Independent controller (Apple's own policy: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. and its affiliates) | Downloads of the app from the App Store, purchases and refunds (you make these directly with Apple on the App Store; we receive purchase and refund information as a transaction record signed by Apple); if you allowed it in iOS settings, Apple's own crash and usage statistics. If you use Sign in with Apple, Apple runs the sign-in; when you delete your account linked with Apple, our server sends Apple a single-use code to revoke the Sign in with Apple authorisation (Section 3.14). Where the law requires it, Apple carries the parental approval request; Apple may notify us that parental approval has been withdrawn (Section 3.15) | App Store, payment, Sign in with Apple and parental approval services | Independent controller (Apple's own policy: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (USA) | For real purchases, only from our server: Apple's signed transaction record, your random customer code and refund notifications for transactions already sent (Section 3.9) | Purchase and refund records, revenue reporting | Service provider; works under its own terms (https://www.revenuecat.com/terms) and privacy policy (https://www.revenuecat.com/privacy) |
 | **Competent public authorities and courts** | Only what is legally required | Legal obligation | — |
 
@@ -391,7 +507,12 @@ the level of protection in this policy; we will announce this in the game before
   only when you write to us and we reply. We have no separately signed contract with MailChannels; we regard this transit
   as an occasional transfer necessary for our reply to reach you (KVKK Art. 9(6)(b)).
 - **Apple:** You use the App Store and payments directly with Apple; how and where Apple processes your data is set out
-  in Apple's privacy policy. Your purchases are verified and recorded on our server in Türkiye.
+  in Apple's privacy policy. Your purchases are verified and recorded on our server in Türkiye. When you sign in with
+  Apple, Apple's identity token comes from your device to our server in Türkiye; only the fields in Section 3.14 are
+  stored from it here. Only when you delete your account linked with Apple yourself does our server send a single-use
+  code to Apple's servers outside Türkiye to revoke the Sign in with Apple authorisation; this is an occasional transfer,
+  made only to complete your deletion request and once per request (KVKK Art. 9(6)(b)). The parental approval request
+  goes from your device directly to Apple; nothing comes to us.
 - **RevenueCat (real purchases):** Purchase and refund records are sent from our server to RevenueCat, Inc. in the
   USA, as described in Section 3.9, and processed in the USA. There is no adequacy decision for the USA under Turkish
   law. We keep this transfer to a minimum: it is made only from our server, for real purchases (test transactions only
@@ -414,7 +535,7 @@ the level of protection in this policy; we will announce this in the game before
 
 | Data | Period |
 | --- | --- |
-| Account, progress, wallet, result summaries, public ID, rewarded-video permission record, purchase records, Champions and Gate Openers records, trace of a removed name | As long as the account exists; deleted with the account if the game does not connect to our server for **12 months** (**36 months** for an account with a purchase or refund history) (Section 8.2) |
+| Account, progress, wallet, result summaries, public ID, rewarded-video permission record, purchase records, Champions and Gate Openers records, trace of a permanent name ban, Sign in with Apple identifier (Section 3.14) | As long as the account exists; deleted with the account if the game does not connect to our server for **12 months** (**36 months** for an account with a purchase or refund history or linked with Apple) (Section 8.2) |
 | Battle move record (replay) | 90 days after the decision |
 | Result that cannot be verified | Closed after 30 days |
 | Weekly league and depth league | 26 weeks |
@@ -422,13 +543,15 @@ the level of protection in this policy; we will announce this in the game before
 | Anti-cheat records | 12 months |
 | Wallet records of a deleted account, with the account number removed (anonymous, except those relating to purchases) | 12 months |
 | Purchase transaction records of a deleted account, with the link to the account cut | 24 months |
-| Records of purchases moved between accounts, and Apple's refund and revocation notification records (Section 3.9) | 24 months (when an account is deleted, its account number is removed from the move records at once) |
+| Records of purchases moved between accounts, and Apple's refund and revocation notification records (Section 3.9); Apple's notification records about the withdrawal of parental approval (not linked to any account, Section 3.15) | 24 months (when an account is deleted, its account number is removed from the move records at once) |
 | The customer record and purchase/refund records at RevenueCat (Section 3.9) | As long as the account exists; when the account is deleted (on request or after 12/36 months of inactivity), deletion at RevenueCat is requested |
 | The copy on our server of a signed record waiting to be sent to RevenueCat | Until it is sent or the sending fails; at most 30 days |
 | The RevenueCat sending record (without the signed record; transaction number and customer code) | As long as the account exists, so that refund notifications can be forwarded (deleted at once when the account is deleted). Completed or failed jobs and the deletion request of a deleted account (customer code only; not linked to the account): 30 days after the job ends |
 | Name reports | 12 months |
 | Moderation records | 24 months |
-| Account deletion record (only a random request number, the time and the reason: your own request or inactivity; contains no account number) | 24 months |
+| Name review cases and decision records (Section 3.7) | 12 months after the case is closed; not deleted while the permanent ban they support remains in place. When the account is deleted, kept for the same period as an anonymous action record with the name and the link to the account deleted |
+| Temporary trace of a name while a case is open | Until the case is closed (at most 30 days if no decision is made) |
+| Account deletion record (only a random request number, the time, the reason: your own request, inactivity or the merging of a guest account with an account linked with Apple; for an account linked with Apple, the result of the step revoking the Sign in with Apple authorisation; contains no account number) | 24 months |
 | "Download my data" daily counter | 7 days |
 | Sign-in security records (without IP address) | 1 hour |
 | Concurrent sync lock (a technical record that prevents two syncs at the same time) | 1 day after it expires |
@@ -443,11 +566,15 @@ security records this job runs every 15 minutes.
 ### 8.1 Deleting your account yourself
 
 **Settings → Account → Delete account.** When you confirm, your account on our server and all data linked to it
-(progress, wallet, results, move records, your player name, avatar, public ID, league records, permission record, reports
-you made and reports about you) are deleted **immediately and irreversibly;** the game also starts over on your device.
-Only these remain: wallet movements and anti-cheat records with your account number removed (up to 12 months;
-anonymous, except those relating to purchases), purchase transaction records with the link to your account cut and
-purchase move records with your account number removed (24 months) and the deletion record, which does not contain your account number (24 months). Deleted data leaves the backups within 30 days at the latest.
+(progress, wallet, results, move records, your player name, avatar, public ID, league records, permission record, Sign
+in with Apple identifier, reports you made and reports about you, the traces of your names and your moderation records)
+are deleted **immediately and irreversibly;** the game also starts over on your device. If your account is linked with
+Apple, Apple first asks you to confirm once more and our server asks Apple to revoke the game's Sign in with Apple
+authorisation (Section 3.14). Only these remain: wallet movements and anti-cheat records with your account number
+removed (up to 12 months; anonymous, except those relating to purchases), purchase transaction records with the link to
+your account cut and purchase move records with your account number removed (24 months), the anonymous action record of
+name review cases about you (Section 3.7) and the deletion record, which does not contain your account number
+(24 months). Deleted data leaves the backups within 30 days at the latest.
 The link between your account and the random customer code at RevenueCat is deleted from our server immediately, and we
 ask RevenueCat to delete that customer record (Section 3.9).
 
@@ -460,10 +587,10 @@ If the game **does not connect to our server at all for 12 months**, your accoun
 way and with the same results as the deletion in Section 8.1. We do this so that we do not keep data nobody uses indefinitely.
 
 - **What do we look at?** The account's creation, its last sign-in, the last refresh of its session and the day you last
-  opened the app; if the most recent of these is older than 12 months (36 months for an account with purchases), the
-  account is deleted. When you open the app with an internet connection, this information is updated automatically; if
-  for 12 months (36 months for an account with purchases) you only opened the app offline, the account may still be
-  deleted.
+  opened the app; if the most recent of these is older than 12 months (36 months for an account with purchases or linked
+  with Apple), the account is deleted. When you open the app with an internet connection, this information is updated
+  automatically; if for 12 months (36 months for an account with purchases or linked with Apple) you only opened the app
+  offline, the account may still be deleted.
 - **We cannot warn you beforehand:** Because we don't take any contact details from you, we cannot write to you before
   the deletion. That is why this rule is also written in Settings → Account.
 - **What happens next?** When you open the app again, the game opens a new account for you. Your wallet, Workshop upgrades
@@ -476,6 +603,11 @@ way and with the same results as the deletion in Section 8.1. We do this so that
   (e.g. the tower in the Founder Pack) back in your new account with the same Apple Account through "Restore purchases";
   consumable items that came with them are not granted a second time (Terms of Use, Section 4.2). You can delete such an
   account at any time as in Section 8.1.
+- **Accounts linked with Apple: 36 months.** If you linked your account with Apple (Section 3.14), you have asked for your
+  account to live on independently of your device; that is why the period is **36 months**, as for accounts with
+  purchases. For an account deleted for inactivity, the Sign in with Apple authorisation cannot be revoked (no new
+  confirmation can be obtained from Apple); you can remove the game yourself from the "Sign in with Apple" list in your
+  Apple Account settings.
 
 ## 9. Automated decisions
 
@@ -489,11 +621,15 @@ Some decisions in the game are made automatically, without human involvement:
 - **Moving purchases:** How many times and how often a purchase can be moved to another account with "Restore
   purchases" is limited automatically (for real purchases at most 3 times in all and at most once every 30 days; for
   test purchases by a daily limit). A move over the limit is not made, and the game tells you so.
-- **Name removal:** If **3 different players**, whose accounts are older than one day and who have won at least 5 levels,
-  report a name, the name is automatically replaced with a new name generated by the game. You can choose a new name
-  straight away, but you cannot choose the removed name again. At the next connection, the game tells you once, on the
-  Profile screen, that your name was changed automatically after reports (for a change made by our team it says so
-  instead). Every automatic removal is recorded for review by a human.
+- **Name change:** If **3 different qualifying players** report a name, the name is automatically replaced with a new
+  name generated by the game and a review case is opened (Section 3.7). A qualifying player is one whose account is
+  older than 3 days, who has at least 5 level wins verified by the server and who has no report in a case rejected in
+  the last 180 days. You can choose a new name straight away; the changed name stays blocked for you until the case is
+  closed. **A permanent ban is not given automatically;** it happens only by a human's decision. If the case is not
+  decided within 30 days, the block is lifted automatically and no ban arises. If a case is rejected, that case's
+  reports are never counted again and the reports of those who made them do not count towards automatic action for 180
+  days. At the next connection, the game tells you once, on the Profile screen, that your name was changed
+  automatically after reports (for a change made by our team it says so instead).
 - **Weekly League gift:** Whether you finished in the top 3 of a group of at least 10 players when the week ended is
   determined automatically from the server's own ranking.
 - **Inactive account deletion:** The rule in Section 8.2 is applied automatically.
@@ -503,6 +639,14 @@ concerning you or similarly significantly affect you. **We do not profile you** 
 Still, if you think an automated decision is wrong, write to us; a human will review it. If RevenueCat's verification
 with Apple contradicts ours, only an anti-cheat record is opened; what you bought is not taken back because of it. Under KVKK Art. 11(1)(g) you have
 the right to object to an outcome against you that arises from analysis made exclusively through automated systems.
+
+**Objecting to name decisions.** If your name was changed or permanently banned, you can object by writing to
+destek@mm-apps.com with your player number from Settings → Account. A human reviews your objection, looking at the
+evidence in the case: if the case is open, it is decided; if a permanent ban is unfair, it is lifted. We send you the
+outcome and the reasons by email. This route is open for at least 6 months from the date of the decision; for this
+purpose, case records are kept for 12 months after closing (Section 3.7). If, as someone who reported a name, you think
+a decision is wrong, you can write to us the same way. These routes do not affect your right to apply to a court or a
+competent authority.
 
 ## 10. Your rights and how to use them
 
@@ -523,7 +667,7 @@ subject to significant decisions based solely on automated processing.
 
 | What do you want? | How? |
 | --- | --- |
-| A copy of my data (information and access, data portability) | **Download my data:** Most of the data the server keeps about your account and the game save on your device are prepared in a single JSON file; you can save or share the file. The file contains your account's creation and last sign-in date, sign-up language, your profile (including your name, avatar, public ID and rewarded-video permission record), your progress, your wallet and its movements, your level results and move records, your Endless Universe runs, league weeks, Time Rift results, your Gate Openers number, your purchases (product, transaction number, environment, date, refund), your rewarded-video tickets (placement and times), the reports you made (only the name you reported), the moderation actions applied to your name (action, removed name, date), and only the type and date of your anti-cheat records. **Not in the file** (you can get them by writing to us): the details of anti-cheat records (to protect our methods of detecting cheating); the creation and refresh times of your sessions; the original transaction number of your purchases, which account the Crystals were credited to, move records and Apple's notification records about these transactions; the number of your rewarded-video tickets, Google's ad transaction number and the doubled result; the trace of a name removed by moderation; your random customer code at RevenueCat, your records of sending to RevenueCat and your objection record (the records sent to RevenueCat are the same transactions as the purchases in the file); sign-in security records kept for at most 1 hour and the "Download my data" counter. Your settings, your Terms of Use and privacy notice records, the on-device copy of your rewarded-video permission answer, your age range answer and your blocked players, which stay only on your device, are not in the file either (Section 3.13). The request is answered after verifying, through your session, that it comes from your account; at most 3 times a day. |
+| A copy of my data (information and access, data portability) | **Download my data:** Most of the data the server keeps about your account and the game save on your device are prepared in a single JSON file; you can save or share the file. The file contains your account's creation and last sign-in date, sign-up language, your Sign in with Apple link (your Apple user identifier and when you linked it; empty if you did not link), your profile (including your name, avatar, public ID and rewarded-video permission record), your progress, your wallet and its movements, your level results and move records, your Endless Universe runs, league weeks, Time Rift results, your Gate Openers number, your purchases (product, transaction number, environment, date, refund), your rewarded-video tickets (placement and times), the reports you made (only the name you reported), the moderation actions applied to your name (action, changed name, date), the review cases about your names (name, source, status, outcome, opening and closing date), and only the type and date of your anti-cheat records. **Not in the file** (you can get them by writing to us): the details of anti-cheat records (to protect our methods of detecting cheating); the creation and refresh times of your sessions; the technical fields of your Sign in with Apple identifier and your last sign-in time with it; the original transaction number of your purchases, which account the Crystals were credited to, move records and Apple's notification records about these transactions; the number of your rewarded-video tickets, Google's ad transaction number and the doubled result; the trace of your name changed by moderation; the report counts and decision reasons of review cases (not given, because the reporters' signals are other people's data); your random customer code at RevenueCat, your records of sending to RevenueCat and your objection record (the records sent to RevenueCat are the same transactions as the purchases in the file); sign-in security records kept for at most 1 hour and the "Download my data" counter. Your settings, your Terms of Use and privacy notice records, the on-device copy of your rewarded-video permission answer, your age range answer, your parental approval records and your blocked players, which stay only on your device, are not in the file either (Section 3.13). The request is answered after verifying, through your session, that it comes from your account; at most 3 times a day. |
 | Deletion | **Delete account** (Section 8.1) |
 | Withdrawing or giving rewarded-video permission | **Settings → Rewarded video permission** (in the EEA, the UK and Switzerland, **Settings → Ad privacy options**) |
 | Correction | You can change your player name yourself on the Profile screen. If you think other data is wrong, write to us. |
@@ -589,6 +733,9 @@ their date of birth, name, email or contact details.
   added to rewarded-video ad requests; if it turns out that you are under 13, if you choose not to share your age range
   or if you have not yet answered where a law requires it, a "child-directed treatment" signal is added as well
   (Section 4.2). The rest of the game is the same for everyone.
+- **Age laws and parental approval:** Where the law requires it (e.g. Texas, Utah and Louisiana in the USA), in version
+  0.1.0 (16) and later, Sign in with Apple and new purchases wait, for a player under 18, until a parent gives approval
+  through Apple; if the parent withdraws approval, Apple prevents the app from opening. Details are in Section 3.15.
 - **Children under 13:** We do not ask children for their name, email, phone number or any other contact details; we do
   not accept player names containing contact details. The random account number and public ID the game uses for every
   player are used only to run the game, protect progress and prevent cheating; they are not used for behavioural
@@ -603,7 +750,11 @@ their date of birth, name, email or contact details.
 
 - All connections between the app and our server are encrypted (HTTPS/TLS).
 - Only server code can write game data; each player can read only their own data.
-- Your account has no password; we hold no password or email address of yours that could be stolen.
+- Your account has no password; we hold no password or email address of yours that could be stolen. With Sign in with
+  Apple, the sign-in request is protected with a single-use random value (nonce); the single-use code sent to Apple on
+  account deletion is not stored.
+- The evidence and decisions of name review cases cannot be changed afterwards. Players cannot see other players' cases;
+  a summary of the cases about their own names is in the Download my data file.
 - Other players receive a separate, random public ID, not your account number.
 - Sign-in records keep no IP address or device details.
 - The app contains no software from RevenueCat or any other purchase infrastructure. The access key for RevenueCat is not
@@ -620,7 +771,14 @@ We may update this policy as the game or the law changes. The current version is
 link in the game's Settings screen. We announce important changes in the game before they take effect. If a change
 requires new consent (e.g. if the rewarded-video permission text changes), we will ask for your consent separately.
 
-**Version history.** 1.1 (8 November 2026): reporting of purchase and refund records from our server to RevenueCat (In
+**Version history.** 1.2 (12 November 2026): optional Sign in with Apple, in version 0.1.0 (16) and later (In short,
+Our principle, Sections 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); a 36-month inactivity period for accounts linked with
+Apple (In short, 3.1, 7, 8.2); review cases for name reports, reporters' signals without their identity, permanent bans
+only by a human's decision, retention of case and decision records and the anonymous record that remains when an
+account is deleted (In short, Our principle, 3.7, 7, 8.1, 9, 10, 12); objecting to name decisions (Section 9); parental
+approval for important changes where age laws require it, and Apple's notification that approval has been withdrawn
+(In short, 3.13, 3.15, 5, 6, 7, 11).
+1.1 (8 November 2026): reporting of purchase and refund records from our server to RevenueCat (In
 short, Our principle, Sections 2, 3.9, 5, 6, 7, 8.1, 9, 10, 11, 12); links to third parties' own terms (Section 5);
 records of purchases moved between accounts, Apple's refund notification records and refund reversals (Sections 3.9, 7,
 8.1, 9); the limit on sending a move record again (Sections 3.4, 9); the regular nature of the transfer to Google

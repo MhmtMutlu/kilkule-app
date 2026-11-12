@@ -2,7 +2,7 @@
 
 > Diese Übersetzung dient nur zur Information. Bei Abweichungen ist die türkische Fassung maßgeblich.
 
-**Gültig ab:** 8. November 2026 · **Version:** 1.1 (vorherige Version 1.0, 7. November 2026; Änderungen in Abschnitt 13)
+**Gültig ab:** 12. November 2026 · **Version:** 1.2 (vorherige Version 1.1, 8. November 2026; Änderungen in Abschnitt 13)
 
 Dieser Text ist als Informationstext nach Art. 10 KVKK (türkisches Gesetz Nr. 6698 zum Schutz personenbezogener Daten)
 und als Information nach Art. 13 der EU-Datenschutz-Grundverordnung (DSGVO) verfasst. Kurzer KVKK-Informationstext und
@@ -16,12 +16,19 @@ türkische Text (siehe Abschnitt 15).
 - **Wir fragen nicht nach deinem Namen, deiner E-Mail-Adresse, deiner Telefonnummer, deinem Standort oder deiner
   Werbe-ID.** Wenn du das Spiel zum ersten Mal öffnest, erstellt es für dich ein Spielerkonto; dieses Konto kennt deinen
   Namen nicht, es wird nur an einer **zufälligen Nummer** erkannt.
+- **„Mit Apple anmelden“ ist freiwillig** (in den Versionen 0.1.0 (16) und neuer des Spiels). Auch wenn du es nutzt,
+  fragen wir nicht nach deinem Namen und deiner E-Mail-Adresse; von Apple erhalten wir nur eine Benutzerkennung, die
+  Apple für unser Entwicklerkonto erzeugt (Abschnitt 3.14).
 - Mit diesem Konto werden **dein Spielfortschritt, deine Geldbörse und deine Kampfergebnisse** auf unserem Server in der
   Türkei gespeichert. Wir tun das, um das Spiel für dich bereitzustellen, deinen Fortschritt zu schützen und **Schummeln
   zu verhindern**.
 - In den Liga- und Ranglistentabellen **sind dein Spielername und dein Avatar für andere Spieler sichtbar.** Das Spiel
   gibt dir automatisch einen Namen; wenn du selbst einen Namen eingeben möchtest, **gib nicht deinen echten Vornamen,
-  Nachnamen, deine Schule oder deine Kontaktdaten ein.**
+  Nachnamen, deine Schule oder deine Kontaktdaten ein.** Ob ein aufgrund von Meldungen geänderter Name **dauerhaft
+  gesperrt wird, entscheidet nur ein Mensch** (Abschnitt 3.7).
+- Wo es ein Gesetz verlangt (z. B. in einigen US-Bundesstaaten), warten die Funktionen, die wichtige Änderungen im Spiel
+  mit sich bringen, bei Spielern unter 18 Jahren, **bis ein Elternteil über Apple zustimmt**; die Einträge zu dieser
+  Zustimmung bleiben nur auf deinem Gerät (Abschnitt 3.15).
 - **Wir verfolgen dich nicht,** wir **verkaufen** deine Daten **nicht** und zeigen keine personalisierte Werbung.
 - **Belohnungsvideos sind immer freiwillig.** Diese Videos zeigt Google. In jedem Land **bitten wir dich** zuerst im
   eigenen Bildschirm des Spiels **um deine Erlaubnis;** gibst du sie nicht, gehen keinerlei Informationen an Google, und
@@ -33,8 +40,9 @@ türkische Text (siehe Abschnitt 15).
   unseren Dienstleister **RevenueCat** in den USA, um Käufe und Erstattungen auszuwerten. Dein Gerät spricht nie mit
   RevenueCat (Abschnitt 3.9).
 - Wir bewahren Daten nur so lange auf, wie es nötig ist. Wenn sich das Spiel **12 Monate lang kein einziges Mal mit
-  unserem Server verbindet,** wird dein Konto automatisch gelöscht (wenn du einen Kauf getätigt hast, beträgt diese Frist
-  **36 Monate**; deine nicht ausgegebenen Kristalle werden dann mit dem Konto gelöscht).
+  unserem Server verbindet,** wird dein Konto automatisch gelöscht (wenn du einen Kauf getätigt oder dein Konto mit
+  Apple verknüpft hast, beträgt diese Frist **36 Monate**; deine nicht ausgegebenen Kristalle werden dann mit dem Konto
+  gelöscht).
 - Eine Kopie deiner Daten kannst du über **Einstellungen → Konto → Meine Daten herunterladen** erhalten, und dein Konto
   kannst du jederzeit über **Einstellungen → Konto → Konto löschen** löschen.
 - Wenn du ein Problem oder eine Frage hast, schreib uns auf Türkisch, Englisch, Französisch, Deutsch, Italienisch oder
@@ -73,6 +81,10 @@ Person trennen wir, so weit es geht.
 - **Zufällige Kontonummer.** Dein Konto kennt deinen Namen nicht. Das ist es, was ältere Versionen der App in den Einstellungen „anonymes
   Konto“ nennen. Ehrlich gesagt: Auch wenn diese Nummer und die damit verknüpften Spieldaten deinen Namen nicht enthalten,
   **gelten sie rechtlich als personenbezogene Daten** (pseudonymisierte Daten). Deshalb gibt es diese Erklärung.
+- **„Mit Apple anmelden“ fragt nicht nach Name und E-Mail-Adresse.** Wenn du dich mit Apple anmeldest, fordert das
+  Spiel von Apple keinerlei zusätzliche Informationen (Name, E-Mail-Adresse) an. Von den Identitätsdaten, die Apple
+  sendet, werden nur die Benutzerkennung und zwei technische Felder gespeichert, die das Anmeldesystem verwendet;
+  das E-Mail-Feld bleibt leer (Abschnitt 3.14).
 - **Deine Kontonummer geht nicht an andere Geräte.** In den Tabellen wird an die Geräte anderer Spieler eine von deiner
   Kontonummer getrennte, zufällige **öffentliche Kennung** gesendet. Deine Kontonummer geht vom Server nur an dein eigenes
   Gerät.
@@ -92,7 +104,8 @@ Person trennen wir, so weit es geht.
   werden einige Einträge, die wir aufbewahren müssen, unter Löschung deiner Kontonummer gespeichert. Diese Einträge können
   niemandem mehr zugeordnet werden, sind also **anonym;** nur Einträge zu Käufen gelten nicht als anonym, weil sie die
   Transaktionsnummer von Apple tragen können; sie werden unter Trennung der Verbindung zu deinem Konto aufbewahrt. Der
-  Eintrag über die Löschung enthält deine Kontonummer nicht.
+  Eintrag über die Löschung enthält deine Kontonummer nicht. Gibt es einen Prüffall zu deinem Namen, bleibt von dem
+  Fall nur ein anonymer Vorgangseintrag, aus dem der Name und die Verbindung zum Konto gelöscht wurden (Abschnitt 3.7).
 
 ---
 
@@ -128,9 +141,10 @@ erhoben; die Korrespondenz in Abschnitt 3.10 wird dagegen erhoben, wenn du uns s
 | **Daten** | Zufällig erzeugte Kontonummer; Zeitpunkt der Kontoerstellung und der letzten Anmeldung; Sitzungsschlüssel (im Schlüsselbund deines Geräts und auf dem Server) sowie die Zeitpunkte, zu denen die Sitzungen eröffnet und zuletzt erneuert wurden; der **Tag**, an dem du die App zuletzt geöffnet hast (ohne Uhrzeit); die App-Sprache bei der Kontoerstellung und die aktuelle App-Sprache (damit der Name, den das Spiel dir gibt, in dieser Sprache geschrieben wird) |
 | **Zweck** | Das Spiel und seine Online-Funktionen (Sicherung des Fortschritts, Belohnungen, Liga) für dich bereitstellen; erkennen, dass deine Anfragen von deinem Konto kommen; Konten löschen, die lange nicht genutzt werden |
 | **Rechtsgrundlage** | Art. 5 Abs. 2 lit. c KVKK (Abschluss und Erfüllung eines Vertrags) · Art. 6 Abs. 1 lit. b DSGVO. Für den Tag der letzten Öffnung zusätzlich: unsere Pflicht, Daten nicht länger als nötig aufzubewahren, Art. 5 Abs. 2 lit. ç KVKK (in Verbindung mit Art. 4 und Art. 7 KVKK) · Art. 6 Abs. 1 lit. f und Art. 5 Abs. 1 lit. e DSGVO |
-| **Speicherdauer** | Solange dein Konto besteht. Wenn du dein Konto löschst, sofortige Löschung. Wenn sich das Spiel **12 Monate** lang (bei einem Konto mit einer Kauf- oder Erstattungshistorie **36 Monate** lang) kein einziges Mal mit unserem Server verbindet, werden das Konto und alle damit verknüpften Daten automatisch gelöscht (Abschnitt 8.2). |
+| **Speicherdauer** | Solange dein Konto besteht. Wenn du dein Konto löschst, sofortige Löschung. Wenn sich das Spiel **12 Monate** lang (bei einem Konto mit einer Kauf- oder Erstattungshistorie oder einem mit Apple verknüpften Konto **36 Monate** lang) kein einziges Mal mit unserem Server verbindet, werden das Konto und alle damit verknüpften Daten automatisch gelöscht (Abschnitt 8.2). |
 
-Um dein Konto zu eröffnen, fragen wir **nicht** nach Name, E-Mail-Adresse, Telefonnummer oder Passwort.
+Um dein Konto zu eröffnen, fragen wir **nicht** nach Name, E-Mail-Adresse, Telefonnummer oder Passwort. Das Konto wird
+als Gastkonto eröffnet; das freiwillige „Mit Apple anmelden“ steht in Abschnitt 3.14.
 
 ### 3.2 Spielfortschritt und Geldbörse
 
@@ -186,15 +200,34 @@ echten Vornamen, Nachnamen oder etwas einzugeben, das dich erkennbar macht.**
 
 | | |
 | --- | --- |
-| **Daten** | Wenn du einen Namen meldest: wer (Kontonummer) wen, welchen Namen und wann gemeldet hat; ob die Meldung für eine automatische Maßnahme gezählt wurde. Wenn ein Name entfernt wird: der entfernte Name, der Zeitpunkt der Entfernung, wie viele Meldungen es gab und ob die Maßnahme automatisch oder manuell erfolgte; eine Spur des entfernten Namens, damit dieser Spieler denselben Namen nicht erneut wählt; der Zeitpunkt der letzten Entfernung und ob die Entscheidung automatisch (aufgrund von Meldungen) oder von unserem Team getroffen wurde, damit wir dir die Begründung einmal zeigen können |
-| **Zweck** | Spieler vor unangemessenen Namen schützen; Meldungen prüfen; dem Spieler, dessen Name entfernt wurde, den Grund mitteilen; missbräuchliche Meldungen erkennen; unsere gesetzlichen Pflichten erfüllen |
-| **Rechtsgrundlage** | Art. 5 Abs. 2 lit. f KVKK und, soweit anwendbar, Art. 5 Abs. 2 lit. ç KVKK (rechtliche Verpflichtung) · Art. 6 Abs. 1 lit. f DSGVO und, soweit anwendbar, Art. 6 Abs. 1 lit. c DSGVO (z. B. die Regeln zu Meldungen, Abhilfemaßnahmen und Begründungen im Gesetz über digitale Dienste der EU) |
-| **Speicherdauer** | Meldungen **12 Monate**, Moderationsprotokolle **24 Monate**, die Spur des entfernten Namens und der Zeitpunkt der letzten Entfernung, solange dein Konto besteht. Wird das Konto gelöscht, werden all diese Daten (einschließlich der Meldungen von dir und über dich) gelöscht. |
+| **Daten** | **Meldung:** wer (Kontonummer) wen, welchen Namen und wann gemeldet hat; ob die Meldung für eine automatische Maßnahme gezählt wurde; falls ein Prüffall eröffnet wurde, mit welchem Prüffall sie verknüpft ist. **Wenn ein Name geändert wird:** der geänderte Name, der Zeitpunkt, wie viele Meldungen es gab und ob die Maßnahme aufgrund von Meldungen oder von unserem Team vorgenommen wurde (Moderationsprotokoll); Zeitpunkt und Quelle der letzten Änderung, damit wir dir die Begründung einmal zeigen können; eine Spur des Namens, damit du ihn nicht erneut wählst (vorübergehend, solange der Prüffall offen ist; dauerhaft bei einer Entscheidung über eine dauerhafte Sperre). **Prüffall:** der vollständige Text des Namens, so wie er angezeigt wurde, wessen Name es ist (Verbindung zum Konto), die Quelle (Meldungen oder unser Team), die Anzahl der Meldungen, der Eintrag über die automatische Maßnahme, der Status des Falls, sein Ergebnis, die Zeitpunkte der Eröffnung und des Abschlusses; für jede Meldung ihr Zeitpunkt, ob sie gezählt wurde, und Signale, mit denen sich ein Verdacht auf Bots oder Massenmeldungen beim Meldenden bewerten lässt: das Alter seines Kontos zum Zeitpunkt der Meldung, ob es ein Gastkonto ist, die Anzahl der gewonnenen Level, die Anzahl seiner Meldungen in den letzten 30 Tagen, die Anzahl der Anti-Cheat-Einträge in den letzten 90 Tagen und die Anzahl seiner Meldungen in abgelehnten Fällen in den letzten 180 Tagen. **Die Kontonummer des Meldenden wird nicht in den Fall kopiert.** **Entscheidungseintrag:** die Entscheidung, die Person, die sie getroffen hat (oder „System“ bei Fristablauf und Kontolöschung), der Zeitpunkt und die Begründung |
+| **Zweck** | Spieler vor unangemessenen Namen schützen; Meldungen prüfen; sicherstellen, dass über die dauerhafte Sperre eines Namens nur ein Mensch anhand der Beweise entscheidet; den Missbrauch von Meldungen mit gefälschten oder massenhaft angelegten Konten erkennen; dem Spieler, dessen Name geändert wurde, den Grund mitteilen; Entscheidungen und ihre Begründungen nachweisen und Widersprüche prüfen; unsere gesetzlichen Pflichten erfüllen |
+| **Rechtsgrundlage** | Art. 5 Abs. 2 lit. f KVKK und, soweit anwendbar, Art. 5 Abs. 2 lit. ç KVKK (rechtliche Verpflichtung) und Art. 5 Abs. 2 lit. e KVKK · Art. 6 Abs. 1 lit. f DSGVO und, soweit anwendbar, Art. 6 Abs. 1 lit. c DSGVO (z. B. die Regeln zu Meldungen, Abhilfemaßnahmen, Begründungen und Widersprüchen im Gesetz über digitale Dienste der EU). Unser berechtigtes Interesse an den Signalen des Meldenden: verhindern, dass mit einigen gefälschten Konten der Name eines anderen entfernt wird; die Signale werden aus Kontodaten abgeleitet, die wir ohnehin speichern |
+| **Speicherdauer** | Meldungen **12 Monate**, Moderationsprotokolle **24 Monate**. Fall- und Entscheidungseinträge werden **12 Monate** nach Abschluss des Falls gelöscht; solange die dauerhafte Sperre besteht, auf der sie beruhen, werden sie nicht gelöscht. Die vorübergehende Spur des Namens wird gelöscht, wenn der Fall abgeschlossen wird; die Spur der dauerhaften Sperre und der Zeitpunkt der letzten Änderung bleiben, solange dein Konto besteht. Wird das Konto gelöscht, werden die Meldungen von dir und über dich, die Spuren deiner Namen und die Moderationsprotokolle gelöscht; ein Fall über dich bleibt nur als **anonymer Vorgangseintrag** bestehen (die Verbindung zum Konto, der Name und die Liste der Meldungen werden gelöscht; die Anzahl der Meldungen, der Eintrag über die automatische Maßnahme und die Entscheidungen bleiben; ein offener Fall wird als „Konto gelöscht“ geschlossen) und wird nach der oben genannten Frist gelöscht. |
 
-Dem Spieler, den du meldest, wird **nicht gesagt,** wer ihn gemeldet hat. Wird dein Name entfernt, sagt dir das Spiel
-bei der nächsten Verbindung im Profil-Bildschirm einmal, dass dies geschehen ist und warum: Es unterscheidet, ob die
-Entscheidung aufgrund der Meldungen genügend vieler Spieler automatisch oder nach einer Prüfung durch unser Team getroffen
-wurde. Wie du widersprechen kannst, steht in Abschnitt 9.
+**Wie funktioniert das?** Melden **3 verschiedene Spieler**, die die Regeln für Meldungen erfüllen (Abschnitt 9), einen
+Namen, wird der Name automatisch durch einen neuen, vom Spiel erzeugten Namen ersetzt, und ein **Prüffall** wird
+eröffnet. Du kannst sofort einen anderen Namen wählen; den geänderten Namen kannst du nicht wählen, bis der Fall
+abgeschlossen ist. Ob der Name für dich dauerhaft gesperrt wird, entscheidet **nur ein Mensch** anhand der Beweise im
+Fall: Bestätigt er, wird der Name dauerhaft gesperrt; lehnt er ab, wird der Name wieder frei, die Meldungen dieses Falls
+werden nie wieder gezählt, und die Meldungen derjenigen, die diese Meldungen gemacht haben, werden 180 Tage lang nicht
+für automatische Maßnahmen gezählt. Wird der Fall nicht innerhalb von **30 Tagen** entschieden, wird er automatisch
+geschlossen, der Name wird wieder frei, und es entsteht keine Sperre. Auch für einen Namen, den unser Team manuell
+geändert hat, wird auf dieselbe Weise ein Fall eröffnet. Die Beweise eines Falls werden einmal geschrieben und können
+nicht geändert werden; auch die Entscheidungen können nicht geändert werden.
+
+Dem Spieler, den du meldest, wird **nicht gesagt,** wer ihn gemeldet hat. Für die Entscheidung wird nicht auf die
+Identität der Meldenden geschaut; nur bei einem eindeutigen Missbrauchsverdacht (z. B. wenn dieselben Konten in mehreren
+Fällen auftauchen) werden die Meldeeinträge geprüft, und das Ergebnis wird in einen Anti-Cheat-Eintrag übernommen
+(Abschnitt 3.4). Solange die Meldeeinträge bestehen (12 Monate), können die Signale im Fall indirekt dem Meldenden
+zugeordnet werden; deshalb behandeln wir sie als pseudonymisierte personenbezogene Daten. Löscht der Meldende sein
+Konto, wird seine Meldung gelöscht, und die Signalzeile im Fall kann niemandem mehr zugeordnet werden.
+
+Wird dein Name geändert, sagt dir das Spiel bei der nächsten Verbindung im Profil-Bildschirm einmal, dass dies
+geschehen ist und warum: Es unterscheidet, ob die Änderung aufgrund der Meldungen genügend vieler Spieler automatisch
+oder nach einer Prüfung durch unser Team vorgenommen wurde. Die spätere Entscheidung im Fall (dauerhafte Sperre,
+Ablehnung oder Aufhebung der Sperre) wird im Spiel nicht gesondert mitgeteilt; die Entscheidung und ihre Begründung
+kannst du erfahren, indem du uns schreibst. Wie du widersprechen kannst, steht in Abschnitt 9.
 
 ### 3.8 Belohnungsvideo: Belohnungseintrag und Erlaubniseintrag
 
@@ -286,12 +319,108 @@ oder dorthin geteilt, wo du es auswählst.
 Deine Einstellungen (Sound, Vibration, Akku sparen), die Version und das Datum, mit denen du die Nutzungsbedingungen
 akzeptiert hast, Version und Datum des Hinweises auf eine Änderung der Datenschutzerklärung, den du gesehen hast, die Kopie deines Fortschritts auf dem Gerät, noch nicht an den
 Server gesendete Ergebnisse, die Liste der Spieler, die du blockiert hast, dein Sitzungsschlüssel (im Schlüsselbund),
-deine Antwort zur Erlaubnis für Belohnungsvideos und, bei Spielern in Europa, deine Auswahl im Einwilligungsformular von
-Google werden auf deinem Gerät gespeichert. Sie werden benötigt, damit das Spiel funktioniert. Die Liste der blockierten
-Spieler wird nicht an uns gesendet. Wenn du die App löschst, werden auch diese Daten gelöscht (der Sitzungsschlüssel im
+deine Antwort zur Erlaubnis für Belohnungsvideos, bei Spielern in Europa deine Auswahl im Einwilligungsformular von
+Google, die Antwort von iOS zum Altersbereich und die Einträge zur elterlichen Zustimmung (Abschnitt 3.15) werden auf
+deinem Gerät gespeichert. Sie werden benötigt, damit das Spiel funktioniert. Die Liste der blockierten Spieler, die
+Antwort zum Altersbereich und die Einträge zur elterlichen Zustimmung werden nicht an uns gesendet. Wenn du die App löschst, werden auch diese Daten gelöscht (der Sitzungsschlüssel im
 Schlüsselbund kann nach den Regeln von iOS erhalten bleiben; wenn du dein Konto wie in Abschnitt 8 löschst, wird auch er
 ungültig). Das Löschen der App löscht nicht das Konto auf dem Server; verwende dafür Einstellungen → Konto → Konto
 löschen.
+
+### 3.14 Mit Apple anmelden (freiwillig; Versionen 0.1.0 (16) und neuer)
+
+Jeder Spieler beginnt mit einem Gastkonto (Abschnitt 3.1). In den Versionen 0.1.0 (16) und neuer des Spiels (die
+Version steht ganz unten in den Einstellungen) kannst du dein Konto **freiwillig** unter Einstellungen → Konto mit
+deinem Apple Account verknüpfen; so spielst du auf einem neuen Gerät oder nach einer Neuinstallation des Spiels mit
+demselben Konto weiter. Wenn du „Mit Apple anmelden“ nicht nutzt, spielst du das Spiel genauso, und die Daten in diesem
+Abschnitt entstehen überhaupt nicht. Wenn du dich mit Apple anmeldest, fragen wir Apple **nicht nach deinem Namen oder
+deiner E-Mail-Adresse.**
+
+| | |
+| --- | --- |
+| **Daten** | Die **Benutzerkennung**, die Apple für unser Entwicklerkonto erzeugt (sie ist für denselben Apple Account in unseren Apps gleich und in den Apps anderer Entwickler verschieden); zwei technische Felder, die das Anmeldesystem verwendet (die Adresse von Apple als Ausstellerin der Kennung und eine Kopie derselben Benutzerkennung in unserem Anmeldesystem); die Zeitpunkte der Verknüpfung mit Apple und der letzten Anmeldung. Bei der Anmeldung sendet dein Gerät ein von Apple signiertes Identitätstoken an unseren Server; das Token wird geprüft, und aus ihm werden nur diese Felder gespeichert. Die E-Mail-Adresse deines Apple Accounts und dein Name werden nicht gespeichert. |
+| **Zweck** | Dein Konto mit deinem Apple Account verknüpfen; ermöglichen, dass du dich auf einem anderen Gerät oder nach einer Neuinstallation bei demselben Konto anmelden kannst; wenn du dein Konto löschst, die Berechtigung des Spiels für „Mit Apple anmelden“ auch bei Apple widerrufen |
+| **Rechtsgrundlage** | Art. 5 Abs. 2 lit. c KVKK · Art. 6 Abs. 1 lit. b DSGVO (die Verknüpfung wünschst du selbst). Für den Widerruf der Berechtigung bei der Löschung zusätzlich Art. 5 Abs. 2 lit. f KVKK · Art. 6 Abs. 1 lit. f DSGVO (berechtigtes Interesse: deinen Löschantrag auch auf Seiten von Apple vollständig erfüllen; das verlangen auch die Regeln von Apple für „Mit Apple anmelden“) |
+| **Speicherdauer** | Solange dein Konto besteht; wird zusammen mit deinem Konto gelöscht. Ein mit Apple verknüpftes Konto wird gelöscht, wenn sich das Spiel **36 Monate** lang kein einziges Mal mit unserem Server verbindet (Abschnitt 8.2; bei einem Gastkonto beträgt diese Frist 12 Monate). |
+
+Die Apple-Benutzerkennung verwenden wir nicht für Werbung, wir verkaufen sie nicht, geben sie außer dem Dienstleister,
+der unseren Server hostet (Abschnitt 5), niemandem und gleichen sie nicht mit Daten aus unseren anderen Apps ab.
+
+**Wenn du dein Konto löschst.** Wenn du ein mit Apple verknüpftes Konto über Einstellungen → Konto → Konto löschen
+löschst, bittet Apple dich noch einmal um Bestätigung; schließt du das Bestätigungsfenster, wird das Konto nicht
+gelöscht. Bestätigst du, erhält dein Gerät von Apple einen Einmalcode und sendet ihn mit dem Löschantrag an unseren
+Server; unser Server löscht dein Konto und sendet diesen Code einmal an Apple, um die Berechtigung des Spiels für „Mit
+Apple anmelden“ zu widerrufen. Der Code wird nirgends gespeichert und nicht protokolliert; in den Eintrag zur
+Kontolöschung (Abschnitt 7) wird nur das Ergebnis dieses Schritts geschrieben (z. B. widerrufen oder fehlgeschlagen).
+Meldet Apple bei der Bestätigung einen Fehler, wird dein Konto trotzdem gelöscht, aber der Widerruf kann nicht erfolgen;
+auch wenn das Konto wegen Inaktivität gelöscht wird (Abschnitt 8.2), kann der Widerruf mangels Code nicht erfolgen. In
+diesen Fällen kannst du das Spiel selbst aus der Liste „Mit Apple anmelden“ in den Einstellungen deines Apple Accounts
+entfernen. Entfernst du das Spiel aus dieser Liste, wird dein Konto dagegen nicht gelöscht, und diese Information
+erreicht uns nicht; um dein Konto zu löschen, verwende „Konto löschen“.
+
+**Wenn du dich auf einem anderen Gerät mit Apple anmeldest.** Ist dein Apple Account bereits mit einem Spielkonto
+verknüpft (z. B. weil du ihn auf deinem früheren Gerät verknüpft hast), meldest du dich bei diesem Konto an, und dieses
+Konto ist maßgeblich. Befindet sich in diesem Moment ein Gastkonto auf deinem Gerät:
+
+- Hat das Gastkonto Fortschritt (gewonnene Level, Kristalle, Käufe oder Tiefe im Endlos-Universum), wirst du zuerst
+  gefragt; brichst du ab, ändert sich nichts.
+- Fortschritt, Geldbörse (einschließlich im Spiel verdienter Kristalle), Ausbauten, Kosmetik, Ligaeinträge und
+  Belohnungsansprüche des Gastkontos werden **nicht übertragen** (Nutzungsbedingungen, Abschnitt 4.6).
+- **Gekaufte und nicht ausgegebene Kristalle** im Gastkonto gehen auf das mit Apple verknüpfte Konto über: nur aus nicht
+  erstatteten echten Käufen und höchstens in Höhe des Guthabens des Gastkontos. Auch der Eintrag dieser Käufe geht auf
+  dieses Konto über; werden sie später erstattet, werden die Kristalle von diesem Konto zurückgenommen. Kristalle aus
+  Testkäufen (Sandbox) gehen nicht über.
+- Nicht verbrauchbare Käufe (z. B. das Gründerpaket) kommen nach den Regeln für „Käufe wiederherstellen“ (Abschnitt 9)
+  auf dieses Konto.
+- Das Gastkonto wird auf unserem Server **sofort gelöscht;** die Löschung erfolgt wie in Abschnitt 8.1 und hinterlässt
+  dieselben Einträge (im Eintrag zur Kontolöschung wird als Grund „Zusammenführung“ angegeben).
+- Der Gastfortschritt auf deinem Gerät wird durch den Stand des Kontos auf dem Server ersetzt; deine Geräteeinstellungen
+  bleiben erhalten.
+
+Für die Zusammenführung sendet dein Gerät einmal den Schlüssel der Gastsitzung an unseren Server (um zu zeigen, dass du
+das Gastkonto nutzt); dieser Schlüssel wird nicht gespeichert. Kann die Zusammenführung wegen eines Fehlers nicht
+abgeschlossen werden, bleibt das Gastkonto in einem Zustand, in dem niemand darauf zugreifen kann, und wird nach der
+Inaktivitätsregel aus Abschnitt 8.2 gelöscht.
+
+**Die Rolle von Apple.** „Mit Apple anmelden“ wird von Apple betrieben. Die Daten, die Apple dabei verarbeitet (z. B. die
+Apps, bei denen du „Mit Apple anmelden“ nutzt), verarbeitet Apple als eigenständiger Verantwortlicher nach seiner eigenen
+Datenschutzrichtlinie: https://www.apple.com/legal/privacy/.
+
+### 3.15 Zustimmung der Eltern bei wichtigen Änderungen (Altersgesetze; Versionen 0.1.0 (16) und neuer)
+
+An manchen Orten (z. B. nach den App-Store-Gesetzen der US-Bundesstaaten Texas, Utah und Louisiana) verlangt das Gesetz,
+dass bei einer wesentlichen Änderung einer App die Zustimmung eines Elternteils eines Nutzers unter 18 Jahren eingeholt
+oder ein erwachsener Nutzer informiert wird. Ob das dort, wo du dich befindest, erforderlich ist, erfährt das Spiel auf
+deinem Gerät von Apple (die Altersbereich-Funktion von iOS, Abschnitt 11).
+
+- Als **wichtige Änderung** zählen wir: einen neuen Fluss personenbezogener Daten vom Gerät oder einen neuen Empfänger;
+  eine neue Konto- oder Anmeldeart; einen neuen Zahlungsweg oder einen neuen Datenfluss bei Käufen; einen neuen Weg, auf
+  dem Spieler einander erreichen; eine Änderung der Altersfreigabe im App Store. In Version 0.1.0 (16) gibt es zwei
+  wichtige Änderungen: „Mit Apple anmelden“ (Abschnitt 3.14) und die Auswertung von Kaufeinträgen von unserem Server aus
+  (Abschnitt 3.9).
+- **Zustimmung der Eltern:** Verlangt das Gesetz eine Zustimmung, wird einem Spieler unter 18 Jahren im Spiel gezeigt,
+  was sich geändert hat; wenn der Spieler möchte, sendet er die Anfrage mit „Eltern um Erlaubnis bitten“ **über Apple** an
+  einen Elternteil. Bis der Elternteil zustimmt, warten nur die Funktionen, die diese Änderung mit sich bringt: Die
+  Schaltfläche für „Mit Apple anmelden“ wird nicht angezeigt, und neue Käufe sind nicht möglich (es wird keine Zahlung
+  eingezogen). „Käufe wiederherstellen“ bleibt verfügbar. Der Rest des Spiels ist für alle gleich. Hast du das Spiel
+  nach der Änderung zum ersten Mal heruntergeladen, wird für diese Änderung keine Zustimmung verlangt.
+- **Information für Erwachsene:** Verlangt das Gesetz für Erwachsene nur eine Information, wird Apples eigenes
+  Informationsfenster angezeigt; nichts wird eingeschränkt.
+- **Was auf dem Gerät bleibt:** ob das Gesetz eine Zustimmung oder eine Information verlangt, welche Änderungen genehmigt
+  oder angefragt wurden, und die zuletzt gesehene Altersfreigabe des Spiels im App Store werden nur auf deinem Gerät
+  gespeichert und **nicht an uns gesendet.** Deshalb kann dein Elternteil auf einem neuen Gerät erneut gefragt werden.
+  Die Zustimmungsanfrage und die Antwort übermittelt Apple; sie erreichen uns nicht.
+- **Wenn der Elternteil die Zustimmung widerruft:** Apple verhindert, dass die App auf den Geräten dieses Kindes geöffnet
+  wird, und sendet unserem Server eine Mitteilung. Von dieser Mitteilung werden nur ihre Nummer, ihre Art, die Maßnahme
+  unseres Servers und der Eingangszeitpunkt gespeichert (**24 Monate**). Wir ordnen die Mitteilung keinem Spielkonto zu
+  (dafür müssten wir über jeden Spieler eine neue, dauerhafte Nummer speichern); die Mitteilung wirkt sich deshalb weder
+  auf das Konto noch auf Käufe aus. Da die App nicht geöffnet wird, ist es möglicherweise nicht möglich, das Konto im
+  Spiel zu löschen: Der Elternteil kann uns schreiben (Abschnitt 10); außerdem wird das Konto nach der Inaktivitätsregel
+  aus Abschnitt 8.2 gelöscht.
+- **Rechtsgrundlage:** für die Einträge auf dem Gerät und die Zustimmungsanfrage Art. 5 Abs. 2 lit. f KVKK · Art. 6
+  Abs. 1 lit. f DSGVO (berechtigtes Interesse: die Gesetze an deinem Aufenthaltsort und die Regeln von Apple einhalten);
+  für den Eintrag der Mitteilung auf dem Server Art. 5 Abs. 2 lit. f und Art. 5 Abs. 2 lit. e KVKK · Art. 6 Abs. 1
+  lit. f DSGVO (die Mitteilung einmal verarbeiten und zeigen können, was wir getan haben).
 
 ## 4. Belohnungsvideos und Werbung (Google AdMob)
 
@@ -380,7 +509,7 @@ kommen nur diese Empfänger:
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkei) – geschäftliche E-Mail | E-Mails, die du uns schreibst, und unsere Antworten | Unsere Support-Adresse wird bei diesem Dienst gehostet; die E-Mails werden auf den Servern von Güzel Hosting in der Türkei gespeichert | Auftragsverarbeiter |
 | **MailChannels Corporation** (Kanada; Server in Nordamerika) | Der Inhalt unserer Antworten an dich und deine E-Mail-Adresse, nur während der Übertragung | Der E-Mail-Weiterleitungsdienst von Güzel Hosting; unsere Antworten werden über diesen Dienst an den Empfänger zugestellt und dort nicht gespeichert | Auftragsverarbeiter (Unterdienst von Güzel Hosting) |
 | **Google** (Google Ireland Limited im EWR, im Vereinigten Königreich und in der Schweiz; sonst Google LLC, USA) | Nur wenn du Belohnungsvideos erlaubt hast (im EWR, im Vereinigten Königreich und in der Schweiz zusätzlich je nach deiner Auswahl im Formular von Google): die Werbedaten aus Abschnitt 4.2 (direkt von deinem Gerät) und die Ticketnummer | Belohnungsvideo zeigen und überprüfen | Eigenständiger Verantwortlicher |
-| **Apple** (Apple Distribution International Ltd. und verbundene Unternehmen) | Download der App aus dem App Store, Käufe und Erstattungen (diese tätigst du im App Store direkt bei Apple; Kauf- und Erstattungsdaten erhalten wir als von Apple signierten Transaktionseintrag); Apples eigene Absturz- und Nutzungsstatistiken, falls du sie in den iOS-Einstellungen erlaubt hast | App Store und Zahlungsdienste | Eigenständiger Verantwortlicher (Apples eigene Richtlinie: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. und verbundene Unternehmen) | Download der App aus dem App Store, Käufe und Erstattungen (diese tätigst du im App Store direkt bei Apple; Kauf- und Erstattungsdaten erhalten wir als von Apple signierten Transaktionseintrag); Apples eigene Absturz- und Nutzungsstatistiken, falls du sie in den iOS-Einstellungen erlaubt hast. Wenn du „Mit Apple anmelden“ nutzt, führt Apple die Anmeldung durch; wenn du dein mit Apple verknüpftes Konto löschst, sendet unser Server einen Einmalcode an Apple, um die Berechtigung für „Mit Apple anmelden“ zu widerrufen (Abschnitt 3.14). Wo es ein Gesetz verlangt, übermittelt Apple die Zustimmungsanfrage an die Eltern; Apple kann uns mitteilen, dass die elterliche Zustimmung widerrufen wurde (Abschnitt 3.15) | App Store, Zahlung, „Mit Apple anmelden“ und Dienste für die elterliche Zustimmung | Eigenständiger Verantwortlicher (Apples eigene Richtlinie: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (USA) | Für echte Käufe, nur von unserem Server: der von Apple signierte Transaktionseintrag, dein zufälliger Kundencode und Erstattungsmitteilungen zu bereits gesendeten Transaktionen (Abschnitt 3.9) | Kauf- und Erstattungseinträge, Umsatzauswertung | Dienstleister; arbeitet nach seinen eigenen Bedingungen (https://www.revenuecat.com/terms) und seiner Datenschutzrichtlinie (https://www.revenuecat.com/privacy) |
 | **Zuständige Behörden und Gerichte** | Nur so viel, wie rechtlich zwingend erforderlich ist | Rechtliche Verpflichtung | — |
 
@@ -434,6 +563,12 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
   lit. b KVKK).
 - **Apple:** Den App Store und Zahlungen nutzt du direkt bei Apple; wie und wo Apple deine Daten verarbeitet, steht in
   Apples Datenschutzrichtlinie. Die Prüfung und Speicherung deiner Käufe erfolgt auf unserem Server in der Türkei.
+  Wenn du dich mit Apple anmeldest, gelangt das Identitätstoken von Apple von deinem Gerät auf unseren Server in der
+  Türkei; aus dem Token werden dort nur die Felder aus Abschnitt 3.14 gespeichert. Nur wenn du dein mit Apple
+  verknüpftes Konto selbst löschst, sendet unser Server einen Einmalcode an Server von Apple außerhalb der Türkei, um die
+  Berechtigung für „Mit Apple anmelden“ zu widerrufen; dies ist eine gelegentliche Übermittlung, die nur der Erfüllung
+  deines Löschantrags dient und einmal pro Antrag erfolgt (Art. 9 Abs. 6 lit. b KVKK). Die Zustimmungsanfrage an die
+  Eltern geht direkt von deinem Gerät an Apple; bei uns kommt nichts an.
 - **RevenueCat (echte Käufe):** Kauf- und Erstattungseinträge werden, wie in Abschnitt 3.9 beschrieben, von unserem
   Server an RevenueCat, Inc. in den USA gesendet und in den USA verarbeitet. Nach türkischem Recht gibt es für die USA
   keinen Angemessenheitsbeschluss. Wir halten diese Übermittlung so gering wie möglich: Sie erfolgt nur von unserem
@@ -460,7 +595,7 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
 
 | Daten | Dauer |
 | --- | --- |
-| Konto, Fortschritt, Geldbörse, Ergebniszusammenfassungen, öffentliche Kennung, Erlaubniseintrag für Belohnungsvideos, Kaufeinträge, Einträge bei Champions und an der Wand der Toröffner, Spur des entfernten Namens | Solange das Konto besteht; verbindet sich das Spiel **12 Monate** lang (bei einem Konto mit einer Kauf- oder Erstattungshistorie **36 Monate** lang) kein einziges Mal mit unserem Server, zusammen mit dem Konto gelöscht (Abschnitt 8.2) |
+| Konto, Fortschritt, Geldbörse, Ergebniszusammenfassungen, öffentliche Kennung, Erlaubniseintrag für Belohnungsvideos, Kaufeinträge, Einträge bei Champions und an der Wand der Toröffner, Spur einer dauerhaften Namenssperre, Kennung für „Mit Apple anmelden“ (Abschnitt 3.14) | Solange das Konto besteht; verbindet sich das Spiel **12 Monate** lang (bei einem Konto mit einer Kauf- oder Erstattungshistorie oder einem mit Apple verknüpften Konto **36 Monate** lang) kein einziges Mal mit unserem Server, zusammen mit dem Konto gelöscht (Abschnitt 8.2) |
 | Zugprotokoll der Kämpfe (Replay) | 90 Tage nach der Entscheidung |
 | Ergebnis, das nicht überprüft werden kann | Nach 30 Tagen geschlossen |
 | Wochenliga und Tiefenliga | 26 Wochen |
@@ -468,13 +603,15 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
 | Anti-Cheat-Protokolle | 12 Monate |
 | Geldbörsen-Protokolle eines gelöschten Kontos, deren Kontonummer gelöscht wurde (anonym, außer denen zu Käufen) | 12 Monate |
 | Kauftransaktionseinträge eines gelöschten Kontos, deren Verbindung zum Konto getrennt wurde | 24 Monate |
-| Einträge über zwischen Konten übertragene Käufe sowie Erstattungs- und Widerrufsmitteilungen von Apple (Abschnitt 3.9) | 24 Monate (wird ein Konto gelöscht, wird seine Kontonummer sofort aus den Übertragungseinträgen entfernt) |
+| Einträge über zwischen Konten übertragene Käufe sowie Erstattungs- und Widerrufsmitteilungen von Apple (Abschnitt 3.9); Mitteilungen von Apple über den Widerruf der elterlichen Zustimmung (keinem Konto zugeordnet, Abschnitt 3.15) | 24 Monate (wird ein Konto gelöscht, wird seine Kontonummer sofort aus den Übertragungseinträgen entfernt) |
 | Kundeneintrag sowie Kauf- und Erstattungseinträge bei RevenueCat (Abschnitt 3.9) | Solange das Konto besteht; bei Löschung des Kontos (Antrag oder 12/36 Monate Inaktivität) wird die Löschung bei RevenueCat verlangt |
 | Kopie eines auf das Senden an RevenueCat wartenden signierten Eintrags auf unserem Server | Bis zum Senden oder bis das Senden scheitert; höchstens 30 Tage |
 | Sendevermerk für RevenueCat (ohne den signierten Eintrag; Transaktionsnummer und Kundencode) | Solange das Konto besteht, damit Erstattungsmitteilungen weitergeleitet werden können (mit dem Konto sofort gelöscht). Abgeschlossene oder gescheiterte Aufträge und die Löschanfrage eines gelöschten Kontos (nur Kundencode; ohne Verbindung zum Konto): 30 Tage nach Ende des Auftrags |
 | Namensmeldungen | 12 Monate |
 | Moderationsprotokolle | 24 Monate |
-| Eintrag zur Kontolöschung (nur zufällige Vorgangsnummer, Zeitpunkt und Grund: dein eigener Antrag oder Inaktivität; enthält keine Kontonummer) | 24 Monate |
+| Prüffälle zu Namen und Entscheidungseinträge (Abschnitt 3.7) | 12 Monate nach Abschluss des Falls; solange die dauerhafte Sperre besteht, auf der sie beruhen, nicht gelöscht. Wird das Konto gelöscht, als anonymer Vorgangseintrag ohne Name und Verbindung zum Konto für dieselbe Dauer |
+| Vorübergehende Spur des Namens, solange der Fall offen ist | Bis der Fall abgeschlossen ist (ohne Entscheidung höchstens 30 Tage) |
+| Eintrag zur Kontolöschung (nur zufällige Vorgangsnummer, Zeitpunkt, Grund: dein eigener Antrag, Inaktivität oder die Zusammenführung eines Gastkontos mit einem mit Apple verknüpften Konto; bei einem mit Apple verknüpften Konto das Ergebnis des Schritts zum Widerruf der Berechtigung für „Mit Apple anmelden“; enthält keine Kontonummer) | 24 Monate |
 | Tageszähler für „Meine Daten herunterladen“ | 7 Tage |
 | Sicherheitseinträge zur Anmeldung (ohne IP-Adresse) | 1 Stunde |
 | Sperre gegen gleichzeitige Synchronisierung (technischer Eintrag, der zwei Synchronisierungen zur gleichen Zeit verhindert) | 1 Tag nach Ablauf |
@@ -490,12 +627,15 @@ anonymisiert; für die Sicherheitseinträge zur Anmeldung läuft dieser Vorgang 
 
 **Einstellungen → Konto → Konto löschen.** Sobald du bestätigst, werden dein Konto auf unserem Server und alle damit
 verknüpften Daten (Fortschritt, Geldbörse, Ergebnisse, Zugprotokolle, dein Spielername, dein Avatar, deine öffentliche
-Kennung, deine Ligaeinträge, dein Erlaubniseintrag, Meldungen von dir und über dich) **sofort und unwiderruflich**
-gelöscht; das Spiel beginnt auch auf deinem Gerät von vorn. Nur Folgendes bleibt erhalten: Geldbörsenbewegungen und
+Kennung, deine Ligaeinträge, dein Erlaubniseintrag, deine Kennung für „Mit Apple anmelden“, Meldungen von dir und über
+dich, die Spuren deiner Namen und deine Moderationsprotokolle) **sofort und unwiderruflich** gelöscht; das Spiel beginnt
+auch auf deinem Gerät von vorn. Ist dein Konto mit Apple verknüpft, bittet Apple zuerst noch einmal um Bestätigung, und
+unser Server verlangt von Apple den Widerruf der Berechtigung des Spiels für „Mit Apple anmelden“ (Abschnitt 3.14). Nur
+Folgendes bleibt erhalten: Geldbörsenbewegungen und
 Anti-Cheat-Protokolle, deren Kontonummer gelöscht wurde (höchstens 12 Monate; anonym, außer denen zu Käufen),
 Kauftransaktionseinträge, deren Verbindung zu deinem Konto getrennt wurde, und Einträge über übertragene Käufe, aus
-denen deine Kontonummer entfernt wurde (24 Monate), und der Eintrag über die Löschung,
-der deine Kontonummer nicht enthält (24 Monate). Gelöschte Daten
+denen deine Kontonummer entfernt wurde (24 Monate), der anonyme Vorgangseintrag der Prüffälle zu deinen Namen
+(Abschnitt 3.7) und der Eintrag über die Löschung, der deine Kontonummer nicht enthält (24 Monate). Gelöschte Daten
 verschwinden spätestens nach 30 Tagen auch aus den Backups. Die Verbindung zwischen deinem Konto und dem zufälligen
 Kundencode bei RevenueCat wird sofort von unserem Server gelöscht, und wir bitten RevenueCat, diesen Kundeneintrag zu
 löschen (Abschnitt 3.9).
@@ -511,8 +651,8 @@ aufzubewahren.
 
 - **Worauf achten wir?** Auf die Kontoerstellung, die letzte Anmeldung, die letzte Erneuerung deiner Sitzung und den Tag,
   an dem du die App zuletzt geöffnet hast; ist der jüngste dieser Zeitpunkte älter als 12 Monate (bei einem Konto mit
-  Kauf älter als 36 Monate), wird das Konto gelöscht. Wenn du beim Öffnen der App eine Internetverbindung hast, werden diese Angaben automatisch aktualisiert; hast
-  du die App 12 Monate (bei einem Konto mit Kauf 36 Monate) lang nur ohne Internet geöffnet, kann das Konto trotzdem gelöscht werden.
+  Kauf oder einem mit Apple verknüpften Konto älter als 36 Monate), wird das Konto gelöscht. Wenn du beim Öffnen der App eine Internetverbindung hast, werden diese Angaben automatisch aktualisiert; hast
+  du die App 12 Monate (bei einem Konto mit Kauf oder einem mit Apple verknüpften Konto 36 Monate) lang nur ohne Internet geöffnet, kann das Konto trotzdem gelöscht werden.
 - **Wir können dich nicht vorher benachrichtigen:** Da wir keinerlei Kontaktdaten von dir erhalten, können wir dir vor
   der Löschung nicht schreiben. Deshalb steht diese Regel auch unter Einstellungen → Konto.
 - **Was passiert danach?** Wenn du die App wieder öffnest, erstellt das Spiel für dich ein neues Konto. Deine Geldbörse
@@ -526,6 +666,11 @@ aufzubewahren.
   Gründerpaket) kannst du in deinem neuen Konto mit demselben Apple Account über „Käufe wiederherstellen“ zurückerhalten;
   zusammen mit ihnen vergebene Verbrauchsgegenstände werden kein zweites Mal vergeben (Nutzungsbedingungen,
   Abschnitt 4.2). Ein solches Konto kannst du jederzeit wie in Abschnitt 8.1 löschen.
+- **Mit Apple verknüpfte Konten: 36 Monate.** Wenn du dein Konto mit Apple verknüpft hast (Abschnitt 3.14), hast du
+  gewünscht, dass dein Konto unabhängig von deinem Gerät weiterbesteht; deshalb beträgt die Frist wie bei Konten mit
+  Käufen **36 Monate**. Bei einem wegen Inaktivität gelöschten Konto kann die Berechtigung für „Mit Apple anmelden“ nicht
+  widerrufen werden (von Apple kann keine neue Bestätigung eingeholt werden); du kannst das Spiel selbst aus der Liste
+  „Mit Apple anmelden“ in den Einstellungen deines Apple Accounts entfernen.
 
 ## 9. Automatisierte Entscheidungen
 
@@ -541,12 +686,17 @@ Manche Entscheidungen im Spiel werden ohne menschliches Eingreifen automatisch g
   übertragen werden kann, wird automatisch begrenzt (bei echten Käufen insgesamt höchstens 3-mal und höchstens einmal
   alle 30 Tage; bei Testkäufen durch ein Tageslimit). Eine Übertragung über die Grenze hinaus findet nicht statt, und das
   Spiel sagt es dir.
-- **Entfernen von Namen:** Wenn **3 verschiedene Spieler,** deren Konto älter als einen Tag ist und die mindestens
-  5 Level gewonnen haben, einen Namen melden, wird der Name automatisch durch einen neuen, vom Spiel erzeugten Namen
-  ersetzt. Du kannst sofort einen neuen Namen wählen, aber den entfernten Namen nicht erneut wählen. Das Spiel sagt dir
-  bei der nächsten Verbindung im Profil-Bildschirm einmal, dass dein Name aufgrund von Meldungen und automatisch geändert
-  wurde (bei einer manuellen Änderung durch unser Team gibt es dies gesondert an). Jede automatische Entfernung
-  wird protokolliert, damit ein Mensch sie prüfen kann.
+- **Ändern von Namen:** Melden **3 verschiedene qualifizierte Spieler** einen Namen, wird der Name automatisch durch
+  einen neuen, vom Spiel erzeugten Namen ersetzt, und ein Prüffall wird eröffnet (Abschnitt 3.7). Qualifizierter Spieler:
+  ein Spieler, dessen Konto älter als 3 Tage ist, der mindestens 5 vom Server bestätigte Levelsiege hat und der in den
+  letzten 180 Tagen keine Meldung in einem abgelehnten Fall hat. Du kannst sofort einen neuen Namen wählen; der geänderte
+  Name wird für dich zurückgehalten, bis der Fall abgeschlossen ist. **Eine dauerhafte Sperre wird nicht automatisch
+  verhängt;** sie erfolgt nur durch die Entscheidung eines Menschen. Wird der Fall nicht innerhalb von 30 Tagen
+  entschieden, endet das Zurückhalten automatisch, und es entsteht keine Sperre. Wird ein Fall abgelehnt, werden die
+  Meldungen dieses Falls nie wieder gezählt, und die Meldungen derjenigen, die diese Meldungen gemacht haben, werden
+  180 Tage lang nicht für automatische Maßnahmen gezählt. Das Spiel sagt dir bei der nächsten Verbindung im
+  Profil-Bildschirm einmal, dass dein Name aufgrund von Meldungen und automatisch geändert wurde (bei einer manuellen
+  Änderung durch unser Team gibt es dies gesondert an).
 - **Geschenk der Wochenliga:** Ob du am Ende der Woche in einer Gruppe mit mindestens 10 Spielern unter die ersten 3
   gekommen bist, wird automatisch anhand der eigenen Rangliste des Servers festgestellt.
 - **Löschung inaktiver Konten:** Die Regel aus Abschnitt 8.2 wird automatisch angewendet.
@@ -557,6 +707,14 @@ Profil** und bilden keine Profile für Werbung. Wenn du trotzdem meinst, dass ei
 schreib uns; ein Mensch prüft die Entscheidung erneut. Widerspricht die Prüfung, die RevenueCat bei Apple vornimmt,
 unserer eigenen, wird nur ein Anti-Cheat-Eintrag angelegt; was du gekauft hast, wird dir deshalb nicht genommen. Nach Art. 11 Abs. 1 lit. g KVKK hast du das Recht, einem für dich
 nachteiligen Ergebnis zu widersprechen, das sich aus einer Analyse ausschließlich durch automatisierte Systeme ergibt.
+
+**Widerspruch gegen Namensentscheidungen.** Wurde dein Name geändert oder dauerhaft gesperrt, kannst du widersprechen,
+indem du mit deiner Spielernummer aus Einstellungen → Konto an destek@mm-apps.com schreibst. Deinen Widerspruch prüft ein
+Mensch anhand der Beweise im Fall: Ist der Fall offen, wird er entschieden; ist die dauerhafte Sperre ungerechtfertigt,
+wird sie aufgehoben. Das Ergebnis und die Begründung schreiben wir dir per E-Mail. Dieser Weg steht ab dem Datum der
+Entscheidung mindestens 6 Monate offen; dafür werden die Falleinträge nach dem Abschluss 12 Monate aufbewahrt
+(Abschnitt 3.7). Wenn du als Meldender meinst, dass eine Entscheidung falsch ist, kannst du ebenfalls auf diesem Weg
+schreiben. Diese Wege berühren nicht dein Recht, dich an ein Gericht oder eine zuständige Behörde zu wenden.
 
 ## 10. Deine Rechte und wie du sie ausübst
 
@@ -580,7 +738,7 @@ Entscheidungen unterworfen zu werden, die ausschließlich auf automatisierter Ve
 
 | Was möchtest du? | Wie? |
 | --- | --- |
-| Eine Kopie meiner Daten (Auskunft und Zugang, Datenübertragbarkeit) | **Meine Daten herunterladen:** Der größte Teil der Daten, die der Server über dein Konto speichert, und der Spielstand auf deinem Gerät werden in einer einzigen JSON-Datei zusammengestellt; du kannst die Datei speichern oder teilen. Die Datei enthält das Datum der Kontoerstellung und der letzten Anmeldung, die Sprache bei der Registrierung, dein Profil (einschließlich deines Namens, deines Avatars, deiner öffentlichen Kennung und deines Erlaubniseintrags für Belohnungsvideos), deinen Fortschritt, deine Geldbörse und ihre Bewegungen, deine Levelergebnisse und Zugprotokolle, deine Läufe im Endlos-Universum, deine Ligawochen, deine Ergebnisse im Zeitriss, deine Toröffner-Nummer, deine Käufe (Produkt, Transaktionsnummer, Umgebung, Datum, Erstattung), deine Tickets für Belohnungsvideos (Platzierung und Zeitpunkte), die Meldungen, die du gemacht hast (nur den gemeldeten Namen), die Moderationsmaßnahmen zu deinem Namen (Maßnahme, entfernter Name, Datum) sowie von den Anti-Cheat-Einträgen nur Art und Datum. **Nicht in der Datei** (du kannst sie erhalten, indem du uns schreibst): die Einzelheiten der Anti-Cheat-Einträge (um unsere Methoden zur Erkennung von Schummeln zu schützen); die Zeitpunkte, zu denen deine Sitzungen eröffnet und erneuert wurden; die ursprüngliche Transaktionsnummer deiner Käufe, das Konto, dem die Kristalle gutgeschrieben wurden, Übertragungseinträge und die Mitteilungen von Apple zu diesen Transaktionen; die Nummer deiner Tickets für Belohnungsvideos, die Anzeigen-Transaktionsnummer von Google und das verdoppelte Ergebnis; die Spur eines durch Moderation entfernten Namens; dein zufälliger Kundencode bei RevenueCat, deine Einträge über das Senden an RevenueCat und dein Widerspruchseintrag (die an RevenueCat gesendeten Einträge betreffen dieselben Transaktionen wie die Käufe in der Datei); höchstens 1 Stunde aufbewahrte Anmelde-Sicherheitseinträge und der Zähler für „Meine Daten herunterladen“. Deine Einstellungen, deine Einträge zu den Nutzungsbedingungen und zum Datenschutzhinweis, die Kopie deiner Antwort zu Belohnungsvideos auf dem Gerät, deine Antwort zum Altersbereich und deine blockierten Spieler, die nur auf deinem Gerät bleiben, sind ebenfalls nicht in der Datei (Abschnitt 3.13). Die Anfrage wird beantwortet, nachdem über deine Sitzung geprüft wurde, dass sie von deinem Konto kommt; höchstens 3-mal pro Tag. |
+| Eine Kopie meiner Daten (Auskunft und Zugang, Datenübertragbarkeit) | **Meine Daten herunterladen:** Der größte Teil der Daten, die der Server über dein Konto speichert, und der Spielstand auf deinem Gerät werden in einer einzigen JSON-Datei zusammengestellt; du kannst die Datei speichern oder teilen. Die Datei enthält das Datum der Kontoerstellung und der letzten Anmeldung, die Sprache bei der Registrierung, deine Verknüpfung mit „Mit Apple anmelden“ (deine Apple-Benutzerkennung und der Zeitpunkt der Verknüpfung; leer, wenn du nicht verknüpft hast), dein Profil (einschließlich deines Namens, deines Avatars, deiner öffentlichen Kennung und deines Erlaubniseintrags für Belohnungsvideos), deinen Fortschritt, deine Geldbörse und ihre Bewegungen, deine Levelergebnisse und Zugprotokolle, deine Läufe im Endlos-Universum, deine Ligawochen, deine Ergebnisse im Zeitriss, deine Toröffner-Nummer, deine Käufe (Produkt, Transaktionsnummer, Umgebung, Datum, Erstattung), deine Tickets für Belohnungsvideos (Platzierung und Zeitpunkte), die Meldungen, die du gemacht hast (nur den gemeldeten Namen), die Moderationsmaßnahmen zu deinem Namen (Maßnahme, geänderter Name, Datum), die Prüffälle zu deinen Namen (Name, Quelle, Status, Ergebnis, Datum der Eröffnung und des Abschlusses) sowie von den Anti-Cheat-Einträgen nur Art und Datum. **Nicht in der Datei** (du kannst sie erhalten, indem du uns schreibst): die Einzelheiten der Anti-Cheat-Einträge (um unsere Methoden zur Erkennung von Schummeln zu schützen); die Zeitpunkte, zu denen deine Sitzungen eröffnet und erneuert wurden; die technischen Felder deiner Kennung für „Mit Apple anmelden“ und der Zeitpunkt der letzten Anmeldung; die ursprüngliche Transaktionsnummer deiner Käufe, das Konto, dem die Kristalle gutgeschrieben wurden, Übertragungseinträge und die Mitteilungen von Apple zu diesen Transaktionen; die Nummer deiner Tickets für Belohnungsvideos, die Anzeigen-Transaktionsnummer von Google und das verdoppelte Ergebnis; die Spur eines durch Moderation geänderten Namens; die Anzahl der Meldungen und die Entscheidungsbegründungen der Prüffälle (die Signale der Meldenden werden nicht herausgegeben, weil sie Daten anderer Personen sind); dein zufälliger Kundencode bei RevenueCat, deine Einträge über das Senden an RevenueCat und dein Widerspruchseintrag (die an RevenueCat gesendeten Einträge betreffen dieselben Transaktionen wie die Käufe in der Datei); höchstens 1 Stunde aufbewahrte Anmelde-Sicherheitseinträge und der Zähler für „Meine Daten herunterladen“. Deine Einstellungen, deine Einträge zu den Nutzungsbedingungen und zum Datenschutzhinweis, die Kopie deiner Antwort zu Belohnungsvideos auf dem Gerät, deine Antwort zum Altersbereich, deine Einträge zur elterlichen Zustimmung und deine blockierten Spieler, die nur auf deinem Gerät bleiben, sind ebenfalls nicht in der Datei (Abschnitt 3.13). Die Anfrage wird beantwortet, nachdem über deine Sitzung geprüft wurde, dass sie von deinem Konto kommt; höchstens 3-mal pro Tag. |
 | Löschung | **Konto löschen** (Abschnitt 8.1) |
 | Die Erlaubnis für Belohnungsvideos zurücknehmen oder geben | **Einstellungen → Erlaubnis für Belohnungsvideos** (im EWR, im Vereinigten Königreich und in der Schweiz **Einstellungen → Datenschutz für Werbung**) |
 | Berichtigung | Deinen Spielernamen kannst du im Profil-Bildschirm selbst ändern. Wenn du meinst, dass andere Daten falsch sind, schreib uns. |
@@ -654,6 +812,10 @@ Name, E-Mail-Adresse oder Kontaktdaten.
   hinzugefügt; ergibt sich, dass du jünger als 13 Jahre bist, entscheidest du dich, deinen Altersbereich nicht zu teilen,
   oder hast du dort, wo ein Gesetz es verlangt, noch nicht geantwortet, kommt das Kennzeichen „an Kinder gerichtete
   Verarbeitung“ hinzu (Abschnitt 4.2). Der Rest des Spiels ist für alle gleich.
+- **Altersgesetze und Zustimmung der Eltern:** Wo es ein Gesetz verlangt (z. B. in den US-Bundesstaaten Texas, Utah und
+  Louisiana), warten in den Versionen 0.1.0 (16) und neuer „Mit Apple anmelden“ und neue Käufe bei Spielern unter
+  18 Jahren, bis ein Elternteil über Apple zustimmt; widerruft der Elternteil die Zustimmung, verhindert Apple, dass die
+  App geöffnet wird. Details in Abschnitt 3.15.
 - **Kinder unter 13 Jahren:** Wir fragen Kinder nicht nach Name, E-Mail-Adresse, Telefonnummer oder anderen
   Kontaktdaten; Spielernamen, die Kontaktdaten enthalten, akzeptieren wir nicht. Die zufällige Kontonummer und die
   öffentliche Kennung, die das Spiel für jeden Spieler verwendet, dienen nur dem Betrieb des Spiels, dem Schutz des
@@ -671,6 +833,11 @@ Name, E-Mail-Adresse oder Kontaktdaten.
 - Alle Verbindungen zwischen der App und unserem Server sind verschlüsselt (HTTPS/TLS).
 - Nur Servercode kann Spieldaten schreiben; jeder Spieler kann nur seine eigenen Daten lesen.
 - Dein Konto hat kein Passwort; wir haben kein Passwort und keine E-Mail-Adresse von dir, die gestohlen werden könnten.
+  Bei „Mit Apple anmelden“ wird die Anmeldeanfrage mit einem zufälligen Einmalwert (Nonce) geschützt; der Einmalcode,
+  der bei der Kontolöschung an Apple geht, wird nicht gespeichert.
+- Die Beweise und Entscheidungen der Prüffälle zu Namen können nachträglich nicht geändert werden. Spieler können die
+  Fälle anderer nicht sehen; die Zusammenfassung der Fälle zu ihren eigenen Namen steht in der Datei von „Meine Daten
+  herunterladen“.
 - An andere Spieler wird nicht deine Kontonummer, sondern eine getrennte, zufällige öffentliche Kennung gesendet.
 - In den Anmeldeeinträgen werden weder IP-Adresse noch Geräteinformationen gespeichert.
 - Die App enthält keine Software von RevenueCat oder einer anderen Kaufinfrastruktur. Der Zugangsschlüssel für
@@ -691,7 +858,15 @@ immer unter dieser Adresse und über den Link im Einstellungen-Bildschirm des Sp
 Spiel an, bevor sie wirksam werden. Wenn eine Änderung eine neue Einwilligung erfordert (z. B. wenn sich der
 Erlaubnistext für Belohnungsvideos ändert), bitten wir dich gesondert um deine Einwilligung.
 
-**Versionsverlauf.** 1.1 (8. November 2026): Auswertung von Kauf- und Erstattungseinträgen von unserem Server über
+**Versionsverlauf.** 1.2 (12. November 2026): freiwilliges „Mit Apple anmelden“ in den Versionen 0.1.0 (16) und neuer
+(Kurz gesagt, Unser Grundsatz, Abschnitte 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Inaktivitätsfrist von 36 Monaten für
+mit Apple verknüpfte Konten (Kurz gesagt, 3.1, 7, 8.2); Prüffall bei Namensmeldungen, Signale der Meldenden ohne deren
+Identität, dauerhafte Sperre nur durch die Entscheidung eines Menschen, Aufbewahrung von Fall- und
+Entscheidungseinträgen und der nach der Kontolöschung verbleibende anonyme Eintrag (Kurz gesagt, Unser Grundsatz, 3.7,
+7, 8.1, 9, 10, 12); Widerspruch gegen Namensentscheidungen (Abschnitt 9); Zustimmung der Eltern bei wichtigen
+Änderungen, wo es Altersgesetze verlangen, und Apples Mitteilung über den Widerruf der Zustimmung (Kurz gesagt, 3.13,
+3.15, 5, 6, 7, 11).
+1.1 (8. November 2026): Auswertung von Kauf- und Erstattungseinträgen von unserem Server über
 RevenueCat (Kurz gesagt, Unser Grundsatz, Abschnitte 2, 3.9, 5, 6, 7, 8.1, 9, 10, 11, 12); Links zu den eigenen
 Bedingungen Dritter (Abschnitt 5); Einträge über zwischen Konten übertragene Käufe, Erstattungsmitteilungen von Apple
 und Rücknahme von Erstattungen (Abschnitte 3.9, 7, 8.1, 9); Grenze für das erneute Senden eines Zugprotokolls

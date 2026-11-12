@@ -16,6 +16,7 @@ Bunları oyunun içinden, bize yazmadan yapabilirsin:
 
 - **Verilerimi indir** (Ayarlar → Hesap): sunucunun hesabın hakkında tuttuğu verilerin büyük bölümü ve cihazındaki oyun kaydı tek bir dosyada hazırlanır; dosyada olmayanlar gizlilik politikasının 10. bölümünde yazılıdır.
 - **Hesabı sil** (Ayarlar → Hesap): onayladığında hesabın ve ilerlemen sunucumuzdan hemen ve kalıcı olarak silinir; oyun bu cihazda da baştan başlar.
+- **Apple ile bağla** (Ayarlar → Hesap; 0.1.0 (16) ve sonraki sürümler, isteğe bağlı): hesabını Apple hesabına bağlarsan yeni bir cihazda ya da oyunu yeniden kurduğunda aynı hesapla devam edersin. Adın ve e-postan istenmez ([Gizlilik Politikası, Bölüm 3.14](/gizlilik/)).
 - **Ödüllü video izni** (Ayarlar): ödüllü videolar için verdiğin izni istediğin zaman geri alabilir ya da yeniden verebilirsin.
 
 Ayrıntılar ve saklama süreleri gizlilik politikasında yazar.

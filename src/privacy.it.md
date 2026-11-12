@@ -2,7 +2,7 @@
 
 > Questa traduzione è fornita a solo scopo informativo. In caso di discrepanze prevale la versione turca.
 
-**Data di entrata in vigore:** 8 novembre 2026 · **Versione:** 1.1 (versione precedente 1.0, 7 novembre 2026; modifiche nella Sezione 13)
+**Data di entrata in vigore:** 12 novembre 2026 · **Versione:** 1.2 (versione precedente 1.1, 8 novembre 2026; modifiche nella Sezione 13)
 
 Questo testo è stato redatto come informativa ai sensi dell'art. 10 della KVKK (legge turca n. 6698 sulla protezione dei
 dati personali) e come informazione ai sensi dell'art. 13 del Regolamento generale sulla protezione dei dati dell'UE
@@ -16,12 +16,19 @@ https://kilkule.mm-apps.com/kvkk/. Il testo vincolante è quello turco (vedi Sez
 - **Non ti chiediamo nome, e-mail, numero di telefono, posizione o identificativo pubblicitario.** Quando apri il gioco
   per la prima volta, il gioco crea per te un account giocatore; questo account non conosce il tuo nome ed è
   riconosciuto solo da **un numero casuale**.
+- **Accedi con Apple è facoltativo** (nelle versioni 0.1.0 (16) e successive del gioco). Anche se lo usi, non ti
+  chiediamo nome ed e-mail; da Apple riceviamo solo un identificativo utente che Apple genera per il nostro account
+  sviluppatore (Sezione 3.14).
 - Con questo account, **i tuoi progressi di gioco, il tuo portafoglio e i risultati delle tue battaglie** vengono
   conservati sul nostro server in Turchia. Lo facciamo per offrirti il gioco, proteggere i tuoi progressi e **impedire
   gli imbrogli**.
 - Nelle tabelle della lega e delle classifiche **il tuo nome giocatore e il tuo avatar sono visibili agli altri
   giocatori.** Il gioco ti dà un nome in automatico; se vuoi scriverne uno tuo, **non scrivere il tuo vero nome, il tuo
-  cognome, la tua scuola o i tuoi recapiti.**
+  cognome, la tua scuola o i tuoi recapiti.** Per un nome cambiato in seguito alle segnalazioni, **a decidere il divieto
+  permanente è solo una persona** (Sezione 3.7).
+- Dove la legge lo richiede (ad es. in alcuni Stati degli USA), le funzioni introdotte dalle modifiche importanti del
+  gioco restano in attesa, per un giocatore con meno di 18 anni, **finché un genitore non dà l'approvazione tramite
+  Apple**; i registri di questa approvazione restano solo sul tuo dispositivo (Sezione 3.15).
 - **Non ti tracciamo,** **non vendiamo** i tuoi dati e non mostriamo annunci personalizzati.
 - **I video con premio sono sempre facoltativi.** Questi video li mostra Google. In ogni Paese ti **chiediamo prima il
   permesso** in una schermata del gioco stesso; se non lo dai, a Google non arriva nessuna informazione e tutto il gioco
@@ -32,8 +39,8 @@ https://kilkule.mm-apps.com/kvkk/. Il testo vincolante è quello turco (vedi Sez
   nostro fornitore di servizi **RevenueCat** negli Stati Uniti, per il resoconto di acquisti e rimborsi. Il tuo
   dispositivo non comunica mai con RevenueCat (Sezione 3.9).
 - Conserviamo un dato solo per il tempo necessario. Se il gioco **non si collega mai al nostro server per 12 mesi**, il
-  tuo account viene eliminato automaticamente (se hai fatto acquisti, questo periodo è di **36 mesi**; i tuoi Cristalli
-  non spesi vengono allora eliminati insieme all'account).
+  tuo account viene eliminato automaticamente (se hai fatto acquisti o se hai collegato il tuo account ad Apple, questo
+  periodo è di **36 mesi**; i tuoi Cristalli non spesi vengono allora eliminati insieme all'account).
 - Puoi ottenere una copia dei tuoi dati con **Impostazioni → Account → Scarica i miei dati** ed eliminare il tuo account
   in qualsiasi momento con **Impostazioni → Account → Elimina account**.
 - Problemi o domande? Scrivici in turco, inglese, francese, tedesco, italiano o spagnolo: **destek@mm-apps.com**
@@ -71,6 +78,9 @@ collegamento con la persona.
 - **Numero di account casuale.** Il tuo account non conosce il tuo nome. È questo che le versioni precedenti dell'app chiamano
   "account anonimo" in Impostazioni. Ma siamo onesti: anche se questo numero e i dati di gioco collegati non contengono il tuo nome, per
   la legge **sono dati personali** (dati pseudonimizzati). È per questo che esiste questa informativa.
+- **Accedi con Apple non chiede nome ed e-mail.** Se accedi con Apple, il gioco non chiede ad Apple nessuna informazione
+  aggiuntiva (nome, e-mail). Delle credenziali inviate da Apple vengono conservati solo l'identificativo utente e due
+  campi tecnici usati dal sistema di accesso; il campo dell'e-mail viene lasciato vuoto (Sezione 3.14).
 - **Il tuo numero dell'account non va su altri dispositivi.** Nelle tabelle, ai dispositivi degli altri giocatori viene
   inviato un **identificativo pubblico** casuale, separato dal tuo numero dell'account. Il tuo numero dell'account va dal
   server solo al tuo dispositivo.
@@ -91,7 +101,8 @@ collegamento con la persona.
   dell'account. Questi registri non possono più essere collegati a nessuno, cioè **sono anonimi;** solo i registri
   relativi agli acquisti, poiché possono contenere il numero di transazione di Apple, non sono considerati anonimi e
   vengono conservati con il collegamento al tuo account interrotto. Il registro dell'eliminazione non contiene il tuo
-  numero dell'account.
+  numero dell'account. Se esiste un caso di esame relativo al tuo nome, del caso resta solo un registro anonimo
+  dell'operazione, da cui sono stati eliminati il nome e il collegamento all'account (Sezione 3.7).
 
 ---
 
@@ -128,9 +139,10 @@ mentre usi il gioco; la corrispondenza della Sezione 3.10 viene invece raccolta 
 | **Dati** | Numero di account generato a caso; momento di creazione e dell'ultimo accesso dell'account; chiavi di sessione (nel portachiavi del tuo dispositivo e sul server) e momento di apertura e dell'ultimo rinnovo delle sessioni; il **giorno** (senza l'ora) in cui hai aperto l'app per l'ultima volta; la lingua dell'app al momento della creazione dell'account e quella attuale (perché il nome che il gioco ti dà sia scritto in quella lingua) |
 | **Finalità** | Offrirti il gioco e le sue funzioni online (backup dei progressi, premi, lega); capire che le tue richieste arrivano dal tuo account; eliminare gli account non usati da molto tempo |
 | **Base giuridica** | art. 5, par. 2, lett. c) KVKK (conclusione ed esecuzione di un contratto) · art. 6, par. 1, lett. b) GDPR. Inoltre, per il giorno dell'ultima apertura: il nostro obbligo di non conservare i dati più a lungo del necessario, art. 5, par. 2, lett. ç) KVKK (in combinato con gli artt. 4 e 7 KVKK) · art. 6, par. 1, lett. f) e art. 5, par. 1, lett. e) GDPR |
-| **Conservazione** | Finché il tuo account resta aperto. Se elimini il tuo account, viene eliminato subito. Se il gioco non si collega mai al nostro server per **12 mesi** (per **36 mesi** in un account con una storia di acquisti o rimborsi), l'account e tutti i dati collegati vengono eliminati automaticamente (Sezione 8.2). |
+| **Conservazione** | Finché il tuo account resta aperto. Se elimini il tuo account, viene eliminato subito. Se il gioco non si collega mai al nostro server per **12 mesi** (per **36 mesi** in un account con una storia di acquisti o rimborsi o collegato ad Apple), l'account e tutti i dati collegati vengono eliminati automaticamente (Sezione 8.2). |
 
-Per aprire il tuo account **non** ti chiediamo nome, e-mail, numero di telefono o password.
+Per aprire il tuo account **non** ti chiediamo nome, e-mail, numero di telefono o password. L'account viene aperto come
+account ospite; Accedi con Apple, facoltativo, è descritto nella Sezione 3.14.
 
 ### 3.2 Progressi di gioco e portafoglio
 
@@ -186,15 +198,33 @@ un'informazione che ti faccia riconoscere.**
 
 | | |
 | --- | --- |
-| **Dati** | Quando segnali un nome: chi (numero dell'account) ha segnalato chi, quale nome e quando; se la segnalazione è stata conteggiata per un intervento automatico. Quando un nome viene rimosso: il nome rimosso, il momento della rimozione, quante segnalazioni c'erano e se l'intervento è stato automatico o manuale; una traccia del nome rimosso, perché quel giocatore non scelga di nuovo lo stesso nome; il momento dell'ultima rimozione e se la decisione è stata presa automaticamente (in seguito alle segnalazioni) o dal nostro team, per poterti mostrare una volta il motivo |
-| **Finalità** | Proteggere i giocatori da nomi inappropriati; esaminare le segnalazioni; comunicare il motivo al giocatore il cui nome è stato rimosso; individuare segnalazioni abusive; adempiere ai nostri obblighi legali |
-| **Base giuridica** | art. 5, par. 2, lett. f) KVKK e, nella misura in cui si applica, art. 5, par. 2, lett. ç) KVKK (obbligo legale) · art. 6, par. 1, lett. f) GDPR e, nella misura in cui si applica, art. 6, par. 1, lett. c) GDPR (ad es. le regole su segnalazione, azione e motivazione del Regolamento sui servizi digitali (DSA) dell'UE) |
-| **Conservazione** | Segnalazioni **12 mesi**, registri di moderazione **24 mesi**, la traccia del nome rimosso e il momento dell'ultima rimozione finché il tuo account resta aperto. Quando l'account viene eliminato, tutti questi dati (comprese le segnalazioni fatte da te e su di te) vengono eliminati. |
+| **Dati** | **Segnalazione:** chi (numero dell'account) ha segnalato chi, quale nome e quando; se la segnalazione è stata conteggiata per un intervento automatico; se è stato aperto, a quale caso di esame è stata collegata. **Quando un nome viene cambiato:** il nome cambiato, il momento, quante segnalazioni c'erano e se l'intervento è stato fatto in seguito alle segnalazioni o dal nostro team (registro di moderazione); il momento e l'origine dell'ultimo cambiamento, per poterti mostrare una volta il motivo; una traccia del nome, perché tu non scelga di nuovo quel nome (temporanea mentre il caso è aperto, permanente in caso di decisione di divieto permanente). **Caso di esame:** il testo completo del nome così come è stato mostrato, di chi è il nome (collegamento all'account), l'origine (segnalazioni o il nostro team), i conteggi delle segnalazioni, il registro dell'intervento automatico, lo stato del caso, l'esito, i momenti di apertura e di chiusura; per ogni segnalazione, il momento, se è stata conteggiata o no e i segnali che servono a valutare il sospetto che chi ha segnalato sia un bot o faccia segnalazioni di massa: l'età del suo account al momento della segnalazione, se è un account ospite, il numero di livelli che ha vinto, il numero di segnalazioni che ha fatto negli ultimi 30 giorni, il numero di registri anti-imbroglio degli ultimi 90 giorni e il numero di sue segnalazioni in casi respinti negli ultimi 180 giorni. **Il numero dell'account di chi ha segnalato non viene copiato nel caso.** **Registro della decisione:** la decisione, la persona che l'ha presa (oppure "sistema" quando scade il termine e quando l'account viene eliminato), il momento e la motivazione |
+| **Finalità** | Proteggere i giocatori da nomi inappropriati; esaminare le segnalazioni; fare in modo che a decidere il divieto permanente di un nome sia solo una persona, esaminando le prove; individuare l'abuso delle segnalazioni con account falsi o creati in massa; comunicare il motivo al giocatore il cui nome è stato cambiato; dimostrare le decisioni e le loro motivazioni ed esaminare le opposizioni; adempiere ai nostri obblighi legali |
+| **Base giuridica** | art. 5, par. 2, lett. f) KVKK e, nella misura in cui si applica, art. 5, par. 2, lett. ç) KVKK (obbligo legale) e art. 5, par. 2, lett. e) KVKK · art. 6, par. 1, lett. f) GDPR e, nella misura in cui si applica, art. 6, par. 1, lett. c) GDPR (ad es. le regole su segnalazione, azione, motivazione e opposizione del Regolamento sui servizi digitali (DSA) dell'UE). Il nostro legittimo interesse per i segnali di chi ha segnalato: impedire che qualcuno faccia rimuovere il nome di un altro con alcuni account falsi; i segnali sono ricavati dai dati dell'account che conserviamo già |
+| **Conservazione** | Segnalazioni **12 mesi**, registri di moderazione **24 mesi**. I registri dei casi e delle decisioni vengono eliminati **12 mesi** dopo la chiusura del caso; finché dura il divieto permanente su cui si basano, non vengono eliminati. La traccia temporanea del nome viene eliminata alla chiusura del caso; la traccia del divieto permanente e il momento dell'ultimo cambiamento restano finché il tuo account resta aperto. Quando l'account viene eliminato, le segnalazioni fatte da te e su di te, la traccia dei tuoi nomi e i registri di moderazione vengono eliminati; il caso che ti riguarda resta solo come **registro anonimo dell'operazione** (il collegamento all'account, il nome e l'elenco delle segnalazioni vengono eliminati; restano i conteggi delle segnalazioni, il registro dell'intervento automatico e le decisioni; un caso aperto viene chiuso come "account eliminato") e viene eliminato dopo il periodo indicato sopra. |
 
-Al giocatore che segnali **non viene detto** chi lo ha segnalato. Se il tuo nome viene rimosso, alla connessione
-successiva il gioco te lo dice una volta nella schermata Profilo, insieme al motivo: distingue se la decisione è stata
-presa automaticamente in seguito alle segnalazioni di un numero sufficiente di giocatori oppure dopo un esame del nostro
-team. Come presentare un'opposizione è spiegato nella Sezione 9.
+**Come funziona?** Se un nome viene segnalato da **3 giocatori diversi** che rispettano le regole sulle segnalazioni
+(Sezione 9), il nome viene sostituito automaticamente con un nuovo nome generato dal gioco e viene aperto un **caso di
+esame**. Puoi scegliere subito un altro nome; non puoi scegliere il nome cambiato finché il caso non viene chiuso. A
+decidere se il nome viene vietato in modo permanente per te è **solo una persona**, esaminando le prove del caso: se la
+persona conferma, il nome viene vietato in modo permanente; se respinge, il nome torna libero, le segnalazioni di quel
+caso non vengono più conteggiate e le segnalazioni di chi le ha fatte non vengono conteggiate per l'intervento automatico
+per 180 giorni. Se il caso non viene deciso entro **30 giorni**, si chiude da sé, il nome torna libero e non nasce nessun
+divieto. Anche per un nome cambiato manualmente dal nostro team viene aperto un caso nello stesso modo. Le prove del caso
+vengono scritte una sola volta e non possono essere modificate; nemmeno le decisioni possono essere modificate.
+
+Al giocatore che segnali **non viene detto** chi lo ha segnalato. Per la decisione non si guarda all'identità di chi ha
+segnalato; solo in caso di un chiaro sospetto di abuso (ad es. gli stessi account compaiono in più casi) vengono esaminati
+i registri delle segnalazioni e ciò che emerge viene inserito in un registro anti-imbroglio (Sezione 3.4). Finché
+esistono i registri delle segnalazioni (12 mesi), i segnali nel caso possono essere collegati indirettamente a chi ha
+segnalato; per questo li consideriamo dati personali pseudonimizzati. Se chi ha segnalato elimina il proprio account, la
+sua segnalazione viene eliminata e la riga dei segnali nel caso non può più essere collegata a nessuno.
+
+Se il tuo nome viene cambiato, alla connessione successiva il gioco te lo dice una volta nella schermata Profilo, insieme
+al motivo: distingue se il cambiamento è stato fatto automaticamente in seguito alle segnalazioni di un numero
+sufficiente di giocatori oppure dopo un esame del nostro team. La decisione successiva sul caso (divieto permanente,
+rigetto o revoca del divieto) non viene comunicata separatamente nel gioco; puoi conoscere la decisione e la sua
+motivazione scrivendoci. Come presentare un'opposizione è spiegato nella Sezione 9.
 
 ### 3.8 Video con premio: registro del premio e registro del permesso
 
@@ -286,11 +316,106 @@ solo dove scegli tu.
 Le tue impostazioni (suono, vibrazione, risparmio batteria), la versione e la data in cui hai accettato i Termini di
 utilizzo, la versione e la data dell'avviso di modifica dell'informativa sulla privacy che hai visto, la copia dei tuoi progressi sul dispositivo, i risultati non
 ancora inviati al server, l'elenco dei giocatori che hai bloccato, la tua chiave di sessione (nel portachiavi), la tua
-risposta sul permesso per i video con premio e, per i giocatori in Europa, le tue scelte nel modulo di consenso di Google
-sono conservati sul tuo dispositivo. Servono perché il gioco funzioni. L'elenco dei giocatori che hai bloccato non viene
-inviato a noi. Eliminando l'app elimini anche questi dati (la chiave di sessione nel portachiavi può rimanere secondo le
+risposta sul permesso per i video con premio, per i giocatori in Europa le tue scelte nel modulo di consenso di Google,
+la risposta di iOS sulla fascia d'età e i registri relativi all'approvazione dei genitori (Sezione 3.15) sono conservati
+sul tuo dispositivo. Servono perché il gioco funzioni. L'elenco dei giocatori che hai bloccato, la risposta sulla fascia
+d'età e i registri dell'approvazione dei genitori non vengono inviati a noi. Eliminando l'app elimini anche questi dati (la chiave di sessione nel portachiavi può rimanere secondo le
 regole di iOS; eliminare il tuo account come nella Sezione 8 rende inutilizzabile anche quella). Eliminare l'app non
 elimina l'account sul server; per farlo usa Impostazioni → Account → Elimina account.
+
+### 3.14 Accedi con Apple (facoltativo; versioni 0.1.0 (16) e successive)
+
+Ogni giocatore inizia con un account ospite (Sezione 3.1). Nelle versioni 0.1.0 (16) e successive del gioco (la versione
+è indicata in fondo alle Impostazioni) puoi collegare il tuo account al tuo account Apple, **in modo facoltativo**, da
+Impostazioni → Account; così, su un nuovo dispositivo o quando reinstalli il gioco, continui con lo stesso account. Se
+non usi Accedi con Apple, il gioco funziona allo stesso modo e i dati di questa sezione non vengono mai creati. Se accedi
+con Apple, **non chiediamo ad Apple né il tuo nome né la tua e-mail.**
+
+| | |
+| --- | --- |
+| **Dati** | L'**identificativo utente** che Apple genera per il nostro account sviluppatore (per lo stesso account Apple è lo stesso nelle nostre app ed è diverso nelle app di altri sviluppatori); due campi tecnici usati dal sistema di accesso (l'indirizzo di Apple, che emette l'identificativo, e una copia dello stesso identificativo utente nel nostro sistema di accesso); i momenti del collegamento ad Apple e dell'ultimo accesso. All'accesso, il tuo dispositivo invia al nostro server un token d'identità firmato da Apple; il token viene verificato e se ne conservano solo questi campi. L'indirizzo e-mail del tuo account Apple e il tuo nome non vengono conservati. |
+| **Finalità** | Collegare il tuo account al tuo account Apple; permetterti di accedere allo stesso account su un altro dispositivo o dopo una reinstallazione; quando elimini il tuo account, revocare anche presso Apple l'autorizzazione del gioco per Accedi con Apple |
+| **Base giuridica** | art. 5, par. 2, lett. c) KVKK · art. 6, par. 1, lett. b) GDPR (sei tu a chiedere il collegamento). Per la revoca dell'autorizzazione al momento dell'eliminazione, inoltre, art. 5, par. 2, lett. f) KVKK · art. 6, par. 1, lett. f) GDPR (legittimo interesse: dare piena attuazione alla richiesta di eliminazione anche dal lato di Apple; lo richiedono anche le regole di Apple su Accedi con Apple) |
+| **Conservazione** | Finché il tuo account resta aperto; viene eliminato insieme al tuo account. Un account collegato ad Apple viene eliminato se il gioco non si collega mai al nostro server per **36 mesi** (Sezione 8.2; per un account ospite questo periodo è di 12 mesi). |
+
+Non usiamo l'identificativo utente Apple per la pubblicità, non lo vendiamo, non lo diamo a nessuno tranne il fornitore
+di servizi che ospita il nostro server (Sezione 5) e non lo abbiniamo ai dati delle nostre altre app.
+
+**Quando elimini il tuo account.** Quando elimini un account collegato ad Apple con Impostazioni → Account → Elimina
+account, Apple ti chiede di confermare ancora una volta; se chiudi la finestra di conferma, l'account non viene
+eliminato. Se confermi, il tuo dispositivo riceve da Apple un codice monouso e lo invia al nostro server insieme alla
+richiesta di eliminazione; il nostro server elimina il tuo account e invia questo codice una volta ad Apple per revocare
+l'autorizzazione del gioco per Accedi con Apple. Il codice non viene conservato da nessuna parte e non viene scritto nei
+log; nel registro dell'eliminazione (Sezione 7) viene scritto solo l'esito di questo passaggio (ad es. revocata oppure
+non riuscita). Se Apple dà un errore durante la conferma, il tuo account viene eliminato comunque, ma la revoca non può
+essere fatta; anche quando l'account viene eliminato per inattività (Sezione 8.2) la revoca non può essere fatta, perché
+non c'è il codice. In questi casi puoi rimuovere tu stesso il gioco dall'elenco "Accedi con Apple" nelle impostazioni del
+tuo account Apple. Rimuovere il gioco da quell'elenco, invece, non elimina il tuo account e questa informazione non arriva
+a noi; per eliminare il tuo account usa Elimina account.
+
+**Quando accedi con Apple su un altro dispositivo.** Se il tuo account Apple è già collegato a un account di gioco (ad
+es. se lo hai collegato sul tuo dispositivo precedente), entri in quell'account ed è quell'account a valere. Se in quel
+momento sul tuo dispositivo c'è un account ospite:
+
+- Se nell'account ospite ci sono progressi (livelli vinti, Cristalli, acquisti o profondità nell'Universo Infinito), prima
+  ti viene chiesto; se rinunci, non cambia nulla.
+- I progressi, il portafoglio (compresi i Cristalli guadagnati nel gioco), i potenziamenti, gli oggetti estetici, i
+  registri della lega e le richieste di premi dell'account ospite **non vengono trasferiti** (Termini di utilizzo,
+  Sezione 4.6).
+- I **Cristalli acquistati e non spesi** nell'account ospite passano all'account collegato ad Apple: solo quelli che
+  provengono da acquisti reali non rimborsati, al massimo fino al saldo dell'account ospite. Anche il registro di questi
+  acquisti passa a quell'account; se in futuro vengono rimborsati, i Cristalli vengono tolti da quell'account. I
+  Cristalli degli acquisti di prova (sandbox) non passano.
+- Gli acquisti non consumabili (ad es. la Borsa del Fondatore) arrivano su quell'account con le regole di "Ripristina
+  acquisti" (Sezione 9).
+- L'account ospite viene **eliminato subito** sul nostro server; l'eliminazione avviene come nella Sezione 8.1 e lascia
+  gli stessi registri (nel registro dell'eliminazione il motivo è indicato come "unione").
+- I progressi da ospite sul tuo dispositivo vengono sostituiti con lo stato dell'account sul server; le impostazioni del
+  tuo dispositivo restano.
+
+Per l'unione, il tuo dispositivo invia una volta al nostro server la chiave della sessione ospite (per dimostrare che sei
+tu a usare l'account ospite); questa chiave non viene conservata. Se l'unione non può essere completata a causa di un
+errore, l'account ospite resta in uno stato a cui nessuno può accedere e viene eliminato con la regola di inattività
+della Sezione 8.2.
+
+**Il ruolo di Apple.** Accedi con Apple è gestito da Apple. Apple tratta i dati che tratta in questo ambito (ad es. le
+app in cui usi Accedi con Apple) in qualità di titolare autonomo del trattamento, secondo la propria informativa sulla
+privacy: https://www.apple.com/legal/privacy/.
+
+### 3.15 Approvazione dei genitori per le modifiche importanti (leggi sull'età; versioni 0.1.0 (16) e successive)
+
+In alcuni luoghi (ad es. negli USA, le leggi sugli app store degli Stati del Texas, dello Utah e della Louisiana) la
+legge richiede, quando un'app cambia in modo significativo, di ottenere l'approvazione di un genitore dell'utente con meno
+di 18 anni oppure di informare l'utente adulto. Se questo sia necessario nel luogo in cui ti trovi, il gioco lo viene a
+sapere da Apple sul tuo dispositivo (la funzione di iOS per la fascia d'età, Sezione 11).
+
+- **Che cosa consideriamo una modifica importante:** un nuovo flusso di dati personali dal dispositivo o un nuovo
+  destinatario; un nuovo tipo di account o di accesso; un nuovo metodo di pagamento o un nuovo flusso di dati sugli
+  acquisti; un nuovo modo con cui i giocatori possono raggiungersi tra loro; il cambiamento della classificazione per età
+  dell'App Store. Nella versione 0.1.0 (16) ci sono due modifiche importanti: Accedi con Apple (Sezione 3.14) e il
+  resoconto dei registri di acquisto dal nostro server (Sezione 3.9).
+- **Approvazione dei genitori:** Se la legge richiede l'approvazione, al giocatore con meno di 18 anni viene mostrato nel
+  gioco che cosa è cambiato; se vuole, il giocatore invia la richiesta al suo genitore **tramite Apple** con "Chiedi ai
+  miei genitori". Finché il genitore non approva, restano in attesa solo le funzioni introdotte da quella modifica: il
+  pulsante di Accedi con Apple non viene mostrato e non si possono fare nuovi acquisti (non viene addebitato nessun
+  pagamento). "Ripristina acquisti" resta disponibile. Il resto del gioco è uguale per tutti. Se hai scaricato il gioco
+  per la prima volta dopo la modifica, per quella modifica non viene chiesta l'approvazione.
+- **Notifica agli adulti:** Se la legge richiede per l'adulto solo una notifica, viene mostrata la finestra informativa
+  di Apple stessa; non viene limitato nulla.
+- **Che cosa resta sul dispositivo:** se la legge richiede o no l'approvazione o la notifica, quali modifiche sono state
+  approvate o richieste e l'ultima classificazione per età dell'App Store del gioco che è stata vista vengono conservati
+  solo sul tuo dispositivo e **non vengono inviati a noi.** Per questo, su un nuovo dispositivo al tuo genitore può essere
+  chiesto di nuovo. La richiesta di approvazione e la risposta le trasmette Apple; non arrivano a noi.
+- **Se il genitore revoca l'approvazione:** Apple impedisce che l'app si apra sui dispositivi di quel bambino e invia una
+  notifica al nostro server. Di questa notifica vengono conservati solo il numero, il tipo, l'operazione fatta dal nostro
+  server e il momento di arrivo (**24 mesi**). Non abbiniamo la notifica a nessun account di gioco (per farlo dovremmo
+  conservare su ogni giocatore un numero nuovo e permanente); per questo la notifica non tocca né l'account né gli
+  acquisti. Poiché l'app non si apre, eliminare l'account dall'interno del gioco potrebbe non essere possibile: il
+  genitore può scriverci (Sezione 10); l'account viene inoltre eliminato con la regola di inattività della Sezione 8.2.
+- **Base giuridica:** per i registri sul dispositivo e la richiesta di approvazione, art. 5, par. 2, lett. f) KVKK ·
+  art. 6, par. 1, lett. f) GDPR (legittimo interesse: rispettare le leggi del luogo in cui ti trovi e le regole di Apple);
+  per il registro della notifica sul server, art. 5, par. 2, lett. f) e art. 5, par. 2, lett. e) KVKK · art. 6, par. 1,
+  lett. f) GDPR (trattare la notifica una sola volta e poter dimostrare che cosa abbiamo fatto).
 
 ## 4. Video con premio e annunci (Google AdMob)
 
@@ -379,7 +504,7 @@ questi:
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Turchia) — e-mail aziendale | Le e-mail che ci scrivi e le nostre risposte | Il nostro indirizzo di assistenza è ospitato su questo servizio; le e-mail sono conservate sui server di Güzel Hosting in Turchia | Responsabile del trattamento |
 | **MailChannels Corporation** (Canada; server in Nord America) | Il contenuto delle risposte che ti inviamo e il tuo indirizzo e-mail, solo durante la trasmissione | Servizio di inoltro della posta di Güzel Hosting; le nostre risposte vengono inoltrate al destinatario tramite questo servizio e non vi vengono conservate | Responsabile del trattamento (sottoservizio di Güzel Hosting) |
 | **Google** (Google Ireland Limited nel SEE, nel Regno Unito e in Svizzera; Google LLC, USA, altrove) | Solo se hai dato il permesso ai video con premio (nel SEE, nel Regno Unito e in Svizzera, inoltre, in base alla tua scelta nel modulo di Google): i dati pubblicitari della Sezione 4.2 (direttamente dal tuo dispositivo) e il numero di biglietto | Mostrare e verificare il video con premio | Titolare autonomo del trattamento |
-| **Apple** (Apple Distribution International Ltd. e le sue società collegate) | Download dell'app dall'App Store, acquisti e rimborsi (li fai direttamente con Apple nell'App Store; riceviamo le informazioni su acquisti e rimborsi come registro della transazione firmato da Apple); se le hai consentite nelle impostazioni di iOS, le statistiche di Apple stessa su arresti anomali e utilizzo | Servizi dell'App Store e di pagamento | Titolare autonomo del trattamento (informativa di Apple: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. e le sue società collegate) | Download dell'app dall'App Store, acquisti e rimborsi (li fai direttamente con Apple nell'App Store; riceviamo le informazioni su acquisti e rimborsi come registro della transazione firmato da Apple); se le hai consentite nelle impostazioni di iOS, le statistiche di Apple stessa su arresti anomali e utilizzo. Se usi Accedi con Apple, l'accesso è gestito da Apple; quando elimini il tuo account collegato ad Apple, il nostro server invia ad Apple un codice monouso per revocare l'autorizzazione per Accedi con Apple (Sezione 3.14). Dove la legge lo richiede, la richiesta di approvazione dei genitori la trasmette Apple; Apple può comunicarci che l'approvazione dei genitori è stata revocata (Sezione 3.15) | Servizi dell'App Store, di pagamento, di Accedi con Apple e di approvazione dei genitori | Titolare autonomo del trattamento (informativa di Apple: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (Stati Uniti) | Per gli acquisti reali, solo dal nostro server: il registro della transazione firmato da Apple, il tuo codice cliente casuale e le notifiche di rimborso delle transazioni già inviate (Sezione 3.9) | Registro di acquisti e rimborsi, resoconto dei ricavi | Fornitore di servizi; opera secondo i propri termini (https://www.revenuecat.com/terms) e la propria informativa sulla privacy (https://www.revenuecat.com/privacy) |
 | **Autorità pubbliche e tribunali competenti** | Solo quanto è obbligatorio per legge | Obbligo legale | — |
 
@@ -431,7 +556,12 @@ passare al cessionario con il livello di protezione di questa informativa; lo an
   un trasferimento occasionale, necessario perché la nostra risposta ti arrivi (art. 9, par. 6, lett. b) KVKK).
 - **Apple:** Usi l'App Store e i pagamenti direttamente con Apple; come e dove Apple tratta i tuoi dati è descritto
   nell'informativa sulla privacy di Apple. La verifica e la registrazione dei tuoi acquisti avvengono sul nostro server in
-  Turchia.
+  Turchia. Quando accedi con Apple, il token d'identità di Apple arriva dal tuo dispositivo al nostro server in Turchia;
+  del token vengono conservati qui solo i campi della Sezione 3.14. Solo quando elimini tu stesso il tuo account
+  collegato ad Apple, il nostro server invia un codice monouso ai server di Apple fuori dalla Turchia per revocare
+  l'autorizzazione per Accedi con Apple; si tratta di un trasferimento occasionale, fatto solo per completare la tua
+  richiesta di eliminazione e una sola volta per richiesta (art. 9, par. 6, lett. b) KVKK). La richiesta di approvazione
+  dei genitori va dal tuo dispositivo direttamente ad Apple; a noi non arriva nulla.
 - **RevenueCat (acquisti reali):** I registri di acquisto e rimborso vengono inviati dal nostro server a
   RevenueCat, Inc. negli Stati Uniti, come descritto nella Sezione 3.9, e trattati negli Stati Uniti. Secondo il diritto
   turco non esiste una decisione di adeguatezza per gli Stati Uniti. Riduciamo questo trasferimento al minimo: avviene
@@ -458,7 +588,7 @@ passare al cessionario con il livello di protezione di questa informativa; lo an
 
 | Dati | Periodo |
 | --- | --- |
-| Account, progressi, portafoglio, riepiloghi dei risultati, identificativo pubblico, registro del permesso per i video con premio, registri degli acquisti, voci dei Campioni e degli Apriporta, traccia del nome rimosso | Finché l'account resta aperto; se il gioco non si collega mai al nostro server per **12 mesi** (**36 mesi** in un account con una storia di acquisti o rimborsi), vengono eliminati insieme all'account (Sezione 8.2) |
+| Account, progressi, portafoglio, riepiloghi dei risultati, identificativo pubblico, registro del permesso per i video con premio, registri degli acquisti, voci dei Campioni e degli Apriporta, traccia del divieto permanente del nome, identificativo di Accedi con Apple (Sezione 3.14) | Finché l'account resta aperto; se il gioco non si collega mai al nostro server per **12 mesi** (**36 mesi** in un account con una storia di acquisti o rimborsi o collegato ad Apple), vengono eliminati insieme all'account (Sezione 8.2) |
 | Registro delle mosse della battaglia (replay) | 90 giorni dopo la decisione |
 | Risultato che non può essere verificato | Chiuso dopo 30 giorni |
 | Lega settimanale e Lega Profondità | 26 settimane |
@@ -466,13 +596,15 @@ passare al cessionario con il livello di protezione di questa informativa; lo an
 | Registri anti-imbroglio | 12 mesi |
 | Registri del portafoglio di un account eliminato, con il numero dell'account eliminato (anonimi, tranne quelli relativi agli acquisti) | 12 mesi |
 | Registri delle transazioni di acquisto di un account eliminato, con il collegamento all'account interrotto | 24 mesi |
-| Registri degli acquisti trasferiti tra account e notifiche di rimborso e di revoca di Apple (Sezione 3.9) | 24 mesi (quando un account viene eliminato, il suo numero viene tolto subito dai registri di trasferimento) |
+| Registri degli acquisti trasferiti tra account e notifiche di rimborso e di revoca di Apple (Sezione 3.9); notifiche di Apple sulla revoca dell'approvazione dei genitori (non collegate a nessun account, Sezione 3.15) | 24 mesi (quando un account viene eliminato, il suo numero viene tolto subito dai registri di trasferimento) |
 | Scheda cliente e registri di acquisto/rimborso presso RevenueCat (Sezione 3.9) | Finché l'account resta aperto; all'eliminazione dell'account (richiesta o 12/36 mesi di inattività) se ne chiede l'eliminazione a RevenueCat |
 | Copia, sul nostro server, di un registro firmato in attesa di invio a RevenueCat | Fino all'invio o al mancato invio; al massimo 30 giorni |
 | Traccia degli invii a RevenueCat (senza il registro firmato; numero di transazione e codice cliente) | Finché l'account resta aperto, per poter inoltrare le notifiche di rimborso (eliminata subito con l'account). Lavori completati o non riusciti e richiesta di eliminazione di un account eliminato (solo codice cliente; senza legame con l'account): 30 giorni dopo la fine del lavoro |
 | Segnalazioni dei nomi | 12 mesi |
 | Registri di moderazione | 24 mesi |
-| Registro dell'eliminazione dell'account (solo un numero di operazione casuale, il momento e il motivo: tua richiesta o inattività; nessun numero dell'account) | 24 mesi |
+| Casi di esame dei nomi e registri delle decisioni (Sezione 3.7) | 12 mesi dopo la chiusura del caso; non vengono eliminati finché dura il divieto permanente su cui si basano. Quando l'account viene eliminato, come registro anonimo dell'operazione, senza nome né collegamento all'account, per lo stesso periodo |
+| Traccia temporanea del nome mentre il caso è aperto | Fino alla chiusura del caso (al massimo 30 giorni, se non viene presa una decisione) |
+| Registro dell'eliminazione dell'account (solo un numero di operazione casuale, il momento, il motivo: tua richiesta, inattività o unione dell'account ospite con un account collegato ad Apple; per un account collegato ad Apple, l'esito del passaggio di revoca dell'autorizzazione per Accedi con Apple; nessun numero dell'account) | 24 mesi |
 | Contatore giornaliero di "Scarica i miei dati" | 7 giorni |
 | Registri di sicurezza degli accessi (senza indirizzo IP) | 1 ora |
 | Blocco di sincronizzazione simultanea (registro tecnico che impedisce due sincronizzazioni contemporanee) | 1 giorno dopo la scadenza |
@@ -488,11 +620,16 @@ registri di sicurezza degli accessi questo processo gira ogni 15 minuti.
 
 **Impostazioni → Account → Elimina account.** Quando confermi, il tuo account sul nostro server e tutti i dati collegati
 (progressi, portafoglio, risultati, registri delle mosse, il tuo nome giocatore, il tuo avatar, il tuo identificativo
-pubblico, le tue voci di lega, il tuo registro del permesso, le segnalazioni fatte da te e su di te) vengono eliminati
-**subito e in modo irreversibile**; anche sul tuo dispositivo il gioco ricomincia da capo. Restano solo: i movimenti del
+pubblico, le tue voci di lega, il tuo registro del permesso, il tuo identificativo di Accedi con Apple, le segnalazioni
+fatte da te e su di te, la traccia dei tuoi nomi e i tuoi registri di moderazione) vengono eliminati **subito e in modo
+irreversibile**; anche sul tuo dispositivo il gioco ricomincia da capo. Se il tuo account è collegato ad Apple, Apple ti
+chiede prima di confermare ancora una volta e il nostro server chiede ad Apple la revoca dell'autorizzazione del gioco
+per Accedi con Apple (Sezione 3.14). Restano solo: i movimenti del
 portafoglio e i registri anti-imbroglio con il tuo numero dell'account eliminato (al massimo 12 mesi; anonimi, tranne
 quelli relativi agli acquisti), i registri delle transazioni di acquisto con il collegamento al tuo account interrotto e
-i registri di trasferimento degli acquisti con il tuo numero dell'account tolto (24 mesi) e il registro dell'eliminazione, che non contiene il tuo numero dell'account (24 mesi). I dati eliminati escono anche dai backup al più tardi entro 30 giorni.
+i registri di trasferimento degli acquisti con il tuo numero dell'account tolto (24 mesi), il registro anonimo
+dell'operazione dei casi di esame dei nomi che ti riguardano (Sezione 3.7) e il registro dell'eliminazione, che non
+contiene il tuo numero dell'account (24 mesi). I dati eliminati escono anche dai backup al più tardi entro 30 giorni.
 Il collegamento tra il tuo account e il codice cliente casuale presso RevenueCat viene eliminato subito dal nostro server,
 e chiediamo a RevenueCat di eliminare quella scheda cliente (Sezione 3.9).
 
@@ -506,8 +643,8 @@ stesso modo e con gli stessi effetti dell'eliminazione della Sezione 8.1. Lo fac
 
 - **Che cosa guardiamo?** La creazione dell'account, l'ultimo accesso, l'ultimo rinnovo della sessione e il giorno in cui
   hai aperto l'app per l'ultima volta; se il più recente di questi è più vecchio di 12 mesi (di 36 mesi in un account con
-  acquisti), l'account viene eliminato. Se
-  quando apri l'app hai una connessione a internet, queste informazioni si aggiornano automaticamente; se per 12 mesi (36 mesi in un account con acquisti) hai
+  acquisti o collegato ad Apple), l'account viene eliminato. Se
+  quando apri l'app hai una connessione a internet, queste informazioni si aggiornano automaticamente; se per 12 mesi (36 mesi in un account con acquisti o collegato ad Apple) hai
   aperto l'app solo senza internet, l'account può comunque essere eliminato.
 - **Non possiamo avvisarti prima:** Poiché non riceviamo da te nessun recapito, non possiamo scriverti prima
   dell'eliminazione. Per questo la regola è scritta anche in Impostazioni → Account.
@@ -522,6 +659,11 @@ stesso modo e con gli stessi effetti dell'eliminazione della Sezione 8.1. Lo fac
   nel tuo nuovo account, con lo stesso account Apple, tramite "Ripristina acquisti"; gli oggetti consumabili dati insieme
   a essi non vengono dati una seconda volta (Termini di utilizzo, Sezione 4.2). Puoi eliminare un account di questo tipo
   in qualsiasi momento come nella Sezione 8.1.
+- **Account collegati ad Apple: 36 mesi.** Se hai collegato il tuo account ad Apple (Sezione 3.14), hai voluto che il tuo
+  account vivesse indipendentemente dal tuo dispositivo; per questo il periodo, come negli account con acquisti, è di
+  **36 mesi**. In un account eliminato per inattività l'autorizzazione per Accedi con Apple non può essere revocata (non è
+  possibile ottenere una nuova conferma da Apple); puoi rimuovere tu stesso il gioco dall'elenco "Accedi con Apple" nelle
+  impostazioni del tuo account Apple.
 
 ## 9. Decisioni automatizzate
 
@@ -536,12 +678,16 @@ Nel gioco alcune decisioni vengono prese automaticamente, senza intervento umano
   account con "Ripristina acquisti" è limitato automaticamente (per gli acquisti reali al massimo 3 volte in tutto e al
   massimo una volta ogni 30 giorni; per gli acquisti di prova con un limite giornaliero). Un trasferimento oltre il limite
   non viene fatto e il gioco te lo dice.
-- **Rimozione dei nomi:** Se un nome viene segnalato da **3 giocatori diversi**, ciascuno con un account creato da più di
-  un giorno e almeno 5 livelli vinti, il nome viene sostituito automaticamente con un nuovo nome generato dal gioco. Puoi
-  scegliere subito un nuovo nome, ma non puoi scegliere di nuovo il nome rimosso. Alla connessione successiva il gioco ti
-  dice una volta, nella schermata Profilo, che il tuo nome è stato cambiato automaticamente in seguito alle segnalazioni
-  (in caso di modifica fatta manualmente dal nostro team, lo indica in modo distinto). Ogni rimozione automatica viene registrata
-  perché una persona la esamini.
+- **Cambio dei nomi:** Se un nome viene segnalato da **3 giocatori qualificati diversi**, il nome viene sostituito
+  automaticamente con un nuovo nome generato dal gioco e viene aperto un caso di esame (Sezione 3.7). Giocatore
+  qualificato: un giocatore con un account creato da più di 3 giorni, con almeno 5 livelli vinti verificati dal server e
+  senza segnalazioni in un caso respinto negli ultimi 180 giorni. Puoi scegliere subito un nuovo nome; il nome cambiato
+  resta bloccato per te finché il caso non viene chiuso. **Il divieto permanente non viene dato automaticamente;** avviene
+  solo con la decisione di una persona. Se il caso non viene deciso entro 30 giorni, il blocco viene meno da sé e non nasce
+  nessun divieto. Se un caso viene respinto, le segnalazioni di quel caso non vengono più conteggiate e le segnalazioni di
+  chi le ha fatte non vengono conteggiate per l'intervento automatico per 180 giorni. Alla connessione successiva il gioco
+  ti dice una volta, nella schermata Profilo, che il tuo nome è stato cambiato automaticamente in seguito alle
+  segnalazioni (in caso di modifica fatta manualmente dal nostro team, lo indica in modo distinto).
 - **Regalo della Lega:** A fine settimana viene stabilito automaticamente, in base alla classifica del server stesso, se
   sei entrato nei primi 3 di un gruppo di almeno 10 persone.
 - **Eliminazione degli account inattivi:** La regola della Sezione 8.2 viene applicata automaticamente.
@@ -552,6 +698,15 @@ non creiamo profili a fini pubblicitari. Comunque, se pensi che una decisione au
 persona riesaminerà la decisione. Se la verifica che RevenueCat fa presso Apple contraddice la nostra, viene aperto solo
 un registro anti-imbroglio; ciò che hai acquistato non ti viene tolto per questo. Ai sensi dell'art. 11, par. 1, lett. g) KVKK hai il diritto di opporti a un esito a te
 sfavorevole derivante da un'analisi effettuata esclusivamente da sistemi automatizzati.
+
+**Opposizione alle decisioni sui nomi.** Se il tuo nome è stato cambiato o vietato in modo permanente, puoi presentare
+un'opposizione scrivendo all'indirizzo destek@mm-apps.com con il tuo numero giocatore che trovi in Impostazioni →
+Account. La tua opposizione viene esaminata da una persona, che guarda le prove del caso: se il caso è aperto, viene
+deciso; se il divieto permanente è ingiustificato, viene revocato. Ti scriviamo l'esito e la motivazione per e-mail.
+Questa via resta aperta per almeno 6 mesi dalla data della decisione; per questo i registri del caso vengono conservati
+per 12 mesi dopo la chiusura (Sezione 3.7). Anche se, come persona che ha segnalato un nome, pensi che una decisione sia
+sbagliata, puoi scrivere per la stessa via. Queste vie non pregiudicano il tuo diritto di rivolgerti a un tribunale o a
+un'autorità competente.
 
 ## 10. I tuoi diritti e come esercitarli
 
@@ -574,7 +729,7 @@ automatizzato.
 
 | Che cosa vuoi? | Come? |
 | --- | --- |
-| Una copia dei miei dati (informazione e accesso, portabilità dei dati) | **Scarica i miei dati:** La maggior parte dei dati che il server conserva sul tuo account e il salvataggio di gioco sul tuo dispositivo vengono preparati in un unico file JSON; puoi salvare o condividere il file. Il file contiene la data di creazione e dell'ultimo accesso del tuo account, la lingua di registrazione, il tuo profilo (compresi il tuo nome, il tuo avatar, il tuo identificativo pubblico, il tuo registro del permesso per i video con premio), i tuoi progressi, il tuo portafoglio e i suoi movimenti, i risultati dei tuoi livelli e i registri delle mosse, le tue discese nell'Universo Infinito, le tue settimane di lega, i tuoi risultati nel Varco del Tempo, il tuo numero degli Apriporta, i tuoi acquisti (prodotto, numero di transazione, ambiente, data, rimborso), i tuoi biglietti dei video con premio (posizione e orari), le segnalazioni che hai fatto (solo il nome che hai segnalato), le misure di moderazione applicate al tuo nome (misura, nome rimosso, data) e, dei registri anti-imbroglio, solo il tipo e la data. **Non sono nel file** (puoi ottenerli scrivendoci): il dettaglio dei registri anti-imbroglio (per proteggere i nostri metodi di individuazione degli imbrogli); gli orari di apertura e rinnovo delle tue sessioni; il numero di transazione originale dei tuoi acquisti, l'account su cui sono stati accreditati i Cristalli, i registri di trasferimento e le notifiche di Apple su queste transazioni; il numero dei tuoi biglietti dei video con premio, il numero di transazione pubblicitaria di Google e il risultato raddoppiato; la traccia di un nome rimosso dalla moderazione; il tuo codice cliente casuale presso RevenueCat, i tuoi registri di invio a RevenueCat e il tuo registro di opposizione (i registri inviati a RevenueCat riguardano le stesse transazioni degli acquisti nel file); i registri di sicurezza degli accessi conservati al massimo 1 ora e il contatore di "Scarica i miei dati". Le tue impostazioni, i tuoi registri dei Termini di utilizzo e dell'avviso sulla privacy, la copia sul dispositivo della tua risposta sui video con premio, la tua risposta sulla fascia d'età e i giocatori che hai bloccato, che restano solo sul tuo dispositivo, non sono nel file nemmeno loro (Sezione 3.13). La richiesta riceve risposta dopo aver verificato, tramite la tua sessione, che arriva dal tuo account; al massimo 3 volte al giorno. |
+| Una copia dei miei dati (informazione e accesso, portabilità dei dati) | **Scarica i miei dati:** La maggior parte dei dati che il server conserva sul tuo account e il salvataggio di gioco sul tuo dispositivo vengono preparati in un unico file JSON; puoi salvare o condividere il file. Il file contiene la data di creazione e dell'ultimo accesso del tuo account, la lingua di registrazione, il tuo collegamento ad Accedi con Apple (il tuo identificativo utente Apple e il momento del collegamento; vuoto se non hai collegato l'account), il tuo profilo (compresi il tuo nome, il tuo avatar, il tuo identificativo pubblico, il tuo registro del permesso per i video con premio), i tuoi progressi, il tuo portafoglio e i suoi movimenti, i risultati dei tuoi livelli e i registri delle mosse, le tue discese nell'Universo Infinito, le tue settimane di lega, i tuoi risultati nel Varco del Tempo, il tuo numero degli Apriporta, i tuoi acquisti (prodotto, numero di transazione, ambiente, data, rimborso), i tuoi biglietti dei video con premio (posizione e orari), le segnalazioni che hai fatto (solo il nome che hai segnalato), le misure di moderazione applicate al tuo nome (misura, nome cambiato, data), i casi di esame relativi ai tuoi nomi (nome, origine, stato, esito, data di apertura e di chiusura) e, dei registri anti-imbroglio, solo il tipo e la data. **Non sono nel file** (puoi ottenerli scrivendoci): il dettaglio dei registri anti-imbroglio (per proteggere i nostri metodi di individuazione degli imbrogli); gli orari di apertura e rinnovo delle tue sessioni; i campi tecnici del tuo identificativo di Accedi con Apple e il momento dell'ultimo accesso; il numero di transazione originale dei tuoi acquisti, l'account su cui sono stati accreditati i Cristalli, i registri di trasferimento e le notifiche di Apple su queste transazioni; il numero dei tuoi biglietti dei video con premio, il numero di transazione pubblicitaria di Google e il risultato raddoppiato; la traccia di un nome cambiato dalla moderazione; i conteggi delle segnalazioni e le motivazioni delle decisioni dei casi di esame (i segnali di chi ha segnalato non vengono forniti perché sono dati di altre persone); il tuo codice cliente casuale presso RevenueCat, i tuoi registri di invio a RevenueCat e il tuo registro di opposizione (i registri inviati a RevenueCat riguardano le stesse transazioni degli acquisti nel file); i registri di sicurezza degli accessi conservati al massimo 1 ora e il contatore di "Scarica i miei dati". Le tue impostazioni, i tuoi registri dei Termini di utilizzo e dell'avviso sulla privacy, la copia sul dispositivo della tua risposta sui video con premio, la tua risposta sulla fascia d'età, i tuoi registri dell'approvazione dei genitori e i giocatori che hai bloccato, che restano solo sul tuo dispositivo, non sono nel file nemmeno loro (Sezione 3.13). La richiesta riceve risposta dopo aver verificato, tramite la tua sessione, che arriva dal tuo account; al massimo 3 volte al giorno. |
 | Eliminazione | **Elimina account** (Sezione 8.1) |
 | Revocare o dare il permesso per i video con premio | **Impostazioni → Permesso video con premio** (nel SEE, nel Regno Unito e in Svizzera **Impostazioni → Opzioni privacy degli annunci**) |
 | Rettifica | Puoi cambiare tu stesso il tuo nome giocatore dalla schermata Profilo. Se pensi che un altro dato sia sbagliato, scrivici. |
@@ -646,6 +801,10 @@ data di nascita, nome, e-mail o recapiti.
   "al di sotto dell'età del consenso"; se risulta che hai meno di 13 anni, se scegli di non condividere la tua fascia
   d'età o se non hai ancora risposto dove una legge lo richiede, viene aggiunto anche l'indicatore "trattamento destinato
   ai minori" (Sezione 4.2). Il resto del gioco è uguale per tutti.
+- **Leggi sull'età e approvazione dei genitori:** Dove la legge lo richiede (ad es. negli USA, in Texas, Utah e
+  Louisiana), nelle versioni 0.1.0 (16) e successive Accedi con Apple e i nuovi acquisti restano in attesa, per un
+  giocatore con meno di 18 anni, finché un genitore non dà l'approvazione tramite Apple; se il genitore revoca
+  l'approvazione, Apple impedisce che l'app si apra. I dettagli sono nella Sezione 3.15.
 - **Bambini sotto i 13 anni:** Ai bambini non chiediamo nome, e-mail, numero di telefono o altri recapiti; non
   accettiamo nomi giocatore che contengono recapiti. Il numero di account casuale e l'identificativo pubblico che il
   gioco usa per ogni giocatore vengono usati solo per far funzionare il gioco, proteggere i progressi e impedire gli
@@ -660,7 +819,11 @@ data di nascita, nome, e-mail o recapiti.
 
 - Tutte le connessioni tra l'app e il nostro server sono cifrate (HTTPS/TLS).
 - Solo il codice del server può scrivere i dati di gioco; ogni giocatore può leggere solo i propri dati.
-- Il tuo account non ha una password; non abbiamo nessuna tua password o indirizzo e-mail che possa essere rubato.
+- Il tuo account non ha una password; non abbiamo nessuna tua password o indirizzo e-mail che possa essere rubato. Con
+  Accedi con Apple la richiesta di accesso è protetta da un valore casuale monouso (nonce); all'eliminazione
+  dell'account il codice monouso inviato ad Apple non viene conservato.
+- Le prove e le decisioni dei casi di esame dei nomi non possono essere modificate in seguito. I giocatori non possono
+  vedere i casi degli altri; il riepilogo dei casi relativi ai propri nomi è nel file di Scarica i miei dati.
 - Agli altri giocatori non viene inviato il tuo numero dell'account, ma un identificativo pubblico separato e casuale.
 - Nei registri di accesso non vengono conservati l'indirizzo IP né i dati del dispositivo.
 - L'app non contiene software di RevenueCat o di un'altra infrastruttura per gli acquisti. La chiave di accesso a
@@ -680,7 +843,14 @@ indirizzo e al link nella schermata Impostazioni del gioco. Annunciamo nel gioco
 entrino in vigore. Se una modifica richiede un nuovo consenso (ad es. se cambia il testo del permesso per i video con
 premio), ti chiederemo il consenso separatamente.
 
-**Cronologia delle versioni.** 1.1 (8 novembre 2026): resoconto dei registri di acquisto e rimborso dal nostro server
+**Cronologia delle versioni.** 1.2 (12 novembre 2026): Accedi con Apple facoltativo, nelle versioni 0.1.0 (16) e
+successive (In breve, Il nostro principio, Sezioni 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); periodo di inattività di 36
+mesi negli account collegati ad Apple (In breve, 3.1, 7, 8.2); caso di esame per le segnalazioni dei nomi, segnali senza
+identità di chi ha segnalato, divieto permanente solo con la decisione di una persona, conservazione dei registri dei casi
+e delle decisioni e registro anonimo che resta quando l'account viene eliminato (In breve, Il nostro principio, 3.7, 7,
+8.1, 9, 10, 12); opposizione alle decisioni sui nomi (Sezione 9); approvazione dei genitori per le modifiche importanti
+dove lo richiedono le leggi sull'età e notifica di Apple sulla revoca dell'approvazione (In breve, 3.13, 3.15, 5, 6, 7,
+11). 1.1 (8 novembre 2026): resoconto dei registri di acquisto e rimborso dal nostro server
 tramite RevenueCat (In breve, Il nostro principio, Sezioni 2, 3.9, 5, 6, 7, 8.1, 9, 10, 11, 12); link ai termini propri dei
 terzi (Sezione 5); registri degli acquisti trasferiti tra account, notifiche di rimborso di Apple e annullamento dei
 rimborsi (Sezioni 3.9, 7, 8.1, 9); limite al nuovo invio di un registro delle mosse (Sezioni 3.4, 9); carattere regolare

@@ -1,6 +1,6 @@
 # Kilkule Kullanım Koşulları
 
-**Yürürlük tarihi:** 8 Kasım 2026 · **Sürüm:** 1.1 (önceki sürüm 1.0, 7 Kasım 2026; değişenler Bölüm 13.4'te)
+**Yürürlük tarihi:** 12 Kasım 2026 · **Sürüm:** 1.2 (önceki sürüm 1.1, 8 Kasım 2026; değişenler Bölüm 13.4'te)
 
 ---
 
@@ -14,10 +14,12 @@
   gerçek para biriminle gösterilir; satın aldığın içerik rastgele belirlenmez. Dijital içerik hemen teslim edildiği için
   **cayma hakkı** sınırlıdır (Bölüm 6.3).
 - **Hile yapma,** başka oyuncuları rahatsız etme, uygunsuz ad kullanma. Bu kurallara uymazsan sonuçların, ödüllerin ya da
-  adın geri alınabilir.
-- Hesabın adını bilmez, rastgele bir numarayla tanınır ve **cihazına bağlıdır;** cihazını kaybedersen ilerlemeni geri
-  getiremeyebiliriz. Oyun **12 ay boyunca sunucumuza hiç bağlanmazsa** (satın alma yaptıysan **36 ay**) hesabın ve
-  içindeki öğeler silinir (Bölüm 4.5).
+  adın geri alınabilir. Bildirimler üzerine değiştirilen bir adı kalıcı olarak yasaklamaya yalnız bir insan karar verir
+  (Bölüm 8.4).
+- Hesabın adını bilmez, rastgele bir numarayla tanınır. Misafir hesap **cihazına bağlıdır;** cihazını kaybedersen
+  ilerlemeni geri getiremeyebiliriz. 0.1.0 (16) ve sonraki sürümlerde hesabını isteğe bağlı olarak Apple ile
+  bağlayabilirsin (Bölüm 4.6). Oyun **12 ay boyunca sunucumuza hiç bağlanmazsa** (satın alma yaptıysan ya da Apple ile
+  bağladıysan **36 ay**) hesabın ve içindeki öğeler silinir (Bölüm 4.5).
 - Haftalık Lig'de ilk 3'e girenlere verilen hediyeler oyun içi öğelerdir; **şans oyunu değildir** ve gerçek paraya
   çevrilemez.
 - Oyun, yasanın izin verdiği ölçüde **"olduğu gibi"** sunulur; sorumluluğumuz Bölüm 11'de yazılıdır ve elimizde olmayan
@@ -53,6 +55,11 @@ izniyle oynamalı, satın alma yapmadan önce onlara sormalısın.
 2.2. Ebeveynler, çocuklarının satın almalarını iOS'un "Ekran Süresi" ve "Satın Almadan Önce Sor" özellikleriyle
 denetleyebilir.
 
+2.3. Yasanın istediği yerlerde (ör. ABD'de Texas, Utah ve Louisiana), Oyunun önemli bir değişiklikle getirdiği
+özellikler (0.1.0 (16) sürümünde Apple ile giriş ve yeni satın almalar) 18 yaşından küçük oyuncu için ebeveyn Apple
+üzerinden onay verene kadar kullanılamaz; Oyunun geri kalanı aynen oynanır. Ebeveyn onayını geri çekerse Apple
+uygulamanın açılmasını engeller. Ayrıntılar Gizlilik Politikası Bölüm 3.15'tedir.
+
 ## 3. Lisans
 
 3.1. Oyunu, kendi Apple cihazlarında, kişisel ve ticari olmayan amaçla oynaman için sana **münhasır olmayan,
@@ -70,19 +77,21 @@ lisans verenlerimize aittir. Bu Koşullarda açıkça verilmeyen hiçbir hak san
 ## 4. Hesabın
 
 4.1. Oyun ilk açıldığında sana bir **oyuncu hesabı** açılır. Hesap adını bilmez, yalnız rastgele bir numarayla tanınır
-(uygulamanın eski sürümlerinde Ayarlar'da "anonim hesap" diye anılır). Hesap için ad, e-posta ya da parola istemeyiz. Oyuncu numaran Ayarlar →
+(uygulamanın eski sürümlerinde Ayarlar'da "anonim hesap" diye anılır; Oyun ona "misafir hesap" der). Hesap için ad,
+e-posta ya da parola istemeyiz. Oyuncu numaran Ayarlar →
 Hesap'ta görünür; bize yazarken hesabını bulmamız için kullanılır, başka oyuncular onu görmez.
 
-4.2. Hesap **cihazına bağlıdır.** Bugün hesabını başka bir cihaza taşımanın ya da kaybolan bir cihazdaki hesabı geri
-getirmenin bir yolu yoktur. Cihazını kaybedersen, sıfırlarsan ya da oyunu ve verilerini silersen ilerlemeni ve
-**tüketilebilir öğelerini (ör. Kristal) geri getiremeyebiliriz.** Tüketilemeyen satın almalar (ör. Çağ Yolu premium,
+4.2. Misafir hesap **cihazına bağlıdır.** Hesabını Apple ile bağlamadıysan (Bölüm 4.6) hesabını başka bir cihaza
+taşımanın ya da kaybolan bir cihazdaki hesabı geri getirmenin bir yolu yoktur. Cihazını kaybedersen, sıfırlarsan ya da
+oyunu ve verilerini silersen ilerlemeni ve **tüketilebilir öğelerini (ör. Kristal) geri getiremeyebiliriz.** Tüketilemeyen satın almalar (ör. Çağ Yolu premium,
 Kurucu Kesesi) Apple'ın "Satın alımları geri yükle" özelliğiyle aynı Apple hesabıyla geri yüklenebilir; ancak bunlarla
 birlikte verilmiş tüketilebilir öğeler (ör. pakete dahil Kristal) ikinci kez verilmez.
 
 4.3. Hesabını, onu ya da içindeki öğeleri **satamaz, kiralayamaz, devredemez** ya da paylaşamazsın.
 
 4.4. Hesabını istediğin zaman **Ayarlar → Hesap → Hesabı sil** ile silebilirsin. Silme geri alınamaz; ilerlemen ve
-hesabındaki bütün öğeler (satın aldıkların dahil) kalıcı olarak silinir. Hesabınla bağı koparılmış bazı güvenlik ve
+hesabındaki bütün öğeler (satın aldıkların dahil) kalıcı olarak silinir. Hesabın Apple ile bağlıysa silmeden önce Apple
+bir kez daha onay ister; onay vermezsen hesap silinmez. Hesabınla bağı koparılmış bazı güvenlik ve
 cüzdan kayıtlarının ne kadar saklandığı Gizlilik Politikası'nda yazılıdır.
 
 4.5. **Kullanılmayan hesaplar:** Oyun **12 ay** boyunca sunucumuza hiç bağlanmazsa (uygulamayı internet bağlantısıyla
@@ -98,9 +107,28 @@ tüketilebilir öğeler de silinir. Tüketilemeyen satın almalar (ör. Kurucu K
 Apple hesabıyla geri yüklenebilir. Bu süre, satın aldığın içeriği korumak ve olası bir iade ya da uyuşmazlık için gereken
 kayıtları tutmak amacıyla, satın alma yapılmamış hesaplardaki sürenin üç katı olarak belirlenmiştir.
 
+**Apple ile bağlanmış hesaplar:** Hesabını Apple ile bağladıysan (Bölüm 4.6) bu süre de **36 ay**dır; hesap bu sürenin
+sonunda Bölüm 4.4'teki gibi silinir.
+
 Bu kural, verileri gerekenden uzun tutmama yükümlülüğümüzün sonucudur. Satın alınmamış Sanal Öğelerin bu yolla silinmesi
 bir bedel ya da tazminat hakkı doğurmaz. Her durumda yaşadığın ülkenin zorunlu tüketici hukukunun sana tanıdığı haklar
 saklıdır.
+
+4.6. **Apple ile giriş (isteğe bağlı; 0.1.0 (16) ve sonraki sürümler):** Ayarlar → Hesap'tan hesabını Apple hesabına
+bağlayabilirsin. Bağlamak zorunda değilsin; Oyun misafir hesapla aynen oynanır. Apple ile bağlarsan:
+
+- Yeni bir cihazda ya da yeniden kurulumda Apple ile giriş yaparak aynı hesapla devam edersin. Apple ile girişi Apple
+  yürütür ve Apple'ın kendi koşulları geçerlidir (Bölüm 12).
+- **Hesaplar birleşirken bağlı hesap esas alınır.** Apple hesabın zaten bir oyun hesabına bağlıysa ve o sırada cihazında
+  bir misafir hesap varsa, Apple ile giriş yaptığında o bağlı hesapla devam edersin. Misafir hesapta ilerleme varsa
+  Oyun önce sorar; vazgeçersen hiçbir şey değişmez. Devam edersen misafir hesabın ilerlemesi, cüzdanı (oyunda kazanılan
+  Kristal dahil), geliştirmeleri, kozmetikleri, lig kayıtları ve ödül talepleri **taşınmaz** ve misafir hesap silinir.
+  Bunun nedeni, ilk galibiyet, hediye ve Çağ Yolu gibi her hesaba bir kez verilen ödüllerin ikinci kez verilmesini
+  önlemektir. Misafir hesapta satın alınmış ve harcanmamış Kristal (iade edilmemiş gerçek satın almalardan, en çok misafir
+  hesabın bakiyesi kadar) bağlı hesaba geçer; bu satın almalardan biri sonradan iade edilirse Bölüm 6.2 bağlı hesapta
+  uygulanır. Tüketilemeyen satın almalar, "Satın alımları geri yükle"deki taşıma sınırlarıyla (Gizlilik Politikası
+  Bölüm 9) bağlı hesaba gelir.
+- Bağlantıyı Apple hesabı ayarlarından kaldırman hesabını silmez; hesabını silmek için Bölüm 4.4'ü kullan.
 
 ## 5. Oyun içi para birimleri ve öğeler
 
@@ -237,21 +265,30 @@ kurallarıyla otomatik olarak denetlenir. Kurallara uymayan ad kabul edilmez.
 8.3. **Bildirme:** Tablolarda bir oyuncunun adını uygunsuz bulursan "Adı uygunsuz diye bildir" ile bildirebilirsin. Bildirdiğin
 oyuncuya kimin bildirdiği söylenmez. Bir oyuncuyu kendi cihazında gizleyebilirsin (engelleme).
 
-8.4. **Otomatik kaldırma:** Bir adı, hesabı bir günden eski ve en az 5 seviye kazanmış **3 farklı oyuncu** bildirirse,
-ad otomatik olarak oyunun ürettiği yeni bir adla değiştirilir. Bu adı yeniden seçemezsin, ama hemen başka bir ad
-seçebilirsin. Bu işlem bir insan tarafından incelenmek üzere kayda geçer.
+8.4. **Otomatik değiştirme ve inceleme:** Bir adı **3 farklı nitelikli oyuncu** bildirirse ad otomatik olarak oyunun
+ürettiği yeni bir adla değiştirilir ve bir inceleme vakası açılır. Nitelikli oyuncu: hesabı 3 günden eski, sunucumuzun
+doğruladığı en az 5 seviye galibiyeti olan ve son 180 günde reddedilen bir vakada bildirimi bulunmayan oyuncu. Hemen
+başka bir ad seçebilirsin; değiştirilen adı vaka kapanana kadar seçemezsin. Adın senin için **kalıcı olarak
+yasaklanmasına yalnız bir insan,** vakadaki kanıta bakarak karar verir: onaylarsa ad kalıcı olarak yasaklanır;
+reddederse ad yeniden serbest kalır, o vakanın bildirimleri bir daha sayılmaz ve bu bildirimleri yapanların bildirimleri
+180 gün otomatik işleme sayılmaz. Vaka 30 gün içinde karara bağlanmazsa kendiliğinden kapanır, ad serbest kalır ve yasak
+oluşmaz.
 
-8.5. **Elle kaldırma:** Bildirimleri ya da bize ulaşan şikâyetleri inceleyerek bu kurallara ya da hukuka aykırı bir adı
-elle de kaldırabiliriz.
+8.5. **Elle değiştirme:** Bildirimleri ya da bize ulaşan şikâyetleri inceleyerek bu kurallara ya da hukuka aykırı bir adı
+elle de değiştirebiliriz. Bu durumda da Bölüm 8.4'teki gibi bir inceleme vakası açılır ve kalıcı yasak yalnız bir
+insanın kararıyla olur.
 
 8.6. **Hukuka aykırı içerik bildirimi:** Bir adın hukuka aykırı olduğunu düşünüyorsan, uygulamadaki bildirim dışında,
 nedenini ve adın göründüğü yeri (tablo, tarih) yazarak destek@mm-apps.com adresine de bildirebilirsin. Bildirimleri
 özenle, tarafsız ve makul sürede değerlendiririz.
 
-8.7. **Gerekçe ve itiraz:** Adın kaldırılırsa, Oyun bir sonraki bağlantıda Profil ekranında bunu ve nedenini sana bir
-kez bildirir; kararın yeterli sayıda oyuncunun bildirimi üzerine kendiliğinden mi (Bölüm 8.4), yoksa ekibimizin
-incelemesiyle mi (Bölüm 8.5) verildiğini ayrıca söyler. Kararın yanlış olduğunu düşünüyorsan, Ayarlar → Hesap'taki oyuncu numaranla birlikte destek@mm-apps.com
-adresine yazarak itiraz edebilirsin; itirazını bir insan inceler. Bu, yaşadığın ülkede mahkemeye ya
+8.7. **Gerekçe ve itiraz:** Adın değiştirilirse, Oyun bir sonraki bağlantıda Profil ekranında bunu ve nedenini sana bir
+kez bildirir; değişikliğin yeterli sayıda oyuncunun bildirimi üzerine kendiliğinden mi (Bölüm 8.4), yoksa ekibimizin
+incelemesiyle mi (Bölüm 8.5) yapıldığını ayrıca söyler. Vakanın sonraki kararı Oyunda ayrıca bildirilmez; kararı ve
+gerekçesini bize yazarak öğrenebilirsin. Bir kararın yanlış olduğunu düşünüyorsan, Ayarlar → Hesap'taki oyuncu numaranla
+birlikte destek@mm-apps.com adresine yazarak itiraz edebilirsin; itirazını bir insan, vakadaki kanıta bakarak inceler,
+kalıcı yasak haksızsa kaldırılır ve sonucu gerekçesiyle sana yazarız. Bu yol kararın tarihinden itibaren en az 6 ay
+açıktır. Bir adı bildiren de aynı yoldan itiraz edebilir. Bu, yaşadığın ülkede mahkemeye ya
 da yetkili makama başvurma hakkını etkilemez.
 
 ## 9. Kurallara uyulmaması hâlinde
@@ -327,7 +364,8 @@ saklıdır.
 12.1. Oyunda şu üçüncü taraf hizmetleri kullanılır. Her biri **kendi bağımsız koşulları ve gizlilik politikası** altında
 çalışır; bu hizmetlerin kendisi için o koşullar geçerlidir:
 
-- **Apple** (indirme, satın alma, ödeme, iade): Apple Medya Hizmetleri Koşulları
+- **Apple** (indirme, satın alma, ödeme, iade; kullanırsan Apple ile giriş; yasanın istediği yerde ebeveyn onayı): Apple
+  Medya Hizmetleri Koşulları
   (https://www.apple.com/legal/internet-services/itunes/), Apple EULA (Bölüm 1.2) ve Apple Gizlilik Politikası
   (https://www.apple.com/legal/privacy/).
 - **Google AdMob** (yalnız izin verirsen, ödüllü videolar): Google Hizmet Şartları (https://policies.google.com/terms) ve
@@ -357,7 +395,13 @@ Değişiklikler, önceden satın aldığın bir
 13.3. Bir değişikliğin yürürlüğe girmesinden önce oluşmuş bir uyuşmazlık, o sırada geçerli olan Koşullara göre
 çözülür.
 
-13.4. **Sürüm geçmişi.** 1.1 (8 Kasım 2026): satıcının Apple olduğu ve teslimi sunucumuzdaki kaydın belirlediği (6.1);
+13.4. **Sürüm geçmişi.** 1.2 (12 Kasım 2026): yaş yasalarının istediği yerlerde ebeveyn onayı (2.3); misafir hesap ve
+isteğe bağlı Apple ile giriş, hesapların birleşmesi ve Apple ile bağlanmış hesaplarda 36 ay (Kısaca, 4.1, 4.2, 4.4,
+4.5, 4.6, 12.1); ad bildirimlerinde inceleme vakası, nitelikli bildiren, kalıcı yasağın yalnız bir insanın kararıyla
+verilmesi ve itiraz (Kısaca, 8.4, 8.5, 8.7). Bu değişiklikler senin aleyhine değildir ya da yalnız kendi seçtiğin
+isteğe bağlı bir özelliğe (Apple ile giriş) veya yasanın istediği bir onaya uygulanır; bu yüzden Bölüm 13.2'deki
+anlamda önemli bir değişiklik sayılmaz ve yeniden kabul istenmez.
+1.1 (8 Kasım 2026): satıcının Apple olduğu ve teslimi sunucumuzdaki kaydın belirlediği (6.1);
 iadenin geri alınması (6.2); test ortamındaki satın alma ve taşıma sınırları (6.4); Çağ Yolu premium yolunun süresi (6.6); özellik değişikliklerinin duyurulması
 (10.1); "olduğu gibi" sunum (11.1); mücbir sebep (11.7); üçüncü taraf hizmetleri ve koşulları (12); bu bölüm. 1.0
 (7 Kasım 2026): ilk sürüm.
