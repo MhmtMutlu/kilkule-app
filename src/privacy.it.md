@@ -2,7 +2,7 @@
 
 > Questa traduzione è fornita a solo scopo informativo. In caso di discrepanze prevale la versione turca.
 
-**Data di entrata in vigore:** 12 novembre 2026 · **Versione:** 1.2 (versione precedente 1.1, 8 novembre 2026; modifiche nella Sezione 13)
+**Data di entrata in vigore:** 15 novembre 2026 · **Versione:** 1.3 (versione precedente 1.2, 12 novembre 2026; modifiche nella Sezione 13)
 
 Questo testo è stato redatto come informativa ai sensi dell'art. 10 della KVKK (legge turca n. 6698 sulla protezione dei
 dati personali) e come informazione ai sensi dell'art. 13 del Regolamento generale sulla protezione dei dati dell'UE
@@ -175,7 +175,7 @@ account ospite; Accedi con Apple, facoltativo, è descritto nella Sezione 3.14.
 
 | | |
 | --- | --- |
-| **Dati** | Il tuo nome giocatore (dato dal gioco o scritto da te), il tuo avatar, la tua targhetta della lega e il tuo emblema, il tuo gruppo settimanale della lega, i tuoi punti e la tua posizione, il tuo punteggio nel Varco del Tempo, la tua profondità nell'Universo Infinito, i tuoi punti Campioni, il tuo numero d'ordine sul Muro degli Apriporta; il tuo **identificativo pubblico** casuale |
+| **Dati** | Il tuo nome giocatore (dato dal gioco o scritto da te), il tuo avatar, la tua targhetta della lega e il tuo emblema, il tuo gruppo settimanale della lega, i tuoi punti e la tua posizione, il tuo punteggio nel Varco del Tempo, la tua profondità nell'Universo Infinito, i tuoi punti Campioni e il livello più alto della campagna che hai raggiunto, il tuo numero d'ordine sul Muro degli Apriporta; il tuo **identificativo pubblico** casuale |
 | **Chi li vede?** | Gli altri giocatori presenti nelle stesse tabelle. Insieme alle righe della tabella, perché la funzione di segnalazione dei nomi funzioni, ai dispositivi degli altri giocatori viene inviato anche il tuo **identificativo pubblico** casuale. L'identificativo pubblico è separato dal tuo numero dell'account, non viene mostrato sullo schermo e da solo non dà accesso al tuo account. **Il tuo numero dell'account** non viene inviato al dispositivo di nessun altro giocatore. |
 | **Finalità** | Offrire funzioni competitive come la Lega, la Lega Profondità, il Varco del Tempo, i Campioni e il Muro degli Apriporta; dare un regalo a chi entra nei primi 3 della Lega |
 | **Base giuridica** | art. 5, par. 2, lett. c) KVKK · art. 6, par. 1, lett. b) GDPR |
@@ -843,7 +843,7 @@ indirizzo e al link nella schermata Impostazioni del gioco. Annunciamo nel gioco
 entrino in vigore. Se una modifica richiede un nuovo consenso (ad es. se cambia il testo del permesso per i video con
 premio), ti chiederemo il consenso separatamente.
 
-**Cronologia delle versioni.** 1.2 (12 novembre 2026): Accedi con Apple facoltativo, nelle versioni 0.1.0 (16) e
+**Cronologia delle versioni.** 1.3 (15 novembre 2026): la classifica Campioni mostra anche il livello più alto raggiunto nella campagna (Sezione 3.5); non si raccolgono nuovi dati. 1.2 (12 novembre 2026): Accedi con Apple facoltativo, nelle versioni 0.1.0 (16) e
 successive (In breve, Il nostro principio, Sezioni 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); periodo di inattività di 36
 mesi negli account collegati ad Apple (In breve, 3.1, 7, 8.2); caso di esame per le segnalazioni dei nomi, segnali senza
 identità di chi ha segnalato, divieto permanente solo con la decisione di una persona, conservazione dei registri dei casi

@@ -2,7 +2,7 @@
 
 > Esta traducción se facilita únicamente a título informativo. En caso de discrepancia, prevalece la versión turca.
 
-**Fecha de entrada en vigor:** 12 de noviembre de 2026 · **Versión:** 1.2 (versión anterior 1.1, 8 de noviembre de 2026; cambios en la sección 13)
+**Fecha de entrada en vigor:** 15 de noviembre de 2026 · **Versión:** 1.3 (versión anterior 1.2, 12 de noviembre de 2026; cambios en la sección 13)
 
 Este texto se ha elaborado como aviso informativo conforme al artículo 10 de la KVKK (Ley turca n.º 6698 de Protección de
 Datos Personales) y como información conforme al artículo 13 del Reglamento General de Protección de Datos (RGPD) de la UE.
@@ -173,7 +173,7 @@ como cuenta de invitado; Iniciar sesión con Apple, que es opcional, figura en l
 
 | | |
 | --- | --- |
-| **Datos** | Tu nombre de jugador (el que te da el juego o el que escribes tú), avatar, tarjeta de liga y emblema, grupo de la Liga Semanal, puntos y puesto, puntuación en la Grieta Temporal, profundidad en el Universo Infinito, puntos de Campeones, tu número de orden en el Muro de Abrepuertas; tu **identificador público** aleatorio |
+| **Datos** | Tu nombre de jugador (el que te da el juego o el que escribes tú), avatar, tarjeta de liga y emblema, grupo de la Liga Semanal, puntos y puesto, puntuación en la Grieta Temporal, profundidad en el Universo Infinito, puntos de Campeones y el nivel más alto de la campaña que has alcanzado, tu número de orden en el Muro de Abrepuertas; tu **identificador público** aleatorio |
 | **¿Quién los ve?** | Los demás jugadores que aparecen en las mismas tablas. Junto con las filas de la tabla, para que funcione la opción de denunciar un nombre, también se envía tu **identificador público** aleatorio a los dispositivos de otros jugadores. El identificador público es distinto de tu número de cuenta, no se muestra en pantalla y por sí solo no da acceso a tu cuenta. Tu **número de cuenta** no se envía al dispositivo de ningún otro jugador. |
 | **Finalidad** | Ofrecer funciones competitivas como la Liga Semanal, la Liga de Profundidad, la Grieta Temporal, Campeones y el Muro de Abrepuertas; dar un regalo a quienes quedan entre los 3 primeros de la Liga Semanal |
 | **Base jurídica** | art. 5.2.c) KVKK · art. 6.1.b) RGPD |
@@ -834,7 +834,7 @@ y en el enlace de la pantalla de Ajustes del juego. Anunciamos los cambios impor
 vigor. Si un cambio requiere un nuevo consentimiento (p. ej., si cambia el texto del permiso de vídeos con recompensa), te
 pediremos tu consentimiento por separado.
 
-**Historial de versiones.** 1.2 (12 de noviembre de 2026): Iniciar sesión con Apple opcional, en la versión 0.1.0 (16)
+**Historial de versiones.** 1.3 (15 de noviembre de 2026): la tabla de Campeones muestra también el nivel más alto alcanzado en la campaña (sección 3.5); no se recogen datos nuevos. 1.2 (12 de noviembre de 2026): Iniciar sesión con Apple opcional, en la versión 0.1.0 (16)
 y posteriores (En resumen, Nuestro principio, secciones 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); plazo de inactividad de
 36 meses en las cuentas vinculadas con Apple (En resumen, secciones 3.1, 7, 8.2); caso de revisión en las denuncias de
 nombres, señales de los denunciantes sin su identidad, prohibición permanente solo por decisión de una persona,

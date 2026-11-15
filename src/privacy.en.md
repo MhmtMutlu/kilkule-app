@@ -2,7 +2,7 @@
 
 > This translation is provided for information. If there is any difference, the Turkish version prevails.
 
-**Effective date:** 12 November 2026 · **Version:** 1.2 (previous version 1.1, 8 November 2026; changes in Section 13)
+**Effective date:** 15 November 2026 · **Version:** 1.3 (previous version 1.2, 12 November 2026; changes in Section 13)
 
 This policy is our information notice under Article 10 of the Turkish Personal Data Protection Law No. 6698 ("KVKK") and
 under Article 13 of the EU General Data Protection Regulation ("GDPR"). The short KVKK notice and the consent text for
@@ -160,7 +160,7 @@ account; optional Sign in with Apple is described in Section 3.14.
 
 | | |
 | --- | --- |
-| **Data** | Your player name (the one the game gave you or one you typed), your avatar, league nameplate and emblem, your weekly league group, points and rank, your Time Rift score, your Endless Universe depth, your Champions points, your number on the Gate Openers Wall; your random **public ID** |
+| **Data** | Your player name (the one the game gave you or one you typed), your avatar, league nameplate and emblem, your weekly league group, points and rank, your Time Rift score, your Endless Universe depth, your Champions points and the highest campaign level you have reached, your number on the Gate Openers Wall; your random **public ID** |
 | **Who sees it?** | Other players in the same tables. Along with the table rows, your random **public ID** is also sent to other players' devices so that the report-a-name feature works. The public ID is separate from your account number, is not shown on screen and does not by itself give access to your account. Your **account number** is not sent to any other player's device. |
 | **Purpose** | To provide competitive features such as the Weekly League, the Depth League, the Time Rift, the Champions and the Gate Openers Wall; to give a gift to the top 3 of the Weekly League |
 | **Legal basis** | KVKK Art. 5(2)(c) · GDPR Art. 6(1)(b) |
@@ -771,7 +771,7 @@ We may update this policy as the game or the law changes. The current version is
 link in the game's Settings screen. We announce important changes in the game before they take effect. If a change
 requires new consent (e.g. if the rewarded-video permission text changes), we will ask for your consent separately.
 
-**Version history.** 1.2 (12 November 2026): optional Sign in with Apple, in version 0.1.0 (16) and later (In short,
+**Version history.** 1.3 (15 November 2026): the Champions table also shows the highest campaign level reached (Section 3.5); no new data is collected. 1.2 (12 November 2026): optional Sign in with Apple, in version 0.1.0 (16) and later (In short,
 Our principle, Sections 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); a 36-month inactivity period for accounts linked with
 Apple (In short, 3.1, 7, 8.2); review cases for name reports, reporters' signals without their identity, permanent bans
 only by a human's decision, retention of case and decision records and the anonymous record that remains when an

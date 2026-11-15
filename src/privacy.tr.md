@@ -1,6 +1,6 @@
 # Kilkule Gizlilik Politikası
 
-**Yürürlük tarihi:** 12 Kasım 2026 · **Sürüm:** 1.2 (önceki sürüm 1.1, 8 Kasım 2026; değişenler Bölüm 13'te)
+**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.3 (önceki sürüm 1.2, 12 Kasım 2026; değişenler Bölüm 13'te)
 
 Bu metin, KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) madde 10 uyarınca aydınlatma metni ve AB Genel Veri
 Koruma Tüzüğü (GDPR) madde 13 uyarınca bilgilendirme olarak hazırlanmıştır. Kısa KVKK aydınlatma metni ve ödüllü video
@@ -154,7 +154,7 @@ isteğe bağlı Apple ile giriş Bölüm 3.14'tedir.
 
 | | |
 | --- | --- |
-| **Veriler** | Oyuncu adın (oyunun verdiği ya da senin yazdığın), avatarın, lig kartın ve amblemin, haftalık lig grubun, puanın ve sıran, Zaman Yarığı skorun, Sonsuzluk derinliğin, Şampiyonlar puanın, Kapı Açanlar Duvarı'ndaki sıra numaran; rastgele **kamu kimliğin** |
+| **Veriler** | Oyuncu adın (oyunun verdiği ya da senin yazdığın), avatarın, lig kartın ve amblemin, haftalık lig grubun, puanın ve sıran, Zaman Yarığı skorun, Sonsuzluk derinliğin, Şampiyonlar puanın ve kampanyada ulaştığın en yüksek seviye, Kapı Açanlar Duvarı'ndaki sıra numaran; rastgele **kamu kimliğin** |
 | **Kimler görür?** | Aynı tablolarda yer alan diğer oyuncular. Tablo satırlarıyla birlikte, adı bildirme özelliğinin çalışması için diğer oyuncuların cihazına rastgele **kamu kimliğin** de gönderilir. Kamu kimliği hesap numarandan ayrıdır, ekranda gösterilmez ve tek başına hesabına erişim sağlamaz. **Hesap numaran** başka hiçbir oyuncunun cihazına gönderilmez. |
 | **Amaç** | Haftalık Lig, Derinlik ligi, Zaman Yarığı, Şampiyonlar ve Kapı Açanlar Duvarı gibi rekabet özelliklerini sunmak; Haftalık Lig'de ilk 3'e girenlere hediye vermek |
 | **Hukuki dayanak** | KVKK m.5/2(c) · GDPR m.6/1(b) |
@@ -735,7 +735,8 @@ Bu politikayı oyun ya da yasalar değiştikçe güncelleyebiliriz. Güncel sür
 ekranındaki bağlantıda yer alır. Önemli değişiklikleri yürürlüğe girmeden önce oyunda duyururuz. Bir değişiklik yeni
 bir rıza gerektiriyorsa (ör. ödüllü video izin metni değişirse) rızanı ayrıca isteriz.
 
-**Sürüm geçmişi.** 1.2 (12 Kasım 2026): isteğe bağlı Apple ile giriş, 0.1.0 (16) ve sonraki sürümlerde (Kısaca, Az veri
+**Sürüm geçmişi.** 1.3 (15 Kasım 2026): Şampiyonlar'da kampanyada ulaşılan en yüksek seviyenin de görünmesi
+(Bölüm 3.5); yeni veri toplanmaz. 1.2 (12 Kasım 2026): isteğe bağlı Apple ile giriş, 0.1.0 (16) ve sonraki sürümlerde (Kısaca, Az veri
 ilkemiz, Bölüm 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Apple ile bağlanmış hesaplarda 36 aylık hareketsizlik süresi
 (Kısaca, 3.1, 7, 8.2); ad bildirimlerinde inceleme vakası, bildirenlerin kimliksiz sinyalleri, kalıcı yasağın yalnız bir
 insanın kararıyla verilmesi, vaka ve karar kayıtlarının saklanması ve hesap silinince kalan anonim kayıt (Kısaca, Az

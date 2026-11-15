@@ -1,6 +1,6 @@
 # Kilkule Kullanım Koşulları
 
-**Yürürlük tarihi:** 12 Kasım 2026 · **Sürüm:** 1.2 (önceki sürüm 1.1, 8 Kasım 2026; değişenler Bölüm 13.4'te)
+**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.3 (önceki sürüm 1.2, 12 Kasım 2026; değişenler Bölüm 13.4'te)
 
 ---
 
@@ -178,6 +178,8 @@ ve sırasına göre Altın ve Kristal hediyesi alır. Bu hediyeler için:
   bilgi amaçlıdır; Kristal gerçek paraya çevrilemez (Bölüm 5.2).
 - Gerçek parayla ya da Kristal ile satın aldığın her şeyin içeriği satın almadan önce gösterilir; **satın alınan içerik
   rastgele belirlenmez** (şans kutusu ya da "loot box" yoktur).
+- Bir Çağ Koleksiyonu'nun parçalarından birine zaten sahipsen, o parçanın payı koleksiyonun Kristal fiyatından düşülür;
+  aynı parça için iki kez ödeme yapmazsın. Ödeyeceğin fiyat satın almadan önce gösterilir.
 - Kristal'in bir son kullanma tarihi yoktur; yalnız hesabın silinirse (Bölüm 4.4 ve 4.5) kaybolur.
 
 ## 6. Satın almalar, iadeler ve cayma hakkı
@@ -193,7 +195,8 @@ etkilemez.
 6.2. **İadeler Apple'dan istenir** (https://reportaproblem.apple.com). İade kararını Apple verir; biz uygulama içinden iade
 yapamayız. Apple bir satın almayı iade ederse, o satın almayla verilen Sanal Öğeleri hesabından geri alabiliriz. Bu
 öğeler harcanmışsa, iade edilen Kristal miktarını hesabındaki Kristal bakiyesinden ve, yetmezse, sonradan kazanacağın
-Kristallerden düşebiliriz. Bu düşme hiçbir zaman gerçek parayla bir ödeme yükümlülüğü doğurmaz. Apple iadeyi sonradan
+Kristallerden düşebiliriz. Ödül Kesesi iade edilirse o satın almanın eklediği süre kalkar; süre içinde zaten iki katına
+çıkmış ödüller geri alınmaz. Bu düşme hiçbir zaman gerçek parayla bir ödeme yükümlülüğü doğurmaz. Apple iadeyi sonradan
 geri alırsa, o iade nedeniyle geri aldığımız Sanal Öğeleri hesabına geri yazarız; iade nedeniyle henüz düşülmemiş bir
 Kristal miktarı kaldıysa önce o kapatılır.
 
@@ -201,7 +204,8 @@ Kristal miktarı kaldıysa önce o kapatılır.
 
 - **Türkiye'deki tüketiciler:** Mesafeli Sözleşmeler Yönetmeliği m.15/1(ğ) uyarınca, elektronik ortamda anında ifa edilen
   hizmetler ve tüketiciye anında teslim edilen gayrimaddi mallara ilişkin sözleşmelerde cayma hakkı kullanılamaz.
-  Satın aldığın dijital içerik (Kristal, Kurucu Kesesi, Çağ Yolu premium yolu) onaydan hemen sonra hesabına teslim edilir;
+  Satın aldığın dijital içerik (Kristal, Kurucu Kesesi, Kaşif Kesesi, Ödül Kesesi, Çağ Yolu premium yolu) onaydan hemen
+  sonra hesabına teslim edilir (Ödül Kesesi'nin süresi satın alma anında başlar);
   bu nedenle satın almayı onayladığında cayma hakkın olmaz. Bunu satın almadan önce bilmen için Mağaza'daki satın alma
   düğmelerinin yanında bu maddeye bağlantı verilir.
 - **Avrupa Birliği ve Avrupa Ekonomik Alanı'ndaki tüketiciler:** Dijital içeriğe ilişkin sözleşmelerde kural olarak 14
@@ -228,8 +232,17 @@ da sözleşmeden dönme isteme hakların) dahil, zorunlu tüketici hukukundan do
 Yalnız satın aldığın sezona aittir ve o sezonun Oyunda ve Mağaza'da yazan bitiş tarihinde sona erer; sonraki sezona
 geçmez. Sezon sürerken kazandığın galibiyetler kademe açar; premium kademe ödüllerini sezon bitmeden Mağaza'dan
 almalısın: sezon bitince o sezonun yolu Oyundan kalkar ve alınmamış kademe ödülleri artık alınamaz. Aldığın ödüller (Kristal, Altın, Çağ Parçası ve
-kozmetikler) sezon bittikten sonra da hesabında kalır. Premium yol, sezon sürerken, Kurucu Kesesi gibi Apple'ın "Satın
+kozmetikler) sezon bittikten sonra da hesabında kalır. Premium yol, sezon sürerken, Kurucu Kesesi ve Kaşif Kesesi gibi Apple'ın "Satın
 alımları geri yükle" özelliğiyle aynı Apple hesabına geri yüklenebilir (Bölüm 4.2).
+
+6.7. **Ödül Kesesi:** Ödül Kesesi **7 gün süreli** bir haktır; tek seferlik bir satın almadır, **kendiliğinden yenilenmez**
+ve abonelik değildir. Süre satın alma anında başlar; süre bitmeden yeniden alırsan yeni 7 gün mevcut sürenin sonuna
+eklenir. Süre boyunca seviye sonundaki isteğe bağlı "Ödülü ikiye katla" video izlemeden çalışır; videodaki sınırlar
+aynen geçerlidir (Seviye 4 ve sonrası, her sonuç için bir kez, günde en çok 5 kez; Kristal ikiye katlanmaz). Oyunda
+zorunlu reklam yoktur; Ödül Kesesi yalnız isteğe bağlı videoyu atlatır, bir reklamı "kaldırmaz". Hak oyun hesabına
+bağlıdır ve sunucumuzdaki kayıtla tutulur: Apple ile bağlı hesabınla girdiğin her cihazda geçerlidir ve süresi
+bitmemişse "Satın alımları geri yükle" ile kullandığın hesaba taşınır. Süre bitince kullanılmamış günler için iade
+ya da karşılık verilmez; Apple'ın iade kuralları ve zorunlu tüketici hukukun saklıdır (Bölüm 6.2, 6.3).
 
 ## 7. Davranış kuralları
 
@@ -395,7 +408,11 @@ Değişiklikler, önceden satın aldığın bir
 13.3. Bir değişikliğin yürürlüğe girmesinden önce oluşmuş bir uyuşmazlık, o sırada geçerli olan Koşullara göre
 çözülür.
 
-13.4. **Sürüm geçmişi.** 1.2 (12 Kasım 2026): yaş yasalarının istediği yerlerde ebeveyn onayı (2.3); misafir hesap ve
+13.4. **Sürüm geçmişi.** 1.3 (15 Kasım 2026): Kaşif Kesesi ve Ödül Kesesi (6.2, 6.3, 6.6, 6.7); Çağ Koleksiyonu'nda sahip
+olunan parçanın fiyattan düşülmesi (5.6). Bu değişiklikler yeni ve isteğe bağlı ürünleri anlatır, mevcut haklarını
+senin aleyhine değiştirmez; bu yüzden Bölüm 13.2'deki anlamda önemli bir değişiklik sayılmaz ve yeniden kabul
+istenmez.
+1.2 (12 Kasım 2026): yaş yasalarının istediği yerlerde ebeveyn onayı (2.3); misafir hesap ve
 isteğe bağlı Apple ile giriş, hesapların birleşmesi ve Apple ile bağlanmış hesaplarda 36 ay (Kısaca, 4.1, 4.2, 4.4,
 4.5, 4.6, 12.1); ad bildirimlerinde inceleme vakası, nitelikli bildiren, kalıcı yasağın yalnız bir insanın kararıyla
 verilmesi ve itiraz (Kısaca, 8.4, 8.5, 8.7). Bu değişiklikler senin aleyhine değildir ya da yalnız kendi seçtiğin

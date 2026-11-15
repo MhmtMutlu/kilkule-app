@@ -2,7 +2,7 @@
 
 > Cette traduction est fournie à titre informatif. En cas de divergence, la version turque prévaut.
 
-**Date d'entrée en vigueur :** 12 novembre 2026 · **Version :** 1.2 (version précédente 1.1, 8 novembre 2026 ; modifications à la section 13)
+**Date d'entrée en vigueur :** 15 novembre 2026 · **Version :** 1.3 (version précédente 1.2, 12 novembre 2026 ; modifications à la section 13)
 
 Ce texte a été rédigé en tant que notice d'information au titre de l'article 10 de la KVKK (loi turque n° 6698 sur la
 protection des données à caractère personnel) et en tant qu'information au titre de l'article 13 du règlement général sur
@@ -180,7 +180,7 @@ ouvert en tant que compte invité ; la connexion facultative avec Apple est déc
 
 | | |
 | --- | --- |
-| **Données** | Ton nom de joueur (donné par le jeu ou écrit par toi), ton avatar, ta carte de ligue et ton emblème, ton groupe de Ligue hebdo, tes points et ton rang, ton score à la Faille temporelle, ta profondeur dans l'Infini, tes points Champions, ton numéro d'ordre sur le Mur des Ouvre-Porte ; ton **identifiant public** aléatoire |
+| **Données** | Ton nom de joueur (donné par le jeu ou écrit par toi), ton avatar, ta carte de ligue et ton emblème, ton groupe de Ligue hebdo, tes points et ton rang, ton score à la Faille temporelle, ta profondeur dans l'Infini, tes points Champions et le niveau de campagne le plus élevé que tu as atteint, ton numéro d'ordre sur le Mur des Ouvre-Porte ; ton **identifiant public** aléatoire |
 | **Qui les voit ?** | Les autres joueurs figurant dans les mêmes tableaux. Avec les lignes du tableau, ton **identifiant public** aléatoire est aussi envoyé aux appareils des autres joueurs, pour que la fonction de signalement d'un nom fonctionne. L'identifiant public est distinct de ton numéro de compte, il n'est pas affiché à l'écran et il ne permet pas à lui seul d'accéder à ton compte. **Ton numéro de compte** n'est envoyé à l'appareil d'aucun autre joueur. |
 | **Finalité** | Proposer des fonctionnalités de compétition comme la Ligue hebdo, la Ligue des profondeurs, la Faille temporelle, les Champions et le Mur des Ouvre-Porte ; offrir un cadeau à ceux qui finissent dans les 3 premiers de la Ligue hebdo |
 | **Base juridique** | KVKK art. 5(2)(c) · RGPD art. 6(1)(b) |
@@ -874,7 +874,7 @@ cette adresse et derrière le lien de l'écran Réglages du jeu. Nous annonçons
 leur entrée en vigueur. Si un changement nécessite un nouveau consentement (p. ex. si le texte d'autorisation des vidéos
 récompensées change), nous te demanderons ton consentement séparément.
 
-**Historique des versions.** 1.2 (12 novembre 2026) : connexion facultative avec Apple, dans les versions 0.1.0 (16) et
+**Historique des versions.** 1.3 (15 novembre 2026) : le tableau Champions affiche aussi le niveau de campagne le plus élevé atteint (section 3.5) ; aucune nouvelle donnée n'est collectée. 1.2 (12 novembre 2026) : connexion facultative avec Apple, dans les versions 0.1.0 (16) et
 suivantes (En bref, Notre principe, sections 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12) ; durée d'inactivité de 36 mois pour
 les comptes liés à Apple (En bref, 3.1, 7, 8.2) ; dossier d'examen pour les signalements de noms, signaux sans identité
 des auteurs des signalements, interdiction définitive uniquement sur décision d'une personne, conservation des

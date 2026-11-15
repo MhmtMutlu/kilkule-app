@@ -2,7 +2,7 @@
 
 > Diese Übersetzung dient nur zur Information. Bei Abweichungen ist die türkische Fassung maßgeblich.
 
-**Gültig ab:** 12. November 2026 · **Version:** 1.2 (vorherige Version 1.1, 8. November 2026; Änderungen in Abschnitt 13)
+**Gültig ab:** 15. November 2026 · **Version:** 1.3 (vorherige Version 1.2, 12. November 2026; Änderungen in Abschnitt 13)
 
 Dieser Text ist als Informationstext nach Art. 10 KVKK (türkisches Gesetz Nr. 6698 zum Schutz personenbezogener Daten)
 und als Information nach Art. 13 der EU-Datenschutz-Grundverordnung (DSGVO) verfasst. Kurzer KVKK-Informationstext und
@@ -177,7 +177,7 @@ als Gastkonto eröffnet; das freiwillige „Mit Apple anmelden“ steht in Absch
 
 | | |
 | --- | --- |
-| **Daten** | Dein Spielername (vom Spiel vergeben oder von dir eingegeben), dein Avatar, deine Ligakarte und dein Emblem, deine Gruppe in der Wochenliga, deine Punkte und dein Platz, deine Punktzahl im Zeitriss, deine Tiefe im Endlos-Universum, deine Champions-Punkte, deine Nummer an der Wand der Toröffner; deine zufällige **öffentliche Kennung** |
+| **Daten** | Dein Spielername (vom Spiel vergeben oder von dir eingegeben), dein Avatar, deine Ligakarte und dein Emblem, deine Gruppe in der Wochenliga, deine Punkte und dein Platz, deine Punktzahl im Zeitriss, deine Tiefe im Endlos-Universum, deine Champions-Punkte und die höchste Kampagnenstufe, die du erreicht hast, deine Nummer an der Wand der Toröffner; deine zufällige **öffentliche Kennung** |
 | **Wer sieht das?** | Andere Spieler in denselben Tabellen. Zusammen mit den Tabellenzeilen wird, damit die Funktion zum Melden von Namen funktioniert, auch deine zufällige **öffentliche Kennung** an die Geräte anderer Spieler gesendet. Die öffentliche Kennung ist von deiner Kontonummer getrennt, wird nicht auf dem Bildschirm angezeigt und verschafft für sich allein keinen Zugriff auf dein Konto. **Deine Kontonummer** wird an kein Gerät eines anderen Spielers gesendet. |
 | **Zweck** | Wettbewerbsfunktionen wie die Wochenliga, die Tiefenliga, den Zeitriss, Champions und die Wand der Toröffner bereitstellen; in der Wochenliga denjenigen, die unter die ersten 3 kommen, ein Geschenk geben |
 | **Rechtsgrundlage** | Art. 5 Abs. 2 lit. c KVKK · Art. 6 Abs. 1 lit. b DSGVO |
@@ -858,7 +858,7 @@ immer unter dieser Adresse und über den Link im Einstellungen-Bildschirm des Sp
 Spiel an, bevor sie wirksam werden. Wenn eine Änderung eine neue Einwilligung erfordert (z. B. wenn sich der
 Erlaubnistext für Belohnungsvideos ändert), bitten wir dich gesondert um deine Einwilligung.
 
-**Versionsverlauf.** 1.2 (12. November 2026): freiwilliges „Mit Apple anmelden“ in den Versionen 0.1.0 (16) und neuer
+**Versionsverlauf.** 1.3 (15. November 2026): Champions zeigt auch die höchste erreichte Kampagnenstufe (Abschnitt 3.5); es werden keine neuen Daten erhoben. 1.2 (12. November 2026): freiwilliges „Mit Apple anmelden“ in den Versionen 0.1.0 (16) und neuer
 (Kurz gesagt, Unser Grundsatz, Abschnitte 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Inaktivitätsfrist von 36 Monaten für
 mit Apple verknüpfte Konten (Kurz gesagt, 3.1, 7, 8.2); Prüffall bei Namensmeldungen, Signale der Meldenden ohne deren
 Identität, dauerhafte Sperre nur durch die Entscheidung eines Menschen, Aufbewahrung von Fall- und

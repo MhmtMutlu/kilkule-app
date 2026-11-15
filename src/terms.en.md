@@ -1,6 +1,6 @@
 # Kilkule Terms of Use
 
-**Effective date:** 12 November 2026 · **Version:** 1.2 (previous version 1.1, 8 November 2026; changes in Section 13.4)
+**Effective date:** 15 November 2026 · **Version:** 1.3 (previous version 1.2, 12 November 2026; changes in Section 13.4)
 
 > This English version is a translation. In case of any inconsistency, the Turkish version prevails (Section 16.3).
 
@@ -186,6 +186,8 @@ players when the week ends receives a gift of Gold and Crystals according to the
   information only; Crystals cannot be exchanged for real money (Section 5.2).
 - The content of everything you buy with real money or with Crystals is shown before you buy; **the content you buy is
   not determined at random** (there are no chance boxes or "loot boxes").
+- If you already own one of the pieces of an Age Collection, that piece's share is deducted from the collection's
+  Crystal price; you do not pay twice for the same piece. The price you will pay is shown before you buy.
 - Crystals have no expiry date; they are lost only if your account is deleted (Sections 4.4 and 4.5).
 
 ## 6. Purchases, refunds and the right of withdrawal
@@ -201,7 +203,8 @@ delivery.
 6.2. **Refunds are requested from Apple** (https://reportaproblem.apple.com). Apple decides on refunds; we cannot refund
 from inside the app. If Apple refunds a purchase, we may remove the Virtual Items granted with that purchase from your
 account. If these items have already been spent, we may deduct the refunded amount of Crystals from the Crystal balance
-in your account and, if that is not enough, from Crystals you earn later. This deduction never creates any obligation to
+in your account and, if that is not enough, from Crystals you earn later. If a Reward Pouch is refunded, the time that
+purchase added is removed; rewards already doubled during that time are not taken back. This deduction never creates any obligation to
 pay real money. If Apple later reverses the refund, we credit the Virtual Items we removed because of that refund back to
 your account; any Crystal amount from that refund that has not yet been deducted is cleared first.
 
@@ -209,8 +212,8 @@ your account; any Crystal amount from that refund that has not yet been deducted
 
 - **Consumers in Türkiye:** Under Article 15(1)(ğ) of the Distance Contracts Regulation, the right of withdrawal does not
   apply to services performed instantly in electronic form or to intangible goods delivered instantly to the consumer.
-  Digital content you buy (Crystals, the Founder Pack, the Age Path premium track) is delivered to your account
-  immediately after you confirm; for this reason you have no right of withdrawal once you confirm the purchase. So that
+  Digital content you buy (Crystals, the Founder Pack, the Explorer Pack, the Reward Pouch, the Age Path premium track) is
+  delivered to your account immediately after you confirm (the Reward Pouch's time starts at the moment of purchase); for this reason you have no right of withdrawal once you confirm the purchase. So that
   you know this before you buy, a link to this section is given next to the purchase buttons in the Shop.
 - **Consumers in the European Union and the European Economic Area:** You generally have a 14-day right of withdrawal
   for contracts for digital content. This right ends if supply of the digital content begins during the withdrawal period
@@ -240,8 +243,18 @@ and in the Shop; it does not carry over to the next season. Wins during the seas
 rewards in the Shop before the season ends: when the season ends its track leaves the Game and unclaimed tier rewards
 can no longer be claimed. Rewards you have
 claimed (Crystals, Gold, Age Shards and cosmetics) stay in your account after the season ends. While the season lasts,
-the premium track, like the Founder Pack, can be restored to the same Apple Account with Apple's "Restore purchases"
-feature (Section 4.2).
+the premium track, like the Founder Pack and the Explorer Pack, can be restored to the same Apple Account with Apple's
+"Restore purchases" feature (Section 4.2).
+
+6.7. **Reward Pouch:** The Reward Pouch is a right that lasts **7 days**; it is a one-time purchase, **does not renew
+automatically** and is not a subscription. Its time starts at the moment of purchase; if you buy it again before it
+ends, the new 7 days are added to the end of the current time. While it lasts, the optional "Double the reward" at the
+end of a level works without watching a video; the video's limits still apply (level 4 and later, once per result, at
+most 5 times a day; Crystals are not doubled). The Game has no forced ads; the Reward Pouch only skips the optional
+video and does not "remove" any ad. The right belongs to your game account and is kept by the record on our server: it
+works on every device where you sign in with your account linked to Apple, and, while it has time left, "Restore
+purchases" moves it to the account you are using. When the time ends, unused days are not refunded or compensated;
+Apple's refund rules and your mandatory consumer rights remain unaffected (Sections 6.2, 6.3).
 
 ## 7. Rules of conduct
 
@@ -408,7 +421,11 @@ your disadvantage.
 
 13.3. A dispute that arose before a change takes effect is resolved under the Terms in force at that time.
 
-13.4. **Version history.** 1.2 (12 November 2026): parental approval where age laws require it (2.3); guest account and
+13.4. **Version history.** 1.3 (15 November 2026): the Explorer Pack and the Reward Pouch (6.2, 6.3, 6.6, 6.7); owned
+pieces deducted from an Age Collection's price (5.6). These changes describe new, optional products and do not change
+your existing rights to your disadvantage; they are therefore not a material change within the meaning of Section 13.2
+and do not require you to accept the Terms again.
+1.2 (12 November 2026): parental approval where age laws require it (2.3); guest account and
 optional Sign in with Apple, merging of accounts and 36 months for accounts linked with Apple (In short, 4.1, 4.2, 4.4,
 4.5, 4.6, 12.1); review case for name reports, qualifying reporters, permanent bans only by a human's decision, and
 appeals (In short, 8.4, 8.5, 8.7). These changes are not to your disadvantage, or they apply only to an optional feature
