@@ -2,7 +2,7 @@
 
 > Cette traduction est fournie à titre informatif. En cas de divergence, la version turque prévaut.
 
-**Date d'entrée en vigueur :** 15 novembre 2026 · **Version :** 1.3 (version précédente 1.2, 12 novembre 2026 ; modifications à la section 13)
+**Date d'entrée en vigueur :** 15 novembre 2026 · **Version :** 1.4 (version précédente 1.3, 15 novembre 2026 ; modifications à la section 13)
 
 Ce texte a été rédigé en tant que notice d'information au titre de l'article 10 de la KVKK (loi turque n° 6698 sur la
 protection des données à caractère personnel) et en tant qu'information au titre de l'article 13 du règlement général sur
@@ -432,6 +432,26 @@ est nécessaire là où tu te trouves (fonction de tranche d'âge d'iOS, section
   l'enregistrement de la notification sur le serveur, KVKK art. 5(2)(f) et art. 5(2)(e) · RGPD art. 6(1)(f) (traiter
   la notification une seule fois et pouvoir montrer ce que nous avons fait).
 
+### 3.16 Notifications (facultatives ; versions 1.0 (19) et suivantes)
+
+Nous n'utilisons les notifications que si tu les actives : en touchant « Devam » (« Continuer ») sur la carte des
+notifications dans le jeu et en acceptant la demande d'iOS, ou en activant un type dans Réglages → Notifications. Sinon,
+aucune des données de cette section n'existe. Pour les joueurs de moins de 13 ans (et, là où la loi demande l'âge, pour
+les joueurs qui ne le communiquent pas), les notifications ne peuvent pas être activées ; là où la loi l'exige, l'accord
+d'un parent du joueur mineur est d'abord nécessaire (section 3.15).
+
+| | |
+| --- | --- |
+| **Données** | Le **jeton de notification** (push token) qu'Apple crée pour cet appareil et ce jeu ; s'il s'agit d'un jeton de test ou réel ; les types que tu as choisis (série de la Faille temporelle, sortie du top 3 de la Ligue hebdo, cadeau de ligue prêt) ; le décalage UTC de ton appareil (uniquement pour calculer les heures de silence) ; les dates d'enregistrement et de mise à jour ; quelle notification a été envoyée et quand |
+| **Finalité** | Envoyer les courtes notifications que tu as choisies : au plus une par jour, jamais entre 21 h 30 et 9 h 30, à ton heure locale |
+| **Base juridique** | Consentement explicite : KVKK art. 5(1) · RGPD art. 6(1)(a). Facultatif et révocable à tout moment dans Réglages → Notifications ou dans les Réglages d'iOS. Si tu désactives tous les types, le jeton est supprimé de notre serveur |
+| **Conservation** | Jusqu'à ce que tu désactives les notifications ou supprimes ton compte. Le jeton est supprimé si le jeu ne le renouvelle pas pendant 12 mois (l'application le renouvelle chaque semaine) ou si Apple le signale comme invalide. Les enregistrements d'envoi sont supprimés 30 jours après la fin de l'envoi |
+| **Destinataire** | Apple Push Notification service (sections 5 et 6) |
+
+Une notification ne contient jamais ton nom, ton numéro de compte, ton score, ton classement ni un autre joueur ; elle
+ne porte que son type, et ton appareil en affiche le texte dans sa propre langue. Le fichier « Télécharger mes données »
+n'affiche que les 6 derniers caractères du jeton.
+
 ## 4. Vidéos récompensées et publicités (Google AdMob)
 
 Kilkule n'a aucune publicité qui interrompt le jeu. La seule publicité est la vidéo récompensée que tu peux choisir de
@@ -520,7 +540,7 @@ destinataires suivants sont concernés :
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — messagerie professionnelle | Les e-mails que tu nous écris et nos réponses | Notre adresse d'assistance est hébergée sur ce service ; les e-mails sont conservés sur les serveurs de Güzel Hosting en Türkiye | Sous-traitant |
 | **MailChannels Corporation** (Canada ; serveurs en Amérique du Nord) | Le contenu des réponses que nous t'envoyons et ton adresse e-mail, uniquement pendant l'acheminement | Service d'acheminement du courrier de Güzel Hosting ; nos réponses sont transmises au destinataire via ce service et n'y sont pas conservées | Sous-traitant (service sous-traité de Güzel Hosting) |
 | **Google** (Google Ireland Limited dans l'EEE, au Royaume-Uni et en Suisse ; Google LLC, États-Unis, ailleurs) | Uniquement si tu as autorisé les vidéos récompensées (dans l'EEE, au Royaume-Uni et en Suisse, en plus selon ton choix dans le formulaire de Google) : les données publicitaires de la section 4.2 (directement depuis ton appareil) et le numéro de ticket | Afficher et vérifier la vidéo récompensée | Responsable du traitement indépendant |
-| **Apple** (Apple Distribution International Ltd. et ses sociétés affiliées) | Le téléchargement de l'application depuis l'App Store, les achats et les remboursements (tu les effectues directement avec Apple sur l'App Store ; nous recevons les informations d'achat et de remboursement sous la forme de l'enregistrement de transaction signé par Apple) ; si tu les as autorisées dans les réglages d'iOS, les statistiques de plantage et d'utilisation propres à Apple. Si tu utilises la connexion avec Apple, c'est Apple qui gère la connexion ; quand tu supprimes ton compte lié à Apple, notre serveur envoie à Apple un code à usage unique pour révoquer l'autorisation de connexion avec Apple (section 3.14). Là où la loi l'exige, c'est Apple qui achemine la demande d'accord parental ; Apple peut nous notifier que l'accord parental a été retiré (section 3.15) | App Store, paiement, connexion avec Apple et services d'accord parental | Responsable du traitement indépendant (politique propre d'Apple : https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. et ses sociétés affiliées) | Le téléchargement de l'application depuis l'App Store, les achats et les remboursements (tu les effectues directement avec Apple sur l'App Store ; nous recevons les informations d'achat et de remboursement sous la forme de l'enregistrement de transaction signé par Apple) ; si tu les as autorisées dans les réglages d'iOS, les statistiques de plantage et d'utilisation propres à Apple. Si tu utilises la connexion avec Apple, c'est Apple qui gère la connexion ; quand tu supprimes ton compte lié à Apple, notre serveur envoie à Apple un code à usage unique pour révoquer l'autorisation de connexion avec Apple (section 3.14). Là où la loi l'exige, c'est Apple qui achemine la demande d'accord parental ; Apple peut nous notifier que l'accord parental a été retiré (section 3.15). Si tu as activé les notifications : le jeton de notification de ton appareil et le type de notification envoyée, depuis notre serveur (section 3.16) | App Store, paiement, connexion avec Apple, services d'accord parental et de notifications | Responsable du traitement indépendant (politique propre d'Apple : https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (États-Unis) | Pour les achats réels, uniquement depuis notre serveur : l'enregistrement de transaction signé par Apple, ton code client aléatoire et les notifications de remboursement des transactions déjà envoyées (section 3.9) | Enregistrement des achats et des remboursements, suivi des revenus | Prestataire ; travaille selon ses propres conditions (https://www.revenuecat.com/terms) et sa politique de confidentialité (https://www.revenuecat.com/privacy) |
 | **Les autorités publiques et tribunaux compétents** | Uniquement ce qui est juridiquement obligatoire | Obligation légale | — |
 
@@ -580,6 +600,20 @@ repreneur avec le niveau de protection prévu par cette politique ; nous l'annon
   il s'agit d'un transfert occasionnel, effectué uniquement pour exécuter ta demande de suppression et une seule fois par
   demande (KVKK art. 9(6)(b)). La demande d'accord parental va directement de ton appareil à Apple ; rien ne nous
   parvient.
+- **Apple, notifications (uniquement si tu les actives) :** Pour chaque notification, notre serveur envoie le jeton de
+  notification de ton appareil et le type de notification aux serveurs d'Apple situés hors de Türkiye (Apple Push
+  Notification service). Cela se fait **régulièrement** (au plus une fois par jour) tant que les notifications restent
+  activées. Pour ce transfert, il n'existe ni contrat type ni lettre d'engagement notifiés au Conseil de protection des
+  données personnelles (Kişisel Verileri Koruma Kurulu) ; à notre connaissance, il n'existe pas non plus de décision
+  d'adéquation du Conseil pour les pays en question. L'art. 9(6)(a) de la KVKK ne retient le consentement explicite
+  comme base que pour les transferts occasionnels ; ce transfert étant régulier, il est incertain que cette base puisse
+  s'y appliquer, et nous ne prétendons pas nous fonder sur elle. Nous avons réduit ce transfert au minimum : seuls le
+  jeton créé par Apple elle-même et le type de notification sont envoyés ; ton nom, ton numéro de compte, ton score ou
+  un autre joueur ne le sont jamais. **Risques possibles :** ces informations peuvent être traitées dans un pays qui
+  pourrait ne pas assurer le même niveau de protection qu'en Türkiye, et l'accès des autorités publiques de ce pays peut
+  être soumis à des règles différentes. Si tu ne le souhaites pas, il te suffit de ne pas activer les notifications ou
+  de les désactiver ; le jeu se joue en entier exactement de la même façon. Apple fournit son service de notifications
+  selon ses propres conditions et sa politique de confidentialité : https://www.apple.com/legal/privacy/.
 - **RevenueCat (achats réels) :** Les enregistrements d'achat et de remboursement sont envoyés de notre serveur
   à RevenueCat, Inc. aux États-Unis, comme décrit à la section 3.9, et traités aux États-Unis. Il n'existe pas, en droit
   turc, de décision d'adéquation pour les États-Unis. Nous réduisons ce transfert au minimum : il se fait uniquement
@@ -618,6 +652,7 @@ repreneur avec le niveau de protection prévu par cette politique ; nous l'annon
 | Fiche client et enregistrements d'achat/remboursement chez RevenueCat (section 3.9) | Tant que le compte reste ouvert ; à la suppression du compte (demande ou 12/36 mois d'inactivité), la suppression chez RevenueCat est demandée |
 | Copie, sur notre serveur, d'un enregistrement signé en attente d'envoi à RevenueCat | Jusqu'à son envoi ou l'échec de l'envoi ; 30 jours au plus |
 | Trace des envois à RevenueCat (sans l'enregistrement signé ; numéro de transaction et code client) | Tant que le compte reste ouvert, afin de pouvoir transmettre les notifications de remboursement (supprimée immédiatement avec le compte). Tâches terminées ou en échec et demande de suppression d'un compte supprimé (code client uniquement ; sans lien avec le compte) : 30 jours après la fin de la tâche |
+| Jeton de notification et types choisis (section 3.16) | Tant que les notifications restent activées ; supprimés immédiatement quand tu les désactives ou quand le compte est supprimé, ou si le jeton n'est pas renouvelé pendant 12 mois ou si Apple le signale comme invalide. Enregistrements d'envoi : 30 jours |
 | Signalements de noms | 12 mois |
 | Enregistrements de modération | 24 mois |
 | Dossiers d'examen de noms et enregistrements de décision (section 3.7) | 12 mois après la clôture du dossier ; non supprimés tant que l'interdiction définitive sur laquelle ils reposent est maintenue. Quand le compte est supprimé, pendant la même durée, sous forme d'enregistrement d'opération anonyme dont le nom et le lien avec le compte ont été supprimés |
@@ -874,7 +909,8 @@ cette adresse et derrière le lien de l'écran Réglages du jeu. Nous annonçons
 leur entrée en vigueur. Si un changement nécessite un nouveau consentement (p. ex. si le texte d'autorisation des vidéos
 récompensées change), nous te demanderons ton consentement séparément.
 
-**Historique des versions.** 1.3 (15 novembre 2026) : le tableau Champions affiche aussi le niveau de campagne le plus élevé atteint (section 3.5) ; aucune nouvelle donnée n'est collectée. 1.2 (12 novembre 2026) : connexion facultative avec Apple, dans les versions 0.1.0 (16) et
+**Historique des versions.** 1.4 (15 novembre 2026) : notifications facultatives, dans les versions 1.0 (19) et
+suivantes (sections 3.16, 5, 6, 7). 1.3 (15 novembre 2026) : le tableau Champions affiche aussi le niveau de campagne le plus élevé atteint (section 3.5) ; aucune nouvelle donnée n'est collectée. 1.2 (12 novembre 2026) : connexion facultative avec Apple, dans les versions 0.1.0 (16) et
 suivantes (En bref, Notre principe, sections 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12) ; durée d'inactivité de 36 mois pour
 les comptes liés à Apple (En bref, 3.1, 7, 8.2) ; dossier d'examen pour les signalements de noms, signaux sans identité
 des auteurs des signalements, interdiction définitive uniquement sur décision d'une personne, conservation des

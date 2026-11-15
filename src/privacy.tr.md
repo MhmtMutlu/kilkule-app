@@ -1,6 +1,6 @@
 # Kilkule Gizlilik Politikası
 
-**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.3 (önceki sürüm 1.2, 12 Kasım 2026; değişenler Bölüm 13'te)
+**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.4 (önceki sürüm 1.3, 15 Kasım 2026; değişenler Bölüm 13'te)
 
 Bu metin, KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) madde 10 uyarınca aydınlatma metni ve AB Genel Veri
 Koruma Tüzüğü (GDPR) madde 13 uyarınca bilgilendirme olarak hazırlanmıştır. Kısa KVKK aydınlatma metni ve ödüllü video
@@ -370,6 +370,24 @@ aralığı özelliği, Bölüm 11).
   yerin yasalarına ve Apple'ın kurallarına uymak); sunucudaki bildirim kaydı için KVKK m.5/2(f) ve m.5/2(e) · GDPR
   m.6/1(f) (bildirimi bir kez işlemek ve ne yaptığımızı gösterebilmek).
 
+### 3.16 Bildirimler (isteğe bağlı; 1.0 (19) ve sonraki sürümler)
+
+Bildirimleri yalnız sen açarsan kullanırız: oyundaki bildirim kartında "Devam"a dokunup iOS'un sorusuna izin verirsen
+ya da Ayarlar → Bildirimler'den bir türü açarsan. Açmazsan bu bölümdeki veriler hiç oluşmaz. 13 yaşından küçük
+oyuncularda (ve yasanın yaş sorduğu yerde yaşını paylaşmayanlarda) bildirimler hiç açılmaz; yasanın istediği yerde
+reşit olmayan oyuncu için ebeveyn onayı beklenir (Bölüm 3.15).
+
+| | |
+| --- | --- |
+| **Veriler** | Apple'ın bu cihaz ve oyun için ürettiği **bildirim jetonu**; jetonun test mi gerçek mi olduğu; seçtiğin bildirim türleri (Zaman Yarığı serisi, Haftalık Lig'de ilk 3'ten düşme, lig hediyesi hazır); cihazının saat farkı (yalnız sessiz saati hesaplamak için); kayıt ve güncelleme tarihleri; hangi bildirimin ne zaman gönderildiği |
+| **Amaç** | Seçtiğin kısa bildirimleri göndermek: günde en çok bir; yerel saatinle 21:30–09:30 arası hiç |
+| **Hukuki dayanak** | Açık rıza: KVKK m.5/1 · GDPR m.6/1(a). İsteğe bağlıdır; Ayarlar → Bildirimler'den ya da iOS Ayarları'ndan istediğin an geri alırsın. Bütün türleri kapatınca jeton sunucumuzdan silinir |
+| **Saklama** | Bildirimleri kapatana ya da hesabını silene kadar. Oyun jetonu 12 ay boyunca yenilemezse (uygulama haftada bir yeniler) ya da Apple jetonun geçersiz olduğunu bildirirse jeton silinir. Gönderim kayıtları, gönderim tamamlandıktan 30 gün sonra silinir |
+| **Alıcı** | Apple Push Notification service (Bölüm 5 ve 6) |
+
+Bildirimin içinde adın, hesap numaran, puanın, sıran ya da başka bir oyuncu yer almaz; bildirim yalnız türünü taşır ve
+metni cihazın kendi dilinde gösterir. "Verilerimi indir" dosyasında jetonun yalnız son 6 karakteri yer alır.
+
 ## 4. Ödüllü videolar ve reklamlar (Google AdMob)
 
 Kilkule'de oyunu kesen reklam yoktur. Tek reklam, bir seviyenin sonunda **"Ödülü ikiye katla"** dediğinde izlemeyi
@@ -441,7 +459,7 @@ Verilerini **satmayız** ve davranışsal reklam amacıyla **paylaşmayız.** Ya
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — kurumsal e-posta | Bize yazdığın e-postalar ve yanıtlarımız | Destek adresimiz bu hizmette barındırılır; e-postalar Güzel Hosting'in Türkiye'deki sunucularında saklanır | Veri işleyen |
 | **MailChannels Corporation** (Kanada; sunucuları Kuzey Amerika'da) | Bizim sana gönderdiğimiz yanıtların içeriği ve e-posta adresin, yalnız iletim sırasında | Güzel Hosting'in posta iletim hizmeti; yanıtlarımız alıcıya bu hizmet üzerinden iletilir, orada saklanmaz | Veri işleyen (Güzel Hosting'in alt hizmeti) |
 | **Google** (AEA, Birleşik Krallık ve İsviçre'de Google Ireland Limited; diğer yerlerde Google LLC, ABD) | Yalnız ödüllü videolara izin verdiysen (AEA, BK ve İsviçre'de ayrıca Google'ın formundaki seçimine göre): Bölüm 4.2'deki reklam verileri (cihazından doğrudan) ve bilet numarası | Ödüllü videoyu göstermek ve doğrulamak | Bağımsız veri sorumlusu |
-| **Apple** (Apple Distribution International Ltd. ve bağlı şirketleri) | Uygulamanın App Store'dan indirilmesi, satın almalar ve iadeler (bunları App Store'da doğrudan Apple ile yaparsın; satın alma ve iade bilgilerini Apple'ın imzaladığı işlem kaydı olarak alırız); iOS ayarlarında izin verdiysen Apple'ın kendi çökme ve kullanım istatistikleri. Apple ile giriş kullanırsan girişi Apple yürütür; Apple ile bağlı hesabını silerken sunucumuz, Apple ile giriş yetkisini iptal etmek için Apple'a tek kullanımlık bir kod gönderir (Bölüm 3.14). Yasanın istediği yerde ebeveyn onay isteğini Apple taşır; Apple bize ebeveyn onayının geri çekildiğini bildirebilir (Bölüm 3.15) | App Store, ödeme, Apple ile giriş ve ebeveyn onayı hizmetleri | Bağımsız veri sorumlusu (Apple'ın kendi politikası: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. ve bağlı şirketleri) | Uygulamanın App Store'dan indirilmesi, satın almalar ve iadeler (bunları App Store'da doğrudan Apple ile yaparsın; satın alma ve iade bilgilerini Apple'ın imzaladığı işlem kaydı olarak alırız); iOS ayarlarında izin verdiysen Apple'ın kendi çökme ve kullanım istatistikleri. Apple ile giriş kullanırsan girişi Apple yürütür; Apple ile bağlı hesabını silerken sunucumuz, Apple ile giriş yetkisini iptal etmek için Apple'a tek kullanımlık bir kod gönderir (Bölüm 3.14). Yasanın istediği yerde ebeveyn onay isteğini Apple taşır; Apple bize ebeveyn onayının geri çekildiğini bildirebilir (Bölüm 3.15). Bildirimleri açtıysan: cihazının bildirim jetonu ve gönderilen bildirimin türü, sunucumuzdan (Bölüm 3.16) | App Store, ödeme, Apple ile giriş, ebeveyn onayı ve bildirim hizmetleri | Bağımsız veri sorumlusu (Apple'ın kendi politikası: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (ABD) | Gerçek satın almalar için, yalnız sunucumuzdan: Apple'ın imzaladığı işlem kaydı, rastgele müşteri kodun ve gönderilmiş işlemlerin iade bildirimleri (Bölüm 3.9) | Satın alma ve iade kaydı, gelir raporu | Hizmet sağlayıcı; kendi koşulları (https://www.revenuecat.com/terms) ve gizlilik politikası (https://www.revenuecat.com/privacy) altında çalışır |
 | **Yetkili kamu kurumları ve mahkemeler** | Yalnız hukuken zorunlu olan kadarı | Hukuki yükümlülük | — |
 
@@ -491,6 +509,17 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
   alanlar burada saklanır. Yalnız Apple ile bağlı hesabını kendin sildiğinde, sunucumuz Apple ile giriş yetkisini iptal
   etmek için Türkiye dışındaki Apple sunucularına tek kullanımlık bir kod gönderir; bu, yalnız senin silme talebini tamamlamak için ve talep başına bir kez yapılan arızi bir
   aktarımdır (KVKK m.9/6(b)). Ebeveyn onay isteği cihazından doğrudan Apple'a gider; bize bir şey gelmez.
+- **Apple, bildirimler (yalnız açarsan):** Her bildirimde sunucumuz, cihazının bildirim jetonunu ve bildirimin türünü
+  Türkiye dışındaki Apple sunucularına (Apple Push Notification service) gönderir. Bu, bildirimleri açık tuttuğun sürece
+  **düzenli olarak** (günde en çok bir kez) yapılır. Bu aktarım için Kişisel Verileri Koruma Kurulu'na bildirilmiş bir
+  standart sözleşme ya da taahhütname yoktur; bildiğimiz kadarıyla Kurul'un ilgili ülkeler hakkında bir yeterlilik
+  kararı da bulunmamaktadır. KVKK m.9/6(a), açık rızayı yalnız arızi aktarımlar için bir dayanak sayar; bu aktarım
+  düzenli olduğundan bu dayanağın ona uygulanıp uygulanamayacağı belirsizdir ve aktarımı ona dayandırdığımızı ileri
+  sürmüyoruz. Aktarımı en aza indirdik: giden yalnız Apple'ın kendi ürettiği jeton ve bildirimin türüdür; adın, hesap
+  numaran, puanın ya da başka bir oyuncu gitmez. **Olası riskler:** bu bilgiler Türkiye'dekiyle aynı koruma düzeyini
+  sağlamayabilecek bir ülkede işlenebilir; oradaki kamu makamlarının erişimi farklı kurallara bağlı olabilir. Bunu
+  istemiyorsan bildirimleri açmaman ya da kapatman yeterlidir; oyunun tamamı aynen oynanır. Apple bildirim hizmetini
+  kendi koşulları ve gizlilik politikası altında sunar: https://www.apple.com/legal/privacy/.
 - **RevenueCat (gerçek satın almalar):** Satın alma ve iade kayıtları, Bölüm 3.9'daki gibi, sunucumuzdan ABD'deki
   RevenueCat, Inc.'e gönderilir ve ABD'de işlenir. ABD için Türkiye'de bir yeterlilik kararı bulunmamaktadır. Bu
   aktarımı en aza indirdik: yalnız sunucumuzdan, gerçek satın almalar için ve rastgele bir kodla yapılır (test işlemleri
@@ -525,6 +554,7 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
 | RevenueCat'teki müşteri kaydı ve satın alma/iade kayıtları (Bölüm 3.9) | Hesap açık kaldıkça; hesap silinince (talep ya da 12/36 ay hareketsizlik) RevenueCat'ten silinmesi istenir |
 | RevenueCat'e gönderilecek imzalı kaydın sunucumuzdaki kopyası | Gönderilene ya da gönderim başarısız olana kadar; en çok 30 gün |
 | RevenueCat gönderim kaydı (imzalı kayıt olmadan; işlem numarası ve müşteri kodu) | İade bildirimini iletebilmek için hesap açık kaldıkça (hesap silinince hemen silinir). Tamamlanan ya da başarısız işler ve silinen hesabın silme isteği (yalnız müşteri kodu; hesapla bağı yoktur): iş bittikten sonra 30 gün |
+| Bildirim jetonu ve seçilen türler (Bölüm 3.16) | Bildirimler açık kaldıkça; kapatınca ya da hesap silinince hemen; 12 ay yenilenmezse ya da Apple geçersiz derse silinir. Gönderim kayıtları: 30 gün |
 | Ad bildirimleri | 12 ay |
 | Moderasyon kayıtları | 24 ay |
 | Ad inceleme vakaları ve karar kayıtları (Bölüm 3.7) | Vaka kapandıktan 12 ay sonra; dayandığı kalıcı yasak sürdükçe silinmez. Hesap silinince adı ve hesap bağı silinmiş anonim işlem kaydı olarak aynı süreyle |
@@ -735,7 +765,8 @@ Bu politikayı oyun ya da yasalar değiştikçe güncelleyebiliriz. Güncel sür
 ekranındaki bağlantıda yer alır. Önemli değişiklikleri yürürlüğe girmeden önce oyunda duyururuz. Bir değişiklik yeni
 bir rıza gerektiriyorsa (ör. ödüllü video izin metni değişirse) rızanı ayrıca isteriz.
 
-**Sürüm geçmişi.** 1.3 (15 Kasım 2026): Şampiyonlar'da kampanyada ulaşılan en yüksek seviyenin de görünmesi
+**Sürüm geçmişi.** 1.4 (15 Kasım 2026): isteğe bağlı bildirimler, 1.0 (19) ve sonraki sürümlerde (Bölüm 3.16, 5, 6,
+7). 1.3 (15 Kasım 2026): Şampiyonlar'da kampanyada ulaşılan en yüksek seviyenin de görünmesi
 (Bölüm 3.5); yeni veri toplanmaz. 1.2 (12 Kasım 2026): isteğe bağlı Apple ile giriş, 0.1.0 (16) ve sonraki sürümlerde (Kısaca, Az veri
 ilkemiz, Bölüm 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Apple ile bağlanmış hesaplarda 36 aylık hareketsizlik süresi
 (Kısaca, 3.1, 7, 8.2); ad bildirimlerinde inceleme vakası, bildirenlerin kimliksiz sinyalleri, kalıcı yasağın yalnız bir

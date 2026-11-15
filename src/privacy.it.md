@@ -2,7 +2,7 @@
 
 > Questa traduzione è fornita a solo scopo informativo. In caso di discrepanze prevale la versione turca.
 
-**Data di entrata in vigore:** 15 novembre 2026 · **Versione:** 1.3 (versione precedente 1.2, 12 novembre 2026; modifiche nella Sezione 13)
+**Data di entrata in vigore:** 15 novembre 2026 · **Versione:** 1.4 (versione precedente 1.3, 15 novembre 2026; modifiche nella Sezione 13)
 
 Questo testo è stato redatto come informativa ai sensi dell'art. 10 della KVKK (legge turca n. 6698 sulla protezione dei
 dati personali) e come informazione ai sensi dell'art. 13 del Regolamento generale sulla protezione dei dati dell'UE
@@ -417,6 +417,26 @@ sapere da Apple sul tuo dispositivo (la funzione di iOS per la fascia d'età, Se
   per il registro della notifica sul server, art. 5, par. 2, lett. f) e art. 5, par. 2, lett. e) KVKK · art. 6, par. 1,
   lett. f) GDPR (trattare la notifica una sola volta e poter dimostrare che cosa abbiamo fatto).
 
+### 3.16 Notifiche (facoltative; versioni 1.0 (19) e successive)
+
+Usiamo le notifiche solo se le attivi tu: toccando "Devam" ("Continua") sulla scheda delle notifiche nel gioco e
+consentendo la richiesta di iOS, oppure attivando un tipo in Impostazioni → Notifiche. Altrimenti nessuno dei dati di
+questa sezione esiste. Per i giocatori sotto i 13 anni (e, dove la legge chiede l'età, per i giocatori che non la
+indicano) le notifiche non si possono attivare; dove la legge lo richiede, per un giocatore minorenne serve prima
+l'approvazione di un genitore (Sezione 3.15).
+
+| | |
+| --- | --- |
+| **Dati** | Il **token di notifica** che Apple crea per questo dispositivo e questo gioco; se è un token di test o reale; i tipi che hai scelto (serie del Varco del Tempo, uscita dai primi 3 della Lega Settimanale, regalo della lega pronto); lo scostamento dall'UTC del tuo dispositivo (solo per calcolare le ore di silenzio); le date di registrazione e di aggiornamento; quale notifica è stata inviata e quando |
+| **Finalità** | Inviare le brevi notifiche che hai scelto: al massimo una al giorno, mai tra le 21:30 e le 09:30 della tua ora locale |
+| **Base giuridica** | Consenso esplicito: art. 5, par. 1 KVKK · art. 6, par. 1, lett. a) GDPR. Facoltativo e revocabile in qualsiasi momento in Impostazioni → Notifiche o nelle Impostazioni di iOS. Se disattivi tutti i tipi, il token viene eliminato dal nostro server |
+| **Conservazione** | Finché non disattivi le notifiche o non elimini il tuo account. Il token viene eliminato se il gioco non lo rinnova per 12 mesi (l'app lo rinnova ogni settimana) o se Apple lo segnala come non valido. I registri di invio vengono eliminati 30 giorni dopo il completamento dell'invio |
+| **Destinatario** | Apple Push Notification service (Sezioni 5 e 6) |
+
+Una notifica non contiene mai il tuo nome, il numero dell'account, il tuo punteggio, la tua posizione o un altro
+giocatore; porta solo il suo tipo, e il tuo dispositivo ne mostra il testo nella propria lingua. Il file "Scarica i miei
+dati" mostra solo gli ultimi 6 caratteri del token.
+
 ## 4. Video con premio e annunci (Google AdMob)
 
 In Kilkule non ci sono annunci che interrompono il gioco. L'unico annuncio è il video con premio che puoi scegliere di
@@ -504,7 +524,7 @@ questi:
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Turchia) — e-mail aziendale | Le e-mail che ci scrivi e le nostre risposte | Il nostro indirizzo di assistenza è ospitato su questo servizio; le e-mail sono conservate sui server di Güzel Hosting in Turchia | Responsabile del trattamento |
 | **MailChannels Corporation** (Canada; server in Nord America) | Il contenuto delle risposte che ti inviamo e il tuo indirizzo e-mail, solo durante la trasmissione | Servizio di inoltro della posta di Güzel Hosting; le nostre risposte vengono inoltrate al destinatario tramite questo servizio e non vi vengono conservate | Responsabile del trattamento (sottoservizio di Güzel Hosting) |
 | **Google** (Google Ireland Limited nel SEE, nel Regno Unito e in Svizzera; Google LLC, USA, altrove) | Solo se hai dato il permesso ai video con premio (nel SEE, nel Regno Unito e in Svizzera, inoltre, in base alla tua scelta nel modulo di Google): i dati pubblicitari della Sezione 4.2 (direttamente dal tuo dispositivo) e il numero di biglietto | Mostrare e verificare il video con premio | Titolare autonomo del trattamento |
-| **Apple** (Apple Distribution International Ltd. e le sue società collegate) | Download dell'app dall'App Store, acquisti e rimborsi (li fai direttamente con Apple nell'App Store; riceviamo le informazioni su acquisti e rimborsi come registro della transazione firmato da Apple); se le hai consentite nelle impostazioni di iOS, le statistiche di Apple stessa su arresti anomali e utilizzo. Se usi Accedi con Apple, l'accesso è gestito da Apple; quando elimini il tuo account collegato ad Apple, il nostro server invia ad Apple un codice monouso per revocare l'autorizzazione per Accedi con Apple (Sezione 3.14). Dove la legge lo richiede, la richiesta di approvazione dei genitori la trasmette Apple; Apple può comunicarci che l'approvazione dei genitori è stata revocata (Sezione 3.15) | Servizi dell'App Store, di pagamento, di Accedi con Apple e di approvazione dei genitori | Titolare autonomo del trattamento (informativa di Apple: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. e le sue società collegate) | Download dell'app dall'App Store, acquisti e rimborsi (li fai direttamente con Apple nell'App Store; riceviamo le informazioni su acquisti e rimborsi come registro della transazione firmato da Apple); se le hai consentite nelle impostazioni di iOS, le statistiche di Apple stessa su arresti anomali e utilizzo. Se usi Accedi con Apple, l'accesso è gestito da Apple; quando elimini il tuo account collegato ad Apple, il nostro server invia ad Apple un codice monouso per revocare l'autorizzazione per Accedi con Apple (Sezione 3.14). Dove la legge lo richiede, la richiesta di approvazione dei genitori la trasmette Apple; Apple può comunicarci che l'approvazione dei genitori è stata revocata (Sezione 3.15). Se hai attivato le notifiche: il token di notifica del tuo dispositivo e il tipo di notifica inviata, dal nostro server (Sezione 3.16) | Servizi dell'App Store, di pagamento, di Accedi con Apple, di approvazione dei genitori e di notifica | Titolare autonomo del trattamento (informativa di Apple: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (Stati Uniti) | Per gli acquisti reali, solo dal nostro server: il registro della transazione firmato da Apple, il tuo codice cliente casuale e le notifiche di rimborso delle transazioni già inviate (Sezione 3.9) | Registro di acquisti e rimborsi, resoconto dei ricavi | Fornitore di servizi; opera secondo i propri termini (https://www.revenuecat.com/terms) e la propria informativa sulla privacy (https://www.revenuecat.com/privacy) |
 | **Autorità pubbliche e tribunali competenti** | Solo quanto è obbligatorio per legge | Obbligo legale | — |
 
@@ -562,6 +582,20 @@ passare al cessionario con il livello di protezione di questa informativa; lo an
   l'autorizzazione per Accedi con Apple; si tratta di un trasferimento occasionale, fatto solo per completare la tua
   richiesta di eliminazione e una sola volta per richiesta (art. 9, par. 6, lett. b) KVKK). La richiesta di approvazione
   dei genitori va dal tuo dispositivo direttamente ad Apple; a noi non arriva nulla.
+- **Apple, notifiche (solo se le attivi):** Per ogni notifica il nostro server invia il token di notifica del tuo
+  dispositivo e il tipo di notifica ai server di Apple fuori dalla Turchia (Apple Push Notification service). Questo
+  avviene **regolarmente** (al massimo una volta al giorno) finché le notifiche restano attive. Per questo trasferimento
+  non esiste un contratto tipo né un impegno scritto notificati all'Autorità turca per la protezione dei dati personali
+  (Kişisel Verileri Koruma Kurulu); per quanto ci risulta, non esiste nemmeno una decisione di adeguatezza dell'Autorità
+  riguardo ai Paesi interessati. L'art. 9, par. 6, lett. a) KVKK considera il consenso esplicito una base solo per i
+  trasferimenti occasionali; poiché questo trasferimento è regolare, non è certo che tale base possa applicarsi e non
+  affermiamo di basarci su di essa. Abbiamo ridotto il trasferimento al minimo: vanno solo il token creato da Apple
+  stessa e il tipo di notifica; il tuo nome, il numero dell'account, il tuo punteggio o un altro giocatore non vanno
+  mai. **Possibili rischi:** queste informazioni possono essere trattate in un Paese che potrebbe non garantire lo
+  stesso livello di protezione della Turchia, e l'accesso da parte delle autorità pubbliche di quel Paese può essere
+  soggetto a regole diverse. Se non lo vuoi, basta lasciare le notifiche disattivate o disattivarle; tutto il gioco
+  funziona allo stesso modo. Apple fornisce il suo servizio di notifica secondo i propri termini e la propria
+  informativa sulla privacy: https://www.apple.com/legal/privacy/.
 - **RevenueCat (acquisti reali):** I registri di acquisto e rimborso vengono inviati dal nostro server a
   RevenueCat, Inc. negli Stati Uniti, come descritto nella Sezione 3.9, e trattati negli Stati Uniti. Secondo il diritto
   turco non esiste una decisione di adeguatezza per gli Stati Uniti. Riduciamo questo trasferimento al minimo: avviene
@@ -600,6 +634,7 @@ passare al cessionario con il livello di protezione di questa informativa; lo an
 | Scheda cliente e registri di acquisto/rimborso presso RevenueCat (Sezione 3.9) | Finché l'account resta aperto; all'eliminazione dell'account (richiesta o 12/36 mesi di inattività) se ne chiede l'eliminazione a RevenueCat |
 | Copia, sul nostro server, di un registro firmato in attesa di invio a RevenueCat | Fino all'invio o al mancato invio; al massimo 30 giorni |
 | Traccia degli invii a RevenueCat (senza il registro firmato; numero di transazione e codice cliente) | Finché l'account resta aperto, per poter inoltrare le notifiche di rimborso (eliminata subito con l'account). Lavori completati o non riusciti e richiesta di eliminazione di un account eliminato (solo codice cliente; senza legame con l'account): 30 giorni dopo la fine del lavoro |
+| Token di notifica e tipi scelti (Sezione 3.16) | Finché le notifiche restano attive; eliminati subito quando le disattivi o quando l'account viene eliminato, oppure se il token non viene rinnovato per 12 mesi o Apple lo segnala come non valido. Registri di invio: 30 giorni |
 | Segnalazioni dei nomi | 12 mesi |
 | Registri di moderazione | 24 mesi |
 | Casi di esame dei nomi e registri delle decisioni (Sezione 3.7) | 12 mesi dopo la chiusura del caso; non vengono eliminati finché dura il divieto permanente su cui si basano. Quando l'account viene eliminato, come registro anonimo dell'operazione, senza nome né collegamento all'account, per lo stesso periodo |
@@ -843,7 +878,8 @@ indirizzo e al link nella schermata Impostazioni del gioco. Annunciamo nel gioco
 entrino in vigore. Se una modifica richiede un nuovo consenso (ad es. se cambia il testo del permesso per i video con
 premio), ti chiederemo il consenso separatamente.
 
-**Cronologia delle versioni.** 1.3 (15 novembre 2026): la classifica Campioni mostra anche il livello più alto raggiunto nella campagna (Sezione 3.5); non si raccolgono nuovi dati. 1.2 (12 novembre 2026): Accedi con Apple facoltativo, nelle versioni 0.1.0 (16) e
+**Cronologia delle versioni.** 1.4 (15 novembre 2026): notifiche facoltative, nelle versioni 1.0 (19) e successive
+(Sezioni 3.16, 5, 6, 7). 1.3 (15 novembre 2026): la classifica Campioni mostra anche il livello più alto raggiunto nella campagna (Sezione 3.5); non si raccolgono nuovi dati. 1.2 (12 novembre 2026): Accedi con Apple facoltativo, nelle versioni 0.1.0 (16) e
 successive (In breve, Il nostro principio, Sezioni 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); periodo di inattività di 36
 mesi negli account collegati ad Apple (In breve, 3.1, 7, 8.2); caso di esame per le segnalazioni dei nomi, segnali senza
 identità di chi ha segnalato, divieto permanente solo con la decisione di una persona, conservazione dei registri dei casi

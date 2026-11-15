@@ -2,7 +2,7 @@
 
 > Diese Übersetzung dient nur zur Information. Bei Abweichungen ist die türkische Fassung maßgeblich.
 
-**Gültig ab:** 15. November 2026 · **Version:** 1.3 (vorherige Version 1.2, 12. November 2026; Änderungen in Abschnitt 13)
+**Gültig ab:** 15. November 2026 · **Version:** 1.4 (vorherige Version 1.3, 15. November 2026; Änderungen in Abschnitt 13)
 
 Dieser Text ist als Informationstext nach Art. 10 KVKK (türkisches Gesetz Nr. 6698 zum Schutz personenbezogener Daten)
 und als Information nach Art. 13 der EU-Datenschutz-Grundverordnung (DSGVO) verfasst. Kurzer KVKK-Informationstext und
@@ -422,6 +422,26 @@ deinem Gerät von Apple (die Altersbereich-Funktion von iOS, Abschnitt 11).
   für den Eintrag der Mitteilung auf dem Server Art. 5 Abs. 2 lit. f und Art. 5 Abs. 2 lit. e KVKK · Art. 6 Abs. 1
   lit. f DSGVO (die Mitteilung einmal verarbeiten und zeigen können, was wir getan haben).
 
+### 3.16 Mitteilungen (freiwillig; Versionen 1.0 (19) und neuer)
+
+Mitteilungen nutzen wir nur, wenn du sie einschaltest: indem du auf der Mitteilungskarte im Spiel auf „Devam“ („Weiter“)
+tippst und die Abfrage von iOS erlaubst, oder indem du unter Einstellungen → Mitteilungen eine Art einschaltest. Sonst
+entstehen die Daten in diesem Abschnitt überhaupt nicht. Für Spieler unter 13 Jahren (und, wo das Gesetz nach dem Alter
+fragt, für Spieler, die es nicht mitteilen) lassen sich Mitteilungen nicht einschalten; wo das Gesetz es verlangt, muss
+bei einem minderjährigen Spieler zuerst ein Elternteil zustimmen (Abschnitt 3.15).
+
+| | |
+| --- | --- |
+| **Daten** | Das **Push-Token**, das Apple für dieses Gerät und dieses Spiel erzeugt; ob es ein Test- oder ein echtes Token ist; die Arten, die du gewählt hast (Zeitriss-Serie, Abrutschen aus den Top 3 der Wochenliga, Liga-Geschenk bereit); die UTC-Abweichung deines Geräts (nur, um die Ruhezeit zu berechnen); Registrierungs- und Aktualisierungsdatum; welche Mitteilung wann gesendet wurde |
+| **Zweck** | Die kurzen Mitteilungen senden, die du gewählt hast: höchstens eine pro Tag, nie zwischen 21:30 und 09:30 Uhr nach deiner Ortszeit |
+| **Rechtsgrundlage** | Ausdrückliche Einwilligung: Art. 5 Abs. 1 KVKK · Art. 6 Abs. 1 lit. a DSGVO. Freiwillig und jederzeit unter Einstellungen → Mitteilungen oder in den iOS-Einstellungen widerrufbar. Schaltest du alle Arten aus, wird das Token von unserem Server gelöscht |
+| **Speicherdauer** | Bis du Mitteilungen ausschaltest oder dein Konto löschst. Das Token wird gelöscht, wenn das Spiel es 12 Monate lang nicht erneuert (die App erneuert es wöchentlich) oder wenn Apple es als ungültig meldet. Sendeeinträge werden 30 Tage nach Abschluss des Sendens gelöscht |
+| **Empfänger** | Apple Push Notification service (Abschnitte 5 und 6) |
+
+Eine Mitteilung enthält nie deinen Namen, deine Kontonummer, deine Punktzahl, deinen Rang oder einen anderen Spieler; sie
+trägt nur ihre Art, und dein Gerät zeigt den Text in seiner eigenen Sprache. Die Datei „Meine Daten herunterladen“ zeigt
+nur die letzten 6 Zeichen des Tokens.
+
 ## 4. Belohnungsvideos und Werbung (Google AdMob)
 
 In Kilkule gibt es keine Werbung, die das Spiel unterbricht. Die einzige Werbung ist das Belohnungsvideo, das du am Ende
@@ -509,7 +529,7 @@ kommen nur diese Empfänger:
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkei) – geschäftliche E-Mail | E-Mails, die du uns schreibst, und unsere Antworten | Unsere Support-Adresse wird bei diesem Dienst gehostet; die E-Mails werden auf den Servern von Güzel Hosting in der Türkei gespeichert | Auftragsverarbeiter |
 | **MailChannels Corporation** (Kanada; Server in Nordamerika) | Der Inhalt unserer Antworten an dich und deine E-Mail-Adresse, nur während der Übertragung | Der E-Mail-Weiterleitungsdienst von Güzel Hosting; unsere Antworten werden über diesen Dienst an den Empfänger zugestellt und dort nicht gespeichert | Auftragsverarbeiter (Unterdienst von Güzel Hosting) |
 | **Google** (Google Ireland Limited im EWR, im Vereinigten Königreich und in der Schweiz; sonst Google LLC, USA) | Nur wenn du Belohnungsvideos erlaubt hast (im EWR, im Vereinigten Königreich und in der Schweiz zusätzlich je nach deiner Auswahl im Formular von Google): die Werbedaten aus Abschnitt 4.2 (direkt von deinem Gerät) und die Ticketnummer | Belohnungsvideo zeigen und überprüfen | Eigenständiger Verantwortlicher |
-| **Apple** (Apple Distribution International Ltd. und verbundene Unternehmen) | Download der App aus dem App Store, Käufe und Erstattungen (diese tätigst du im App Store direkt bei Apple; Kauf- und Erstattungsdaten erhalten wir als von Apple signierten Transaktionseintrag); Apples eigene Absturz- und Nutzungsstatistiken, falls du sie in den iOS-Einstellungen erlaubt hast. Wenn du „Mit Apple anmelden“ nutzt, führt Apple die Anmeldung durch; wenn du dein mit Apple verknüpftes Konto löschst, sendet unser Server einen Einmalcode an Apple, um die Berechtigung für „Mit Apple anmelden“ zu widerrufen (Abschnitt 3.14). Wo es ein Gesetz verlangt, übermittelt Apple die Zustimmungsanfrage an die Eltern; Apple kann uns mitteilen, dass die elterliche Zustimmung widerrufen wurde (Abschnitt 3.15) | App Store, Zahlung, „Mit Apple anmelden“ und Dienste für die elterliche Zustimmung | Eigenständiger Verantwortlicher (Apples eigene Richtlinie: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. und verbundene Unternehmen) | Download der App aus dem App Store, Käufe und Erstattungen (diese tätigst du im App Store direkt bei Apple; Kauf- und Erstattungsdaten erhalten wir als von Apple signierten Transaktionseintrag); Apples eigene Absturz- und Nutzungsstatistiken, falls du sie in den iOS-Einstellungen erlaubt hast. Wenn du „Mit Apple anmelden“ nutzt, führt Apple die Anmeldung durch; wenn du dein mit Apple verknüpftes Konto löschst, sendet unser Server einen Einmalcode an Apple, um die Berechtigung für „Mit Apple anmelden“ zu widerrufen (Abschnitt 3.14). Wo es ein Gesetz verlangt, übermittelt Apple die Zustimmungsanfrage an die Eltern; Apple kann uns mitteilen, dass die elterliche Zustimmung widerrufen wurde (Abschnitt 3.15). Wenn du Mitteilungen eingeschaltet hast: das Push-Token deines Geräts und die Art der gesendeten Mitteilung, von unserem Server (Abschnitt 3.16) | App Store, Zahlung, „Mit Apple anmelden“, Dienste für die elterliche Zustimmung und Mitteilungsdienst | Eigenständiger Verantwortlicher (Apples eigene Richtlinie: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (USA) | Für echte Käufe, nur von unserem Server: der von Apple signierte Transaktionseintrag, dein zufälliger Kundencode und Erstattungsmitteilungen zu bereits gesendeten Transaktionen (Abschnitt 3.9) | Kauf- und Erstattungseinträge, Umsatzauswertung | Dienstleister; arbeitet nach seinen eigenen Bedingungen (https://www.revenuecat.com/terms) und seiner Datenschutzrichtlinie (https://www.revenuecat.com/privacy) |
 | **Zuständige Behörden und Gerichte** | Nur so viel, wie rechtlich zwingend erforderlich ist | Rechtliche Verpflichtung | — |
 
@@ -569,6 +589,21 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
   Berechtigung für „Mit Apple anmelden“ zu widerrufen; dies ist eine gelegentliche Übermittlung, die nur der Erfüllung
   deines Löschantrags dient und einmal pro Antrag erfolgt (Art. 9 Abs. 6 lit. b KVKK). Die Zustimmungsanfrage an die
   Eltern geht direkt von deinem Gerät an Apple; bei uns kommt nichts an.
+- **Apple, Mitteilungen (nur wenn du sie einschaltest):** Für jede Mitteilung sendet unser Server das Push-Token deines
+  Geräts und die Art der Mitteilung an Server von Apple außerhalb der Türkei (Apple Push Notification service). Dies
+  geschieht **regelmäßig** (höchstens einmal pro Tag), solange Mitteilungen eingeschaltet bleiben. Für diese Übermittlung
+  gibt es keinen Standardvertrag und keine Verpflichtungserklärung, die der türkischen Datenschutzbehörde (Kişisel
+  Verileri Koruma Kurulu) gemeldet wurden; soweit wir wissen, gibt es auch keinen Angemessenheitsbeschluss der Behörde
+  zu den betreffenden Ländern. Art. 9 Abs. 6 lit. a KVKK lässt die ausdrückliche Einwilligung nur für gelegentliche
+  Übermittlungen als Grundlage gelten; da diese Übermittlung regelmäßig ist, ist ungewiss, ob diese Grundlage auf sie
+  anwendbar ist, und wir behaupten nicht, uns auf sie zu stützen. Wir haben die Übermittlung auf das Nötigste
+  beschränkt: Es gehen nur das von Apple selbst erzeugte Token und die Art der Mitteilung; dein Name, deine
+  Kontonummer, deine Punktzahl oder ein anderer Spieler gehen nie mit. **Mögliche Risiken:** Diese Informationen können
+  in einem Land verarbeitet werden, das möglicherweise nicht dasselbe Schutzniveau wie die Türkei bietet, und der
+  Zugriff der dortigen Behörden kann anderen Regeln unterliegen. Wenn du das nicht möchtest, genügt es, Mitteilungen
+  ausgeschaltet zu lassen oder sie auszuschalten; du spielst das ganze Spiel genauso. Apple erbringt seinen
+  Mitteilungsdienst nach seinen eigenen Bedingungen und seiner Datenschutzrichtlinie:
+  https://www.apple.com/legal/privacy/.
 - **RevenueCat (echte Käufe):** Kauf- und Erstattungseinträge werden, wie in Abschnitt 3.9 beschrieben, von unserem
   Server an RevenueCat, Inc. in den USA gesendet und in den USA verarbeitet. Nach türkischem Recht gibt es für die USA
   keinen Angemessenheitsbeschluss. Wir halten diese Übermittlung so gering wie möglich: Sie erfolgt nur von unserem
@@ -607,6 +642,7 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
 | Kundeneintrag sowie Kauf- und Erstattungseinträge bei RevenueCat (Abschnitt 3.9) | Solange das Konto besteht; bei Löschung des Kontos (Antrag oder 12/36 Monate Inaktivität) wird die Löschung bei RevenueCat verlangt |
 | Kopie eines auf das Senden an RevenueCat wartenden signierten Eintrags auf unserem Server | Bis zum Senden oder bis das Senden scheitert; höchstens 30 Tage |
 | Sendevermerk für RevenueCat (ohne den signierten Eintrag; Transaktionsnummer und Kundencode) | Solange das Konto besteht, damit Erstattungsmitteilungen weitergeleitet werden können (mit dem Konto sofort gelöscht). Abgeschlossene oder gescheiterte Aufträge und die Löschanfrage eines gelöschten Kontos (nur Kundencode; ohne Verbindung zum Konto): 30 Tage nach Ende des Auftrags |
+| Push-Token und gewählte Arten (Abschnitt 3.16) | Solange Mitteilungen eingeschaltet sind; beim Ausschalten oder bei der Löschung des Kontos sofort gelöscht, ebenso wenn es 12 Monate lang nicht erneuert wird oder Apple es als ungültig meldet. Sendeeinträge: 30 Tage |
 | Namensmeldungen | 12 Monate |
 | Moderationsprotokolle | 24 Monate |
 | Prüffälle zu Namen und Entscheidungseinträge (Abschnitt 3.7) | 12 Monate nach Abschluss des Falls; solange die dauerhafte Sperre besteht, auf der sie beruhen, nicht gelöscht. Wird das Konto gelöscht, als anonymer Vorgangseintrag ohne Name und Verbindung zum Konto für dieselbe Dauer |
@@ -858,7 +894,8 @@ immer unter dieser Adresse und über den Link im Einstellungen-Bildschirm des Sp
 Spiel an, bevor sie wirksam werden. Wenn eine Änderung eine neue Einwilligung erfordert (z. B. wenn sich der
 Erlaubnistext für Belohnungsvideos ändert), bitten wir dich gesondert um deine Einwilligung.
 
-**Versionsverlauf.** 1.3 (15. November 2026): Champions zeigt auch die höchste erreichte Kampagnenstufe (Abschnitt 3.5); es werden keine neuen Daten erhoben. 1.2 (12. November 2026): freiwilliges „Mit Apple anmelden“ in den Versionen 0.1.0 (16) und neuer
+**Versionsverlauf.** 1.4 (15. November 2026): freiwillige Mitteilungen in den Versionen 1.0 (19) und neuer
+(Abschnitte 3.16, 5, 6, 7). 1.3 (15. November 2026): Champions zeigt auch die höchste erreichte Kampagnenstufe (Abschnitt 3.5); es werden keine neuen Daten erhoben. 1.2 (12. November 2026): freiwilliges „Mit Apple anmelden“ in den Versionen 0.1.0 (16) und neuer
 (Kurz gesagt, Unser Grundsatz, Abschnitte 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Inaktivitätsfrist von 36 Monaten für
 mit Apple verknüpfte Konten (Kurz gesagt, 3.1, 7, 8.2); Prüffall bei Namensmeldungen, Signale der Meldenden ohne deren
 Identität, dauerhafte Sperre nur durch die Entscheidung eines Menschen, Aufbewahrung von Fall- und

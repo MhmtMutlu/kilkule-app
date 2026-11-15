@@ -2,7 +2,7 @@
 
 > This translation is provided for information. If there is any difference, the Turkish version prevails.
 
-**Effective date:** 15 November 2026 · **Version:** 1.3 (previous version 1.2, 12 November 2026; changes in Section 13)
+**Effective date:** 15 November 2026 · **Version:** 1.4 (previous version 1.3, 15 November 2026; changes in Section 13)
 
 This policy is our information notice under Article 10 of the Turkish Personal Data Protection Law No. 6698 ("KVKK") and
 under Article 13 of the EU General Data Protection Regulation ("GDPR"). The short KVKK notice and the consent text for
@@ -387,6 +387,25 @@ game finds out from Apple on your device whether this is required where you are 
   the server, KVKK Art. 5(2)(f) and Art. 5(2)(e) · GDPR Art. 6(1)(f) (processing the notification once and being able to
   show what we did).
 
+### 3.16 Notifications (optional; version 1.0 (19) and later)
+
+We use notifications only if you turn them on: by tapping "Devam" ("Continue") on the in-game notifications card and
+allowing iOS's own prompt, or by switching a kind on in Settings → Notifications. Otherwise none of the data in this
+section exists. For players under 13 (and, where the law asks for an age, players who do not share it) notifications
+cannot be turned on; where the law requires it, a minor's parent must approve first (Section 3.15).
+
+| | |
+| --- | --- |
+| **Data** | The **push token** Apple creates for this device and game; whether it is a test or live token; the kinds you chose (Time Rift streak, dropping out of the Weekly League top 3, league gift ready); your device's UTC offset (only to work out quiet hours); registration and update dates; which notification was sent when |
+| **Purpose** | To send the short notifications you chose: at most one a day, never between 21:30 and 09:30 your local time |
+| **Legal basis** | Consent: KVKK Art. 5(1) · GDPR Art. 6(1)(a). Optional and withdrawable at any time in Settings → Notifications or in iOS Settings. Turning every kind off deletes the token from our server |
+| **Retention** | Until you turn notifications off or delete your account. The token is deleted if the game does not refresh it for 12 months (the app refreshes it weekly) or if Apple reports it invalid. Send records are deleted 30 days after the send is complete |
+| **Recipient** | Apple Push Notification service (Sections 5 and 6) |
+
+A notification never contains your name, account number, score, rank or another player; it carries only its kind, and
+your device shows the words in its own language. The "Download my data" file shows only the last 6 characters of the
+token.
+
 ## 4. Rewarded videos and ads (Google AdMob)
 
 Kilkule has no ads that interrupt the game. The only ad is the rewarded video you can choose to watch at the end of a
@@ -462,7 +481,7 @@ We **do not sell** your data and we **do not share** it for behavioural advertis
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — corporate email | Emails you send us and our replies | Our support address is hosted on this service; emails are stored on Güzel Hosting's servers in Türkiye | Processor |
 | **MailChannels Corporation** (Canada; servers in North America) | The content of the replies we send you and your email address, only while in transit | Güzel Hosting's mail relay service; our replies are delivered to you through it and are not stored there | Processor (a sub-service of Güzel Hosting) |
 | **Google** (Google Ireland Limited in the EEA, the United Kingdom and Switzerland; Google LLC, USA, elsewhere) | Only if you agreed to rewarded videos (in the EEA, the UK and Switzerland, also according to your choice in Google's form): the advertising data in Section 4.2 (directly from your device) and the ticket number | Showing and verifying the rewarded video | Independent controller |
-| **Apple** (Apple Distribution International Ltd. and its affiliates) | Downloads of the app from the App Store, purchases and refunds (you make these directly with Apple on the App Store; we receive purchase and refund information as a transaction record signed by Apple); if you allowed it in iOS settings, Apple's own crash and usage statistics. If you use Sign in with Apple, Apple runs the sign-in; when you delete your account linked with Apple, our server sends Apple a single-use code to revoke the Sign in with Apple authorisation (Section 3.14). Where the law requires it, Apple carries the parental approval request; Apple may notify us that parental approval has been withdrawn (Section 3.15) | App Store, payment, Sign in with Apple and parental approval services | Independent controller (Apple's own policy: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. and its affiliates) | Downloads of the app from the App Store, purchases and refunds (you make these directly with Apple on the App Store; we receive purchase and refund information as a transaction record signed by Apple); if you allowed it in iOS settings, Apple's own crash and usage statistics. If you use Sign in with Apple, Apple runs the sign-in; when you delete your account linked with Apple, our server sends Apple a single-use code to revoke the Sign in with Apple authorisation (Section 3.14). Where the law requires it, Apple carries the parental approval request; Apple may notify us that parental approval has been withdrawn (Section 3.15). If you turned notifications on: your device's push token and the kind of notification sent, from our server (Section 3.16) | App Store, payment, Sign in with Apple, parental approval and notification services | Independent controller (Apple's own policy: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (USA) | For real purchases, only from our server: Apple's signed transaction record, your random customer code and refund notifications for transactions already sent (Section 3.9) | Purchase and refund records, revenue reporting | Service provider; works under its own terms (https://www.revenuecat.com/terms) and privacy policy (https://www.revenuecat.com/privacy) |
 | **Competent public authorities and courts** | Only what is legally required | Legal obligation | — |
 
@@ -513,6 +532,18 @@ the level of protection in this policy; we will announce this in the game before
   code to Apple's servers outside Türkiye to revoke the Sign in with Apple authorisation; this is an occasional transfer,
   made only to complete your deletion request and once per request (KVKK Art. 9(6)(b)). The parental approval request
   goes from your device directly to Apple; nothing comes to us.
+- **Apple, notifications (only if you turn them on):** For each notification our server sends your device's push token
+  and the kind of notification to Apple's servers outside Türkiye (Apple Push Notification service). This happens
+  **regularly** (at most once a day) while notifications stay on. There is no standard contract or undertaking notified
+  to Türkiye's Personal Data Protection Board for this transfer, and as far as we know there is no adequacy decision of
+  the Board for the countries concerned. Article 9(6)(a) KVKK treats explicit consent as a basis only for occasional
+  transfers; as this transfer is regular, it is unclear whether that basis can apply to it, and we do not claim to rely
+  on it. We have kept the transfer to a minimum: only the token Apple itself created and the kind of notification go;
+  your name, account number, score or another player never do. **Possible risks:** this information may be processed
+  in a country that may not offer the same level of protection as Türkiye, and public authorities there may have access
+  under different rules. If you do not want this, simply leave notifications off or turn them off; the whole game plays
+  the same. Apple provides its notification service under its own terms and privacy policy:
+  https://www.apple.com/legal/privacy/.
 - **RevenueCat (real purchases):** Purchase and refund records are sent from our server to RevenueCat, Inc. in the
   USA, as described in Section 3.9, and processed in the USA. There is no adequacy decision for the USA under Turkish
   law. We keep this transfer to a minimum: it is made only from our server, for real purchases (test transactions only
@@ -547,6 +578,7 @@ the level of protection in this policy; we will announce this in the game before
 | The customer record and purchase/refund records at RevenueCat (Section 3.9) | As long as the account exists; when the account is deleted (on request or after 12/36 months of inactivity), deletion at RevenueCat is requested |
 | The copy on our server of a signed record waiting to be sent to RevenueCat | Until it is sent or the sending fails; at most 30 days |
 | The RevenueCat sending record (without the signed record; transaction number and customer code) | As long as the account exists, so that refund notifications can be forwarded (deleted at once when the account is deleted). Completed or failed jobs and the deletion request of a deleted account (customer code only; not linked to the account): 30 days after the job ends |
+| Push token and chosen kinds (Section 3.16) | While notifications are on; deleted at once when turned off or when the account is deleted, or if not refreshed for 12 months or reported invalid by Apple. Send records: 30 days |
 | Name reports | 12 months |
 | Moderation records | 24 months |
 | Name review cases and decision records (Section 3.7) | 12 months after the case is closed; not deleted while the permanent ban they support remains in place. When the account is deleted, kept for the same period as an anonymous action record with the name and the link to the account deleted |
@@ -771,7 +803,8 @@ We may update this policy as the game or the law changes. The current version is
 link in the game's Settings screen. We announce important changes in the game before they take effect. If a change
 requires new consent (e.g. if the rewarded-video permission text changes), we will ask for your consent separately.
 
-**Version history.** 1.3 (15 November 2026): the Champions table also shows the highest campaign level reached (Section 3.5); no new data is collected. 1.2 (12 November 2026): optional Sign in with Apple, in version 0.1.0 (16) and later (In short,
+**Version history.** 1.4 (15 November 2026): optional notifications, in version 1.0 (19) and later (Sections 3.16, 5,
+6, 7). 1.3 (15 November 2026): the Champions table also shows the highest campaign level reached (Section 3.5); no new data is collected. 1.2 (12 November 2026): optional Sign in with Apple, in version 0.1.0 (16) and later (In short,
 Our principle, Sections 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); a 36-month inactivity period for accounts linked with
 Apple (In short, 3.1, 7, 8.2); review cases for name reports, reporters' signals without their identity, permanent bans
 only by a human's decision, retention of case and decision records and the anonymous record that remains when an

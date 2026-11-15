@@ -1,6 +1,6 @@
 # Kilkule · Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni
 
-**Yürürlük tarihi:** 12 Kasım 2026 · **Sürüm:** 1.2 (önceki sürüm 1.1, 8 Kasım 2026: satın alma ve iade kayıtlarının
+**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.3 (1.3: isteğe bağlı bildirimler, 2.–6. maddeler; önceki sürüm 1.2, 12 Kasım 2026; 1.1, 8 Kasım 2026: satın alma ve iade kayıtlarının
 RevenueCat'e raporlanması, satın alma taşıma ve iade bildirim kayıtları, Google'a aktarımın düzenli niteliği ve
 "çocuklara yönelik işleme" işareti eklendi; 1.2: isteğe bağlı Apple ile giriş, ad bildirimlerinde inceleme vakası,
 yaş yasalarının istediği yerlerde ebeveyn onayı ve Apple'ın onayın geri çekildiğine ilişkin bildirimi; 2.–6. maddeler)
@@ -22,6 +22,9 @@ içermese de kişisel veri sayılır (takma adlı veri). İşlediğimiz veriler:
   hesabımız için ürettiği kullanıcı kimliği, giriş sisteminin kullandığı iki teknik alan, Apple ile bağlama ve son giriş
   zamanları. Ad ve e-posta istenmez ve saklanmaz. Hesabını silerken Apple'dan alınan tek kullanımlık kod yalnız Apple ile
   giriş yetkisini iptal etmek için kullanılır ve saklanmaz; silme kaydına yalnız bu adımın sonucu yazılır.
+- **Bildirimler (isteğe bağlı; 1.0 (19) ve sonraki sürümler, yalnız açarsan):** Apple'ın bu cihaz ve oyun için
+  ürettiği bildirim jetonu, jetonun test mi gerçek mi olduğu, seçtiğin bildirim türleri, cihazının saat farkı (yalnız
+  sessiz saat için), kayıt ve gönderim zamanları. 13 yaşından küçüklerde bildirimler açılmaz.
 - **Oyun verileri:** ilerleme, yıldızlar, geliştirmeler, oyun içi para birimleri ve hareketleri, kozmetikler, lig
   hediyeleri, savaş sonuçları ve savaşın hamle kaydı.
 - **Herkese görünen profil:** oyuncu adı (oyunun verdiği ya da isteğe bağlı olarak senin yazdığın), avatar, lig ve
@@ -59,7 +62,7 @@ oyuncuya nedenini bildirmek; bir adın kalıcı olarak yasaklanmasına yalnız b
 sağlamak, bildirimlerin sahte ya da toplu hesaplarla kötüye kullanılmasını tespit etmek, kararları ispat etmek ve
 itirazları incelemek; isteğe bağlı Apple ile girişle hesabı başka cihazda sürdürmek ve hesap silinirken Apple ile giriş
 yetkisini iptal etmek; yasanın istediği yerlerde önemli değişikliklerde ebeveyn onayını Apple üzerinden istemek ve
-Apple'ın onayın geri çekildiğine ilişkin bildirimini bir kez işlemek; satın almaları, lig hediyelerini ve ödüllü video ödüllerini vermek; satın alma ve iade
+Apple'ın onayın geri çekildiğine ilişkin bildirimini bir kez işlemek; seçtiğin kısa bildirimleri (Zaman Yarığı serisi, Haftalık Lig'de ilk 3'ten düşme, lig hediyesi) göndermek; satın almaları, lig hediyelerini ve ödüllü video ödüllerini vermek; satın alma ve iade
 kayıtlarını raporlamak (gelir ve iade analitiği) ve RevenueCat'in Apple'dan yaptığı doğrulama bizimkiyle çelişirse bunu
 hile önleme için incelemek; ödüllü videoları açık
 rızanla Google AdMob aracılığıyla göstermek ve rızanı ispat edebilmek; hizmetin güvenliğini sağlamak; uzun süre (12 ay, satın
@@ -86,6 +89,9 @@ yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
   katla"ya ilk dokunduğunda (ya da Ayarlar'daki anahtarı açmak istediğinde) ve hiçbir şey yüklenmeden önce istenir.
   Ödüllü video isteğe bağlıdır; rıza vermezsen oyunun tamamı aynen oynanır. Rızanı Ayarlar → Ödüllü video izni ile
   istediğin zaman geri alabilirsin.
+- **Açık rıza (m.5/1):** isteğe bağlı bildirimler; oyundaki kartta "Devam" deyip iOS'un sorusuna izin verirsen ya da
+  Ayarlar → Bildirimler'den bir türü açarsan. Ayarlar'dan ya da iOS Ayarları'ndan istediğin an geri alırsın; bütün türler
+  kapanınca jeton sunucumuzdan silinir.
 
 **5. Kimlere ve hangi amaçla aktarılır?**
 
@@ -120,7 +126,15 @@ yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
   Apple'ın kimlik jetonu cihazından Türkiye'deki sunucumuza gelir. Apple ile bağlı hesabını kendin sildiğinde sunucumuz,
   Apple ile giriş yetkisini iptal etmek için Türkiye dışındaki Apple sunucularına tek kullanımlık bir kod gönderir; bu,
   yalnız senin silme talebini tamamlamak için ve talep başına bir kez yapılan arızi bir yurt dışı aktarımdır (KVKK
-  m.9/6(b)). Yasanın istediği yerde ebeveyn onay isteği cihazından doğrudan Apple'a gider. Apple bağımsız veri
+  m.9/6(b)). Yasanın istediği yerde ebeveyn onay isteği cihazından doğrudan Apple'a gider. Bildirimleri açtıysan, her
+  bildirimde sunucumuz bildirim jetonunu ve bildirimin türünü Türkiye dışındaki Apple sunucularına (Apple Push
+  Notification service) gönderir; bu, bildirimler açık kaldıkça düzenli (günde en çok bir kez) bir yurt dışı aktarımdır.
+  Bunun için Kurul'a bildirilmiş bir standart sözleşme ya da taahhütname yoktur ve bildiğimiz kadarıyla bir yeterlilik
+  kararı da bulunmamaktadır; açık rıza m.9/6(a) uyarınca yalnız arızi aktarımlar için dayanak olduğundan aktarımı ona
+  dayandırdığımızı ileri sürmüyoruz. Aktarımı en aza indirdik: giden yalnız Apple'ın ürettiği jeton ve bildirimin
+  türüdür; adın, hesap numaran, puanın ya da başka bir oyuncu gitmez. **Olası riskler:** bu bilgiler Türkiye'dekiyle
+  aynı koruma düzeyini sağlamayabilecek bir ülkede işlenebilir. İstemiyorsan bildirimleri açmaman ya da kapatman
+  yeterlidir. Apple bağımsız veri
   sorumlusudur ve kendi gizlilik politikasına tabidir (https://www.apple.com/legal/privacy/).
 - **Yurt dışındaki hizmet sağlayıcı: RevenueCat, Inc. (ABD; yurt dışı aktarım, KVKK m.9):** Amaç: satın alma ve iade
   kayıtlarının raporlanması; RevenueCat'in Apple'dan yaptığı doğrulama bizimkiyle çelişirse hile önleme kaydı açılması
@@ -141,7 +155,8 @@ yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
 
 Verilerini satmayız.
 
-**6. Saklama.** Hesap açık kaldıkça; oyun **12 ay** boyunca (cüzdan geçmişinde satın alma ya da iade olan ya da Apple
+**6. Saklama.** Bildirim jetonu bildirimler açık kaldıkça tutulur; kapatınca ya da hesap silinince hemen, 12 ay
+yenilenmezse ya da Apple geçersiz derse silinir; gönderim kayıtları 30 gün. Diğer veriler hesap açık kaldıkça; oyun **12 ay** boyunca (cüzdan geçmişinde satın alma ya da iade olan ya da Apple
 ile bağlanmış hesapta **36 ay** boyunca) sunucumuza hiç bağlanmazsa hesap ve ona bağlı bütün veriler kendiliğinden, kendi silme talebinle aynı
 şekilde silinir. Silinen hesabın tutulması gereken birkaç kaydı (cüzdan hareketleri, hile önleme kayıtları) hesap
 numarası silinerek en çok 12 ay, satın alma işlem kayıtları hesapla bağı koparılarak 24 ay kalır; silme kaydı hesap
