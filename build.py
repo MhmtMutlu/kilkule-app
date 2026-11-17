@@ -365,6 +365,9 @@ def nav(t, r, home, links, other_href, attr=""):
 def footer(t, r, attr=""):
     links = "".join(f'<a href="{r}{h}">{esc(l)}</a>' for h, l in t["footer_links"])
     links += f'<a href="mailto:{CONTACT}">{CONTACT}</a>'
+    # The developer's own site: the one place that lists every game and app (mm-apps.com links back here).
+    more, more_path = ("More games and apps by mm-apps", "en/") if t["lang"] == "en" else ("mm-apps'in diğer oyun ve uygulamaları", "")
+    links += f'<a href="https://mm-apps.com/{more_path}">{esc(more)}</a>'
     home = r + ("en/" if t["lang"] == "en" else "")
     return f"""<footer{attr}><div class="wrap">
   <div><a class="brand" href="{home}"><img src="{r}assets/icon-180.png" width="40" height="40" alt="">Kilkule</a><p class="muted">{esc(t['footer_tag'])}</p></div>
