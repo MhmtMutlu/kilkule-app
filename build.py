@@ -22,8 +22,8 @@ CONTACT = "destek@mm-apps.com"
 
 # The single switch for launch day: True turns every App Store badge into a real link and drops the "coming soon"
 # wording (hero chip, badges, CTA, FAQ). Set APP_ID from App Store Connect → App Information → Apple ID first.
-APP_STORE_LIVE = False
-APP_ID = ""
+APP_STORE_LIVE = True
+APP_ID = "6829024519"
 APP_STORE_URL = f"https://apps.apple.com/app/id{APP_ID}"
 
 def live(t, key):
@@ -199,12 +199,12 @@ S = {
               ("magaza", "Mağaza: Çağ Yolu")],
   "faq_eyebrow": "SSS", "faq_h2": "Sık sorulanlar",
   "faq": [("Kilkule ücretsiz mi?", "Evet. İndirmek ve oynamak ücretsiz. İsteğe bağlı satın almalar (Kristal paketleri, Kurucu Kesesi ve Çağ Yolu'nun premium yolu) kozmetik ve kolaylık içindir; ödemeyi Apple alır. Premium yolun son kademesinde tek bir Çağ Parçası var; bunun dışında gerçek parayla güç satılmaz. Test sürümünde gerçek parayla satın alma kapalı."),
-          ("Ne zaman çıkıyor?", "Kilkule şu an TestFlight'ta, kapalı testte. App Store'a çıktığında bu sayfadaki düğmeler indirme bağlantısına dönüşür."),
+          ("Kilkule nereden indirilir?", "App Store'dan, ücretsiz. Bu sayfadaki App Store düğmeleri oyunun indirme sayfasını açar."),
           ("Hangi cihazlarda oynanır?", "iOS 18 ve üzeri iPhone'larda. iPad ve Android sürümü şimdilik yok."),
           ("İnternet gerekiyor mu?", "Hayır. Savaşlar internetsiz oynanır. Haftalık Lig, Zaman Yarığı tablosu ve ödüllerin doğrulanması bağlantı geldiğinde yapılır."),
           ("Hesap açmam gerekiyor mu?", "Hayır. İlk açılışta senin için anonim bir oyuncu hesabı açılır; ad, e-posta ya da telefon istenmez. Sıralamalarda oyunun verdiği takma adla görünürsün."),
-          ("Çocuğum için uygun mu?", "Kilkule'de kan ve korku yok; yenilen düşman kil parçalarına dağılır. Gerçek ülke, bayrak, din ya da tarihsel savaş sembolü kullanılmaz; mitoloji figürleri öğüt veren koruyuculardır. App Store yaş derecesi yayında belli olacak."),
-          ("Hangi dillerde?", "Türkçe ve İngilizce."),
+          ("Çocuğum için uygun mu?", "Kilkule'de kan ve korku yok; yenilen düşman kil parçalarına dağılır. Gerçek ülke, bayrak, din ya da tarihsel savaş sembolü kullanılmaz; mitoloji figürleri öğüt veren koruyuculardır. App Store yaş derecesi 9+."),
+          ("Hangi dillerde?", "Türkçe ve İngilizce dahil 20 dilde."),
           ("Verilerim nasıl işleniyor?", "Yalnızca oyunun çalışması ve hilenin önlenmesi için gereken verileri işleriz; ayrıntılar <a href=\"{r}gizlilik/\">Gizlilik Politikası</a> ve <a href=\"{r}kvkk/\">KVKK Aydınlatma Metni</a>'nde."),
           ("Hesabımı nasıl silerim?", "Çağ Haritası'nda sağ üstteki Ayarlar → Hesap → Hesabı sil. Ayrıntılar <a href=\"{r}hesap-silme/\">Hesap silme</a> sayfasında.")],
   "cta_h2": "Kulen seni bekliyor.", "cta_p": "Kilkule çok yakında App Store'da, ücretsiz. İlk kurt sürüsü yolda.",
@@ -298,12 +298,12 @@ S = {
               ("lig", "Weekly League"), ("magaza", "Shop and Showcase")],
   "faq_eyebrow": "FAQ", "faq_h2": "Questions",
   "faq": [("Is Kilkule free?", "Yes. It's free to download and play. Optional purchases (Crystal packs, the Founder's Pouch and the Age Path's premium track) are for cosmetics and convenience; Apple takes the payment. The premium track's last tier holds a single Age Shard; apart from that, real money never buys power. Real-money purchases are switched off in the test build."),
-          ("When does it come out?", "Kilkule is in closed testing on TestFlight. When it reaches the App Store, the buttons on this page turn into download links."),
+          ("Where can I download Kilkule?", "On the App Store, free. The App Store buttons on this page open the game's download page."),
           ("Which devices?", "iPhones on iOS 18 or later. There's no iPad or Android version for now."),
           ("Do I need the internet?", "No. Battles play offline. The Weekly League, the Time Rift board and reward checks happen when you're back online."),
           ("Do I need an account?", "No. An anonymous player account is created for you on first launch; no name, email or phone number. On the boards you appear under a nickname the game gives you."),
-          ("Is it suitable for children?", "Kilkule has no blood and no horror; a defeated enemy crumbles into clay. No real countries, flags, religions or historical war symbols are used, and the mythic figures are guardians who give advice. The App Store age rating will be set at launch."),
-          ("Which languages?", "Turkish and English."),
+          ("Is it suitable for children?", "Kilkule has no blood and no horror; a defeated enemy crumbles into clay. No real countries, flags, religions or historical war symbols are used, and the mythic figures are guardians who give advice. Its App Store age rating is 9+."),
+          ("Which languages?", "20 languages, including Turkish and English."),
           ("How is my data handled?", "We only process what the game needs to work and to stop cheating; the details are in the <a href=\"{r}en/privacy/\">Privacy Policy</a>."),
           ("How do I delete my account?", "On the Age Map, tap Settings at the top right → Account → Delete account. More on the <a href=\"{r}en/delete-account/\">account deletion</a> page.")],
   "cta_h2": "Your tower is waiting.", "cta_p": "Kilkule is coming soon to the App Store, free. The first wolf pack is on its way.",
@@ -316,12 +316,14 @@ S = {
 }
 
 # ------------------------------------------------------------------------------------------- layout
-def head(t, r, title, desc, path, alternates=None, x_default=None, lang=None):
+def head(t, r, title, desc, path, alternates=None, x_default=None, lang=None, banner=False):
     """alternates: [(language, path)] of the same page in other languages (hreflang); x_default: the path for the rest."""
     lang = lang or t["lang"]
     hreflang = "".join(f'<link rel="alternate" hreflang="{l}" href="{SITE_URL}{p}">\n' for l, p in alternates or [])
     if alternates:
         hreflang += f'<link rel="alternate" hreflang="x-default" href="{SITE_URL}{x_default}">\n'
+    # Safari's Smart App Banner: landing pages only, since the legal pages also open from inside the game.
+    smart_banner = f'<meta name="apple-itunes-app" content="app-id={APP_ID}">\n' if banner and APP_STORE_LIVE else ""
     return f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -330,7 +332,7 @@ def head(t, r, title, desc, path, alternates=None, x_default=None, lang=None):
 <title>{esc(title)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="theme-color" content="#FFF8EC">
-<link rel="canonical" href="{SITE_URL}{path}">
+{smart_banner}<link rel="canonical" href="{SITE_URL}{path}">
 {hreflang}<meta property="og:type" content="website">
 <meta property="og:site_name" content="Kilkule">
 <meta property="og:locale" content="{LOCALES[lang]}">
@@ -610,7 +612,7 @@ def cta(t, r):
 def landing(lang):
     t = S[lang]
     r = "" if lang == "tr" else "../"
-    out = head(t, r, t["title"], t["desc"], "" if lang == "tr" else "en/", alternates=[("tr", ""), ("en", "en/")], x_default="")
+    out = head(t, r, t["title"], t["desc"], "" if lang == "tr" else "en/", alternates=[("tr", ""), ("en", "en/")], x_default="", banner=True)
     out += nav(t, r, "./", t["nav"], "en/" if lang == "tr" else "../")
     out += '<main id="main">\n' + hero(t, r, lang) + ribbon(t, lang) + how_to_play(t, r, lang) + ages_section(t, r, lang)
     out += realms_section(t, r, lang) + powers_section(t, r, lang) + modes_section(t, r, lang) + shop_section(t, lang)

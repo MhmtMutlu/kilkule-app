@@ -26,6 +26,8 @@ GitHub Pages ile yayınlanır: <https://kilkule.mm-apps.com/>
   kopyalanır (zemin dokuları hariç). `export_content.py` sitenin adını andığı her birimin çizimi var mı diye bakar.
 - Yayın günü: `build.py` → `APP_ID` (App Store Connect → App Information → Apple ID) ve `APP_STORE_LIVE = True`
   (tek anahtar). App Store rozetleri gerçek bağlantı olur, "Çok yakında" ve test sürümü cümleleri kalkar.
+  **19 Kasım 2026: yapıldı** (oyun 18 Kasım'da yayında, `id6829024519`). SSS'deki çıkış, dil ve yaş derecesi yanıtları
+  yayındaki duruma göre yazıldı; tanıtım sayfalarına Smart App Banner eklendi.
 - Derleme: `python3 build.py` (statik HTML'i depo köküne, `sitemap.xml`'i ve `assets/accents.css`'i yazar, bütün iç
   bağlantıları ve sayfa içi çapaları kontrol eder). Derlenmiş HTML de commit'lenir; GitHub Pages ek bir derleme adımı çalıştırmaz.
 - Stil: `assets/site.css` (renk, kontur, yarıçap ve yazı tipleri oyunun KilkuleDesign `tokens.json`'ıyla aynı). Her çağ ve
