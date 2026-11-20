@@ -1,6 +1,6 @@
 # Kilkule Gizlilik Politikası
 
-**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.4 (önceki sürüm 1.3, 15 Kasım 2026; değişenler Bölüm 13'te)
+**Yürürlük tarihi:** 20 Kasım 2026 · **Sürüm:** 1.5 (önceki sürüm 1.4, 15 Kasım 2026; değişenler Bölüm 13'te)
 
 Bu metin, KVKK (6698 sayılı Kişisel Verilerin Korunması Kanunu) madde 10 uyarınca aydınlatma metni ve AB Genel Veri
 Koruma Tüzüğü (GDPR) madde 13 uyarınca bilgilendirme olarak hazırlanmıştır. Kısa KVKK aydınlatma metni ve ödüllü video
@@ -23,6 +23,8 @@ açık rıza metni: https://kilkule.mm-apps.com/kvkk/. Bağlayıcı metin Türk�
   yaşından küçük oyuncu için **ebeveyn Apple üzerinden onay verene kadar** bekler; bu onayın kayıtları yalnız cihazında
   kalır (Bölüm 3.15).
 - **Seni izlemeyiz,** verilerini **satmayız** ve kişiselleştirilmiş reklam göstermeyiz.
+- **Game Center isteğe bağlıdır.** iPhone'unda Game Center'a girdiysen kazandığın başarımlar cihazından doğrudan
+  Apple'a gider; biz bu bilgileri ve Game Center oyuncu kimliğini almayız (Bölüm 3.17).
 - **Ödüllü videolar her zaman isteğe bağlıdır.** Bu videoları Google gösterir. Her ülkede önce oyunun kendi ekranında
   **iznini isteriz;** izin vermezsen Google'a hiçbir bilgi gitmez ve oyunun tamamı aynen oynanır. Avrupa'da izin verirsen
   ardından Google'ın kendi formu da gelir.
@@ -285,7 +287,7 @@ Veri dosyanın kendisi sunucuda saklanmaz; cihazında hazırlanır ve yalnız se
 
 Ayarların (ses, titreşim, pil tasarrufu), Kullanım Koşulları'nı kabul ettiğin sürüm ve tarih, gizlilik politikası
 değişikliği duyurusunu gördüğün sürüm ve tarih, ilerlemenin cihazdaki kopyası, sunucuya henüz gönderilmemiş sonuçlar,
-engellediğin oyuncuların listesi, oturum anahtarın (anahtar zincirinde), ödüllü video izni cevabın, Avrupa'daki
+engellediğin oyuncuların listesi, başarımlar için tutulan savaş sayaçları (Bölüm 3.17), oturum anahtarın (anahtar zincirinde), ödüllü video izni cevabın, Avrupa'daki
 oyuncular için Google'ın rıza formundaki seçimlerin, iOS'un yaş aralığı cevabı ve ebeveyn onayıyla ilgili kayıtlar
 (Bölüm 3.15) cihazında saklanır. Bunlar oyunun çalışması için gereklidir. Engellediğin oyuncuların listesi, yaş aralığı
 cevabı ve ebeveyn onayı kayıtları bize gönderilmez. Uygulamayı silmek bu verileri de siler (anahtar zincirindeki oturum
@@ -388,6 +390,23 @@ reşit olmayan oyuncu için ebeveyn onayı beklenir (Bölüm 3.15).
 Bildirimin içinde adın, hesap numaran, puanın, sıran ya da başka bir oyuncu yer almaz; bildirim yalnız türünü taşır ve
 metni cihazın kendi dilinde gösterir. "Verilerimi indir" dosyasında jetonun yalnız son 6 karakteri yer alır.
 
+### 3.17 Game Center başarımları (isteğe bağlı; 1.0.1'den sonraki sürümler)
+
+Oyun, Apple'ın Game Center hizmetinde başarımlar sunar (ör. bir çağı tamamlamak ya da 100 yıldız toplamak).
+Başarımlar oyunda hiçbir şey ödemez; yalnız cihazında, ilerlemenden hesaplanır. iPhone'unda Game Center'a girdiysen (ya
+da oyun birkaç seviyeden sonra bir kez sorduğunda girersen) kazandığın başarımlar cihazından doğrudan Apple'a, kendi
+Game Center hesabına gönderilir. Game Center'ı kullanmazsan bu bölümdeki aktarım hiç olmaz ve oyun aynen oynanır. 13
+yaşından küçük oyuncularda (ve yasanın yaş sorduğu yerde yaşını paylaşmayanlarda) ve ebeveyn onayı bekleyen reşit
+olmayan oyuncularda oyun Game Center'ı hiç başlatmaz.
+
+| | |
+| --- | --- |
+| **Veriler** | Apple'a, cihazından: kazandığın başarımların kimlikleri ve tamamlandıkları bilgisi. Başarımları hesaplamak için cihazında savaş sayaçları tutulur (ör. kaç düşman yenildiği, kaç savunma kurulduğu); bunlar ilerlemenin cihazdaki kopyasında kalır ve sunucumuza gönderilmez. Game Center'ın verdiği oyuncu kimliğini, Game Center adını ya da arkadaş listeni **almayız, saklamayız, sunucumuza göndermeyiz ve oyuncu hesabınla eşleştirmeyiz**; hangi başarımın zaten verildiğini oyun her seferinde Game Center'dan okur |
+| **Amaç** | Kazandığın başarımları Game Center profilinde göstermek |
+| **Hukuki dayanak** | Sözleşmenin kurulması ve ifası (oyunun isteğe bağlı bir özelliğini, senin açtığın Game Center hesabında sunmak): KVKK m.5/2(c) · GDPR m.6/1(b). iOS Ayarları'nda Game Center'dan çıkarak istediğin an durdurursun |
+| **Saklama** | Sunucumuzda yok: bu bilgiler bize gelmez. Sayaçlar cihazında, uygulamayı silene ya da hesabını silene kadar kalır. Game Center'daki başarımlarını Apple, kendi politikasına göre saklar; hesabını silmek onları silmez |
+| **Alıcı** | Apple (Game Center), bağımsız veri sorumlusu (Bölüm 5 ve 6) |
+
 ## 4. Ödüllü videolar ve reklamlar (Google AdMob)
 
 Kilkule'de oyunu kesen reklam yoktur. Tek reklam, bir seviyenin sonunda **"Ödülü ikiye katla"** dediğinde izlemeyi
@@ -459,7 +478,7 @@ Verilerini **satmayız** ve davranışsal reklam amacıyla **paylaşmayız.** Ya
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — kurumsal e-posta | Bize yazdığın e-postalar ve yanıtlarımız | Destek adresimiz bu hizmette barındırılır; e-postalar Güzel Hosting'in Türkiye'deki sunucularında saklanır | Veri işleyen |
 | **MailChannels Corporation** (Kanada; sunucuları Kuzey Amerika'da) | Bizim sana gönderdiğimiz yanıtların içeriği ve e-posta adresin, yalnız iletim sırasında | Güzel Hosting'in posta iletim hizmeti; yanıtlarımız alıcıya bu hizmet üzerinden iletilir, orada saklanmaz | Veri işleyen (Güzel Hosting'in alt hizmeti) |
 | **Google** (AEA, Birleşik Krallık ve İsviçre'de Google Ireland Limited; diğer yerlerde Google LLC, ABD) | Yalnız ödüllü videolara izin verdiysen (AEA, BK ve İsviçre'de ayrıca Google'ın formundaki seçimine göre): Bölüm 4.2'deki reklam verileri (cihazından doğrudan) ve bilet numarası | Ödüllü videoyu göstermek ve doğrulamak | Bağımsız veri sorumlusu |
-| **Apple** (Apple Distribution International Ltd. ve bağlı şirketleri) | Uygulamanın App Store'dan indirilmesi, satın almalar ve iadeler (bunları App Store'da doğrudan Apple ile yaparsın; satın alma ve iade bilgilerini Apple'ın imzaladığı işlem kaydı olarak alırız); iOS ayarlarında izin verdiysen Apple'ın kendi çökme ve kullanım istatistikleri. Apple ile giriş kullanırsan girişi Apple yürütür; Apple ile bağlı hesabını silerken sunucumuz, Apple ile giriş yetkisini iptal etmek için Apple'a tek kullanımlık bir kod gönderir (Bölüm 3.14). Yasanın istediği yerde ebeveyn onay isteğini Apple taşır; Apple bize ebeveyn onayının geri çekildiğini bildirebilir (Bölüm 3.15). Bildirimleri açtıysan: cihazının bildirim jetonu ve gönderilen bildirimin türü, sunucumuzdan (Bölüm 3.16) | App Store, ödeme, Apple ile giriş, ebeveyn onayı ve bildirim hizmetleri | Bağımsız veri sorumlusu (Apple'ın kendi politikası: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. ve bağlı şirketleri) | Uygulamanın App Store'dan indirilmesi, satın almalar ve iadeler (bunları App Store'da doğrudan Apple ile yaparsın; satın alma ve iade bilgilerini Apple'ın imzaladığı işlem kaydı olarak alırız); iOS ayarlarında izin verdiysen Apple'ın kendi çökme ve kullanım istatistikleri. Apple ile giriş kullanırsan girişi Apple yürütür; Apple ile bağlı hesabını silerken sunucumuz, Apple ile giriş yetkisini iptal etmek için Apple'a tek kullanımlık bir kod gönderir (Bölüm 3.14). Yasanın istediği yerde ebeveyn onay isteğini Apple taşır; Apple bize ebeveyn onayının geri çekildiğini bildirebilir (Bölüm 3.15). Bildirimleri açtıysan: cihazının bildirim jetonu ve gönderilen bildirimin türü, sunucumuzdan (Bölüm 3.16). Game Center'a girdiysen: kazandığın başarımlar, cihazından doğrudan (Bölüm 3.17) | App Store, ödeme, Apple ile giriş, ebeveyn onayı, bildirim ve Game Center hizmetleri | Bağımsız veri sorumlusu (Apple'ın kendi politikası: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (ABD) | Gerçek satın almalar için, yalnız sunucumuzdan: Apple'ın imzaladığı işlem kaydı, rastgele müşteri kodun ve gönderilmiş işlemlerin iade bildirimleri (Bölüm 3.9) | Satın alma ve iade kaydı, gelir raporu | Hizmet sağlayıcı; kendi koşulları (https://www.revenuecat.com/terms) ve gizlilik politikası (https://www.revenuecat.com/privacy) altında çalışır |
 | **Yetkili kamu kurumları ve mahkemeler** | Yalnız hukuken zorunlu olan kadarı | Hukuki yükümlülük | — |
 
@@ -520,6 +539,18 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
   sağlamayabilecek bir ülkede işlenebilir; oradaki kamu makamlarının erişimi farklı kurallara bağlı olabilir. Bunu
   istemiyorsan bildirimleri açmaman ya da kapatman yeterlidir; oyunun tamamı aynen oynanır. Apple bildirim hizmetini
   kendi koşulları ve gizlilik politikası altında sunar: https://www.apple.com/legal/privacy/.
+- **Apple, Game Center (yalnız Game Center'a girdiysen):** Kazandığın başarımlar cihazından doğrudan Türkiye dışındaki
+  Apple sunucularına, senin Game Center hesabına gider; bu, Game Center'da oturumun açık kaldıkça ve yeni bir başarım
+  kazandıkça **düzenli olarak** yapılır. Bu aktarım için Kişisel Verileri Koruma Kurulu'na bildirilmiş bir standart
+  sözleşme ya da taahhütname yoktur; bildiğimiz kadarıyla Kurul'un ilgili ülkeler hakkında bir yeterlilik kararı da
+  bulunmamaktadır. KVKK m.9/6(a), açık rızayı yalnız arızi aktarımlar için bir dayanak sayar; bu aktarım düzenli
+  olduğundan bu dayanağın ona uygulanıp uygulanamayacağı belirsizdir ve aktarımı ona dayandırdığımızı ileri sürmüyoruz.
+  Aktarımı en aza indirdik: giden yalnız başarımın kimliği ve tamamlandığı bilgisidir; adın, hesap numaran, ilerlemenin
+  geri kalanı ya da başka bir oyuncu gitmez, sunucumuz bu akışın içinde değildir. **Olası riskler:** bu bilgiler
+  Türkiye'dekiyle aynı koruma düzeyini sağlamayabilecek bir ülkede işlenebilir; oradaki kamu makamlarının erişimi farklı
+  kurallara bağlı olabilir. Bunu istemiyorsan Game Center'a girmemen ya da iOS Ayarları'ndan çıkman yeterlidir; oyunun
+  tamamı aynen oynanır. Apple Game Center'ı kendi koşulları ve gizlilik politikası altında sunar:
+  https://www.apple.com/legal/privacy/.
 - **RevenueCat (gerçek satın almalar):** Satın alma ve iade kayıtları, Bölüm 3.9'daki gibi, sunucumuzdan ABD'deki
   RevenueCat, Inc.'e gönderilir ve ABD'de işlenir. ABD için Türkiye'de bir yeterlilik kararı bulunmamaktadır. Bu
   aktarımı en aza indirdik: yalnız sunucumuzdan, gerçek satın almalar için ve rastgele bir kodla yapılır (test işlemleri
@@ -554,6 +585,7 @@ devralana geçebilir; bunu önceden oyunda duyururuz.
 | RevenueCat'teki müşteri kaydı ve satın alma/iade kayıtları (Bölüm 3.9) | Hesap açık kaldıkça; hesap silinince (talep ya da 12/36 ay hareketsizlik) RevenueCat'ten silinmesi istenir |
 | RevenueCat'e gönderilecek imzalı kaydın sunucumuzdaki kopyası | Gönderilene ya da gönderim başarısız olana kadar; en çok 30 gün |
 | RevenueCat gönderim kaydı (imzalı kayıt olmadan; işlem numarası ve müşteri kodu) | İade bildirimini iletebilmek için hesap açık kaldıkça (hesap silinince hemen silinir). Tamamlanan ya da başarısız işler ve silinen hesabın silme isteği (yalnız müşteri kodu; hesapla bağı yoktur): iş bittikten sonra 30 gün |
+| Başarımlar için savaş sayaçları (Bölüm 3.17) | Yalnız cihazında; uygulamayı ya da hesabını silene kadar. Sunucumuzda yoktur |
 | Bildirim jetonu ve seçilen türler (Bölüm 3.16) | Bildirimler açık kaldıkça; kapatınca ya da hesap silinince hemen; 12 ay yenilenmezse ya da Apple geçersiz derse silinir. Gönderim kayıtları: 30 gün |
 | Ad bildirimleri | 12 ay |
 | Moderasyon kayıtları | 24 ay |
@@ -732,6 +764,8 @@ bilgisi istemeyiz.
 - **Yaş yasaları ve ebeveyn onayı:** Yasanın istediği yerlerde (ör. ABD'de Texas, Utah ve Louisiana), 0.1.0 (16) ve
   sonraki sürümlerde Apple ile giriş ve yeni satın almalar, 18 yaşından küçük oyuncu için ebeveyn Apple üzerinden onay
   verene kadar bekler; ebeveyn onayı geri çekerse Apple uygulamanın açılmasını engeller. Ayrıntılar Bölüm 3.15'te.
+- **Game Center:** 13 yaşından küçük oyuncularda, yaşını paylaşmamayı seçenlerde (yasanın yaş sorduğu yerde) ve ebeveyn
+  onayı bekleyen reşit olmayanlarda oyun Game Center'ı hiç başlatmaz; başarımlar Apple'a gönderilmez (Bölüm 3.17).
 - **13 yaşından küçükler:** Çocuklardan ad, e-posta, telefon ya da başka bir iletişim bilgisi istemeyiz; iletişim
   bilgisi içeren oyuncu adlarını kabul etmeyiz. Oyunun her oyuncuda kullandığı rastgele hesap numarası ve kamu kimliği
   yalnız oyunun çalışması, ilerlemenin korunması ve hilenin önlenmesi için kullanılır; davranışa dayalı reklam ya da
@@ -765,7 +799,8 @@ Bu politikayı oyun ya da yasalar değiştikçe güncelleyebiliriz. Güncel sür
 ekranındaki bağlantıda yer alır. Önemli değişiklikleri yürürlüğe girmeden önce oyunda duyururuz. Bir değişiklik yeni
 bir rıza gerektiriyorsa (ör. ödüllü video izin metni değişirse) rızanı ayrıca isteriz.
 
-**Sürüm geçmişi.** 1.4 (15 Kasım 2026): isteğe bağlı bildirimler, 1.0 (19) ve sonraki sürümlerde (Bölüm 3.16, 5, 6,
+**Sürüm geçmişi.** 1.5 (20 Kasım 2026): isteğe bağlı Game Center başarımları, 1.0.1'den sonraki sürümlerde; başarımlar
+cihazdan doğrudan Apple'a gider, sunucumuza bir şey gelmez (Kısaca, Bölüm 3.13, 3.17, 5, 6, 7, 11). 1.4 (15 Kasım 2026): isteğe bağlı bildirimler, 1.0 (19) ve sonraki sürümlerde (Bölüm 3.16, 5, 6,
 7). 1.3 (15 Kasım 2026): Şampiyonlar'da kampanyada ulaşılan en yüksek seviyenin de görünmesi
 (Bölüm 3.5); yeni veri toplanmaz. 1.2 (12 Kasım 2026): isteğe bağlı Apple ile giriş, 0.1.0 (16) ve sonraki sürümlerde (Kısaca, Az veri
 ilkemiz, Bölüm 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Apple ile bağlanmış hesaplarda 36 aylık hareketsizlik süresi

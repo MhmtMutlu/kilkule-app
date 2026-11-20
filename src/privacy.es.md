@@ -2,7 +2,7 @@
 
 > Esta traducción se facilita únicamente a título informativo. En caso de discrepancia, prevalece la versión turca.
 
-**Fecha de entrada en vigor:** 15 de noviembre de 2026 · **Versión:** 1.4 (versión anterior 1.3, 15 de noviembre de 2026; cambios en la sección 13)
+**Fecha de entrada en vigor:** 20 de noviembre de 2026 · **Versión:** 1.5 (versión anterior 1.4, 15 de noviembre de 2026; cambios en la sección 13)
 
 Este texto se ha elaborado como aviso informativo conforme al artículo 10 de la KVKK (Ley turca n.º 6698 de Protección de
 Datos Personales) y como información conforme al artículo 13 del Reglamento General de Protección de Datos (RGPD) de la UE.
@@ -28,6 +28,8 @@ Aviso informativo breve de la KVKK y texto de consentimiento explícito para los
   juego esperan, para un jugador menor de 18 años, **hasta que su madre o su padre den su aprobación a través de
   Apple**; los registros de esa aprobación solo se quedan en tu dispositivo (sección 3.15).
 - **No te rastreamos**, **no vendemos** tus datos y no mostramos anuncios personalizados.
+- **Game Center es opcional.** Si has iniciado sesión en Game Center en tu iPhone, los logros que consigues van de tu
+  dispositivo directamente a Apple; no recibimos esos datos ni tu ID de jugador de Game Center (sección 3.17).
 - **Los vídeos con recompensa son siempre opcionales.** Estos vídeos los muestra Google. En todos los países, primero
   **te pedimos permiso** en una pantalla propia del juego; si no lo das, no se envía ninguna información a Google y puedes
   jugar a todo el juego exactamente igual. En Europa, si das tu permiso, después aparece también el formulario propio de
@@ -312,7 +314,7 @@ lugar que tú elijas.
 
 Tus ajustes (sonido, vibración, ahorro de batería), la versión de las Condiciones de uso que aceptaste y la fecha, la
 versión y la fecha del aviso de cambio de la política de privacidad que viste, la copia de tu progreso en el dispositivo, los resultados que aún no se
-han enviado al servidor, la lista de jugadores que has bloqueado, tu clave de sesión (en el llavero), tu respuesta sobre el
+han enviado al servidor, la lista de jugadores que has bloqueado, los contadores de combate para los logros (sección 3.17), tu clave de sesión (en el llavero), tu respuesta sobre el
 permiso de vídeos con recompensa, para los jugadores en Europa, tus elecciones en el formulario de consentimiento de
 Google, la respuesta de iOS sobre el rango de edad y los registros relacionados con la aprobación parental (sección 3.15)
 se guardan en tu dispositivo. Son necesarios para que el juego funcione. La lista de jugadores bloqueados, la respuesta
@@ -433,6 +435,23 @@ Una notificación nunca contiene tu nombre, tu número de cuenta, tu puntuación
 su tipo, y tu dispositivo muestra el texto en su propio idioma. El archivo de «Descargar mis datos» solo muestra los
 últimos 6 caracteres del token.
 
+### 3.17 Logros de Game Center (opcionales; versiones posteriores a la 1.0.1)
+
+El juego ofrece logros en Game Center, el servicio de Apple (por ejemplo, completar una era o conseguir 100 estrellas).
+Los logros no dan nada en el juego; se calculan solo en tu dispositivo, a partir de tu progreso. Si has iniciado sesión
+en Game Center en tu iPhone (o la inicias cuando el juego te lo pregunta una vez, tras unos niveles), los logros que
+consigues se envían desde tu dispositivo directamente a Apple, a tu propia cuenta de Game Center. Si no usas Game Center,
+esta transferencia nunca ocurre y el juego sigue igual. Para los jugadores menores de 13 años (y, donde la ley pide la
+edad, quienes eligieron no compartirla) y para los menores que esperan la aprobación de un progenitor, el juego nunca
+inicia Game Center.
+
+| | |
+| --- | --- |
+| **Datos** | A Apple, desde tu dispositivo: los identificadores de los logros conseguidos y que están completados. Para calcular los logros, en tu dispositivo se llevan contadores de combate (p. ej., cuántos enemigos se derrotaron, cuántas defensas se colocaron); se quedan en la copia de tu progreso en el dispositivo y no se envían a nuestro servidor. El ID de jugador que da Game Center, tu nombre en Game Center y tu lista de amigos **no los recibimos, no los guardamos, no los enviamos a nuestro servidor ni los vinculamos con tu cuenta de jugador**; qué logros ya se concedieron lo lee el juego cada vez de Game Center |
+| **Finalidad** | Mostrar los logros conseguidos en tu perfil de Game Center |
+| **Base jurídica** | Celebración y ejecución del contrato (ofrecer una función opcional del juego en la cuenta de Game Center que abriste): KVKK art. 5/2(c) · RGPD art. 6.1.b). Lo detienes cuando quieras cerrando la sesión de Game Center en los ajustes de iOS |
+| **Conservación** | Ninguna en nuestro servidor: estos datos no nos llegan. Los contadores se quedan en tu dispositivo hasta que eliminas la aplicación o tu cuenta. Apple conserva tus logros en Game Center según su propia política; eliminar tu cuenta no los elimina |
+| **Destinatario** | Apple (Game Center), responsable del tratamiento independiente (secciones 5 y 6) |
 ## 4. Vídeos con recompensa y anuncios (Google AdMob)
 
 En Kilkule no hay anuncios que interrumpan el juego. El único anuncio es el vídeo con recompensa que puedes elegir ver al
@@ -516,7 +535,7 @@ información de los sitios web o aplicaciones que utilizan sus servicios» (http
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — correo electrónico corporativo | Los correos electrónicos que nos escribes y nuestras respuestas | Nuestra dirección de soporte está alojada en este servicio; los correos electrónicos se guardan en los servidores de Güzel Hosting en Türkiye | Encargado del tratamiento |
 | **MailChannels Corporation** (Canadá; sus servidores están en Norteamérica) | El contenido de las respuestas que te enviamos y tu dirección de correo electrónico, solo durante la transmisión | Servicio de transmisión de correo de Güzel Hosting; nuestras respuestas se transmiten al destinatario a través de este servicio y no se guardan allí | Encargado del tratamiento (servicio subcontratado de Güzel Hosting) |
 | **Google** (Google Ireland Limited en el EEE, el Reino Unido y Suiza; Google LLC, EE. UU., en el resto) | Solo si has dado tu permiso para los vídeos con recompensa (en el EEE, el Reino Unido y Suiza, además según tu elección en el formulario de Google): los datos publicitarios de la sección 4.2 (directamente desde tu dispositivo) y el número de ticket | Mostrar y verificar el vídeo con recompensa | Responsable del tratamiento independiente |
-| **Apple** (Apple Distribution International Ltd. y sus filiales) | La descarga de la aplicación desde la App Store, las compras y los reembolsos (los haces directamente con Apple en la App Store; recibimos la información de las compras y los reembolsos como registro de la transacción firmado por Apple); si lo has permitido en los ajustes de iOS, las estadísticas propias de Apple sobre fallos y uso. Si usas Iniciar sesión con Apple, el inicio de sesión lo gestiona Apple; cuando eliminas tu cuenta vinculada con Apple, nuestro servidor envía a Apple un código de un solo uso para revocar la autorización para Iniciar sesión con Apple (sección 3.14). Donde lo exige la ley, la solicitud de aprobación parental la transmite Apple; Apple puede notificarnos que se ha retirado la aprobación parental (sección 3.15). Si activaste las notificaciones: el token de notificaciones de tu dispositivo y el tipo de notificación enviada, desde nuestro servidor (sección 3.16) | Servicios de la App Store, de pago, de Iniciar sesión con Apple, de aprobación parental y de notificaciones | Responsable del tratamiento independiente (política propia de Apple: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. y sus filiales) | La descarga de la aplicación desde la App Store, las compras y los reembolsos (los haces directamente con Apple en la App Store; recibimos la información de las compras y los reembolsos como registro de la transacción firmado por Apple); si lo has permitido en los ajustes de iOS, las estadísticas propias de Apple sobre fallos y uso. Si usas Iniciar sesión con Apple, el inicio de sesión lo gestiona Apple; cuando eliminas tu cuenta vinculada con Apple, nuestro servidor envía a Apple un código de un solo uso para revocar la autorización para Iniciar sesión con Apple (sección 3.14). Donde lo exige la ley, la solicitud de aprobación parental la transmite Apple; Apple puede notificarnos que se ha retirado la aprobación parental (sección 3.15). Si activaste las notificaciones: el token de notificaciones de tu dispositivo y el tipo de notificación enviada, desde nuestro servidor (sección 3.16). Si has iniciado sesión en Game Center: los logros que consigues, directamente desde tu dispositivo (sección 3.17) | Servicios de la App Store, de pago, de Iniciar sesión con Apple, de aprobación parental, de notificaciones y Game Center | Responsable del tratamiento independiente (política propia de Apple: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (EE. UU.) | Para las compras reales, solo desde nuestro servidor: el registro de la transacción firmado por Apple, tu código de cliente aleatorio y las notificaciones de reembolso de transacciones ya enviadas (sección 3.9) | Registro de compras y reembolsos, informe de ingresos | Proveedor de servicios; trabaja según sus propias condiciones (https://www.revenuecat.com/terms) y su política de privacidad (https://www.revenuecat.com/privacy) |
 | **Autoridades públicas y tribunales competentes** | Solo lo que sea legalmente obligatorio | Obligación legal | — |
 
@@ -589,6 +608,19 @@ adquirente con el nivel de protección de esta política; lo anunciaremos antes 
   puede estar sujeto a reglas distintas. Si no lo quieres, basta con no activar las notificaciones o desactivarlas; todo
   el juego se juega exactamente igual. Apple presta su servicio de notificaciones conforme a sus propias condiciones y su
   política de privacidad: https://www.apple.com/legal/privacy/.
+- **Apple, Game Center (solo si has iniciado sesión en Game Center):** Los logros que consigues van de tu dispositivo
+  directamente a los servidores de Apple fuera de Turquía, a tu cuenta de Game Center; esto ocurre **de forma
+  regular**, con cada logro nuevo mientras sigas con la sesión iniciada. Para esta transferencia no existe un contrato
+  tipo ni un compromiso notificado a la Autoridad turca de protección de datos y, que sepamos, la Autoridad no ha
+  adoptado una decisión de adecuación para los países afectados. El art. 9/6(a) de la KVKK solo admite el consentimiento
+  explícito como base para transferencias ocasionales; como esta transferencia es regular, no está claro que esa base
+  pueda aplicarse y no afirmamos basarnos en ella. Hemos reducido la transferencia al mínimo: solo van el identificador
+  del logro y que está completado; ni tu nombre, ni tu número de cuenta, ni el resto de tu progreso, ni otro jugador, y
+  nuestro servidor no forma parte de este flujo. **Posibles riesgos:** estos datos pueden tratarse en un país que quizá no
+  ofrezca el mismo nivel de protección que Turquía, y las autoridades públicas de allí pueden acceder con otras reglas.
+  Si no lo deseas, basta con no iniciar sesión en Game Center o cerrarla en los ajustes de iOS; todo el juego sigue
+  igual. Apple ofrece Game Center según sus propias condiciones y su política de privacidad:
+  https://www.apple.com/legal/privacy/.
 - **RevenueCat (compras reales):** Los registros de compra y reembolso se envían desde nuestro servidor a
   RevenueCat, Inc. en EE. UU., como se describe en la sección 3.9, y se tratan en EE. UU. Según el derecho turco no existe
   una decisión de adecuación para EE. UU. Reducimos esta transferencia al mínimo: se hace solo desde nuestro servidor,
@@ -626,6 +658,7 @@ adquirente con el nivel de protección de esta política; lo anunciaremos antes 
 | Ficha de cliente y registros de compra/reembolso en RevenueCat (sección 3.9) | Mientras exista la cuenta; al eliminarse la cuenta (solicitud o 12/36 meses de inactividad) se pide su eliminación a RevenueCat |
 | Copia, en nuestro servidor, de un registro firmado pendiente de envío a RevenueCat | Hasta que se envía o el envío falla; como máximo 30 días |
 | Constancia de los envíos a RevenueCat (sin el registro firmado; número de transacción y código de cliente) | Mientras exista la cuenta, para poder reenviar las notificaciones de reembolso (se elimina en el acto con la cuenta). Tareas completadas o fallidas y solicitud de eliminación de una cuenta eliminada (solo el código de cliente; sin vínculo con la cuenta): 30 días después de terminar la tarea |
+| Contadores de combate para los logros (sección 3.17) | Solo en tu dispositivo, hasta que eliminas la aplicación o tu cuenta. No en nuestro servidor |
 | Token de notificaciones y tipos elegidos (sección 3.16) | Mientras las notificaciones sigan activadas; se eliminan en el acto al desactivarlas o al eliminarse la cuenta, o si el token no se renueva durante 12 meses o Apple informa de que no es válido. Registros de envío: 30 días |
 | Denuncias de nombres | 12 meses |
 | Registros de moderación | 24 meses |
@@ -829,6 +862,9 @@ nacimiento, nombre, correo electrónico ni datos de contacto.
   versión 0.1.0 (16) y posteriores, Iniciar sesión con Apple y las compras nuevas esperan, para el jugador menor de 18
   años, hasta que su madre o su padre den su aprobación a través de Apple; si la madre o el padre retiran la aprobación,
   Apple impide que la aplicación se abra. Más detalles en la sección 3.15.
+- **Game Center:** para los jugadores menores de 13 años, quienes eligieron no compartir su edad (donde la ley la
+  pide) y los menores que esperan la aprobación de un progenitor, el juego nunca inicia Game Center; no se envía ningún
+  logro a Apple (sección 3.17).
 - **Menores de 13 años:** A los niños y niñas no les pedimos nombre, correo electrónico, teléfono ni ningún otro dato de
   contacto; no aceptamos nombres de jugador que contengan datos de contacto. El número de cuenta aleatorio y el
   identificador público que el juego usa para cada jugador solo se usan para que el juego funcione, proteger el progreso y
@@ -869,7 +905,9 @@ y en el enlace de la pantalla de Ajustes del juego. Anunciamos los cambios impor
 vigor. Si un cambio requiere un nuevo consentimiento (p. ej., si cambia el texto del permiso de vídeos con recompensa), te
 pediremos tu consentimiento por separado.
 
-**Historial de versiones.** 1.4 (15 de noviembre de 2026): notificaciones opcionales, en la versión 1.0 (19) y
+**Historial de versiones.** 1.5 (20 de noviembre de 2026): logros de Game Center opcionales, en las versiones
+posteriores a la 1.0.1; los logros van del dispositivo directamente a Apple y a nuestro servidor no llega nada (En
+resumen, secciones 3.13, 3.17, 5, 6, 7, 11). 1.4 (15 de noviembre de 2026): notificaciones opcionales, en la versión 1.0 (19) y
 posteriores (secciones 3.16, 5, 6, 7). 1.3 (15 de noviembre de 2026): la tabla de Campeones muestra también el nivel más alto alcanzado en la campaña (sección 3.5); no se recogen datos nuevos. 1.2 (12 de noviembre de 2026): Iniciar sesión con Apple opcional, en la versión 0.1.0 (16)
 y posteriores (En resumen, Nuestro principio, secciones 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); plazo de inactividad de
 36 meses en las cuentas vinculadas con Apple (En resumen, secciones 3.1, 7, 8.2); caso de revisión en las denuncias de

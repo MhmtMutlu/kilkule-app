@@ -1,6 +1,6 @@
 # Kilkule · Kişisel Verilerin İşlenmesine İlişkin Aydınlatma Metni
 
-**Yürürlük tarihi:** 15 Kasım 2026 · **Sürüm:** 1.3 (1.3: isteğe bağlı bildirimler, 2.–6. maddeler; önceki sürüm 1.2, 12 Kasım 2026; 1.1, 8 Kasım 2026: satın alma ve iade kayıtlarının
+**Yürürlük tarihi:** 20 Kasım 2026 · **Sürüm:** 1.4 (1.4: isteğe bağlı Game Center başarımları, 2.–5. maddeler; 1.3, 15 Kasım 2026: isteğe bağlı bildirimler, 2.–6. maddeler; önceki sürüm 1.2, 12 Kasım 2026; 1.1, 8 Kasım 2026: satın alma ve iade kayıtlarının
 RevenueCat'e raporlanması, satın alma taşıma ve iade bildirim kayıtları, Google'a aktarımın düzenli niteliği ve
 "çocuklara yönelik işleme" işareti eklendi; 1.2: isteğe bağlı Apple ile giriş, ad bildirimlerinde inceleme vakası,
 yaş yasalarının istediği yerlerde ebeveyn onayı ve Apple'ın onayın geri çekildiğine ilişkin bildirimi; 2.–6. maddeler)
@@ -54,6 +54,11 @@ içermese de kişisel veri sayılır (takma adlı veri). İşlediğimiz veriler:
   gördüğün sürüm ve tarih; iOS'un yaş aralığı özelliğinin verdiği "18 yaşından küçük mü" cevabı; yasanın önemli
   değişikliklerde ebeveyn onayı ya da yetişkin bildirimi isteyip istemediği, hangi değişikliklerin onaylandığı ya da
   istendiği ve en son görülen App Store yaş derecesi (bunlar bize gönderilmez; ebeveyn onay isteğini Apple taşır).
+- **Game Center (isteğe bağlı; yalnız iOS'ta Game Center'a girdiysen):** kazandığın başarımların kimlikleri ve
+  tamamlandıkları bilgisi, cihazından doğrudan Apple'a gider; bize gelmez. Başarımları hesaplamak için tutulan savaş
+  sayaçları (ör. yenilen düşman, kurulan savunma sayısı) yalnız cihazında kalır. Game Center oyuncu kimliğini, adını ya
+  da arkadaş listeni almayız ve hesabınla eşleştirmeyiz. 13 yaşından küçüklerde ve ebeveyn onayı bekleyenlerde oyun
+  Game Center'ı başlatmaz.
 - **Bize yazarsan:** e-posta adresin ve mesajın.
 
 **3. Amaçlar.** Oyunu ve çevrim içi özelliklerini (ilerleme yedeği, ödüller, lig ve sıralamalar) sunmak; sonuçları
@@ -62,7 +67,7 @@ oyuncuya nedenini bildirmek; bir adın kalıcı olarak yasaklanmasına yalnız b
 sağlamak, bildirimlerin sahte ya da toplu hesaplarla kötüye kullanılmasını tespit etmek, kararları ispat etmek ve
 itirazları incelemek; isteğe bağlı Apple ile girişle hesabı başka cihazda sürdürmek ve hesap silinirken Apple ile giriş
 yetkisini iptal etmek; yasanın istediği yerlerde önemli değişikliklerde ebeveyn onayını Apple üzerinden istemek ve
-Apple'ın onayın geri çekildiğine ilişkin bildirimini bir kez işlemek; seçtiğin kısa bildirimleri (Zaman Yarığı serisi, Haftalık Lig'de ilk 3'ten düşme, lig hediyesi) göndermek; satın almaları, lig hediyelerini ve ödüllü video ödüllerini vermek; satın alma ve iade
+Apple'ın onayın geri çekildiğine ilişkin bildirimini bir kez işlemek; seçtiğin kısa bildirimleri (Zaman Yarığı serisi, Haftalık Lig'de ilk 3'ten düşme, lig hediyesi) göndermek; Game Center'a girdiysen kazandığın başarımları Game Center profilinde göstermek; satın almaları, lig hediyelerini ve ödüllü video ödüllerini vermek; satın alma ve iade
 kayıtlarını raporlamak (gelir ve iade analitiği) ve RevenueCat'in Apple'dan yaptığı doğrulama bizimkiyle çelişirse bunu
 hile önleme için incelemek; ödüllü videoları açık
 rızanla Google AdMob aracılığıyla göstermek ve rızanı ispat edebilmek; hizmetin güvenliğini sağlamak; uzun süre (12 ay, satın
@@ -72,7 +77,8 @@ alma yapılmış ya da Apple ile bağlanmış hesapta 36 ay) kullanılmayan hesa
 yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
 
 - Bir sözleşmenin kurulması veya ifasıyla doğrudan ilgili olması (KVKK m.5/2(c)): hesap, oyun verileri, sıralamalar,
-  lig hediyeleri, satın almalar, ödüllü video ödülü, isteğe bağlı Apple ile giriş (bağlamayı sen istersin).
+  lig hediyeleri, satın almalar, ödüllü video ödülü, isteğe bağlı Apple ile giriş (bağlamayı sen istersin), isteğe bağlı
+  Game Center başarımları (Game Center'a girip çıkmak senin elindedir; iOS Ayarları'ndan çıkınca aktarım durur).
 - Veri sorumlusunun meşru menfaati (m.5/2(f)): ad inceleme vakaları ve bildirenlerin sinyalleri (birkaç sahte hesapla
   başkasının adının aldırılmasını önlemek); hesap silinirken Apple ile giriş yetkisinin iptali; önemli değişikliklerde
   ebeveyn onayının cihazda istenmesi ve kaydı ile Apple'ın onayın geri çekildiğine ilişkin bildiriminin kaydı
@@ -134,7 +140,13 @@ yazdığında ise e-posta yoluyla toplanır. Hukuki sebepler:
   dayandırdığımızı ileri sürmüyoruz. Aktarımı en aza indirdik: giden yalnız Apple'ın ürettiği jeton ve bildirimin
   türüdür; adın, hesap numaran, puanın ya da başka bir oyuncu gitmez. **Olası riskler:** bu bilgiler Türkiye'dekiyle
   aynı koruma düzeyini sağlamayabilecek bir ülkede işlenebilir. İstemiyorsan bildirimleri açmaman ya da kapatman
-  yeterlidir. Apple bağımsız veri
+  yeterlidir. Game Center'a girdiysen kazandığın başarımlar cihazından doğrudan Türkiye dışındaki Apple sunucularına,
+  senin Game Center hesabına gider; bu da oturumun açık kaldıkça, yeni başarım kazandıkça yapılan düzenli bir yurt dışı
+  aktarımdır. Bunun için de Kurul'a bildirilmiş bir standart sözleşme ya da taahhütname ve bildiğimiz kadarıyla bir
+  yeterlilik kararı yoktur; aktarımı açık rızaya dayandırdığımızı ileri sürmüyoruz. Giden yalnız başarımın kimliği ve
+  tamamlandığı bilgisidir; adın, hesap numaran ya da ilerlemenin geri kalanı gitmez, sunucumuz bu akışta yer almaz.
+  **Olası riskler:** bu bilgiler Türkiye'dekiyle aynı koruma düzeyini sağlamayabilecek bir ülkede işlenebilir.
+  İstemiyorsan Game Center'a girmemen ya da çıkman yeterlidir; oyun aynen oynanır. Apple bağımsız veri
   sorumlusudur ve kendi gizlilik politikasına tabidir (https://www.apple.com/legal/privacy/).
 - **Yurt dışındaki hizmet sağlayıcı: RevenueCat, Inc. (ABD; yurt dışı aktarım, KVKK m.9):** Amaç: satın alma ve iade
   kayıtlarının raporlanması; RevenueCat'in Apple'dan yaptığı doğrulama bizimkiyle çelişirse hile önleme kaydı açılması

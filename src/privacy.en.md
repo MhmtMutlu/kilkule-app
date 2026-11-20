@@ -2,7 +2,7 @@
 
 > This translation is provided for information. If there is any difference, the Turkish version prevails.
 
-**Effective date:** 15 November 2026 · **Version:** 1.4 (previous version 1.3, 15 November 2026; changes in Section 13)
+**Effective date:** 20 November 2026 · **Version:** 1.5 (previous version 1.4, 15 November 2026; changes in Section 13)
 
 This policy is our information notice under Article 10 of the Turkish Personal Data Protection Law No. 6698 ("KVKK") and
 under Article 13 of the EU General Data Protection Regulation ("GDPR"). The short KVKK notice and the consent text for
@@ -26,6 +26,8 @@ rewarded videos: https://kilkule.mm-apps.com/kvkk/. The Turkish text is the bind
   player under 18, **until a parent gives approval through Apple;** the records of this approval stay only on your
   device (Section 3.15).
 - **We do not track you,** we **do not sell** your data and we do not show personalised ads.
+- **Game Center is optional.** If you are signed in to Game Center on your iPhone, the achievements you earn go from your
+  device directly to Apple; we never receive them or your Game Center player ID (Section 3.17).
 - **Rewarded videos are always optional.** Google shows these videos. In every country we first **ask for your
   permission** on the game's own screen; if you say no, nothing goes to Google and you can play the whole game just the
   same. In Europe, if you agree, Google's own form follows.
@@ -293,7 +295,7 @@ The data file itself is not stored on the server; it is prepared on your device 
 
 Your settings (sound, vibration, battery saver), the version and date of the Terms of Use you accepted, the version and
 date of the privacy policy change notice you saw, the copy of your progress on the device, results not yet sent to the
-server, your list of blocked players, your session key (in the keychain), your rewarded-video permission answer, for
+server, your list of blocked players, the battle counters kept for achievements (Section 3.17), your session key (in the keychain), your rewarded-video permission answer, for
 players in Europe, your choices in Google's consent form, iOS's age range answer and the records relating to parental
 approval (Section 3.15) are stored on your device. These are needed for the game to work. Your list of blocked players,
 the age range answer and the parental approval records are not sent to us. Deleting the app deletes this data too (the
@@ -406,6 +408,23 @@ A notification never contains your name, account number, score, rank or another 
 your device shows the words in its own language. The "Download my data" file shows only the last 6 characters of the
 token.
 
+### 3.17 Game Center achievements (optional; versions after 1.0.1)
+
+The game offers achievements in Apple's Game Center (for example completing an age or collecting 100 stars).
+Achievements pay nothing in the game; they are worked out only on your device, from your progress. If you are signed in
+to Game Center on your iPhone (or sign in when the game asks once, after a few levels), the achievements you earn are sent
+from your device directly to Apple, to your own Game Center account. If you don't use Game Center, the transfer in this
+section never happens and the game plays the same. For players under 13 (and, where the law asks for an age, those who
+chose not to share it) and for minors waiting for a parent's approval, the game never starts Game Center.
+
+| | |
+| --- | --- |
+| **Data** | To Apple, from your device: the identifiers of the achievements you earned and that they are complete. To work out achievements, battle counters are kept on your device (e.g. how many enemies were defeated, how many defenses were built); they stay in the on-device copy of your progress and are not sent to our server. We **do not receive, store, send to our server or link to your player account** the player ID Game Center gives, your Game Center name or your friends list; the game reads from Game Center each time which achievements were already granted |
+| **Purpose** | To show the achievements you earned on your Game Center profile |
+| **Legal basis** | Entering into and performing the contract (providing an optional feature of the game in the Game Center account you opened): KVKK Art. 5(2)(c) · GDPR Art. 6(1)(b). You stop it at any time by signing out of Game Center in iOS Settings |
+| **Retention** | None on our server: this information never reaches us. The counters stay on your device until you delete the app or your account. Apple keeps your achievements in Game Center under its own policy; deleting your account does not delete them |
+| **Recipient** | Apple (Game Center), independent controller (Sections 5 and 6) |
+
 ## 4. Rewarded videos and ads (Google AdMob)
 
 Kilkule has no ads that interrupt the game. The only ad is the rewarded video you can choose to watch at the end of a
@@ -481,7 +500,7 @@ We **do not sell** your data and we **do not share** it for behavioural advertis
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkiye) — corporate email | Emails you send us and our replies | Our support address is hosted on this service; emails are stored on Güzel Hosting's servers in Türkiye | Processor |
 | **MailChannels Corporation** (Canada; servers in North America) | The content of the replies we send you and your email address, only while in transit | Güzel Hosting's mail relay service; our replies are delivered to you through it and are not stored there | Processor (a sub-service of Güzel Hosting) |
 | **Google** (Google Ireland Limited in the EEA, the United Kingdom and Switzerland; Google LLC, USA, elsewhere) | Only if you agreed to rewarded videos (in the EEA, the UK and Switzerland, also according to your choice in Google's form): the advertising data in Section 4.2 (directly from your device) and the ticket number | Showing and verifying the rewarded video | Independent controller |
-| **Apple** (Apple Distribution International Ltd. and its affiliates) | Downloads of the app from the App Store, purchases and refunds (you make these directly with Apple on the App Store; we receive purchase and refund information as a transaction record signed by Apple); if you allowed it in iOS settings, Apple's own crash and usage statistics. If you use Sign in with Apple, Apple runs the sign-in; when you delete your account linked with Apple, our server sends Apple a single-use code to revoke the Sign in with Apple authorisation (Section 3.14). Where the law requires it, Apple carries the parental approval request; Apple may notify us that parental approval has been withdrawn (Section 3.15). If you turned notifications on: your device's push token and the kind of notification sent, from our server (Section 3.16) | App Store, payment, Sign in with Apple, parental approval and notification services | Independent controller (Apple's own policy: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. and its affiliates) | Downloads of the app from the App Store, purchases and refunds (you make these directly with Apple on the App Store; we receive purchase and refund information as a transaction record signed by Apple); if you allowed it in iOS settings, Apple's own crash and usage statistics. If you use Sign in with Apple, Apple runs the sign-in; when you delete your account linked with Apple, our server sends Apple a single-use code to revoke the Sign in with Apple authorisation (Section 3.14). Where the law requires it, Apple carries the parental approval request; Apple may notify us that parental approval has been withdrawn (Section 3.15). If you turned notifications on: your device's push token and the kind of notification sent, from our server (Section 3.16). If you are signed in to Game Center: the achievements you earn, directly from your device (Section 3.17) | App Store, payment, Sign in with Apple, parental approval, notification and Game Center services | Independent controller (Apple's own policy: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (USA) | For real purchases, only from our server: Apple's signed transaction record, your random customer code and refund notifications for transactions already sent (Section 3.9) | Purchase and refund records, revenue reporting | Service provider; works under its own terms (https://www.revenuecat.com/terms) and privacy policy (https://www.revenuecat.com/privacy) |
 | **Competent public authorities and courts** | Only what is legally required | Legal obligation | — |
 
@@ -544,6 +563,18 @@ the level of protection in this policy; we will announce this in the game before
   under different rules. If you do not want this, simply leave notifications off or turn them off; the whole game plays
   the same. Apple provides its notification service under its own terms and privacy policy:
   https://www.apple.com/legal/privacy/.
+- **Apple, Game Center (only if you are signed in to Game Center):** The achievements you earn go from your device
+  directly to Apple's servers outside Türkiye, to your Game Center account; this happens **regularly**, whenever you earn
+  a new achievement while you stay signed in. There is no standard contract or undertaking notified to Türkiye's Personal
+  Data Protection Board for this transfer, and as far as we know there is no adequacy decision of the Board for the
+  countries concerned. Article 9(6)(a) KVKK treats explicit consent as a basis only for occasional transfers; as this
+  transfer is regular, it is unclear whether that basis can apply to it, and we do not claim to rely on it. We have kept
+  the transfer to a minimum: only the achievement's identifier and that it is complete go; your name, account number,
+  the rest of your progress or another player never do, and our server is not part of this flow. **Possible risks:**
+  this information may be processed in a country that may not offer the same level of protection as Türkiye, and public
+  authorities there may have access under different rules. If you do not want this, simply don't sign in to Game Center
+  or sign out in iOS Settings; the whole game plays the same. Apple provides Game Center under its own terms and privacy
+  policy: https://www.apple.com/legal/privacy/.
 - **RevenueCat (real purchases):** Purchase and refund records are sent from our server to RevenueCat, Inc. in the
   USA, as described in Section 3.9, and processed in the USA. There is no adequacy decision for the USA under Turkish
   law. We keep this transfer to a minimum: it is made only from our server, for real purchases (test transactions only
@@ -578,6 +609,7 @@ the level of protection in this policy; we will announce this in the game before
 | The customer record and purchase/refund records at RevenueCat (Section 3.9) | As long as the account exists; when the account is deleted (on request or after 12/36 months of inactivity), deletion at RevenueCat is requested |
 | The copy on our server of a signed record waiting to be sent to RevenueCat | Until it is sent or the sending fails; at most 30 days |
 | The RevenueCat sending record (without the signed record; transaction number and customer code) | As long as the account exists, so that refund notifications can be forwarded (deleted at once when the account is deleted). Completed or failed jobs and the deletion request of a deleted account (customer code only; not linked to the account): 30 days after the job ends |
+| Battle counters for achievements (Section 3.17) | Only on your device, until you delete the app or your account. Not on our server |
 | Push token and chosen kinds (Section 3.16) | While notifications are on; deleted at once when turned off or when the account is deleted, or if not refreshed for 12 months or reported invalid by Apple. Send records: 30 days |
 | Name reports | 12 months |
 | Moderation records | 24 months |
@@ -768,6 +800,8 @@ their date of birth, name, email or contact details.
 - **Age laws and parental approval:** Where the law requires it (e.g. Texas, Utah and Louisiana in the USA), in version
   0.1.0 (16) and later, Sign in with Apple and new purchases wait, for a player under 18, until a parent gives approval
   through Apple; if the parent withdraws approval, Apple prevents the app from opening. Details are in Section 3.15.
+- **Game Center:** for players under 13, those who chose not to share their age (where the law asks for it) and minors
+  waiting for a parent's approval, the game never starts Game Center; no achievements are sent to Apple (Section 3.17).
 - **Children under 13:** We do not ask children for their name, email, phone number or any other contact details; we do
   not accept player names containing contact details. The random account number and public ID the game uses for every
   player are used only to run the game, protect progress and prevent cheating; they are not used for behavioural
@@ -803,7 +837,8 @@ We may update this policy as the game or the law changes. The current version is
 link in the game's Settings screen. We announce important changes in the game before they take effect. If a change
 requires new consent (e.g. if the rewarded-video permission text changes), we will ask for your consent separately.
 
-**Version history.** 1.4 (15 November 2026): optional notifications, in version 1.0 (19) and later (Sections 3.16, 5,
+**Version history.** 1.5 (20 November 2026): optional Game Center achievements, in versions after 1.0.1; achievements go
+from the device directly to Apple and nothing reaches our server (In short, Sections 3.13, 3.17, 5, 6, 7, 11). 1.4 (15 November 2026): optional notifications, in version 1.0 (19) and later (Sections 3.16, 5,
 6, 7). 1.3 (15 November 2026): the Champions table also shows the highest campaign level reached (Section 3.5); no new data is collected. 1.2 (12 November 2026): optional Sign in with Apple, in version 0.1.0 (16) and later (In short,
 Our principle, Sections 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); a 36-month inactivity period for accounts linked with
 Apple (In short, 3.1, 7, 8.2); review cases for name reports, reporters' signals without their identity, permanent bans

@@ -2,7 +2,7 @@
 
 > Diese Übersetzung dient nur zur Information. Bei Abweichungen ist die türkische Fassung maßgeblich.
 
-**Gültig ab:** 15. November 2026 · **Version:** 1.4 (vorherige Version 1.3, 15. November 2026; Änderungen in Abschnitt 13)
+**Gültig ab:** 20. November 2026 · **Version:** 1.5 (vorherige Version 1.4, 15. November 2026; Änderungen in Abschnitt 13)
 
 Dieser Text ist als Informationstext nach Art. 10 KVKK (türkisches Gesetz Nr. 6698 zum Schutz personenbezogener Daten)
 und als Information nach Art. 13 der EU-Datenschutz-Grundverordnung (DSGVO) verfasst. Kurzer KVKK-Informationstext und
@@ -30,6 +30,8 @@ türkische Text (siehe Abschnitt 15).
   mit sich bringen, bei Spielern unter 18 Jahren, **bis ein Elternteil über Apple zustimmt**; die Einträge zu dieser
   Zustimmung bleiben nur auf deinem Gerät (Abschnitt 3.15).
 - **Wir verfolgen dich nicht,** wir **verkaufen** deine Daten **nicht** und zeigen keine personalisierte Werbung.
+- **Game Center ist freiwillig.** Wenn du auf deinem iPhone bei Game Center angemeldet bist, gehen deine Erfolge von
+  deinem Gerät direkt an Apple; wir erhalten weder sie noch deine Game-Center-Spieler-ID (Abschnitt 3.17).
 - **Belohnungsvideos sind immer freiwillig.** Diese Videos zeigt Google. In jedem Land **bitten wir dich** zuerst im
   eigenen Bildschirm des Spiels **um deine Erlaubnis;** gibst du sie nicht, gehen keinerlei Informationen an Google, und
   du spielst das ganze Spiel genauso. Wenn du in Europa deine Erlaubnis gibst, folgt danach auch das eigene Formular von
@@ -318,7 +320,7 @@ oder dorthin geteilt, wo du es auswählst.
 
 Deine Einstellungen (Sound, Vibration, Akku sparen), die Version und das Datum, mit denen du die Nutzungsbedingungen
 akzeptiert hast, Version und Datum des Hinweises auf eine Änderung der Datenschutzerklärung, den du gesehen hast, die Kopie deines Fortschritts auf dem Gerät, noch nicht an den
-Server gesendete Ergebnisse, die Liste der Spieler, die du blockiert hast, dein Sitzungsschlüssel (im Schlüsselbund),
+Server gesendete Ergebnisse, die Liste der Spieler, die du blockiert hast, die Kampfzähler für Erfolge (Abschnitt 3.17), dein Sitzungsschlüssel (im Schlüsselbund),
 deine Antwort zur Erlaubnis für Belohnungsvideos, bei Spielern in Europa deine Auswahl im Einwilligungsformular von
 Google, die Antwort von iOS zum Altersbereich und die Einträge zur elterlichen Zustimmung (Abschnitt 3.15) werden auf
 deinem Gerät gespeichert. Sie werden benötigt, damit das Spiel funktioniert. Die Liste der blockierten Spieler, die
@@ -442,6 +444,23 @@ Eine Mitteilung enthält nie deinen Namen, deine Kontonummer, deine Punktzahl, d
 trägt nur ihre Art, und dein Gerät zeigt den Text in seiner eigenen Sprache. Die Datei „Meine Daten herunterladen“ zeigt
 nur die letzten 6 Zeichen des Tokens.
 
+### 3.17 Game-Center-Erfolge (freiwillig; Versionen nach 1.0.1)
+
+Das Spiel bietet Erfolge in Apples Game Center (zum Beispiel eine Ära abschließen oder 100 Sterne sammeln). Erfolge
+bringen im Spiel nichts ein; sie werden nur auf deinem Gerät aus deinem Fortschritt berechnet. Wenn du auf deinem iPhone
+bei Game Center angemeldet bist (oder dich anmeldest, wenn das Spiel nach einigen Leveln einmal fragt), werden deine
+Erfolge von deinem Gerät direkt an Apple gesendet, in dein eigenes Game-Center-Konto. Nutzt du Game Center nicht, findet
+diese Übermittlung nie statt und das Spiel bleibt gleich. Bei Spielern unter 13 Jahren (und, wo ein Gesetz nach dem
+Alter fragt, bei denen, die es nicht teilen) und bei Minderjährigen, die auf die Zustimmung der Eltern warten, startet
+das Spiel Game Center nie.
+
+| | |
+| --- | --- |
+| **Daten** | An Apple, von deinem Gerät: die Kennungen der erreichten Erfolge und dass sie abgeschlossen sind. Um Erfolge zu berechnen, werden auf deinem Gerät Kampfzähler geführt (z. B. wie viele Feinde besiegt, wie viele Abwehren gebaut wurden); sie bleiben in der Gerätekopie deines Fortschritts und werden nicht an unseren Server gesendet. Die Spieler-ID von Game Center, deinen Game-Center-Namen oder deine Freundesliste **erhalten, speichern, senden wir nicht an unseren Server und verknüpfen sie nicht mit deinem Spielerkonto**; welche Erfolge schon vergeben sind, liest das Spiel jedes Mal aus Game Center |
+| **Zweck** | Deine Erfolge in deinem Game-Center-Profil anzeigen |
+| **Rechtsgrundlage** | Abschluss und Erfüllung des Vertrags (eine freiwillige Funktion des Spiels in dem von dir eröffneten Game-Center-Konto bereitstellen): KVKK Art. 5/2(c) · DSGVO Art. 6 Abs. 1 lit. b. Du beendest sie jederzeit, indem du dich in den iOS-Einstellungen von Game Center abmeldest |
+| **Speicherdauer** | Keine auf unserem Server: diese Angaben erreichen uns nicht. Die Zähler bleiben auf deinem Gerät, bis du die App oder dein Konto löschst. Apple speichert deine Erfolge in Game Center nach eigener Richtlinie; das Löschen deines Kontos löscht sie nicht |
+| **Empfänger** | Apple (Game Center), eigenständiger Verantwortlicher (Abschnitte 5 und 6) |
 ## 4. Belohnungsvideos und Werbung (Google AdMob)
 
 In Kilkule gibt es keine Werbung, die das Spiel unterbricht. Die einzige Werbung ist das Belohnungsvideo, das du am Ende
@@ -529,7 +548,7 @@ kommen nur diese Empfänger:
 | **Güzel Hosting** (GNET İnternet Telekomünikasyon A.Ş., Türkei) – geschäftliche E-Mail | E-Mails, die du uns schreibst, und unsere Antworten | Unsere Support-Adresse wird bei diesem Dienst gehostet; die E-Mails werden auf den Servern von Güzel Hosting in der Türkei gespeichert | Auftragsverarbeiter |
 | **MailChannels Corporation** (Kanada; Server in Nordamerika) | Der Inhalt unserer Antworten an dich und deine E-Mail-Adresse, nur während der Übertragung | Der E-Mail-Weiterleitungsdienst von Güzel Hosting; unsere Antworten werden über diesen Dienst an den Empfänger zugestellt und dort nicht gespeichert | Auftragsverarbeiter (Unterdienst von Güzel Hosting) |
 | **Google** (Google Ireland Limited im EWR, im Vereinigten Königreich und in der Schweiz; sonst Google LLC, USA) | Nur wenn du Belohnungsvideos erlaubt hast (im EWR, im Vereinigten Königreich und in der Schweiz zusätzlich je nach deiner Auswahl im Formular von Google): die Werbedaten aus Abschnitt 4.2 (direkt von deinem Gerät) und die Ticketnummer | Belohnungsvideo zeigen und überprüfen | Eigenständiger Verantwortlicher |
-| **Apple** (Apple Distribution International Ltd. und verbundene Unternehmen) | Download der App aus dem App Store, Käufe und Erstattungen (diese tätigst du im App Store direkt bei Apple; Kauf- und Erstattungsdaten erhalten wir als von Apple signierten Transaktionseintrag); Apples eigene Absturz- und Nutzungsstatistiken, falls du sie in den iOS-Einstellungen erlaubt hast. Wenn du „Mit Apple anmelden“ nutzt, führt Apple die Anmeldung durch; wenn du dein mit Apple verknüpftes Konto löschst, sendet unser Server einen Einmalcode an Apple, um die Berechtigung für „Mit Apple anmelden“ zu widerrufen (Abschnitt 3.14). Wo es ein Gesetz verlangt, übermittelt Apple die Zustimmungsanfrage an die Eltern; Apple kann uns mitteilen, dass die elterliche Zustimmung widerrufen wurde (Abschnitt 3.15). Wenn du Mitteilungen eingeschaltet hast: das Push-Token deines Geräts und die Art der gesendeten Mitteilung, von unserem Server (Abschnitt 3.16) | App Store, Zahlung, „Mit Apple anmelden“, Dienste für die elterliche Zustimmung und Mitteilungsdienst | Eigenständiger Verantwortlicher (Apples eigene Richtlinie: https://www.apple.com/legal/privacy/) |
+| **Apple** (Apple Distribution International Ltd. und verbundene Unternehmen) | Download der App aus dem App Store, Käufe und Erstattungen (diese tätigst du im App Store direkt bei Apple; Kauf- und Erstattungsdaten erhalten wir als von Apple signierten Transaktionseintrag); Apples eigene Absturz- und Nutzungsstatistiken, falls du sie in den iOS-Einstellungen erlaubt hast. Wenn du „Mit Apple anmelden“ nutzt, führt Apple die Anmeldung durch; wenn du dein mit Apple verknüpftes Konto löschst, sendet unser Server einen Einmalcode an Apple, um die Berechtigung für „Mit Apple anmelden“ zu widerrufen (Abschnitt 3.14). Wo es ein Gesetz verlangt, übermittelt Apple die Zustimmungsanfrage an die Eltern; Apple kann uns mitteilen, dass die elterliche Zustimmung widerrufen wurde (Abschnitt 3.15). Wenn du Mitteilungen eingeschaltet hast: das Push-Token deines Geräts und die Art der gesendeten Mitteilung, von unserem Server (Abschnitt 3.16). Wenn du bei Game Center angemeldet bist: deine Erfolge, direkt von deinem Gerät (Abschnitt 3.17) | App Store, Zahlung, „Mit Apple anmelden“, Dienste für die elterliche Zustimmung, Mitteilungsdienst und Game Center | Eigenständiger Verantwortlicher (Apples eigene Richtlinie: https://www.apple.com/legal/privacy/) |
 | **RevenueCat, Inc.** (USA) | Für echte Käufe, nur von unserem Server: der von Apple signierte Transaktionseintrag, dein zufälliger Kundencode und Erstattungsmitteilungen zu bereits gesendeten Transaktionen (Abschnitt 3.9) | Kauf- und Erstattungseinträge, Umsatzauswertung | Dienstleister; arbeitet nach seinen eigenen Bedingungen (https://www.revenuecat.com/terms) und seiner Datenschutzrichtlinie (https://www.revenuecat.com/privacy) |
 | **Zuständige Behörden und Gerichte** | Nur so viel, wie rechtlich zwingend erforderlich ist | Rechtliche Verpflichtung | — |
 
@@ -604,6 +623,19 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
   ausgeschaltet zu lassen oder sie auszuschalten; du spielst das ganze Spiel genauso. Apple erbringt seinen
   Mitteilungsdienst nach seinen eigenen Bedingungen und seiner Datenschutzrichtlinie:
   https://www.apple.com/legal/privacy/.
+- **Apple, Game Center (nur wenn du bei Game Center angemeldet bist):** Deine Erfolge gehen von deinem Gerät direkt an
+  Apples Server außerhalb der Türkei, in dein Game-Center-Konto; das geschieht **regelmäßig**, bei jedem neuen Erfolg,
+  solange du angemeldet bist. Für diese Übermittlung gibt es keinen der türkischen Datenschutzbehörde gemeldeten
+  Standardvertrag und keine Verpflichtungserklärung, und soweit wir wissen auch keinen Angemessenheitsbeschluss der
+  Behörde für die betreffenden Länder. Art. 9/6(a) KVKK lässt die ausdrückliche Einwilligung nur für gelegentliche
+  Übermittlungen als Grundlage gelten; da diese Übermittlung regelmäßig ist, ist unklar, ob diese Grundlage greift, und
+  wir behaupten nicht, uns darauf zu stützen. Wir haben die Übermittlung auf das Nötigste beschränkt: Es gehen nur die
+  Kennung des Erfolgs und dass er abgeschlossen ist; weder dein Name noch deine Kontonummer, der übrige Fortschritt oder
+  ein anderer Spieler, und unser Server ist an diesem Weg nicht beteiligt. **Mögliche Risiken:** Diese Angaben können in
+  einem Land verarbeitet werden, das nicht dasselbe Schutzniveau wie die Türkei bietet, und Behörden dort können nach
+  anderen Regeln darauf zugreifen. Wenn du das nicht möchtest, melde dich einfach nicht bei Game Center an oder in den
+  iOS-Einstellungen ab; das ganze Spiel bleibt gleich. Apple stellt Game Center nach eigenen Bedingungen und eigener
+  Datenschutzrichtlinie bereit: https://www.apple.com/legal/privacy/.
 - **RevenueCat (echte Käufe):** Kauf- und Erstattungseinträge werden, wie in Abschnitt 3.9 beschrieben, von unserem
   Server an RevenueCat, Inc. in den USA gesendet und in den USA verarbeitet. Nach türkischem Recht gibt es für die USA
   keinen Angemessenheitsbeschluss. Wir halten diese Übermittlung so gering wie möglich: Sie erfolgt nur von unserem
@@ -642,6 +674,7 @@ Daten mit dem Schutzniveau dieser Erklärung an den Übernehmenden übergehen; d
 | Kundeneintrag sowie Kauf- und Erstattungseinträge bei RevenueCat (Abschnitt 3.9) | Solange das Konto besteht; bei Löschung des Kontos (Antrag oder 12/36 Monate Inaktivität) wird die Löschung bei RevenueCat verlangt |
 | Kopie eines auf das Senden an RevenueCat wartenden signierten Eintrags auf unserem Server | Bis zum Senden oder bis das Senden scheitert; höchstens 30 Tage |
 | Sendevermerk für RevenueCat (ohne den signierten Eintrag; Transaktionsnummer und Kundencode) | Solange das Konto besteht, damit Erstattungsmitteilungen weitergeleitet werden können (mit dem Konto sofort gelöscht). Abgeschlossene oder gescheiterte Aufträge und die Löschanfrage eines gelöschten Kontos (nur Kundencode; ohne Verbindung zum Konto): 30 Tage nach Ende des Auftrags |
+| Kampfzähler für Erfolge (Abschnitt 3.17) | Nur auf deinem Gerät, bis du die App oder dein Konto löschst. Nicht auf unserem Server |
 | Push-Token und gewählte Arten (Abschnitt 3.16) | Solange Mitteilungen eingeschaltet sind; beim Ausschalten oder bei der Löschung des Kontos sofort gelöscht, ebenso wenn es 12 Monate lang nicht erneuert wird oder Apple es als ungültig meldet. Sendeeinträge: 30 Tage |
 | Namensmeldungen | 12 Monate |
 | Moderationsprotokolle | 24 Monate |
@@ -852,6 +885,9 @@ Name, E-Mail-Adresse oder Kontaktdaten.
   Louisiana), warten in den Versionen 0.1.0 (16) und neuer „Mit Apple anmelden“ und neue Käufe bei Spielern unter
   18 Jahren, bis ein Elternteil über Apple zustimmt; widerruft der Elternteil die Zustimmung, verhindert Apple, dass die
   App geöffnet wird. Details in Abschnitt 3.15.
+- **Game Center:** Bei Spielern unter 13 Jahren, bei denen, die ihr Alter nicht teilen (wo ein Gesetz danach fragt), und
+  bei Minderjährigen, die auf die Zustimmung der Eltern warten, startet das Spiel Game Center nie; es werden keine
+  Erfolge an Apple gesendet (Abschnitt 3.17).
 - **Kinder unter 13 Jahren:** Wir fragen Kinder nicht nach Name, E-Mail-Adresse, Telefonnummer oder anderen
   Kontaktdaten; Spielernamen, die Kontaktdaten enthalten, akzeptieren wir nicht. Die zufällige Kontonummer und die
   öffentliche Kennung, die das Spiel für jeden Spieler verwendet, dienen nur dem Betrieb des Spiels, dem Schutz des
@@ -894,7 +930,9 @@ immer unter dieser Adresse und über den Link im Einstellungen-Bildschirm des Sp
 Spiel an, bevor sie wirksam werden. Wenn eine Änderung eine neue Einwilligung erfordert (z. B. wenn sich der
 Erlaubnistext für Belohnungsvideos ändert), bitten wir dich gesondert um deine Einwilligung.
 
-**Versionsverlauf.** 1.4 (15. November 2026): freiwillige Mitteilungen in den Versionen 1.0 (19) und neuer
+**Versionsverlauf.** 1.5 (20. November 2026): freiwillige Game-Center-Erfolge in den Versionen nach 1.0.1; Erfolge
+gehen vom Gerät direkt an Apple, unser Server erhält nichts (Kurz gesagt, Abschnitte 3.13, 3.17, 5, 6, 7, 11).
+1.4 (15. November 2026): freiwillige Mitteilungen in den Versionen 1.0 (19) und neuer
 (Abschnitte 3.16, 5, 6, 7). 1.3 (15. November 2026): Champions zeigt auch die höchste erreichte Kampagnenstufe (Abschnitt 3.5); es werden keine neuen Daten erhoben. 1.2 (12. November 2026): freiwilliges „Mit Apple anmelden“ in den Versionen 0.1.0 (16) und neuer
 (Kurz gesagt, Unser Grundsatz, Abschnitte 3.1, 3.14, 5, 6, 7, 8.1, 8.2, 10, 12); Inaktivitätsfrist von 36 Monaten für
 mit Apple verknüpfte Konten (Kurz gesagt, 3.1, 7, 8.2); Prüffall bei Namensmeldungen, Signale der Meldenden ohne deren
